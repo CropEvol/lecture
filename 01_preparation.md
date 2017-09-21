@@ -29,13 +29,13 @@
 - システムの種類：32ビット / 64ビット
 - メモリ（RAM）：？GB
 
-<img src="./images/01/win_info01.png" width="300px" alt="Win/information01">  
+<img src="./images/01/win_info01.png" width="400px" alt="Win/information01">  
 図1. [Windows 10] 情報確認手順1
 
-<img src="./images/01/win_info02.png" width="300px" alt="Win/information02">  
+<img src="./images/01/win_info02.png" width="600px" alt="Win/information02">  
 図2. [Windows 10] 情報確認手順2
 
-<img src="./images/01/win_info03.png" width="300px" alt="Win/information03">  
+<img src="./images/01/win_info03.png" width="600px" alt="Win/information03">  
 図3. [Windows 10] 情報確認手順3
 
 
@@ -46,7 +46,7 @@
 - macOS：Sierra / El Capitan / Yosemite など
 - バージョン：XX.YY.ZZ
 
-<img src="./images/01/mac_info.png" width="300px" alt="Mac/information">  
+<img src="./images/01/mac_info.png" width="600px" alt="Mac/information">  
 図4. [MacOS] 情報確認
 
 ---
@@ -68,7 +68,7 @@
 0. 表示
 0. 「登録されている拡張子は表示しない」のチェックを外します
 
-<img src="./images/01/win_setting.png" width="300px" alt="Win/setting">  
+<img src="./images/01/win_setting.png" width="600px" alt="Win/setting">  
 図5. [Windows 10] ファイル名拡張子の表示
 
 ### Macの場合  
@@ -77,7 +77,7 @@
 (1)「キーのリピート」を"速い"  
 (2)「リピート入力認識までの時間」を"短い"
 
-<img src="./images/01/mac_setting.png" width="300px" alt="Mac/setting">  
+<img src="./images/01/mac_setting.png" width="600px" alt="Mac/setting">  
 図6. [Mac] ターミナルのカーソル移動速度の変更
 
 ---
@@ -94,7 +94,7 @@
 ※「追加タスクの選択」で "デスクトップにアイコンを追加" にチェックを入れておくと便利です。
 0. 完了
 
-<img src="./images/01/win_sakura_download.png" width="300px" alt="Win/download text-editer">  
+<img src="./images/01/win_sakura_download.png" width="600px" alt="Win/download text-editer">  
 図7. [Windows] サクラエディタのダウンロード
 
 サクラエディタ以外のテキストエディタ
@@ -108,7 +108,7 @@
 0. ダウンロードしたファイルをダブルクリック
 0. miアイコンをApplicationsにドラッグ
 
-<img src="./images/01/mac_mi_download.png" width="300px" alt="Mac/download text-editer">  
+<img src="./images/01/mac_mi_download.png" width="600px" alt="Mac/download text-editer">  
 図8. [Mac] miのダウンロード
 
 mi以外のテキストエディタ
@@ -130,10 +130,10 @@ __※ [1. パソコンの情報確認]で調べたシステムの種類（32ビ�
 __※「Add Anaconda to my PATH environment variable」にチェックを入れてください（図10）__
 0. 完了
 
-<img src="./images/01/win_anaconda_download.png" width="300px" alt="Win/download python">  
+<img src="./images/01/win_anaconda_download.png" width="600px" alt="Win/download python">  
 図9. [Windows] Anacondaのダウンロード
 
-<img src="./images/01/win_anaconda_install.png" width="300px" alt="Win/install python">  
+<img src="./images/01/win_anaconda_install.png" width="600px" alt="Win/install python">  
 図10. [Windows] Anacondaのインストール注意点
 
 ### Macの場合
@@ -143,7 +143,7 @@ __※「Add Anaconda to my PATH environment variable」にチェックを入れ�
 0. 特に何も変更せず進み、インストール
 0. 完了
 
-<img src="./images/01/mac_anaconda_download.png" width="300px" alt="Mac/download python">  
+<img src="./images/01/mac_anaconda_download.png" width="600px" alt="Mac/download python">  
 図11. [Mac] Anacondaのダウンロード
 
 ---
@@ -165,5 +165,5 @@ __※「Add Anaconda to my PATH environment variable」にチェックを入れ�
 0. 特に何も変更せず進み、インストール
 0. 完了
 
-<img src="./images/01/both_r_download.png" width="300px" alt="Win&Mac/download R">  
+<img src="./images/01/both_r_download.png" width="600px" alt="Win&Mac/download R">  
 図12. [Windows/Mac] Rのダウンロード
