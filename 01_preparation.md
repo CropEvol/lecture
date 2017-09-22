@@ -30,14 +30,20 @@
 - システムの種類：32ビット / 64ビット
 - メモリ（RAM）：？GB
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_info01.png" width="400px" alt="Win/information01">  
-図1. [Windows 10] 情報確認手順1<br />
+図1. [Windows 10] 情報確認手順1
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_info02.png" width="400px" alt="Win/information02">  
-図2. [Windows 10] 情報確認手順2<br />
+図2. [Windows 10] 情報確認手順2
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_info03.png" width="400px" alt="Win/information03">  
-図3. [Windows 10] 情報確認手順3<br />
+図3. [Windows 10] 情報確認手順3
+</div>
 
 
 ### Macの場合
@@ -47,8 +53,10 @@
 - macOS：Sierra / El Capitan / Yosemite など
 - バージョン：XX.YY.ZZ
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/mac_info.png" width="400px" alt="Mac/information">  
-図4. [MacOS] 情報確認<br />
+図4. [MacOS] 情報確認
+</div>
 
 ---
 ## <a name="section2">2. パソコンの設定変更</a>
@@ -69,8 +77,10 @@
 0. 表示
 0. 「登録されている拡張子は表示しない」のチェックを外します
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_setting.png" width="400px" alt="Win/setting">  
-図5. [Windows 10] ファイル名拡張子の表示<br />
+図5. [Windows 10] ファイル名拡張子の表示
+</div>
 
 ### Macの場合  
 　ターミナルのカーソル移動速度を早くします。  
@@ -78,8 +88,10 @@
 (1)「キーのリピート」を"速い"  
 (2)「リピート入力認識までの時間」を"短い"
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/mac_setting.png" width="400px" alt="Mac/setting">  
-図6. [Mac] ターミナルのカーソル移動速度の変更<br />
+図6. [Mac] ターミナルのカーソル移動速度の変更
+</div>
 
 ---
 ## <a name="section3">3. テキストエディタのインストール</a>
@@ -95,8 +107,10 @@
 ※「追加タスクの選択」で "デスクトップにアイコンを追加" にチェックを入れておくと便利です。
 0. 完了
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_sakura_download.png" width="400px" alt="Win/download text-editer">  
-図7. [Windows] サクラエディタのダウンロード<br />
+図7. [Windows] サクラエディタのダウンロード
+</div>
 
 サクラエディタ以外のテキストエディタ
 - TeraPad（[http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html](http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html)）
@@ -109,8 +123,10 @@
 0. ダウンロードしたファイルをダブルクリック
 0. miアイコンをApplicationsにドラッグ
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/mac_mi_download.png" width="400px" alt="Mac/download text-editer">  
-図8. [Mac] miのダウンロード<br />
+図8. [Mac] miのダウンロード
+</div>
 
 mi以外のテキストエディタ
 - Sublime Text（[http://www.sublimetext.com/](http://www.sublimetext.com/)）
@@ -131,11 +147,15 @@ __※ [1. パソコンの情報確認]で調べたシステムの種類（32ビ�
 __※「Add Anaconda to my PATH environment variable」にチェックを入れてください（図10）__
 0. 完了
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_anaconda_download.png" width="400px" alt="Win/download python">  
-図9. [Windows] Anacondaのダウンロード<br />
+図9. [Windows] Anacondaのダウンロード
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_anaconda_install.png" width="400px" alt="Win/install python">  
-図10. [Windows] Anacondaのインストール注意点<br />
+図10. [Windows] Anacondaのインストール注意点
+</div>
 
 ### Macの場合
 0. Anacondaのダウンロードページ（[https://www.anaconda.com/download/](https://www.anaconda.com/download/)）へ
@@ -144,8 +164,10 @@ __※「Add Anaconda to my PATH environment variable」にチェックを入れ�
 0. 特に何も変更せず進み、インストール
 0. 完了
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/mac_anaconda_download.png" width="400px" alt="Mac/download python">  
-図11. [Mac] Anacondaのダウンロード<br />
+図11. [Mac] Anacondaのダウンロード
+</div>
 
 ---
 ## <a name="section5">5. Rのインストール</a>
@@ -166,8 +188,10 @@ __※「Add Anaconda to my PATH environment variable」にチェックを入れ�
 0. 特に何も変更せず進み、インストール
 0. 完了
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R">  
-図12. [Windows/Mac] Rのダウンロード<br />
+図12. [Windows/Mac] Rのダウンロード
+</div>
 
 ---
 ## <a name="section6">6. UNIX風環境のインストール</a>
@@ -194,14 +218,22 @@ __※ [1. パソコンの情報確認]で調べたシステムの種類（32ビ�
 
 0. 完了
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_unix_download.png" width="400px" alt="Win/download Git">  
-図13. [Windows/Mac] Gitのダウンロード<br />
+図13. [Windows/Mac] Gitのダウンロード
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_git_install01.png" width="400px" alt="Win/install Git 01">  
-図14. [Windows/Mac] Gitのインストール注意箇所1<br />
+図14. [Windows/Mac] Gitのインストール注意箇所1
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_git_install02.png" width="400px" alt="Win/install Git 02">  
-図15. [Windows/Mac] Gitのインストール注意箇所2<br />
+図15. [Windows/Mac] Gitのインストール注意箇所2
+</div>
 
+<div style="padding-bottom: 15px;">
 <img src="./images/01/win_git_install03.png" width="400px" alt="Win/install Git 03">  
-図16. [Windows/Mac] Gitのインストール注意箇所3<br />
+図16. [Windows/Mac] Gitのインストール注意箇所3
+</div>
