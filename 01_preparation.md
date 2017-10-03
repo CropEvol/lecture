@@ -4,8 +4,8 @@
 
 　はじめに、演習で使う解析環境を準備していきます。
 
-Windowsパソコンの方は次の6つの作業をおこないます。  
-<span style="color: red;">* Windows 7以降を想定しています</span>
+Windows  
+<span style="color: red;">（Windows 7以降を想定しています）</span>
 1. [パソコンの情報確認](#section1)
 1. [パソコンの設定変更](#section2)
 1. [テキストエディタのインストール](#section3)  
@@ -13,8 +13,7 @@ Windowsパソコンの方は次の6つの作業をおこないます。
 1. [Rのインストール](#section5)
 1. [UNIX風環境のインストール](#section6)
 
-Macパソコンの方は次の6つの作業をおこないます。  
-<span style="color: red;">* Windows 7以降を想定しています</span>
+Mac
 1. [パソコンの情報確認](#section7)
 1. [パソコンの設定変更](#section8)
 1. [テキストエディタのインストール](#section9)  
@@ -207,7 +206,7 @@ Macパソコンの方は次の6つの作業をおこないます。
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>ターミナルのカーソル移動速度の変更</p>
 <ol>
-<li>システム環境設定 > キーボード > 以下のように変更（図6）</li>
+<li>システム環境設定 > キーボード > 以下のように変更（6）</li>
 <ul>- 「キーのリピート」を"速い"</ul>
 <ul>- 「リピート入力認識までの時間」を"短い"</ul>
 </ol>
