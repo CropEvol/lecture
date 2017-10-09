@@ -191,7 +191,7 @@ Mac
 ここではフォルダ名を「genome」とします。<span style="color: red;">* 半角英数</span>
 </div>
 
-<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+[ページの先頭へ](#section0)
 
 ---
 
@@ -283,7 +283,7 @@ mi以外のテキストエディタ
 ここではフォルダ名を「genome」とします。<span style="color: red;">* 半角英数</span>
 </div>
 
-<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+[ページの先頭へ](#section0)
 
 ---
 
@@ -319,7 +319,7 @@ Jupyter Notebookを閉じるとき
 
 </div>
 
-<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+[ページの先頭へ](#section0)
 
 ---
 
@@ -350,14 +350,10 @@ print(B + 'daigaku')
 
 <span style="color: red;">* 課題の提出は不要です。</span>
 
-<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+[ページの先頭へ](#section0)
 
 ---
 
-この講義のテキストは下記のURLに順次にアップロードしていきます。  
-[https://github.com/CropEvol/lecture](https://github.com/CropEvol/lecture)
+講義テキストURL: [https://github.com/CropEvol/lecture](https://github.com/CropEvol/lecture)
 
-
-<div style="text-align: right;">
 Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
-</div>
