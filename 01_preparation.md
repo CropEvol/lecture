@@ -101,7 +101,7 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>サクラエディタのインストール</p>
 <ol>
-<li>サクラエディタ公式ページ（ [http://sakura-editor.sourceforge.net/download.html](http://sakura-editor.sourceforge.net/download.html) ）へ</li>
+<li>サクラエディタ公式ページ [http://sakura-editor.sourceforge.net/download.html](http://sakura-editor.sourceforge.net/download.html) へ</li>
 <li>V2(Unicode版)をダウンロード</li>
 <li>ダウンロードしたファイル（.exe）をダブルクリック</li>
 <li>特に何も変更せず進み、インストール</li>
@@ -113,9 +113,9 @@
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 サクラエディタ以外のテキストエディタ
-<li> TeraPad（ [http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html](http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html) ）</li>
-<li> Notepad++（ [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) ）</li>
-<li> Atom（ [https://atom.io/](https://atom.io/) ）※ 動作は重いが高機能</li>
+<li> TeraPad [http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html](http://www5f.biglobe.ne.jp/~t-susumu/library/tpad.html) </li>
+<li> Notepad++ [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) </li>
+<li> Atom [https://atom.io/](https://atom.io/) ※ 動作は重いが高機能</li>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -127,7 +127,7 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
-<li>Anacondaのダウンロードページ（ [https://www.anaconda.com/download/](https://www.anaconda.com/download/) ）へ</li>
+<li>Anacondaのダウンロードページ [https://www.anaconda.com/download/](https://www.anaconda.com/download/) へ</li>
 <li>「Python 3.6 version」をダウンロード</li>
 ※ [1. パソコンの情報確認]で調べたシステムの種類（32ビット or 64ビット）に合うものをダウンロードしてください。
 <li>ダウンロードしたファイル（.exe）をダブルクリック</li>
@@ -149,7 +149,7 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Rのインストール</p>
 <ol>
-<li>Rのダウンロードページ（ [https://cloud.r-project.org/](https://cloud.r-project.org/) ）へ</li>
+<li>Rのダウンロードページ [https://cloud.r-project.org/](https://cloud.r-project.org/) へ</li>
 <li>「Download R for Windows」>「base」>「Download R 3.4.1 for Windows」</li>
 <li>ダウンロードしたファイルをダブルクリック</li>
 <li>特に何も変更せず進み、インストール</li>
@@ -168,7 +168,7 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>UNIX風環境のインストール</p>
 <ol>
-<li>Gitのダウンロードページ（ [https://github.com/git-for-windows/git/releases/tag/v2.14.1.windows.1](https://github.com/git-for-windows/git/releases/tag/v2.14.1.windows.1) ）へ</li>
+<li>Gitのダウンロードページ [https://github.com/git-for-windows/git/releases/tag/v2.14.1.windows.1](https://github.com/git-for-windows/git/releases/tag/v2.14.1.windows.1) へ</li>
 <li>「Git-X.YY.Z-32-bit.exe」または「Git-X.YY.Z-64-bit.exe」をダウンロード</li>
 <span style="color: red;">※ [1. パソコンの情報確認]で調べたシステムの種類（32ビット or 64ビット）に合うものをダウンロードしてください。</span>
 <li>ダウンロードしたファイルをダブルクリック</li>
@@ -248,7 +248,7 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>miのインストール</p>
 <ol>
-<li>miのダウンロードページ（ [https://www.mimikaki.net/download/index.html](https://www.mimikaki.net/download/index.html) ）へ</li>
+<li>miのダウンロードページ [https://www.mimikaki.net/download/index.html](https://www.mimikaki.net/download/index.html) へ</li>
 <li>最新版をダウンロード</li>
 <li>ダウンロードしたファイルをダブルクリック</li>
 <li>miアイコンをApplicationsにドラッグ</li>
@@ -259,9 +259,9 @@
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 mi以外のテキストエディタ
-<li>Sublime Text（ [http://www.sublimetext.com/](http://www.sublimetext.com/) ）</li>
-<li>CotEditor（ [https://coteditor.com/](https://coteditor.com/) ）</li>
-<li>Atom（ [https://atom.io/](https://atom.io/) ）</li>
+<li>Sublime Text [http://www.sublimetext.com/](http://www.sublimetext.com/) </li>
+<li>CotEditor [https://coteditor.com/](https://coteditor.com/) </li>
+<li>Atom [https://atom.io/](https://atom.io/) </li>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -270,7 +270,7 @@ mi以外のテキストエディタ
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
-<li>Anacondaのダウンロードページ（ [https://www.anaconda.com/download/](https://www.anaconda.com/download/) ）へ</li>
+<li>Anacondaのダウンロードページ [https://www.anaconda.com/download/](https://www.anaconda.com/download/) へ</li>
 <li>「Python 3.6 version（64-Bit Graphical Installer）」をダウンロード</li>
 <li>ダウンロードしたファイルをダブルクリック</li>
 <li>特に何も変更せず進み、インストール</li>
@@ -286,7 +286,7 @@ mi以外のテキストエディタ
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
-<li>Rのダウンロードページ（ [https://cloud.r-project.org/](https://cloud.r-project.org/) ）へ</li>
+<li>Rのダウンロードページ [https://cloud.r-project.org/](https://cloud.r-project.org/) へ</li>
 <li>「Download R for (Mac) OS X」> 最新版の「R-X.Y.Z.pkg」</li>
 ※ 2017年9月10日現在ではR-3.4.1が最新版
 <li>ダウンロードしたファイルをダブルクリック</li>
