@@ -1,8 +1,9 @@
-
+2017年10月10日の講義内容
 # <a name="section0">01. ゲノム情報解析入門の準備</a>
 　次世代シークエンサーで研究対象の生物のゲノム配列を読んだ場合、シークエンサーからは大量のデータが得られます。そのデータを扱うためには、UNIXと呼ばれるパソコン操作やプログラミングがどうしても必要になってきます。本講義の演習では、各自のパソコンを使って、ゲノム解析の基盤となる知識や技術を勉強していきます。これから学ぶこと（とくにプログラミング）は、研究などの様々な場面でも、みなさんを助けてくれるでしょう。  
 
-　はじめに、演習で使う解析環境を準備していきます。
+---
+　はじめに、演習で使うソフトウェアのインストールをしていきます。
 
 Windows  
 <span style="color: red;">（Windows 7以降を想定しています）</span>
@@ -12,13 +13,18 @@ Windows
 1. [Pythonのインストール](#section4)  
 1. [Rのインストール](#section5)
 1. [UNIX風環境のインストール](#section6)
+1. [講義用フォルダの作成](#section7)
 
 Mac
-1. [パソコンの情報確認](#section7)
-1. [パソコンの設定変更](#section8)
-1. [テキストエディタのインストール](#section9)  
-1. [Pythonのインストール](#section10)  
-1. [Rのインストール](#section11)
+1. [パソコンの情報確認](#section8)
+1. [パソコンの設定変更](#section9)
+1. [テキストエディタのインストール](#section10)  
+1. [Pythonのインストール](#section11)  
+1. [Rのインストール](#section12)
+1. [講義用フォルダの作成](#section13)
+
+インストール後
+1. [講義のプログラミング環境を起動](#section14)
 
 ---
 ## Windowsの場合
@@ -93,7 +99,7 @@ Mac
 <li>V2(Unicode版)をダウンロード</li>
 <li>ダウンロードしたファイル（.exe）をダブルクリック</li>
 <li>特に何も変更せず進み、インストール</li>
-※「追加タスクの選択」で "デスクトップにアイコンを追加"と"「SAKURAで開く」メニューの追加"にチェックを入れておくと便利です。
+※「追加タスクの選択」で  『デスクトップにアイコンを作成』 と 『「SAKURAで開く」メニューの追加』 にチェックを入れておくと便利です。
 <li>完了</li>
 </ol>
 <div style="margin-bottom: 5px;"><img src="./images/01/win_sakura_download.png" width="400px" alt="Win/download text-editer"></div>
@@ -156,16 +162,16 @@ Mac
 <li>ダウンロードしたファイルをダブルクリック</li>
 <li>以下を選択してインストール</li>
 
-    <ul>[Adjusting your PATH environment]  
-    - Use Git from the Windows Command Prompt（中央の選択肢）</ul>
+    - Adjusting your PATH environment  
+    Use Git from the Windows Command Prompt（中央の選択肢）
 
-    <ul>[Configuring the line ending conversions]  
-    - Checkout as-is, commit Unix-style line endings（中央の選択肢）</ul>
+    - Configuring the line ending conversions  
+    Checkout as-is, commit Unix-style line endings（中央の選択肢）
 
-    <ul>[Configuring the terminal emulator to use with Git Bash]  
-    - Use Windows's default console window（下の選択肢）</ul>
+    - Configuring the terminal emulator to use with Git Bash  
+    Use Windows's default console window（下の選択肢）
 
-    <ul>* その他の選択肢は変更しなくても良い</ul>
+    * その他の選択肢は変更しなくても良いです
 
 <li>完了</li>
 </ol>
@@ -179,13 +185,19 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/win_git_install03.png" width="400px" alt="Win/install Git 03"></div>
 </div>
 
-[ページの先頭へ](#section0)
+### <a name="section7">7. 講義用フォルダの作成
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+デスクトップ画面に、講義用フォルダを作成してください。  
+ここではフォルダ名を「genome」とします。<span style="color: red;">* 半角英数</span>
+</div>
+
+<div style="text-align: right;">[ページの先頭へ](#section0)</div>
 
 ---
 
 ## Macの場合
 
-### <a name="section7">1. パソコンの情報確認</a>
+### <a name="section8">1. パソコンの情報確認</a>
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>パソコン情報の確認</p>
@@ -202,7 +214,7 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/mac_info.png" width="400px" alt="Mac/information"></div>
 </div>
 
-### <a name="section8">2. パソコンの設定変更</a>
+### <a name="section9">2. パソコンの設定変更</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>ターミナルのカーソル移動速度の変更</p>
 <ol>
@@ -215,7 +227,7 @@ Mac
 </div>
 
 
-### <a name="section9">3. テキストエディタのインストール</a>
+### <a name="section10">3. テキストエディタのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>miのインストール</p>
 <ol>
@@ -235,7 +247,7 @@ mi以外のテキストエディタ
 <li>Atom（[https://atom.io/](https://atom.io/)）</li>
 </div>
 
-### <a name="section10">4. Pythonのインストール</a>
+### <a name="section11">4. Pythonのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
@@ -250,7 +262,7 @@ mi以外のテキストエディタ
 </div>
 
 
-### <a name="section11">4. Rのインストール</a>
+### <a name="section12">4. Rのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
@@ -265,4 +277,87 @@ mi以外のテキストエディタ
 <div style="margin-bottom: 5px;"><img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
 </div>
 
-[ページの先頭へ](#section0)
+### <a name="section13">5. 講義用フォルダの作成
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+デスクトップ画面に、講義用フォルダを作成してください。  
+ここではフォルダ名を「genome」とします。<span style="color: red;">* 半角英数</span>
+</div>
+
+<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+
+---
+
+## インストール後
+### <a name="section14">講義のプログラミング環境を起動</a>
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+Windows  
+<ol>
+<li>デスクトップ上のgenomeフォルダを開きます</li>
+<li>右クリックで「Git Bash Here」を選びます。<br>
+背景が黒い画面（ここでは「ターミナル」と呼びます）が開きます</li>
+<li>開いたターミナル上に `jupyter notebook` と入力し、Enterキーを押します</li>
+<li>Jupyter Notebookのホーム画面が開きます</li>
+<li>ホーム画面右上で「New > Python」を選ぶと、Python用のノートブックが開きます</li>
+</ol>
+
+Mac  
+<ol>
+<li>ターミナルを開きます</li>
+<li> `cd Desktop` と入力し、Enterキーを押します</li>
+<li> `jupyter notebook` と入力し、Enterキーを押します</li>
+<li>Jupyter Notebookのホーム画面が開きます</li>
+<li>ホーム画面右上で New > Python3 を選ぶと、Python用のノートブックが開きます</li>
+</ol>
+
+Jupyter Notebookを閉じるとき
+<ol>
+<li>ブラウザで開いているノートブックを閉じます</li>
+<li>ターミナルで `Ctrl + C` を入力します</li>
+（閉じるかどうか聞かれる場合は「y」を入力する）
+<li>ターミナルを閉じます</li>
+</ol>
+
+</div>
+
+<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+
+---
+
+## 課題
+1. デスクトップ上のgenomeフォルダで、ターミナルを開いてください。
+1. ターミナルに`pwd`と入力してEnterキーを押したら、何が起こるか確認してください。
+1. genomeフォルダ上で「Jupyter Notebook」を起動してください。
+1. Python用ノートブックに`print('Hello, Python')`を入力し、Shift + Enterを押してください。  
+その実行結果を確認してください。
+1. Python用ノートブックに下記のプログラムを書き、Shift + Enterを押してください。  
+その実行結果を確認・考察してください。
+
+```python
+A = 2
+print('A')
+print(A)
+print('A + 3')
+print(A + 3)
+```
+
+```python
+B = 'Kyoto'
+print('B')
+print(B)
+print('B + daigaku')
+print(B + 'daigaku')
+```
+
+<span style="color: red;">* 課題の提出は不要です。</span>
+
+<div style="text-align: right;">[ページの先頭へ](#section0)</div>
+
+---
+
+この講義のテキストは下記のURLに順次にアップロードしていきます。  
+[https://github.com/CropEvol/lecture](https://github.com/CropEvol/lecture)
+
+
+<div style="text-align: right;">
+Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+</div>
