@@ -5,8 +5,7 @@
 ---
 　はじめに、演習で使うソフトウェアのインストールをしていきます。
 
-Windows  
-<span style="color: red;">（Windows 7以降を想定しています）</span>
+◯ Windows  <span style="color: red;">（Windows 7以降を想定しています）</span>
 1. [パソコンの情報確認](#section1)
 1. [パソコンの設定変更](#section2)
 1. [テキストエディタのインストール](#section3)  
@@ -15,7 +14,7 @@ Windows
 1. [UNIX風環境のインストール](#section6)
 1. [講義用フォルダの作成](#section7)
 
-Mac
+◯ Mac
 1. [パソコンの情報確認](#section8)
 1. [パソコンの設定変更](#section9)
 1. [テキストエディタのインストール](#section10)  
@@ -23,11 +22,14 @@ Mac
 1. [Rのインストール](#section12)
 1. [講義用フォルダの作成](#section13)
 
-インストール後
-1. [講義のプログラミング環境を起動](#section14)
+◯ [Pythonプログラミング用ノートブックの起動](#section14)  
+
+◯ [課題](#section15)
+
+<div style="page-break-before:always"></div>
 
 ---
-## Windowsの場合
+## ◯ Windowsの場合
 ### <a name="section1">1. パソコンの情報確認</a>
 　自身のパソコンの情報を確認しましょう。
 
@@ -63,6 +65,8 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/win_info03.png" width="400px" alt="Win/information03"></div>
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section2">2. パソコンの設定変更</a>
 　パソコンの設定を一部変更します。
 
@@ -88,6 +92,8 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/win_setting.png" width="400px" alt="Win/setting"></div>
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section3">3. テキストエディタのインストール</a>
 　テキストエディタとは、文字を書くことに特化したソフトウェアです。プログラムを書く時に使います。すでに何らかのエディタをインストール済みの場合は、慣れているエディタを使ってください  
 <span style="color: red;">* Microsoft Wordやメモ帳、ワードパッドはプログラミングには不向きです。それらしかない場合、ここでテキストエディタをインストールしてください。</span>  
@@ -112,6 +118,8 @@ Mac
 <li> Atom（[https://atom.io/](https://atom.io/)）※ 動作は重いが高機能</li>
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section4">4. Pythonのインストール</a>
 　講義では、プログラミング言語として「Python」を使います。  
 　ここではAnacondaとよばれるツールを使って、Pythonをインストールします。
@@ -133,6 +141,8 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section5">5. Rのインストール</a>
 　「R」は統計解析によく使われるソフトウェアおよびプログラミング言語です。
 
@@ -148,6 +158,8 @@ Mac
 
 <div style="margin-bottom: 5px;"><img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
 </div>
+
+<div style="page-break-before:always"></div>
 
 ### <a name="section6">6. UNIX風環境のインストール</a>
 　UNIXコマンド練習用に、UNIX風の環境を準備します。  
@@ -193,9 +205,11 @@ Mac
 
 [ページの先頭へ](#section0)
 
+<div style="page-break-before:always"></div>
+
 ---
 
-## Macの場合
+## ◯ Macの場合
 
 ### <a name="section8">1. パソコンの情報確認</a>
 
@@ -214,6 +228,8 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/mac_info.png" width="400px" alt="Mac/information"></div>
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section9">2. パソコンの設定変更</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>ターミナルのカーソル移動速度の変更</p>
@@ -226,6 +242,7 @@ Mac
 <div style="margin-bottom: 5px;"><img src="./images/01/mac_setting.png" width="400px" alt="Mac/setting"></div>
 </div>
 
+<div style="page-break-before:always"></div>
 
 ### <a name="section10">3. テキストエディタのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
@@ -247,6 +264,8 @@ mi以外のテキストエディタ
 <li>Atom（[https://atom.io/](https://atom.io/)）</li>
 </div>
 
+<div style="page-break-before:always"></div>
+
 ### <a name="section11">4. Pythonのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
@@ -261,8 +280,9 @@ mi以外のテキストエディタ
 <img src="./images/01/mac_anaconda_download.png" width="400px" alt="Mac/download python">  
 </div>
 
+<div style="page-break-before:always"></div>
 
-### <a name="section12">4. Rのインストール</a>
+### <a name="section12">5. Rのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
@@ -277,7 +297,7 @@ mi以外のテキストエディタ
 <div style="margin-bottom: 5px;"><img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
 </div>
 
-### <a name="section13">5. 講義用フォルダの作成
+### <a name="section13">6. 講義用フォルダの作成
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 デスクトップ画面に、講義用フォルダを作成してください。  
 ここではフォルダ名を「genome」とします。<span style="color: red;">* 半角英数</span>
@@ -285,10 +305,11 @@ mi以外のテキストエディタ
 
 [ページの先頭へ](#section0)
 
+<div style="page-break-before:always"></div>
+
 ---
 
-## インストール後
-### <a name="section14">講義のプログラミング環境を起動</a>
+## ◯ <a name="section14">Pythonプログラミング用ノートブックの起動</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 Windows  
 <ol>
@@ -297,7 +318,7 @@ Windows
 背景が黒い画面（ここでは「ターミナル」と呼びます）が開きます</li>
 <li>開いたターミナル上に `jupyter notebook` と入力し、Enterキーを押します</li>
 <li>Jupyter Notebookのホーム画面が開きます</li>
-<li>ホーム画面右上で「New > Python」を選ぶと、Python用のノートブックが開きます</li>
+<li>ホーム画面右上で「New > Python」を選ぶと、Python用ノートブックが開きます</li>
 </ol>
 
 Mac  
@@ -306,7 +327,7 @@ Mac
 <li> `cd Desktop` と入力し、Enterキーを押します</li>
 <li> `jupyter notebook` と入力し、Enterキーを押します</li>
 <li>Jupyter Notebookのホーム画面が開きます</li>
-<li>ホーム画面右上で New > Python3 を選ぶと、Python用のノートブックが開きます</li>
+<li>ホーム画面右上で New > Python3 を選ぶと、Python用のノートブック開きます</li>
 </ol>
 
 Jupyter Notebookを閉じるとき
@@ -321,11 +342,12 @@ Jupyter Notebookを閉じるとき
 
 [ページの先頭へ](#section0)
 
+<div style="page-break-before:always"></div>
+
 ---
 
-## 課題
+## ◯ 課題
 1. デスクトップ上のgenomeフォルダで、ターミナルを開いてください。
-1. ターミナルに`pwd`と入力してEnterキーを押したら、何が起こるか確認してください。
 1. genomeフォルダ上で「Jupyter Notebook」を起動してください。
 1. Python用ノートブックに`print('Hello, Python')`を入力し、Shift + Enterを押してください。  
 その実行結果を確認してください。
