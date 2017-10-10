@@ -287,16 +287,16 @@ mi以外のテキストエディタ
 
 <ol>
 <li>Homebrew公式ページ（<a href="https://brew.sh/index_ja.html">https://brew.sh/index_ja.html</a>）へ</li>
-<li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指し示すスクリプト一行をコピー</li>
+<li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指すスクリプト一行をコピー</li>
 <span style="background-color: #EEEEEE;">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</span>
 <li>ターミナルを開き、コピーしたスクリプトを貼り付けて、実行します</li>
-<li>ターミナルに <span style="background-color: #EEEEEE;">brew install pyenv</span> を入力し実行します</li>
-<li>ターミナルに次の3行を入力します</li>
+<li>続いて、ターミナルに <span style="background-color: #EEEEEE;">brew install pyenv</span> を入力し実行します</li>
+<li>ターミナルに次の3行を入力します（1行ずつ実行）</li>
 <div>
 <span style="background-color: #EEEEEE;">
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile<br>
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile<br>
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile`
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 </span>
 </div>
 
