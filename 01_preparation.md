@@ -287,20 +287,25 @@ mi以外のテキストエディタ
 
 <ol>
 <li>Homebrew公式ページ（<a href="https://brew.sh/index_ja.html">https://brew.sh/index_ja.html</a>）へ</li>
-<li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指し示すスクリプト一行をコピーし、</li>
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+<li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指し示すスクリプト一行をコピー</li>
+<span style="background-color: #EEEEEE;">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</span>
 <li>ターミナルを開き、コピーしたスクリプトを貼り付けて、実行します</li>
-<li>ターミナルに `brew install pyenv` を入力し実行します</li>
+<li>ターミナルに <span style="background-color: #EEEEEE;">brew install pyenv</span> を入力し実行します</li>
 <li>ターミナルに次の3行を入力します</li>
-`echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile`<br>
-`echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile`<br>
-`echo 'eval "$(pyenv init -)"' >> ~/.bash_profile`
+<div>
+<span style="background-color: #EEEEEE;">
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile<br>
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile<br>
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile`
+</span>
+</div>
+
 <li>ターミナルを一度閉じ、再度開きます</li>
-<li>ターミナルに`pyenv install -l | grep anaconda3`を入力し、最新版のanaconda3を確認します</li>
-* 2017年10月10日現在では、anaconda3-4.3.1が最新
-<li>ターミナルに`pyenv install anaconda3-4.3.1`を入力し実行します</li>
-* インストールが始まります。インストール完了まで時間がかかります
-<li>最後に、ターミナルに`pyenv global anaconda3-4.3.1`を入力・実行し、完了です</li>
+<li>ターミナルに <span style="background-color: #EEEEEE;">pyenv install -l | grep anaconda3</span> を入力し、最新版のanaconda3を確認します</li>
+（2017年10月10日現在では、anaconda3-4.3.1が最新）
+<li>ターミナルに <span style="background-color: #EEEEEE;">pyenv install anaconda3-4.3.1</span> を入力し実行します</li>
+（インストールが始まります。インストール完了まで時間がかかります）
+<li>最後に、ターミナルに <span style="background-color: #EEEEEE;">pyenv global anaconda3-4.3.1</span> を入力・実行し、完了です</li>
 </ol>
 
 </div>
