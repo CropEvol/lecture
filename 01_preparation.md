@@ -268,7 +268,7 @@ mi以外のテキストエディタ
 
 ### <a name="section11">4. Pythonのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-<p>Pythonのインストール 方法2</p>
+<p>Pythonのインストール 方法1</p>
 <ol>
 <li>Anacondaのダウンロードページ（<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>）へ</li>
 <li>「Python 3.6 version（64-Bit Graphical Installer）」をダウンロード</li>
@@ -288,24 +288,33 @@ mi以外のテキストエディタ
 <ol>
 <li>Homebrew公式ページ（<a href="https://brew.sh/index_ja.html">https://brew.sh/index_ja.html</a>）へ</li>
 <li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指すスクリプト一行をコピー</li>
-<span style="background-color: #EEEEEE;">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</span>
-<li>ターミナルを開き、コピーしたスクリプトを貼り付けて、実行します</li>
-<li>続いて、ターミナルに <span style="background-color: #EEEEEE;">brew install pyenv</span> を入力し実行します</li>
+
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+<li>ターミナルを開き、コピーしたスクリプトを貼り付けて、実行します</li>
+<li>続いて、ターミナルに次の1行を入力し実行します</li>
+
+    brew install pyenv
+
 <li>ターミナルに次の3行を入力します（1行ずつ実行）</li>
-<div>
-<span style="background-color: #EEEEEE;">
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile<br>
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile<br>
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
-</span>
-</div>
+
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile<br>
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile<br>
+    echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 
 <li>ターミナルを一度閉じ、再度開きます</li>
-<li>ターミナルに <span style="background-color: #EEEEEE;">pyenv install -l | grep anaconda3</span> を入力し、最新版のanaconda3を確認します</li>
-（2017年10月10日現在では、anaconda3-4.3.1が最新）
-<li>ターミナルに <span style="background-color: #EEEEEE;">pyenv install anaconda3-4.3.1</span> を入力し実行します</li>
-（インストールが始まります。インストール完了まで時間がかかります）
-<li>最後に、ターミナルに <span style="background-color: #EEEEEE;">pyenv global anaconda3-4.3.1</span> を入力・実行し、完了です</li>
+<li>ターミナルに以下を入力し、最新版のanaconda3を確認します（2017年10月10日現在では、anaconda3-4.3.1が最新）</li>
+
+    pyenv install -l | grep anaconda3
+
+<li>ターミナルにを入力しanaconda3をインストールします（インストール完了まで時間がかかります）</li>
+
+    pyenv install anaconda3-4.3.1
+
+<li>最後に、ターミナルに以下を入力して完了です</li>
+
+    pyenv global anaconda3-4.3.1
+
 </ol>
 
 </div>
@@ -340,39 +349,28 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 ---
 
 ## ◯ <a name="section14">Pythonプログラミング用ノートブックの起動</a>
-<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 Windows  
-<ol>
-<li>デスクトップ上のgenomeフォルダを開きます</li>
-<li>右クリックで「Git Bash Here」を選びます。<br>
-背景が黒い画面（ここでは「ターミナル」と呼びます）が開きます</li>
-<li>開いたターミナル上に `jupyter notebook` と入力し、Enterキーを押します</li>
-<li>Jupyter Notebookのホーム画面が開きます</li>
-<li>ホーム画面右上で「New > Python」を選ぶと、Python用ノートブックが開きます</li>
-</ol>
+1. デスクトップ上のgenomeフォルダを開きます
+1. 右クリックで「Git Bash Here」を選びます。  
+背景が黒い画面（ここでは「ターミナル」と呼びます）が開きます
+1. 開いたターミナル上に `jupyter notebook` と入力し、Enterキーを押します
+1. Jupyter Notebookのホーム画面が開きます
+1. ホーム画面右上で「New > Python」を選ぶと、Python用ノートブックが開きます
 
 Mac  
-<ol>
-<li>ターミナルを開きます</li>
-<li> `cd Desktop` と入力し、Enterキーを押します</li>
-<li> `jupyter notebook` と入力し、Enterキーを押します</li>
-<li>Jupyter Notebookのホーム画面が開きます</li>
-<li>ホーム画面右上で New > Python3 を選ぶと、Python用のノートブック開きます</li>
-</ol>
+1. ターミナルを開きます
+1. `cd Desktop` と入力し、Enterキーを押します
+1. `jupyter notebook` と入力し、Enterキーを押します
+1. Jupyter Notebookのホーム画面が開きます
+1. ホーム画面右上で New > Python3 を選ぶと、Python用のノートブック開きます
 
-Jupyter Notebookを閉じるとき
-<ol>
-<li>ブラウザで開いているノートブックを閉じます</li>
-<li>ターミナルで `Ctrl + C` を入力します</li>
+Jupyter Notebookを閉じるとき  
+1. ブラウザで開いているノートブックを閉じます
+1. ターミナルで `Ctrl + C` を入力します  
 （閉じるかどうか聞かれる場合は「y」を入力する）
-<li>ターミナルを閉じます</li>
-</ol>
-
-</div>
+1. ターミナルを閉じます
 
 [ページの先頭へ](#section0)
-
-<div style="page-break-before:always"></div>
 
 ---
 
