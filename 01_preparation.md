@@ -268,7 +268,7 @@ mi以外のテキストエディタ
 
 ### <a name="section11">4. Pythonのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-<p>Pythonのインストール</p>
+<p>Pythonのインストール 方法2</p>
 <ol>
 <li>Anacondaのダウンロードページ（<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>）へ</li>
 <li>「Python 3.6 version（64-Bit Graphical Installer）」をダウンロード</li>
@@ -278,6 +278,31 @@ mi以外のテキストエディタ
 </ol>
 
 <img src="./images/01/mac_anaconda_download.png" width="400px" alt="Mac/download python">  
+</div>
+
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+
+<p>Pythonのインストール 方法2</p>
+<p>* この方法を使ってインストールすれば、anaconda2（Python2）など異なるバージョンのpythonに適宜切り替えることができます。</p>
+
+<ol>
+<li>Homebrew公式ページ（<a href="https://brew.sh/index_ja.html">https://brew.sh/index_ja.html</a>）へ</li>
+<li>Homebrew公式ページの「このスクリプトをターミナルに貼り付け実行して下さい。」が指し示すスクリプト一行をコピーし、</li>
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+<li>ターミナルを開き、コピーしたスクリプトを貼り付けて、実行します</li>
+<li>ターミナルに `brew install pyenv` を入力し実行します</li>
+<li>ターミナルに次の3行を入力します</li>
+`echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile`<br>
+`echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile`<br>
+`echo 'eval "$(pyenv init -)"' >> ~/.bash_profile`
+<li>ターミナルを一度閉じ、再度開きます</li>
+<li>ターミナルに`pyenv install -l | grep anaconda3`を入力し、最新版のanaconda3を確認します</li>
+* 2017年10月10日現在では、anaconda3-4.3.1が最新
+<li>ターミナルに`pyenv install anaconda3-4.3.1`を入力し実行します</li>
+* インストールが始まります。インストール完了まで時間がかかります
+<li>最後に、ターミナルに`pyenv global anaconda3-4.3.1`を入力・実行し、完了です</li>
+</ol>
+
 </div>
 
 <div style="page-break-before:always"></div>
