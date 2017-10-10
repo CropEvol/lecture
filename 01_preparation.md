@@ -319,8 +319,6 @@ mi以外のテキストエディタ
 
 </div>
 
-<div style="page-break-before:always"></div>
-
 ### <a name="section12">5. Rのインストール</a>
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
@@ -372,15 +370,16 @@ Jupyter Notebookを閉じるとき
 
 [ページの先頭へ](#section0)
 
+<div style="page-break-before:always"></div>
+
 ---
 
 ## ◯ 課題
+<span style="color: red;">* 課題の提出は不要です。</span>
 1. デスクトップ上のgenomeフォルダで、ターミナルを開いてください。
 1. genomeフォルダ上で「Jupyter Notebook」を起動してください。
-1. Python用ノートブックに`print('Hello, Python')`を入力し、Shift + Enterを押してください。  
-その実行結果を確認してください。
-1. Python用ノートブックに下記のプログラムを書き、Shift + Enterを押してください。  
-その実行結果を確認・考察してください。
+1. Python用ノートブックに`print('Hello, Python')`を入力し、Shift + Enterを押してください。その実行結果を確認してください。
+1. Python用ノートブックに下記のプログラムを書き、Shift + Enterを押してください。その実行結果を確認・考察してください。
 
 ```python
 A = 2
@@ -388,17 +387,13 @@ print('A')
 print(A)
 print('A + 3')
 print(A + 3)
-```
 
-```python
 B = 'Kyoto'
 print('B')
 print(B)
-print('B + daigaku')
-print(B + 'daigaku')
+print('B + Daigaku')
+print(B + 'Daigaku')
 ```
-
-<span style="color: red;">* 課題の提出は不要です。</span>
 
 [ページの先頭へ](#section0)
 
