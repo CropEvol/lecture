@@ -58,11 +58,11 @@
 <li>メモリ（RAM）：？GB</li>
 </ul>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_info01.png" width="400px" alt="Win/information01"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_info01.png" width="400px" alt="Win/information01"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_info02.png" width="400px" alt="Win/information02"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_info02.png" width="400px" alt="Win/information02"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_info03.png" width="400px" alt="Win/information03"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_info03.png" width="400px" alt="Win/information03"></div>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -89,7 +89,7 @@
 <li>「登録されている拡張子は表示しない」のチェックを外します</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_setting.png" width="400px" alt="Win/setting"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_setting.png" width="400px" alt="Win/setting"></div>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -108,7 +108,7 @@
 ※「追加タスクの選択」で  『デスクトップにアイコンを作成』 と 『「SAKURAで開く」メニューの追加』 にチェックを入れておくと便利です。
 <li>完了</li>
 </ol>
-<div style="margin-bottom: 5px;"><img src="./images/01/win_sakura_download.png" width="400px" alt="Win/download text-editer"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_sakura_download.png" width="400px" alt="Win/download text-editer"></div>
 </div>
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
@@ -136,9 +136,9 @@
 <li>完了</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_anaconda_download.png" width="400px" alt="Win/download python"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_anaconda_download.png" width="400px" alt="Win/download python"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
+<div style="margin-bottom: 5px;"><img src="./images/02/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
 </div>
 
 <div style="page-break-before:always"></div>
@@ -156,7 +156,7 @@
 <li>完了</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
+<div style="margin-bottom: 5px;"><img src="./images/02/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
 </div>
 
 <div style="page-break-before:always"></div>
@@ -188,13 +188,13 @@
 <li>完了</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_unix_download.png" width="400px" alt="Win/download Git"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_unix_download.png" width="400px" alt="Win/download Git"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_git_install01.png" width="400px" alt="Win/install Git 01"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_git_install01.png" width="400px" alt="Win/install Git 01"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_git_install02.png" width="400px" alt="Win/install Git 02"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_git_install02.png" width="400px" alt="Win/install Git 02"></div>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/win_git_install03.png" width="400px" alt="Win/install Git 03"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_git_install03.png" width="400px" alt="Win/install Git 03"></div>
 </div>
 
 ### <a name="section7">7. 講義用フォルダの作成
@@ -225,7 +225,7 @@
 <li>バージョン：XX.YY.ZZ</li>
 </ul>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/mac_info.png" width="400px" alt="Mac/information"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/mac_info.png" width="400px" alt="Mac/information"></div>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -239,7 +239,7 @@
 <ul>- 「リピート入力認識までの時間」を"短い"</ul>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/mac_setting.png" width="400px" alt="Mac/setting"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/mac_setting.png" width="400px" alt="Mac/setting"></div>
 </div>
 
 <div style="page-break-before:always"></div>
@@ -254,7 +254,7 @@
 <li>miアイコンをApplicationsにドラッグ</li>
 </ol>
 
-<img src="./images/01/mac_mi_download.png" width="400px" alt="Mac/download text-editer">  
+<img src="./images/02/mac_mi_download.png" width="400px" alt="Mac/download text-editer">  
 </div>
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
@@ -277,7 +277,7 @@ mi以外のテキストエディタ
 <li>完了</li>
 </ol>
 
-<img src="./images/01/mac_anaconda_download.png" width="400px" alt="Mac/download python">  
+<img src="./images/02/mac_anaconda_download.png" width="400px" alt="Mac/download python">  
 </div>
 
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
@@ -331,7 +331,7 @@ mi以外のテキストエディタ
 <li>完了</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/01/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
+<div style="margin-bottom: 5px;"><img src="./images/02/both_r_download.png" width="400px" alt="Win&Mac/download R"></div>  
 </div>
 
 ### <a name="section13">6. 講義用フォルダの作成
