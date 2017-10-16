@@ -388,7 +388,7 @@ less than 5
 ```
 と表示されました。文頭の"else"の後ろには式がないことに注目してください。これはすなわち、"if"の後ろに続く式を満たさない場合は"else"に続くインデントされた段落を実行することを命令しています。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/if_else.png" width="400px" alt="if_else"></div>
+<div style="margin-bottom: 5px;"><img src="./images/03/if_else.png" width="600px" alt="if_else"></div>
 
 すると実は、このプログラミングには誤りがあることが分かります。以下のような場合です。
 ```python
@@ -417,13 +417,13 @@ equal to 5
 ```
 以下のように、numberが5と等しい場合の条件を付け加えました。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/if_elif_else.png" width="400px" alt="if_elif_else"></div>
+<div style="margin-bottom: 5px;"><img src="./images/03/if_elif_else.png" width="600px" alt="if_elif_else"></div>
 
 条件が3つ以上に分岐する場合ということは条件が４つに分岐する場合は、"if"と"else"以外に"elif"を二つ用いるということです。
 
 ここから再び素数判定プログミングに戻ります。以下のような条件分岐を行うことで素数かどうかの判定を見やすくします。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/prime_or_composite.png" width="400px" alt="prime_or_composite"></div>
+<div style="margin-bottom: 5px;"><img src="./images/03/prime_or_composite.png" width="600px" alt="prime_or_composite"></div>
 
 Prime numberとは素数の英語です。また、素数でない数を合成数というのですが、その英語のComposite numberを素数でない場合に表示しましょう。以下、そのコードを示します。
 ```python
@@ -534,7 +534,7 @@ prime_number_judgementer(9839)
 ### 8. ファイルからの読み込み
 Pythonの基本を理解せずに、ファイル操作を理解するのが困難な為、最後に回しましたが、ファイル操作はBioinformaticsの根幹です。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/python_use_scene.png" width="400px" alt="python_use_scene"></div>
+<div style="margin-bottom: 5px;"><img src="./images/03/python_use_scene.png" width="600px" alt="python_use_scene"></div>
 
 シミュレーションを除けば、Bioinformaticsは必ずファイルの読み込みを行い、また、その結果をファイルへ書き込みます。その理由は単純で、Bioinformaticsは現実の世界で生きている生物の特徴を文字にして、その文字の量や違いなどを研究する学問だからです。
 
