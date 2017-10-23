@@ -127,16 +127,17 @@
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
 <p>Pythonのインストール</p>
 <ol>
-<li>Anacondaのダウンロードページ（<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>）へ</li>
-<li>「Python 3.6 version」をダウンロード</li>
-※ [1. パソコンの情報確認]で調べたシステムの種類（32ビット or 64ビット）に合うものをダウンロードしてください。
+<li>Anacondaのダウンロードページ（<a href="https://repo.continuum.io/archive/">https://repo.continuum.io/archive/</a>）へ</li>
+<li>「Anaconda3-4.4.0-Windows-x86_64.exe」をダウンロード（64ビットの場合）</li>
+※ 32ビットパソコンの場合、「Anaconda3-4.4.0-Windows-x86.exe」をダウンロード  
+※ 最新版「5.0.0」よりも「4.4.0」の方が上手くインストールできる場合が多いです。
 <li>ダウンロードしたファイル（.exe）をダブルクリック</li>
 <li>Advanced Optionの1箇所以外、特に変更せず進み、インストール</li>
 ※「Add Anaconda to my PATH environment variable」にチェックを入れてください
 <li>完了</li>
 </ol>
 
-<div style="margin-bottom: 5px;"><img src="./images/02/win_anaconda_download.png" width="400px" alt="Win/download python"></div>
+<div style="margin-bottom: 5px;"><img src="./images/02/win_anaconda_download_rev.png" width="400px" alt="Win/download python"></div>
 
 <div style="margin-bottom: 5px;"><img src="./images/02/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
 </div>
