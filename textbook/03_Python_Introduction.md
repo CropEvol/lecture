@@ -535,6 +535,11 @@ prime_number_judgementer(9839)
 ここまででPythonの基本は一通り説明しました。いくつか割愛した重要な考え方がありますが、今期の授業を通して出てくる場面はありません。もし、これからもプログラミングを続けていきたいのであれば、リストやディクショナリーという考え方を学び、そしてモデュールをimportする練習をするのが良いと思います。これ以降は応用編のファイル操作に関して説明します。
 
 ### 8. ファイルからの読み込み
+#### 事前準備
+以下で使用しているデータはこちらのページにあります。  
+テキストエディタに貼り付けて、デスクトップの「genome」 フォルダに `prime_numbers.txt` という名前で保存してください。  
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/03_prime_numbers.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/03_prime_numbers.txt)
+
 Pythonの基本を理解せずに、ファイル操作を理解するのが困難な為、最後に回しましたが、ファイル操作はBioinformaticsの根幹です。
 
 <div style="margin-bottom: 5px;"><img src="../images/03/python_use_scene.png" width="600px" alt="python_use_scene"></div>
