@@ -70,6 +70,6 @@ def function_name(seq):
 ### Problem 5
 このシークエンスデータが何に関わる遺伝子なのかをNCBIのNucleotide BLASTを用いて検索しなさい。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/blast.png" width="800px" alt="how_to_use_ncbi_blast"></div>
+<div style="margin-bottom: 5px;"><img src="../images/03/blast.png" width="800px" alt="how_to_use_ncbi_blast"></div>
 
 来週、これらの問題の解説をします。
