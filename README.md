@@ -6,10 +6,10 @@
 | No. | 講義内容 | 講義日 | 講義済み | その他 |
 |:---|:---|:---|:---|:---|
 | 01 | イントロダクション | 2017年10月3日 | ✔︎ ||
-| 02 | [ゲノム情報解析入門の準備](02_Preparation.md) | 2017年10月10日 | ✔︎ ||
-| 03 | [Pythonプログラミング入門 1](03_Python_Introduction.md)  [[PDF版](03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ ||
-| 04 | [Pythonプログラミング入門 2](03_Python_Introduction.md) [[PDF版](03_Python_Introduction.pdf)] | 2017年10月24日 ||[課題]()|
-| 05 | [Pythonプログラミング入門 3](03_Python_Introduction.md) [[PDF版](03_Python_Introduction.pdf)] | 2017年10月31日 |||
+| 02 | [ゲノム情報解析入門の準備](./textbook/02_Preparation.md) | 2017年10月10日 | ✔︎ ||
+| 03 | [Pythonプログラミング入門 1](./textbook/03_Python_Introduction.md)  [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ ||
+| 04 | [Pythonプログラミング入門 2](./textbook/03_Python_Introduction.md) [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月24日 ||[課題]()|
+| 05 | [Pythonプログラミング入門 3](./textbook/03_Python_Introduction.md) [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月31日 |||
 | 06 | 大規模データ解析入門 1 | 2017年11月7日 |||
 | 07 | 大規模データ解析入門 2 | 2017年11月14日 |||
 | 08 | 大規模データ解析入門 3 | 2017年11月21日 |||

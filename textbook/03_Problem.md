@@ -8,7 +8,7 @@ CGAGAAAAGGAAAAAAAAAAATAGAAAGAGAAAACGCTTAGTATCTCCGGCGACTTGAACCCAAACCTGAGGATCAAATT
 ```
 
 こちらにコピーしやすいページはこちら用意しています。  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/example/03_sequence.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/example/03_sequence.txt)
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/03_sequence.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/03_sequence.txt)
 
 ###### <ヒント>
 ```python

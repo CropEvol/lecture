@@ -391,7 +391,7 @@ less than 5
 ```
 と表示されました。文頭の"else"の後ろには式がないことに注目してください。これはすなわち、"if"の後ろに続く式を満たさない場合は"else"に続くインデントされた段落を実行することを命令しています。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/if_else.png" width="600px" alt="if_else"></div>
+<div style="margin-bottom: 5px;"><img src="../images/03/if_else.png" width="600px" alt="if_else"></div>
 
 すると実は、このプログラミングには誤りがあることが分かります。以下のような場合です。
 ```python
@@ -420,13 +420,13 @@ equal to 5
 ```
 以下のように、numberが5と等しい場合の条件を付け加えました。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/if_elif_else.png" width="600px" alt="if_elif_else"></div>
+<div style="margin-bottom: 5px;"><img src="../images/03/if_elif_else.png" width="600px" alt="if_elif_else"></div>
 
 条件が3つ以上に分岐する場合ということは条件が４つに分岐する場合は、"if"と"else"以外に"elif"を二つ用いるということです。
 
 ここから再び素数判定プログミングに戻ります。以下のような条件分岐を行うことで素数かどうかの判定を見やすくします。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/prime_or_composite.png" width="600px" alt="prime_or_composite"></div>
+<div style="margin-bottom: 5px;"><img src="../images/03/prime_or_composite.png" width="600px" alt="prime_or_composite"></div>
 
 Prime numberとは素数の英語です。また、素数でない数を合成数というのですが、その英語のComposite numberを素数でない場合に表示しましょう。以下、そのコードを示します。
 ```python
@@ -537,7 +537,7 @@ prime_number_judgementer(9839)
 ### 8. ファイルからの読み込み
 Pythonの基本を理解せずに、ファイル操作を理解するのが困難な為、最後に回しましたが、ファイル操作はBioinformaticsの根幹です。
 
-<div style="margin-bottom: 5px;"><img src="./images/03/python_use_scene.png" width="600px" alt="python_use_scene"></div>
+<div style="margin-bottom: 5px;"><img src="../images/03/python_use_scene.png" width="600px" alt="python_use_scene"></div>
 
 シミュレーションを除けば、Bioinformaticsは必ずファイルの読み込みを行い、また、その結果をファイルへ書き込みます。その理由は単純で、Bioinformaticsは現実の世界で生きている生物の特徴を文字にして、その文字の量や違いなどを研究する学問だからです。
 
@@ -560,13 +560,13 @@ def  composite_number_searcher(number): # <-(1)
 
 ```python
 # ファイルを読み込む
-f = open("./prime_numbers.txt", "r")
+f = open("prime_numbers.txt", "r")
 for number in f:
     composite_number_searcher(int(number))
 ```
 少し難しくなってきました。噛み砕いて説明していきます。まず"for"と"in"の間にある"number"についてなのですが、これは"in"以降に生成したデータの塊を順番に吐き出している変数です。以前学んだfor文における"n"と同じ役割です。"n"でも構わなかったのですが、今まで関数に入れていた引数が"number"だったので統一しました。この吐き出す変数を使っても使わなくも構わないという話を以前にしましたが、今回はこの吐き出される変数を使います。次に"in"以降に生成されるデータの塊についてなのですが、結果から述べると読み込んだファイルの行の数だけデータの塊があり、そのデータの一つ一つが行の文字列を含んでいます。以前練習したfor文では繰り返したい回数が先にあり、それに合わせてデータの塊を用意していました。しかし今回は異なり、繰り返したい回数は分かりません。一行ごとに最後の行まで処理を行いたいので、強いていえば行数分だけfor文を繰り返したいです。それを可能にしているのが、そのテキストデータを行ごとに区切る
 ```python
-open("./prime_numbers.txt", "r")
+open("prime_numbers.txt", "r")
 ```
 というコマンドです。最初は何が書いてあるのか理解できないと思いますが、まずは引数を二つ入れていることに着目しましょう。これはprintと同様に一つ目の引数と二つ目の引数をPythonが区別して認識しているということを表しています。一つ目の引数はファイルの名前で、二つ目の引数は、そのファイルをどのように扱うのかを指示しています。今回、皆さんに配ったファイルの名前が"prime_numbers.txt"なので、第一引数にはそう書きます。ファイル名の前にある"./"という記号は、ファイルがカレントディレクトリーにあるということを意味しています。平易な言葉で言えば、手元にあるということを意味しています。第二引数に書いてある'r'は読み込み用にファイルを開くということを意味しています。最後にある見たことのない書き方が、
 ```python
@@ -577,13 +577,13 @@ composite_number_searcher(int(number))
 ### 9. ファイルへの書き込み
 最後はファイルへの書き込みを勉強しましょう。
 ```python
-f = open("./text_name.txt","a") # (ファイルの名前).txt
+f = open("text_name.txt","a") # (ファイルの名前).txt
 f.write("ここに書きたい文章を書く\n")
 f.close() # ファイルを閉じる
 ```
 Pythonを使ってると、このような書き方（メソッド）がしばしば出てくるのですが、今回の講義で扱う内容にはふさわしくないため省いて説明します。  
 ```python
-f = open("./text_name.txt","a")
+f = open("text_name.txt","a")
 ```
 まず、上記の行に関してなのですが、先ほどの"open"コマンドとほどんど同じです。"a"は「もし指定したファイルが無ければ作成し書き込む。すでにファイルが存在した場合は、すでにあるテキストに指定した文章を加えて上書き保存する」ということを意味しています。
 ```python
@@ -591,7 +591,7 @@ f.write("ここに書きたい文章を書く\n")
 ```
 次に上記の行に関してなのですが、"f"という変数の後に".write"と書いています。この書き方は一定の条件で行えますが、今回は説明を省きます。この書き方を覚えておいて、コピーアンドペーストで多用できれば十分だと思います。行末にある"\n"は改行記号です。Windowsでは"`¥n"で表すことができます。この記号の意味を理解するために二つのコードを動かした結果を比較してみましょう。まず一つ目のコードは以下の通りです。
 ```python
-f = open("./text_name.txt","a")
+f = open("text_name.txt","a")
 f.write("ここに書きたい文章を書く\n")
 f.write("ここに書きたい文章を書く\n")
 f.close()
@@ -603,7 +603,7 @@ f.close()
 ```
 次に二つ目のコードは以下の通りです。
 ```python
-f = open("./text_name.txt","a")
+f = open("text_name.txt","a")
 f.write("ここに書きたい文章を書く") # <- \nがない
 f.write("ここに書きたい文章を書く")# <- \nがない
 f.close()
