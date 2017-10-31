@@ -15,6 +15,8 @@
 | 08 | 大規模データ解析入門 3 | 2017年11月21日 |||
 | 09 | Rプログラミング入門 1 | 2017年11月28日 |||
 | 10 | Rプログラミング入門 2 | 2017年12月5日 |||
-| 11 | Rプログラミング入門 3 | 2017年12月12日 ||　|
+| 11 | Rプログラミング入門 3 | 2017年12月12日 |||
+| 12 || 2017年12月19日 ||　|
+| | | | |　|
 
 Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
