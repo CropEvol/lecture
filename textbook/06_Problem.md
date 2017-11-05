@@ -3,7 +3,7 @@
 ## Problem 1
 　サンプルデータから、配列の長さに対するグアニン(G)とシトシン(C)の割合（GC含量）が __40%以上60%未満__ のデータとそうでないデータを振り分けるコードを書いてください。  
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_1_sequences.txt__）に保存して使ってください。  
+　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、 __P06_1_sequences.txt__ ）に保存して使ってください。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt)
 
 ## Problem 2
@@ -11,10 +11,10 @@
 <div style="margin-bottom: 5px;"><img src="../images/06/06_Problem_02_1.png" height="200px" alt="Win/information03"></div>
 </div>
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_2_sequences.fasta__; *1）に保存して使ってください。  
+　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_2_sequences.fasta__ ; *1）に保存して使ってください。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta)  
 
-_*1 FASTA形式のファイルは、実質的にはテキストファイルですが、拡張子を__.fasta__（または__.fa__や__.fas__）にするのが通例です。_
+_*1 FASTA形式のファイルは、実質的にはテキストファイルですが、拡張子を __.fasta__ （または __.fa__ や __.fas__ ）にするのが通例です。_
 
 [ヒント]  
 各行の先頭文字を調べる。`>`なら配列名、そうでなければ配列本体。  
@@ -44,11 +44,11 @@ print(s5[1:])   # 2文字目以降を表示
 
 _*2 ゲノム配列のように長い塩基配列が書かれたFASTA形式ファイルでは、配列本体は適度な文字数（80文字程度）で改行されている場合がほとんどです。_
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_3_sequences.fasta__）に保存して使ってください。  
+　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、 __P06_3_sequences.fasta__ ）に保存して使ってください。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta)  
 
 ## Problem 4
-　先頭の文字列を調べるメジャーな方法として、__正規表現__と呼ばれるものを使う方法があります。その正規表現について調べてみてください。
+　先頭の文字列を調べるメジャーな方法として、 __正規表現__ と呼ばれるものを使う方法があります。その正規表現について調べてみてください。
 
 [キーワード]  
 正規表現、パターンマッチ、reモジュール、後方参照
