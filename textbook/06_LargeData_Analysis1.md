@@ -26,8 +26,6 @@ GCCGCCCTGGCCGTAGCCGCCACCTCCCTGGCCGCCGTAGCCACCGCCGCCGCCGCCGTAGCCGCCGCCACCGCCGCGCT
 　今回は、大規模データ処理の基本を学ぶために、次のような配列データのファイルを使うことにします。まずは10個の塩基配列（10行）のデータを使いましょう。配列名と配列本体が__タブ__と呼ばれるスペースのようなもので分けられています。このようなテキストデータは__タブ区切りテキスト__と呼ばれています。  
 　下記をテキストエディタ（Windowsの場合「サクラエディタ」、Macの場合「mi」など）にコピー＆ペーストし、ファイルを`L06_10sequences.txt`といった名前で保存してください（他の名前でも構いませんが、__必ず半角英数__にしてください）。
 
-[https://raw.githubusercontent.com/qqep685d/lecture_test/master/jupyter/06/L06_10sequences.txt](https://raw.githubusercontent.com/qqep685d/lecture_test/master/jupyter/06/L06_10sequences.txt)
-
 ```
 sequence_1	GGCAGGTATTGCTGGGAAGCTGTAAGATGANAATAGTTGGGTTCAGTCAGCACAATATGTTACGGTAGGATCGCGAGGTT
 sequence_2	GCCGAGTTTAATTGCAATCAATTAGAAGAATAAAGAAGAATTACTGCATTTCATAACTGATTTTTTTCTCTTTTTATTTC
@@ -433,7 +431,7 @@ BAD.close()
 　これで、「N（不明な塩基）が10%以上の割合で含まれる配列とそうでない配列を分ける」プログラムの完成です。  
 
 　より大規模なデータは下記URLページにあります。データをコピーして、テキストエディタにペースト＆保存し、上で作ったプログラムを試してみてください。  
-[https://raw.githubusercontent.com/qqep685d/lecture_test/master/jupyter/06/L06_1000sequences.txt](https://raw.githubusercontent.com/qqep685d/lecture_test/master/jupyter/06/L06_1000sequences.txt)
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt)
 
 1. ページ内をすべて選択: `Ctrl + A`
 1. コピー: `Ctrl + C`
