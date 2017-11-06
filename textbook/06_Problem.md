@@ -8,8 +8,8 @@
 
 ## Problem 2
 　下図のように、奇数行に配列名、偶数行に配列本体が書かれたFASTA形式ファイルを、タブ区切りファイルに変換するコードを書いてください。その際、1列目を配列名、2列目を配列本体にしてください。  
-<div style="margin-bottom: 5px;"><img src="../images/06/06_Problem_02_1.png" height="200px" alt="Win/information03"></div>
-</div>
+
+<div style="margin-bottom: 5px;"><img src="../images/06/06_Problem_02_1.png" height="200px" alt="fasta_to_tsv"></div>
 
 　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_2_sequences.fasta__ ; *1）に保存して使ってください。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta)  
