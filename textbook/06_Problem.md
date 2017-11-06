@@ -26,10 +26,10 @@ s2 = 'DEF'
 s3 = 'BAC'
 s4 = 'ACC'
 
-arr = [s1, s2, s3, s4]
+moji_list = [s1, s2, s3, s4]
 
-for item in arr:
-    if item[0] == 'A':     # 先頭の文字を調べる
+for moji in moji_list:
+    if moji[0] == 'A':     # 先頭の文字を調べる
         print(item)
 
 ### 配列名の取り出し方 ###
@@ -67,31 +67,31 @@ s4 = 'A8BCDE'
 s5 = 'ABCDE9'
 s6 = 'GHIJKL'
 
-arr = [s1, s2, s3, s4, s5, s6]
+moji_list = [s1, s2, s3, s4, s5, s6]
 
 # (1)先頭が数字の文字列を表示する
 print('--- (1) ---')
 p1 = re.compile()           # ←検索パターンをここに追記
-for item in arr:
-    m1 = p1.search(item)    # 検索
+for moji in moji_list:
+    m1 = p1.search(moji)    # 検索
     if m1:                  # 検索パターンに一致した場合
-        print(item)         # 表示
+        print(moji)         # 表示
 
 
 # (2)最後が数字の文字列を表示する
 print('--- (2) ---')
 p2 = re.compile()           # ←検索パターンをここに追記
-for item in arr:
-    m2 = p2.search(item)    # 検索
+for moji in moji_list:
+    m2 = p2.search(moji)    # 検索
     if m2:                  # 検索パターンに一致した場合
-        print(item)         # 表示
+        print(moji)         # 表示
 
 
 # (3)数字を含まない文字列を表示する
 print('--- (3) ---')
 p3 = re.compile()           # ←検索パターンをここに追記
-for item in arr:
-    m3 = p3.search(item)    # 検索
+for moji in moji_list:
+    m3 = p3.search(moji)    # 検索
     if m3:                  # 検索パターンに一致した場合
-        print(item)         # 表示
+        print(moji)         # 表示
 ```
