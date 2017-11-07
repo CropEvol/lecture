@@ -26,8 +26,6 @@ GCCGCCCTGGCCGTAGCCGCCACCTCCCTGGCCGCCGTAGCCACCGCCGCCGCCGCCGTAGCCGCCGCCACCGCCGCGCT
 
 　今回は、大規模データ処理の基本を学ぶために、次のような配列データのファイルを使うことにします。まずは10個の塩基配列（10行）のデータを使いましょう。配列名と配列本体が **タブ** と呼ばれるスペースのようなもので分けられています。このようなテキストデータは **タブ区切りテキスト** と呼ばれています。  
 
-　下記をテキストエディタ（Windowsの場合「サクラエディタ」、Macの場合「mi」など）にコピー＆ペーストし、ファイルを`L06_10sequences.txt`といった名前で保存してください（他の名前でも構いませんが、 __必ず半角英数__ にしてください）。
-
 ```
 sequence_1	GGCAGGTATTGCTGGGAAGCTGTAAGATGANAATAGTTGGGTTCAGTCAGCACAATATGTTACGGTAGGATCGCGAGGTT
 sequence_2	GCCGAGTTTAATTGCAATCAATTAGAAGAATAAAGAAGAATTACTGCATTTCATAACTGATTTTTTTCTCTTTTTATTTC
@@ -41,6 +39,8 @@ sequence_9	GTAGCTTCAGGTGTATTCATGTTTGGCATATGCCAGCTCTGACCGAAATCTTTGGGGACGATTCTGTAT
 sequence_10	AAAGCATTGCGTATGTCTGGGGGAGATCATATCCACTCCGGTACAGTAGTAGGTAAGTTAGAAGGGGAACGCGAAATGAC
 
 ```
+
+　上のデータをコピーし、テキストエディタ（Windowsの場合「サクラエディタ」、Macの場合「mi」など）ペーストしてください。そして、ファイルを`L06_10sequences.txt`といった名前で保存してください（他の名前でも構いませんが、 __必ず半角英数__ にしてください）。
 
 ---
 
@@ -199,7 +199,7 @@ f = open('L06_10sequences.txt', 'r')       # ファイルを開く
 for line in f:                      # 一行ずつ読み込む
     line = line[:-1]                # 改行文字を取り除く
     item = line.split('\t')         # 文字列をタブ文字で分割する
-    #name = item[0]                  # 配列名を取り出す
+    name = item[0]                  # 配列名を取り出す
     seq  = item[1]                  # 配列本体を取り出す
 
     #print(line)                     # 表示
@@ -235,7 +235,7 @@ f = open('L06_10sequences.txt', 'r')       # ファイルを開く
 for line in f:                      # 一行ずつ読み込む
     line = line[:-1]                # 改行文字を取り除く
     item = line.split('\t')         # 文字列をタブ文字で分割する
-    #name = item[0]                  # 配列名を取り出す
+    name = item[0]                  # 配列名を取り出す
     seq  = item[1]                  # 配列本体を取り出す
     seq_size = len(seq)             # 塩基配列の長さを取得
 
@@ -261,7 +261,7 @@ f = open('L06_10sequences.txt', 'r')       # ファイルを開く
 for line in f:                      # 一行ずつ読み込む
     line = line[:-1]                # 改行文字を取り除く
     item = line.split('\t')         # 文字列をタブ文字で分割する
-    #name = item[0]                  # 配列名を取り出す
+    name = item[0]                  # 配列名を取り出す
     seq  = item[1]                  # 配列本体を取り出す
     seq_size = len(seq)             # 塩基配列の長さを取得
     N_num = seq.count('N')          # Nの数を取得
@@ -286,7 +286,7 @@ f = open('L06_10sequences.txt', 'r')       # ファイルを開く
 for line in f:                      # 一行ずつ読み込む
     line = line[:-1]                # 改行文字を取り除く
     item = line.split('\t')         # 文字列をタブ文字で分割する
-    #name = item[0]                  # 配列名を取り出す
+    name = item[0]                  # 配列名を取り出す
     seq  = item[1]                  # 配列本体を取り出す
     seq_size = len(seq)             # 塩基配列の長さを取得
     N_num = seq.count('N')          # Nの数を取得
@@ -539,3 +539,11 @@ f.close()
 　例えば、上の演習でおこなったように、不明な塩基「N」が多い配列は、その後の解析には不適な場合が多いので、解析前にそのような配列を除外します。
 
 　実際のクオリティコントロールは、使いやすく優れたソフトがすでに存在しているので、自作プログラムでクオリティコントロールをおこなうことはほとんどありません。
+
+---
+
+### 課題
+- Web版（[課題ページ](./06_Problem.md) へ）
+- 配布プリント（13〜15ページ）
+
+　

@@ -10,7 +10,7 @@
 | 03 | [Pythonプログラミング入門 1](./textbook/03_Python_Introduction.md#section0)  [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ ||
 | 04 | [Pythonプログラミング入門 2](./textbook/03_Python_Introduction.md#section6) [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月24日 | ✔︎ |[課題](./textbook/03_Problem.md) / [解答](./textbook/03_Python_ANS.md#section2)|
 | 05 | [Pythonプログラミング入門 3](./textbook/03_Python_ANS.md#section1) | 2017年10月31日 | ✔︎ |[課題](./textbook/03_Python_ANS.md#section3)|
-| 06 | [大規模データ解析入門 1](./textbook/06_LargeData_Analysis1.md#section0) | 2017年11月7日 |||
+| 06 | [大規模データ解析入門 1](./textbook/06_LargeData_Analysis1.md#section0) | 2017年11月7日 ||[課題](./textbook/06_Problem.md)|
 | 07 | 大規模データ解析入門 2 | 2017年11月14日 |||
 | 08 | 大規模データ解析入門 3 | 2017年11月21日 |||
 | 09 | Rプログラミング入門 1 | 2017年11月28日 |||
