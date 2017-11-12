@@ -19,7 +19,7 @@
 - 確認項目:  
     システムの種類：32ビット / 64ビット
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_info01.png" height="100px" alt="Win/information01"> <img src="../images/02/win_info02.png" height="100px" alt="Win/information02"> <img src="../images/02/win_info03.png" height="100px" alt="Win/information03"></div>
+<div style="margin-bottom: 5px;"><img src="../images/02/win_info01.png" height="200px" alt="Win/information01"> <img src="../images/02/win_info02.png" height="200px" alt="Win/information02"> <img src="../images/02/win_info03.png" height="200px" alt="Win/information03"></div>
 
 ### Mac
 - 確認方法: メニューバーのアップルロゴ > このMacについて
@@ -46,7 +46,7 @@
 1. 表示
 1. 「登録されている拡張子は表示しない」のチェックを外します
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_setting.png" height="100px" alt="Win/setting"></div>
+<div style="margin-bottom: 5px;"><img src="../images/02/win_setting.png" height="200px" alt="Win/setting"></div>
 </div>
 
 ### Mac
@@ -55,7 +55,7 @@
 1. 「キーのリピート」を"速い"
 1. 「リピート入力認識までの時間」を"短い"
 
-<div style="margin-bottom: 5px;"><img src="../images/02/mac_setting.png" height="100px" alt="Mac/setting"></div>
+<div style="margin-bottom: 5px;"><img src="../images/02/mac_setting.png" height="200px" alt="Mac/setting"></div>
 
 ---
 
@@ -74,7 +74,7 @@
     * <span style="color: red; ">「Add Anaconda to my PATH environment variable」にチェックを入れてください。</span>
     * インストールフォルダを選択する画面から先に進めない場合は、ひとつ前の選択肢に戻り、「All Users」を選んでください。
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_anaconda_install.png" height="100px" alt="Win/install python"></div>  
+<div style="margin-bottom: 5px;"><img src="../images/02/win_anaconda_install.png" height="200px" alt="Win/install python"></div>  
 
 
 ### Mac
@@ -162,7 +162,7 @@ conda uninstall <パッケージ名>
         - 「SAKURAで開く」メニューの追加
 
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_sakura_download.png" height="100px" alt="Win/download text-editer"></div>
+<div style="margin-bottom: 5px;"><img src="../images/02/win_sakura_download.png" height="200px" alt="Win/download text-editer"></div>
 </div>
 
 ### Mac
@@ -172,7 +172,7 @@ conda uninstall <パッケージ名>
 1. ダウンロードしたファイルをダブルクリック
 1. miアイコンをApplicationsにドラッグして移す
 
-<img src="../images/02/mac_mi_download.png" height="100px" alt="Mac/download text-editer">  
+<img src="../images/02/mac_mi_download.png" height="200px" alt="Mac/download text-editer">  
 </div>
 
 ---

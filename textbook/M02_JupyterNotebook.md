@@ -37,7 +37,7 @@
 
 　プログラムはセル単位で実行可能です。実行セルに記述した変数や関数は、他のセルからも呼び出し可能です。
 
-<div style="margin-bottom: 5px;"><img src="../images/M02/jupyter03.png" height="150px" alt="python programing">
+<div style="margin-bottom: 5px;"><img src="../images/M02/jupyter03.png" height="200px" alt="python programing">
 
 ### よく使う機能
 - プログラムを実行: `Shift + Enter`または`Ctrl + Enter`  
