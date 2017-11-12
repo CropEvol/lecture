@@ -3,6 +3,7 @@
 1. パソコンの設定変更
 1. Python本体のインストール
 1. Pythonパッケージのインストール
+1. テキストエディタのインストール
 
 ---
 ## 1. パソコンのスペック確認
@@ -18,22 +19,20 @@
 - 確認項目:  
     システムの種類：32ビット / 64ビット
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_info01.png" height="100px" alt="Win/information01">
-<img src="../images/02/win_info02.png" height="100px" alt="Win/information02"> <img src="../images/02/win_info03.png" height="100px" alt="Win/information03"></div>
+<div style="margin-bottom: 5px;"><img src="../images/02/win_info01.png" height="100px" alt="Win/information01"> <img src="../images/02/win_info02.png" height="100px" alt="Win/information02"> <img src="../images/02/win_info03.png" height="100px" alt="Win/information03"></div>
 
 ### Mac
-- 確認方法:  
-    メニューバーのアップルロゴ > このMacについて
-- 確認項目:  
-    とくに確認する必要はありません。
+- 確認方法: メニューバーのアップルロゴ > このMacについて
+- 確認項目: とくに確認する必要はありません。
 
 ---
 
 <div style="page-break-before:always"></div>
 
 ## 2. パソコンの設定変更
-　Windowsパソコンの場合、ファイル拡張子（.txtなど）が表示されるように変更します。  
-　Macパソコンの場合、ターミナル等でカーソル移動速度が早くなるように変更します。
+　<span style="color: red; ">デスクトップ画面に、授業用のフォルダ（例えば、`GENOME`）を作成してください。</span>
+
+　Windowsパソコンの場合、ファイル拡張子（.txtなど）が表示されるように変更します。Macパソコンの場合、ターミナル等でカーソル移動速度が早くなるように変更します。
 
 ### Windows 10 / 8.1 / 8  
 1. 適当なフォルダを開きます
@@ -52,8 +51,8 @@
 
 ### Mac
 
-1. システム環境設定 > キーボード > 以下のように変更
-1. 「キーのリピート」を"速い"</ul>
+1. システム環境設定 > キーボード > 以下変更
+1. 「キーのリピート」を"速い"
 1. 「リピート入力認識までの時間」を"短い"
 
 <div style="margin-bottom: 5px;"><img src="../images/02/mac_setting.png" height="100px" alt="Mac/setting"></div>
@@ -72,7 +71,7 @@
     [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/)
 2. ダウンロードしたファイル（.exe）を実行
 3. Advanced Optionの1箇所以外はとくに変更せず、インストール
-    * __「Add Anaconda to my PATH environment variable」にチェックを入れてください。__
+    * <span style="color: red; ">「Add Anaconda to my PATH environment variable」にチェックを入れてください。</span>
     * インストールフォルダを選択する画面から先に進めない場合は、ひとつ前の選択肢に戻り、「All Users」を選んでください。
 
 <div style="margin-bottom: 5px;"><img src="../images/02/win_anaconda_install.png" height="100px" alt="Win/install python"></div>  
@@ -93,7 +92,7 @@
     `brew update --force && brew upgrade`
 1. pyenvをインストール  
     `brew install pyenv`
-1. 以下3行を入力
+1. 以下3行を入力（<span style="color: red; ">一字一句間違わないように！</span>）
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
@@ -146,4 +145,36 @@ conda uninstall <パッケージ名>
 ```
 
 ---
+
+<div style="page-break-before:always"></div>
+
+## 5. テキストエディタのインストール
+　ゲノム解析やプログラミングでは、軽量なテキストエディタがあると、何かと役立ちます。Windowsではサクラエディタを、Macではmiをインストールします。
+
+### Windows
+1. サクラエディタ公式ページ  
+    [http://sakura-editor.sourceforge.net/download.html](http://sakura-editor.sourceforge.net/download.html)
+1. V2(Unicode版)をダウンロード
+1. ダウンロードしたファイル（.exe）を実行
+1. 特に何も変更せず進み、インストール
+    - 途中のオプション選択で以下の項目にチェックを入れておくと便利です。
+        - デスクトップにアイコンを作成
+        - 「SAKURAで開く」メニューの追加
+
+
+<div style="margin-bottom: 5px;"><img src="../images/02/win_sakura_download.png" height="100px" alt="Win/download text-editer"></div>
+</div>
+
+### Mac
+1. miのダウンロードページ  
+[https://www.mimikaki.net/download/index.html](https://www.mimikaki.net/download/index.html)
+1. 最新版をダウンロード
+1. ダウンロードしたファイルをダブルクリック
+1. miアイコンをApplicationsにドラッグして移す
+
+<img src="../images/02/mac_mi_download.png" height="100px" alt="Mac/download text-editer">  
+</div>
+
+---
+
 [Jupyter Notebookの使い方](./textbook/M02_use_jupyter.md) へ

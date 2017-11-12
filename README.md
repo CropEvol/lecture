@@ -29,7 +29,7 @@
 | No. | 講義内容 | 講義日 |
 |:---|:---|:---|
 | Day 1 | イントロダクション | 2017年11月13日 |
-| Day 2 | [解析環境セットアップ](./textbook/M02_install.md)<br>[Jupyter Notebookの使い方](./textbook/M02_use_jupyter.md)<br>実習 | 2017年11月14日 |
+| Day 2 | [解析環境セットアップ](./textbook/M02_Install.md)<br>[Jupyter Notebookの使い方](./textbook/M02_JupyterNotebook.md)<br>実習 | 2017年11月14日 |
 | Day 3 | 実習 | 2017年11月15日 |
 
 ---
