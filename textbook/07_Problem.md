@@ -1,21 +1,25 @@
 # 大規模データ解析入門2 [練習問題]
 
-　遺伝子の発現量を調べる方法のひとつに、次世代シークエンサーを使った __RNAシークエンシング (RNA-seq)__ と呼ばれる方法があります。以下は、そのRNA-seqデータと思ってください。
+　遺伝子の発現量を調べる方法のひとつに、次世代シークエンサーを使った __RNAシークエンシング (RNA-seq)__ と呼ばれる方法があります。今回の練習問題で使うデータは、そのRNA-seqデータと思ってください。
+　下記をJupyter Notebookの適当なセルに貼り付けて、実行してください。2つのファイルがダウンロードされます。
 
-- 遺伝子名のリスト: `P07_gene_name.txt`  
-    遺伝子ID `GeneID` と遺伝子名 `GeneName` のリストです。  
-    [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt)  
-
-- 遺伝子発現量のリスト: `P07_gene_expression.txt`  
-    遺伝子ID `GeneID` と、サンプル1の発現量 `Expression_1` 、サンプル2の発現量 `Expression_2` 、統計的有意性 `Significant` のリストです。  
-    [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt)  
+```python
+%%bash
+# 遺伝子名のリスト: P07_gene_name.txt
+# - 遺伝子ID 'GeneID' と遺伝子名 'GeneName' のリストです。
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt --no-check-certificate
+# 遺伝子発現量のリスト: P07_gene_expression.txt
+# - 遺伝子ID 'GeneID' 、
+# - 2サンプルの発現量 'Expression_1' と 'Expression_2'
+# - 統計的有意性 'Significant' のリストです。
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt --no-check-certificate
+```
 
 ## Problem 1
 　`P07_gene_name.txt`と`P07_gene_expression.txt`をPandasで読み込み、2つのデータフレームの `GeneID` をキーにして結合してください。
 
 ## Problem 2
-　`P07_gene_expression.txt`をPandasで読み込み(*1)、 `Expression_1` と `Expression_2` の値の自然対数（log）を求め、それぞれ `LogExp_1` 列、 `LogExp_2` 列として新たに加えてください。
-
+　`P07_gene_expression.txt`をPandasで読み込み(*1)、 `Expression_1` と `Expression_2` の値の自然対数（log）を求め、それぞれ `LogExp_1` 列、 `LogExp_2` 列として新たに加えてください。  
 _*1 Problem 1の後のデータフレームを使っても構いません。_
 
 [ヒント]
@@ -27,15 +31,13 @@ import numpy as np  # Numpyのインポート
 
 x1 = 10000      # 対数変換前の数字
 x2 = np.log(x1) # 自然対数
-
 print(x2)
 ```
 
 <div style="page-break-before:always"></div>
 
 ## Problem 3
-　`P07_gene_expression.txt` をPandasで読み込み(*2)、 `Significant` が `yes` の遺伝子（すなわち、統計的に有意な差がある遺伝子）のみを抽出してください。
-
+　`P07_gene_expression.txt` をPandasで読み込み(*2)、 `Significant` が `yes` の遺伝子（すなわち、統計的に有意な差がある遺伝子）のみを抽出してください。  
 _*2 Problem 1やProblem 2の後のデータフレームを使っても構いません。_
 
 ## Problem 4

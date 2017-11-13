@@ -11,14 +11,14 @@
 ### Pandasについて
 　Pandasは、図のようなテーブルの取り扱いを得意としたライブラリです。図では、一行に１個体分のデータがあり、各列にはその列名に関するデータが並んでいます。  このような構造のデータを、Pandasでは __データフレーム__ と呼んでいます。
 
-<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" height="100px" alt="dataframe"></div>
+<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" width="250px" alt="dataframe"></div>
 
 　Pandasを使うと、次のような処理が可能になります。
 
-  - for文を使わずに列同士の演算ができます。
-  - if文を使わずに条件に合うデータのみを抽出できます。
+- for文を使わずに列同士の演算や、列の値の集計ができます。
+- if文を使わずに条件に合うデータのみを抽出できます。
 
-　Pandasは高速処理されるように設計されているため、自身でfor文やif文を書いたコードよりも、Pandasを使ったコードの方がデータ処理速度は早いです(*1)。また、上のような処理が一行のコードでできるため、書くコードの量も少なくて済みます。  
+Pandasは高速処理されるように設計されているため、自身でfor文やif文を書いたコードよりも、Pandasを使ったコードの方がデータ処理速度は早いです(*1)。また、上のような処理が一行のコードでできるため、書くコードの量も少なくて済みます。  
 
 _*1 Pandasが苦手とするような処理（時間がかかる処理）もあります。_
 
@@ -26,7 +26,7 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 
 <a name="section2"></a>
 ### 取り扱うデータ
-　今回は仮想の生物のゲノム解析で得られたデータを扱います。この仮想生物は染色体を1本だけもつ一倍体生物で、赤色の個体と白色の個体がいます（このような違いのことを __多型__ といいます）。  
+　今回は仮想の生物のゲノム解析で得られたデータを扱います。この仮想生物は染色体を1本だけもつ一倍体生物で、赤色と白色の個体がいます（このような違いを __多型__ といいます）。  
 　色の違う2個体のゲノムを調べたところ、ゲノム上に等間隔で分布する50箇所の塩基に違いが見られました。ここでは、A,T,G,Cを用いずに、赤色個体の塩基を`R`（以下、`Rアリル`）、白色個体の塩基を`W`（以下、`Wアリル`）と一律に表記すると、2個体は下図左上のように表現できます。この50箇所の塩基（以下、遺伝子座）のうち、どれか1つが色に関わっている塩基であり、その塩基がどれかを特定するのが今回の解析です。
 
 　50遺伝子座が異なる2個体ではどれが色に関わる塩基なのか特定できないので、50遺伝子座が様々な組合せになった個体群を用意する必要があります。そこで、赤色個体と白色個体を交配し、染色体の様々な領域に組換えが生じた子孫集団200個体を作成しました（下図左下）。  
@@ -36,15 +36,18 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 
 <div style="margin-bottom: 5px;"><img src="../images/07/07_population.png" alt="dataframe"></div>
 
-　条件に合う遺伝子座を見つけるために、子孫集団を赤色個体グループと白色個体グループに分け、両グループで各遺伝子座のアリル数をカウントしました。その結果をまとめたのが次の2つのデータです。以降はこれらデータを使用していきます。
-
-1) 子孫集団の赤色個体における各遺伝子座のアリル数  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt)  
-エディタに貼り付けて、 __L07_allele_in_red.txt__ という名前で保存し、講義用のgenomeフォルダに入れてください。
-
-2) 子孫集団の白色個体における各遺伝子座のアリル数  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt)  
-エディタに貼り付けて、 __L07_allele_in_white.txt__ という名前で保存し、講義用のgenomeフォルダに入れてください。
+　条件に合う遺伝子座を見つけるために、子孫集団を赤色個体グループと白色個体グループに分け、両グループで各遺伝子座のアリル数をカウントしました。その結果をまとめたのが今回使う2つのデータです。  
+　Jupyter Notebookの最初のセルに以下を貼り付けてください。演習データをダウンロードします。
+```bash
+# 演習データ
+%%bash
+# 1) 子孫集団赤色個体における各遺伝子座のアリル数
+# L07_allele_in_red.txt
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt --no-check-certificate
+# 2) 子孫集団白色個体における各遺伝子座のアリル数
+# L07_allele_in_white.txt
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt --no-check-certificate
+```
 
 <div style="page-break-before:always"></div>
 
@@ -441,23 +444,32 @@ plt.legend(loc='best')
 
 <div style="page-break-before:always"></div>
 
-## その他のサンプルデータ
-より大規模なデータはこちらにあります。
-- 「50遺伝子座・子孫集団200個体」のデータ（今回の演習のデータ）  
-子孫集団データセット
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt)  
-赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt)  
-白色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte.txt)  
-- 「100遺伝子座・子孫集団200個体」のデータ  
-子孫集団データセット
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt)  
-赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt)  
-白色グループ  [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt)  
-- 「500遺伝子座・子孫集団1000個体」のデータ  
-子孫集団データセット
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt)  
-赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt)  
-白色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt)  
+## サンプルデータ
+　演習データとより大規模なデータはこちらにあります。Jupyter Notebookの一行目に貼り付けて、実行してください。
+
+```bash
+# [演習データ]「50遺伝子座・子孫集団200個体」のデータ
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt --no-check-certificate
+```
+
+```bash
+# 「100遺伝子座・子孫集団200個体」のデータ
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt --no-check-certificate
+```
+
+```bash
+# 「500遺伝子座・子孫集団1000個体」のデータ  
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt --no-check-certificate
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt --no-check-certificate
+```
 
 ## 課題
 - Web版（[課題ページ](./07_Problem.md) へ）

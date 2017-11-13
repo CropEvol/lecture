@@ -3,18 +3,26 @@
 ## Problem 1
 　サンプルデータから、配列の長さに対するグアニン(G)とシトシン(C)の割合（GC含量）が __40%以上60%未満__ のデータとそうでないデータを振り分けるコードを書いてください。  
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、 __P06_1_sequences.txt__ ）に保存して使ってください。  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt)
+　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。この問題のサンプルデータ（ __P06_1_sequences.txt__ ）がダウンロードされます。
+
+```python
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_1_sequences.txt --no-check-certificate
+```
 
 ## Problem 2
 　下図のように、奇数行に配列名、偶数行に配列本体が書かれたFASTA形式ファイルを、タブ区切りファイルに変換するコードを書いてください。その際、1列目を配列名、2列目を配列本体にしてください。  
 
 <div style="margin-bottom: 5px;"><img src="../images/06/06_Problem_02_1.png" height="200px" alt="fasta_to_tsv"></div>
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、__P06_2_sequences.fasta__ ; *1）に保存して使ってください。  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta)  
+　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。 この問題のサンプルデータ（ __P06_2_sequences.fasta__ ）がダウンロードされます。
 
-_*1 FASTA形式のファイルは、実質的にはテキストファイルですが、拡張子を __.fasta__ （または __.fa__ や __.fas__ ）にするのが通例です。_
+*1 _これは、FASTA形式のファイルです。実質的にはテキストファイルですが、拡張子を __.fasta__ （または __.fa__ や __.fas__ ）にするのが通例です。_
+
+```python
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta --no-check-certificate
+```
 
 [ヒント]  
 各行の先頭文字を調べる。`>`なら配列名、そうでなければ配列本体。  
@@ -44,8 +52,12 @@ print(s5[1:])   # 2文字目以降を表示
 
 _*2 ゲノム配列のように長い塩基配列が書かれたFASTA形式ファイルでは、配列本体は適度な文字数（80文字程度）で改行されている場合がほとんどです。_
 
-　この問題のサンプルデータはこちらにあります。任意の名前のファイル（たとえば、 __P06_3_sequences.fasta__ ）に保存して使ってください。  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta)  
+　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。 この問題のサンプルデータ（ __P06_3_sequences.fasta__ ）がダウンロードされます。
+
+```python
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta --no-check-certificate
+```
 
 ## Problem 4
 　先頭の文字列を調べるメジャーな方法として、 __正規表現__ と呼ばれるものを使う方法があります。その正規表現について調べてみてください。

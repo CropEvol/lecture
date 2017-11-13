@@ -42,6 +42,13 @@ sequence_10	AAAGCATTGCGTATGTCTGGGGGAGATCATATCCACTCCGGTACAGTAGTAGGTAAGTTAGAAGGGGA
 
 　上のデータをコピーし、テキストエディタ（Windowsの場合「サクラエディタ」、Macの場合「mi」など）ペーストしてください。そして、ファイルを`L06_10sequences.txt`といった名前で保存してください（他の名前でも構いませんが、 __必ず半角英数__ にしてください）。
 
+　もしくは、下記をJupyter Notebookのどこかのセルに貼り付けて、実行してください。 演習のサンプルデータ `L06_10sequences.txt` がダウンロードされます。
+
+```
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_10sequences.txt --no-check-certificate
+```
+
 ---
 
 ### 演習
@@ -440,13 +447,12 @@ BAD.close()
 
 　これで、「N（不明な塩基）が10%以上の割合で含まれる配列とそうでない配列を分ける」プログラムの完成です。  
 
-　より大規模なデータは下記URLページにあります。データをコピーして、テキストエディタにペースト＆保存し、上で作ったプログラムを試してみてください。  
-[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt)
+　より大規模なデータも用意しています。同様に、上で作ったプログラムを試してみてください。下記をノートブックの適当なセルに貼り付けて、実行してください。 `L06_1000sequences.txt` というファイルがダウンロードされます。
 
-1. ページ内をすべて選択: `Ctrl + A`
-1. コピー: `Ctrl + C`
-1. ペースト: `Ctrl + V`
-（Macの場合、Ctrlではなく、commandキーです）
+```python
+%%bash
+wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt --no-check-certificate
+```
 
 ---
 
