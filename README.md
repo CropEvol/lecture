@@ -7,13 +7,13 @@
 |:---|:---|:---|:---|:---|
 | 01 | イントロダクション | 2017年10月3日 | ✔︎ |課題なし|
 | 02 | [ゲノム情報解析入門の準備](./textbook/02_Preparation.md) | 2017年10月10日 | ✔︎ |課題なし|
-| 03 | [Pythonプログラミング入門 1](./textbook/03_Python_Introduction.md#section0)  [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ |課題なし|
+| 03 | [Pythonプログラミング入門 1](./textbook/03_Python_Introduction.md)  [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ |課題なし|
 | 04 | [Pythonプログラミング入門 2](./textbook/03_Python_Introduction.md#section6) [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月24日 | ✔︎ |[課題](./textbook/03_Problem.md) / [解答](./textbook/03_Python_ANS.md#section2)|
 | 05 | [Pythonプログラミング入門 3](./textbook/03_Python_ANS.md#section1) | 2017年10月31日 | ✔︎ |[課題](./textbook/03_Python_ANS.md#section3)|
-| 06 | [大規模データ解析入門 1](./textbook/06_LargeData_Analysis1.md#section0) | 2017年11月7日 | ✔︎ |課題なし|
+| 06 | [大規模データ解析入門 1](./textbook/06_LargeData_Analysis1.md) | 2017年11月7日 | ✔︎ |課題なし|
 | 07 | [大規模データ解析入門 1 の続き](./textbook/06_LargeData_Analysis1.md#section7) | 2017年11月14日 ||[課題](./textbook/06_Problem.md)|
 || [大規模データ解析入門 2](./textbook/07_LargeData_Analysis2.md) | 2017年11月14日 ||[課題](./textbook/07_Problem.md)|
-| 08 | UNIX/Linux入門 | 2017年11月21日 |||
+| 08 | [Unix入門](./textbook/07_Unix_Introduction.md) | 2017年11月21日 |||
 | 09 | Rプログラミング入門 1 | 2017年11月28日 |||
 | 10 | Rプログラミング入門 2 | 2017年12月5日 |||
 | 11 | Rプログラミング入門 3 | 2017年12月12日 |||
