@@ -25,7 +25,7 @@
     - `New` > `Text File`でJupyter Notebookのテキストエディタも開けます。
     - `New` > `Folder`で新しいフォルダを作成できます。
 
-<div style="margin-bottom: 5px;"><img src="../images/M02/jupyter01.png" height="100px" alt="open notebook 1"> <img src="../images/M02/jupyter02.png" height="100px" alt="open notebook 2"></div>
+<div style="margin-bottom: 5px;"><img src="../images/M02/jupyter01.png" height="200px" alt="open notebook 1"> <img src="../images/M02/jupyter02.png" height="200px" alt="open notebook 2"></div>
 
 ## 3. Python用ノートブックの使い方
 

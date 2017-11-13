@@ -11,7 +11,7 @@
 ### Pandasについて
 　Pandasは、図のようなテーブルの取り扱いを得意としたライブラリです。図では、一行に１個体分のデータがあり、各列にはその列名に関するデータが並んでいます。  このような構造のデータを、Pandasでは __データフレーム__ と呼んでいます。
 
-<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" height="100px" alt="dataframe"></div>
+<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" height="200px" alt="dataframe"></div>
 
 　Pandasを使うと、次のような処理が可能になります。
 
