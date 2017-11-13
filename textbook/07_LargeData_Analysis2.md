@@ -3,20 +3,20 @@
 ## Pythonを使ったデータ解析
 　今回は、Pandasと呼ばれる便利なライブラリ（拡張パッケージみたいなもの）を使って、テキストファイルを読み込み、データ解析します。最後にはグラフも描画します。
 
-- [Pandasについて](section1)
-- [取り扱うデータ](section2)
-- [演習](section3)
+- [Pandasについて](#section1)
+- [取り扱うデータ](#section2)
+- [演習](#section3)
 
 <a name="section1"></a>
 ### Pandasについて
 　Pandasは、図のようなテーブルの取り扱いを得意としたライブラリです。図では、一行に１個体分のデータがあり、各列にはその列名に関するデータが並んでいます。  このような構造のデータを、Pandasでは __データフレーム__ と呼んでいます。
 
-<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" height="200px" alt="dataframe"></div>
+<div style="margin-bottom: 5px;"><img src="../images/07/07_dataframe.png" height="100px" alt="dataframe"></div>
 
 　Pandasを使うと、次のような処理が可能になります。
 
-- for文を使わずに列同士の演算ができます。
-- if文を使わずに条件に合うデータのみを抽出できます。
+  - for文を使わずに列同士の演算ができます。
+  - if文を使わずに条件に合うデータのみを抽出できます。
 
 　Pandasは高速処理されるように設計されているため、自身でfor文やif文を書いたコードよりも、Pandasを使ったコードの方がデータ処理速度は早いです(*1)。また、上のような処理が一行のコードでできるため、書くコードの量も少なくて済みます。  
 
@@ -31,8 +31,8 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 
 　50遺伝子座が異なる2個体ではどれが色に関わる塩基なのか特定できないので、50遺伝子座が様々な組合せになった個体群を用意する必要があります。そこで、赤色個体と白色個体を交配し、染色体の様々な領域に組換えが生じた子孫集団200個体を作成しました（下図左下）。  
 
-　この子孫集団について、表現型（赤色か白色か）と各遺伝子座の遺伝子型（どちらの親由来のアリルを持っているか）を調べました。表にすると下図右のようになります。
-　もし色に関わる遺伝子座であれば、子孫集団の赤色個体はすべて`Rアリル`であり、白色個体はすべて`Wアリル`になっているはずです。赤色個体に`Wアリル`が見られたり、白色個体に`Rアリル`が見られたりする遺伝子座は、色に無関係な遺伝子座です。
+　この子孫集団について、表現型（赤色か白色か）と各遺伝子座の遺伝子型（どちらの親由来のアリルを持っているか）を調べました。表にすると下図右のようになります。  
+　もし色に関わる遺伝子座であれば、子孫集団の赤色個体はすべて`Rアリル`であり、白色個体はすべて`Wアリル`になっているはずです。赤色個体に`Wアリル`が見られたり、白色個体に`Rアリル`が見られる遺伝子座は、色に無関係な遺伝子座です。
 
 <div style="margin-bottom: 5px;"><img src="../images/07/07_population.png" alt="dataframe"></div>
 
@@ -50,9 +50,8 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 
 <a name="section3"></a>
 ### 演習:データ解析
-　まずPandasデータフレームの扱い方を勉強した後、データ解析をしていきます。
+　まずPandasデータフレームの扱い方を勉強した後、データ解析をしていきます。勉強する内容は次のとおりです。
 
-勉強する内容は次のとおりです。
 1. [データの読み込み](#section3_1)
 1. [任意の行のデータ抽出](#section3_2)
 1. [任意の列のデータ抽出](#section3_3)
@@ -115,7 +114,7 @@ df_r    # 表示
 
 <a name="section3_2"></a>
 #### 2. 任意の行のデータ抽出
-　任意の行のデータを抽出してみましょう。抽出方法はいくつかありますが、今回は行番号を指定して抜き出します。行番号は0行目から始まることに注意してください。
+　任意の行のデータを抽出してみましょう。抽出方法はいくつかありますが、今回は行番号を指定して抜き出します。 __行番号は0行目から始まることに注意してください。__
 
 ```python
 import pandas as pd     # pandasライブラリの読み込み
@@ -241,9 +240,9 @@ df
 # 詳細は割愛します。
 ```
 
-　次にデータフレーム内の2つの列を使って、各遺伝子のアリル頻度を計算し、新しい列を作りましょう。
-- R_freq_in_red = R_in_red/(R_in_red + W_in_red)
-- W_freq_in_white = W_in_white/(R_in_white + W_in_white)
+　次にデータフレーム内の2つの列を使って、各遺伝子座のアリル頻度を計算し、新しい列を作りましょう。
+- `R_freq_in_red` = R_in_red / (R_in_red + W_in_red)
+- `W_freq_in_white` = W_in_white / (R_in_white + W_in_white)
 
 ```python
 import pandas as pd     # pandasライブラリの読み込み
@@ -382,13 +381,6 @@ ans
 
 ---
 
-　より大規模なデータはこちらにあります。
-- 「100遺伝子座・子孫集団200個体」のデータ
-- 「500遺伝子座・子孫集団1000個体」のデータ
-- 「1000遺伝子座・子孫集団2000個体」のデータ
-
----
-
 <div style="page-break-before:always"></div>
 
 ## 補足
@@ -446,8 +438,26 @@ plt.legend(loc='best')
 　このようなグラフ描画作業をひとつの関数にまとめて便利にしたものが、Pandasライブラリのplot関数やSeabornライブラリの各種関数です。
 
 ---
-　
+
 <div style="page-break-before:always"></div>
+
+## その他のサンプルデータ
+より大規模なデータはこちらにあります。
+- 「50遺伝子座・子孫集団200個体」のデータ（今回の演習のデータ）  
+子孫集団データセット
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt)  
+赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt)  
+白色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte.txt)  
+- 「100遺伝子座・子孫集団200個体」のデータ  
+子孫集団データセット
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt)  
+赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt)  
+白色グループ  [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt)  
+- 「500遺伝子座・子孫集団1000個体」のデータ  
+子孫集団データセット
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt)  
+赤色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt)  
+白色グループ [https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt)  
 
 ## 課題
 - Web版（[課題ページ](./07_Problem.md) へ）

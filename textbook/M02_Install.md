@@ -1,11 +1,12 @@
-# 解析環境セットアップ
-1. パソコンのスペック確認
-1. パソコンの設定変更
-1. Python本体のインストール
-1. Pythonパッケージのインストール
-1. テキストエディタのインストール
+# <a href="#section0">解析環境セットアップ</a>
+1. [パソコンのスペック確認](#section1)
+1. [パソコンの設定変更](#section2)
+1. [Python本体のインストール](#section3)
+1. [Pythonパッケージのインストール](#section4)
+1. [テキストエディタのインストール](#section5)
 
 ---
+<a name="#section1"></a>
 ## 1. パソコンのスペック確認
 ### Windows 10 / 8.1 / 8  
 - 確認方法:  
@@ -29,6 +30,7 @@
 
 <div style="page-break-before:always"></div>
 
+<a name="#section2"></a>
 ## 2. パソコンの設定変更
 　<span style="color: red; ">デスクトップ画面に、授業用のフォルダ（例えば、`GENOME`）を作成してください。</span>
 
@@ -60,6 +62,7 @@
 
 <div style="page-break-before:always"></div>
 
+<a name="#section3"></a>
 ## 3. Python3のインストール
 　Miniconda3と呼ばれるものをパソコンにインストールすることで、Python3がインストールできます。
 
@@ -116,11 +119,12 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 
 <div style="page-break-before:always"></div>
 
+<a name="#section4"></a>
 ## 4. Pythonパッケージのインストール
 　よく使うパッケージをインストールします。WindowsとMacどちらでもコマンドは同じです。
 
 ### Windows
-- スタートボタン > Miniconda3 > Anaconda Prompt
+- スタートボタン > Miniconda3 > Anaconda Prompt > 右クリック > <span style="color: red;">管理者として実行</span>
 - 以下のコマンドを入力してください。
 
 ### Mac
@@ -150,6 +154,7 @@ conda uninstall <パッケージ名>
 
 <div style="page-break-before:always"></div>
 
+<a name="#section5"></a>
 ## 5. テキストエディタのインストール
 　ゲノム解析やプログラミングでは、軽量なテキストエディタがあると、何かと役立ちます。Windowsではサクラエディタを、Macではmiをインストールします。
 
@@ -179,4 +184,4 @@ conda uninstall <パッケージ名>
 
 ---
 
-[Jupyter Notebookの使い方](./textbook/M02_use_jupyter.md) へ
+[Jupyter Notebookの使い方](./M02_JupyterNotebook.md) へ

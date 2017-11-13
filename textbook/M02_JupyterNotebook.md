@@ -1,10 +1,11 @@
 # Jupyter Notebookの使い方
-1. Jupyter Notebookの起動
-1. Python用ノートブックの起動
-1. Python用ノートブックの使い方
+1. [Jupyter Notebookの起動](#section1)
+1. [Python用ノートブックの起動](#section2)
+1. [Python用ノートブックの使い方](#section3)
 
 ---
 
+<a name="section1"></a>
 ## 1. Jupyter Notebookの起動
 ### Windows
 1. スタートボタン > Miniconda3 > Jupyter Notebook
@@ -17,6 +18,7 @@
 
 ---
 
+<a name="section2"></a>
 ## 2. Python用ノートブックの起動
 　この作業はWindowsとMacで共通です。「[解析環境セットアップ](./M02_Install.md)」で作成した授業用フォルダ`GENOME`内で、Python用のノートブックを開きます。
 1. `Desktop` > `GENOME`（授業用フォルダ）
@@ -27,6 +29,7 @@
 
 <div style="margin-bottom: 5px;"><img src="../images/M02/jupyter01.png" height="200px" alt="open notebook 1"> <img src="../images/M02/jupyter02.png" height="200px" alt="open notebook 2"></div>
 
+<a name="section3"></a>
 ## 3. Python用ノートブックの使い方
 
 ### 基本操作
