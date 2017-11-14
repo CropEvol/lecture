@@ -32,7 +32,6 @@
 
 <a name="#section2"></a>
 ## 2. パソコンの設定変更
-　<span style="color: red; ">デスクトップ画面に、授業用のフォルダ（例えば、`GENOME`）を作成してください。</span>
 
 　Windowsパソコンの場合、ファイル拡張子（.txtなど）が表示されるように変更します。Macパソコンの場合、ターミナル等でカーソル移動速度が早くなるように変更します。
 
@@ -181,6 +180,16 @@ conda uninstall <パッケージ名>
 
 <img src="../images/02/mac_mi_download.png" height="200px" alt="Mac/download text-editer">  
 </div>
+
+---
+
+## データのダウンロード
+1. 以下のページにいってください  
+[https://github.com/Serulab/Py4Bio](https://github.com/Serulab/Py4Bio)
+1. Clone or Download
+1. Download Zip
+1. ダウンロードしたファイルを解凍（展開）してください
+1. 解凍後のフォルダをデスクトップに移してください
 
 ---
 
