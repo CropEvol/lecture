@@ -67,9 +67,9 @@
 
 ### Windows
 1. Miniconda3のインストーラをダウンロード
-    [https://conda.io/miniconda.html](https://conda.io/miniconda.html)
+    [https://conda.io/miniconda.html](https://conda.io/miniconda.html){:target="_blank"}
     * 旧バージョンをインストールしたい場合  
-    [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/)
+    [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/){:target="_blank"}
 2. ダウンロードしたファイル（.exe）を実行
 3. Advanced Optionの1箇所以外はとくに変更せず、インストール
     * <span style="color: red; ">「Add Anaconda to my PATH environment variable」にチェックを入れてください。</span>
@@ -91,7 +91,7 @@
     `brew --version`
     * Homebrew 1.3.2のようにバージョン情報が出る場合は、5へ進んでください。
 1. Homebrewをインストール
-    このWebページ（[https://brew.sh/index_ja.html](https://brew.sh/index_ja.html)）の一行をコピーして、貼り付けてください。  
+    このWebページ（[https://brew.sh/index_ja.html](https://brew.sh/index_ja.html){:target="_blank"} ）の一行をコピーして、貼り付けてください。  
 1. Homebrewをアップデート  
     `brew update --force && brew upgrade`
 1. pyenvをインストール  
@@ -159,7 +159,7 @@ conda uninstall <パッケージ名>
 
 ### Windows
 1. サクラエディタ公式ページ  
-    [http://sakura-editor.sourceforge.net/download.html](http://sakura-editor.sourceforge.net/download.html)
+    [http://sakura-editor.sourceforge.net/download.html](http://sakura-editor.sourceforge.net/download.html){:target="_blank"}
 1. V2(Unicode版)をダウンロード
 1. ダウンロードしたファイル（.exe）を実行
 1. 特に何も変更せず進み、インストール
@@ -173,7 +173,7 @@ conda uninstall <パッケージ名>
 
 ### Mac
 1. miのダウンロードページ  
-[https://www.mimikaki.net/download/index.html](https://www.mimikaki.net/download/index.html)
+[https://www.mimikaki.net/download/index.html](https://www.mimikaki.net/download/index.html){:target="_blank"}
 1. 最新版をダウンロード
 1. ダウンロードしたファイルをダブルクリック
 1. miアイコンをApplicationsにドラッグして移す
@@ -185,7 +185,7 @@ conda uninstall <パッケージ名>
 
 ## データのダウンロード
 1. 以下のページにいってください  
-[https://github.com/Serulab/Py4Bio](https://github.com/Serulab/Py4Bio)
+[https://github.com/Serulab/Py4Bio](https://github.com/Serulab/Py4Bio){:target="_blank"}
 1. Clone or Download
 1. Download Zip
 1. ダウンロードしたファイルを解凍（展開）してください
