@@ -3,13 +3,14 @@
 　遺伝子の発現量を調べる方法のひとつに、次世代シークエンサーを使った __RNAシークエンシング (RNA-seq)__ と呼ばれる方法があります。今回の練習問題で使うデータは、そのRNA-seqデータと思ってください。
 
 　下記の2つのURLにあるデータを、手元のファイルに保存してください。  
+
 (1) 遺伝子名のリスト: `P07_gene_name.txt`  
 左の列から、遺伝子ID 'GeneID'、遺伝子名 'GeneName' の順に並んでいます。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt)  
+
 (2) 遺伝子発現量のリスト: `P07_gene_expression.txt`  
 左の列から、遺伝子ID 'GeneID' 、サンプル1の発現量 'Expression_1'、 サンプル2の発現量 'Expression_2'、統計的有意性 'Significant' の順に並んでいます。  
 [https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt)
-```
 
 ## Problem 1
 　`P07_gene_name.txt`と`P07_gene_expression.txt`をPandasで読み込み、2つのデータフレームの `GeneID` をキーにして結合してください。
