@@ -2,12 +2,8 @@
 
 ## Problem 1
 　サンプルデータから、配列の長さに対するグアニン(G)とシトシン(C)の割合（GC含量）が __40%以上60%未満__ のデータとそうでないデータを振り分けるコードを書いてください。  
-
-　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。この問題のサンプルデータ（ __P06_1_sequences.txt__ ）がダウンロードされます。
-
-```python
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_1_sequences.txt --no-check-certificate
+　この問題のサンプルデータはこちらにあります。
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_1_sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_1_sequences.txt)
 ```
 
 ## Problem 2
@@ -15,13 +11,9 @@ wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_1_sequen
 
 <div style="margin-bottom: 5px;"><img src="../images/06/06_Problem_02_1.png" height="200px" alt="fasta_to_tsv"></div>
 
-　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。 この問題のサンプルデータ（ __P06_2_sequences.fasta__ ）がダウンロードされます。
-
+　この問題のサンプルデータはこちらにあります。
 *1 _これは、FASTA形式のファイルです。実質的にはテキストファイルですが、拡張子を __.fasta__ （または __.fa__ や __.fas__ ）にするのが通例です。_
-
-```python
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta --no-check-certificate
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_2_sequences.fasta)
 ```
 
 [ヒント]  
@@ -52,12 +44,8 @@ print(s5[1:])   # 2文字目以降を表示
 
 _*2 ゲノム配列のように長い塩基配列が書かれたFASTA形式ファイルでは、配列本体は適度な文字数（80文字程度）で改行されている場合がほとんどです。_
 
-　Jupyter Notebookのどこかのセルに以下を貼り付けて、実行してください。 この問題のサンプルデータ（ __P06_3_sequences.fasta__ ）がダウンロードされます。
-
-```python
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta --no-check-certificate
-```
+　この問題のサンプルデータはこちらにあります。
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P06_3_sequences.fasta)
 
 ## Problem 4
 　先頭の文字列を調べるメジャーな方法として、 __正規表現__ と呼ばれるものを使う方法があります。その正規表現について調べてみてください。

@@ -1,18 +1,14 @@
 # 大規模データ解析入門2 [練習問題]
 
 　遺伝子の発現量を調べる方法のひとつに、次世代シークエンサーを使った __RNAシークエンシング (RNA-seq)__ と呼ばれる方法があります。今回の練習問題で使うデータは、そのRNA-seqデータと思ってください。
-　下記をJupyter Notebookの適当なセルに貼り付けて、実行してください。2つのファイルがダウンロードされます。
 
-```python
-%%bash
-# 遺伝子名のリスト: P07_gene_name.txt
-# - 遺伝子ID 'GeneID' と遺伝子名 'GeneName' のリストです。
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt --no-check-certificate
-# 遺伝子発現量のリスト: P07_gene_expression.txt
-# - 遺伝子ID 'GeneID' 、
-# - 2サンプルの発現量 'Expression_1' と 'Expression_2'
-# - 統計的有意性 'Significant' のリストです。
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt --no-check-certificate
+　下記の2つのURLにあるデータを、手元のファイルに保存してください。  
+(1) 遺伝子名のリスト: `P07_gene_name.txt`  
+左の列から、遺伝子ID 'GeneID'、遺伝子名 'GeneName' の順に並んでいます。  
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_name.txt)  
+(2) 遺伝子発現量のリスト: `P07_gene_expression.txt`  
+左の列から、遺伝子ID 'GeneID' 、サンプル1の発現量 'Expression_1'、 サンプル2の発現量 'Expression_2'、統計的有意性 'Significant' の順に並んでいます。  
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/P07_gene_expression.txt)
 ```
 
 ## Problem 1

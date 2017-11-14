@@ -37,17 +37,11 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 <div style="margin-bottom: 5px;"><img src="../images/07/07_population.png" alt="dataframe"></div>
 
 　条件に合う遺伝子座を見つけるために、子孫集団を赤色個体グループと白色個体グループに分け、両グループで各遺伝子座のアリル数をカウントしました。その結果をまとめたのが今回使う2つのデータです。  
-　Jupyter Notebookの最初のセルに以下を貼り付けてください。演習データをダウンロードします。
-```bash
-# 演習データ
-%%bash
-# 1) 子孫集団赤色個体における各遺伝子座のアリル数
-# L07_allele_in_red.txt
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt --no-check-certificate
-# 2) 子孫集団白色個体における各遺伝子座のアリル数
-# L07_allele_in_white.txt
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt --no-check-certificate
-```
+　この演習のデータは以下のURLにあります。
+(1) 子孫集団赤色個体における各遺伝子座のアリル数 `L07_allele_in_red.txt`  
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt)
+(2) 子孫集団白色個体における各遺伝子座のアリル数 `L07_allele_in_white.txt`  
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt)
 
 <div style="page-break-before:always"></div>
 
@@ -445,31 +439,22 @@ plt.legend(loc='best')
 <div style="page-break-before:always"></div>
 
 ## サンプルデータ
-　演習データとより大規模なデータはこちらにあります。Jupyter Notebookの一行目に貼り付けて、実行してください。
+　演習データとより大規模なデータはこちらにあります。
 
-```bash
-# [演習データ]「50遺伝子座・子孫集団200個体」のデータ
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt --no-check-certificate
-```
+- 「50遺伝子座・子孫集団200個体」のデータ [演習データ]  
+    - 赤色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red.txt  
+    - 白色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white.txt  
+    - 子孫集団の表現型と遺伝子型データセット https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset.txt  
 
-```bash
-# 「100遺伝子座・子孫集団200個体」のデータ
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt --no-check-certificate
-```
+- 「100遺伝子座・子孫集団200個体」のデータ  
+    - 赤色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L100P200.txt  
+    - 白色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_wihte_L100P200.txt  
+    - 子孫集団の表現型と遺伝子型データセット https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L100P200.txt  
 
-```bash
-# 「500遺伝子座・子孫集団1000個体」のデータ  
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt --no-check-certificate
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt --no-check-certificate
-```
+- 「500遺伝子座・子孫集団1000個体」のデータ  
+    - 赤色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt  
+    - 白色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt  
+    - 子孫集団の表現型と遺伝子型データセット https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt  
 
 ## 課題
 - Web版（[課題ページ](./07_Problem.md) へ）

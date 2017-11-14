@@ -447,12 +447,9 @@ BAD.close()
 
 　これで、「N（不明な塩基）が10%以上の割合で含まれる配列とそうでない配列を分ける」プログラムの完成です。  
 
-　より大規模なデータも用意しています。同様に、上で作ったプログラムを試してみてください。下記をノートブックの適当なセルに貼り付けて、実行してください。 `L06_1000sequences.txt` というファイルがダウンロードされます。
+　より大規模なデータも用意しています。同様に、上で作ったプログラムを試してみてください。下記URLページの全行をコピーし、テキストエディタに貼り付け、適当な名前のファイル（例えば、`L06_1000sequences.txt`）に保存してください。
 
-```python
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt --no-check-certificate
-```
+[https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt](https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_1000sequences.txt)
 
 ---
 

@@ -160,5 +160,3 @@ cat L08_test.txt L08_CCC/example.txt > catenate.txt
 　ゲノム解析では、1つのファイル内の高度なデータ処理は既存のソフトウェアプログラムやPythonなどで作った自作プログラムでおこない、それらの実行をシェルスクリプトで管理して複数ファイル処理する、という使い方をよくします。
 
 <div style="margin-bottom: 5px;"><img src="../images/08/shellscript.png" height="200px" alt="shellscript"></div>
-
-　
