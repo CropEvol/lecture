@@ -42,13 +42,6 @@ sequence_10	AAAGCATTGCGTATGTCTGGGGGAGATCATATCCACTCCGGTACAGTAGTAGGTAAGTTAGAAGGGGA
 
 　上のデータをコピーし、テキストエディタ（Windowsの場合「サクラエディタ」、Macの場合「mi」など）ペーストしてください。そして、ファイルを`L06_10sequences.txt`といった名前で保存してください（他の名前でも構いませんが、 __必ず半角英数__ にしてください）。
 
-　もしくは、下記をJupyter Notebookのどこかのセルに貼り付けて、実行してください。 演習のサンプルデータ `L06_10sequences.txt` がダウンロードされます。
-
-```
-%%bash
-wget https://raw.githubusercontent.com/CropEvol/lecture/master/data/L06_10sequences.txt --no-check-certificate
-```
-
 ---
 
 ### 演習
