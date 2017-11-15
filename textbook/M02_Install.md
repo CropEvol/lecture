@@ -185,12 +185,20 @@ conda uninstall <パッケージ名>
 ---
 
 ## データのダウンロード
-1. 以下のページにいってください  
-[https://github.com/Serulab/Py4Bio](https://github.com/Serulab/Py4Bio)
-1. Clone or Download
-1. Download Zip
-1. ダウンロードしたファイルを解凍（展開）してください
-1. 解凍後のフォルダをデスクトップに移してください
+- [Python for Bioinformatics, Second Edition](https://www.crcpress.com/Python-for-Bioinformatics-Second-Edition/Bassi/p/book/9781138035263) のサンプルコードを使って、この後の演習をおこないます。
+
+    1. サンプルダウンロードページ  
+    [https://github.com/Serulab/Py4Bio](https://github.com/Serulab/Py4Bio)
+    1. 右の方にある `Clone or Download` > `Download Zip`
+    1. ダウンロードしたZIPファイルを解凍し、解凍後のフォルダをデスクトップに移してください
+
+
+- [Learning IPython for Interactive Computing and Data Visualization, second edition](http://ipython-books.github.io/minibook/) のサンプルコードも使います。
+
+    1. サンプルダウンロードページ  
+    [https://github.com/ipython-books/minibook-2nd-code](https://github.com/ipython-books/minibook-2nd-code)
+    1. 右の方にある `Clone or Download` > `Download Zip`
+    1. ダウンロードしたZIPファイルを解凍し、解凍後のフォルダをデスクトップに移してください
 
 ---
 
