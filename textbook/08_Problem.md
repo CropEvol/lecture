@@ -1,9 +1,6 @@
 # Unix入門 [練習問題]
 
-以下、3つのデータを使います。
-- P08_sequence01.fasta
-- P08_sequence02.fasta
-- P08_sequence03.fasta
+　課題用のデータは以下のURLにあります。ダウンロードしてください。
 
 ## Problem1
 　Unixコマンドを使って、`P08_sequence01.fasta`、`P08_sequence02.fasta`、`P08_sequence03.fasta`の3つFASTAファイルの中身を、1つの新規ファイルに書き出してください。
