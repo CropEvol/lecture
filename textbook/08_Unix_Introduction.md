@@ -52,8 +52,6 @@ C:¥Users¥mozume¥Desktop¥genome¥AAA¥dna.txt
 C:¥Users¥mozume¥Desktop¥dna.txt
 
 Windowsの場合、ディレクトリの区切りは¥(円マーク)で表します。
-ただし、Pythonプログラムでは、/(スラッシュ)を使い、Unixシステムのような書き方をします。
-/C/Users/mozume/Desktop/genome/dna.txt
 ```
 
 このように、ルートディレクトリから始まるパスの書き方を __絶対パス__ といいます。
@@ -131,9 +129,7 @@ cd ..                   # ひとつ上のフォルダに移動
 pwd                     # 元のフォルダにいることを確認
 cd L08_samples/cddir    # L08_samples/cddirまで移動
 
-########################
-# 以下cddirで作業する #
-########################
+###### 以下cddirで作業する ######
 #--- 02 cat ---
 pwd                     # L08_samples/cddirにいることを確認
 ls                      # 確認
@@ -155,14 +151,13 @@ ls dir4                 # dir4/example.txtを確認
 
 cd ../seqdir            # seqdirに移動
 
-######################
-# 以下seqdirで作業する #
-######################
+###### 以下seqdirで作業する ######
 #--- 04 less, grep ---
 pwd                     # 現在のフォルダ確認
 ls                      # フォルダの中身を確認
 cat randseq1.fasta      # ファイルの中身を画面に出力
-less randseq1.fasta     # ファイルの中身を見る（qキーで元に戻る）
+less randseq1.fasta     # ファイルの中身を見る
+                        # Qキーで元に戻る
                         # ターミナルに出力されていないことを確認
 grep '>' randseq1.fasta # '>'がある行のみ表示（配列名の行のみ表示）
 grep 'GAATTC' randseq1.fasta --color=auto # 検索語がある行のみ表示
@@ -177,40 +172,39 @@ grep 'GAATTC' randseq1.fasta | grep 'TCGA' | less
 #--- 06 redirection(>,>>), rm ---
 # 上と同じ出力結果をファイルに保存
 grep 'GAATTC' randseq1.fasta | grep 'TCGA' > grepout.txt
-less grepout.txt           # 中身確認
+cat grepout.txt           # 中身確認
 
 # 同じファイルに追加書き込み
-grep 'GATATC' randseq1.fasta | grep 'TCGA' >> grepout.txt
-less grepout.txt           # 中身確認
+grep 'GAATTC' randseq1.fasta | grep 'TCGA' >> grepout.txt
+cat grepout.txt           # 中身確認
 
 # 上書き
 grep '>' randseq1.fasta > grepout.txt
-less grepout.txt           # 中身確認
-
-rm grepout.txt             # ファイル削除
+cat grepout.txt           # 中身確認
+rm grepout.txt            # ファイル削除
+ls
 
 #--- 07 cat: catenate ---
 # ファイルを連続して出力（すぐに流れてしまうので、lessで確認）
 cat randseq1.fasta randseq2.fasta randseq3.fasta | less
+
 # その出力結果をファイルに保存（3つのファイルを1つにまとめる）
 cat randseq1.fasta randseq2.fasta randseq3.fasta > merge.fasta
 
-rm merge.fasta          # ファイル削除
+# ワイルドカードを使って複数ファイル処理
+# *(アスタリスク)はどんなパターンにもマッチする
+cat randseq*.fasta > merge2.fasta
 
-cd ../lsdir             # lsdirに移動
+cd ../lsdir               # lsdirに移動
 
-#####################
-# 以下lsdirで作業する #
-#####################
+###### 以下lsdirで作業する ######
 #--- 08 ls-grep pipeline ---
-pwd                     # 現在のフォルダ確認
-ls                      # フォルダの中身を確認
-ls -l                   # リスト形式で表示
-ls -a                   # .(ドット)から始まるファイルも表示
-ls -al                  # 2つのオプションの併用
-ls -al | grep '.txt'    # 拡張子が.txtのファイルのみ表示
-ls -al | grep '.csv'    # 拡張子が.csvのファイルのみ表示
-ls -al | grep '.tsv'    # 拡張子が.tsvのファイルのみ表示
+pwd                 # 現在のフォルダ確認
+ls                  # フォルダの中身を確認
+ls -a               # .(ドット)から始まる隠しファイルも表示
+ls -l               # リスト形式で表示
+ls -al              # オプションの併用
+ls | grep '.txt'    # .txtのファイルのみ表示。.csvや.tsvも可。
 ```
 
 　以下には、ゲノム解析でよく使うUnixコマンドをリストアップしています。  
@@ -258,7 +252,7 @@ _他にも多くのコマンドがあります。興味があれば調べてく�
 
 *今まではJupyter Notebook上でプログラム作成と実行をしていましたが、このようにターミナルでもPythonプログラムを実行できます。 `count_ATGCN.py` の中身は適宜確認してください。*
 
-```bash
+```sh
 python count_ATGCN.py seq_001.fasta
 ```
 
