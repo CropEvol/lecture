@@ -121,7 +121,8 @@ _マウスポインタを使うような操作を **GUI (Graphical User Interfac
 
 　現在開いているJupyter Notebookは閉じて、 `genome`フォルダで、ターミナル/Git Bashを開いてください。
 
-```bash
+```sh
+#--- 01 pwd, ls, cd ---
 pwd                     # 現在いるフォルダ（ディレクトリ）を確認
 ls                      # フォルダ内のファイルやフォルダを確認
 cd L08_samples          # L08_samplesまで移動
@@ -133,14 +134,17 @@ cd L08_samples/cddir    # L08_samples/cddirまで移動
 ########################
 # 以下cddirで作業する #
 ########################
+#--- 02 cat ---
 pwd                     # L08_samples/cddirにいることを確認
 ls                      # 確認
 cat iamin.txt           # ファイルの中身を表示する
 ls dir1                 # 別のフォルダのファイルやフォルダを確認
 cat dir1/iamin.txt      # 別のフォルダのファイルの中身を表示
 cat ../iamin.txt        # 上のフォルダのファイルの中身を表示
+
+#--- 03 mv, mkdir ---
 ls                      # （ファイルコピー前の確認）
-mv iamin.txt example.txt    # ファイルのコピーを作成する
+cp iamin.txt example.txt    # ファイルのコピーを作成する
 ls                      # （ファイルコピー後の確認）
 mkdir dir4              # フォルダを作成する
 ls                      # （フォルダ作成後の確認）
@@ -149,49 +153,56 @@ mv example.txt dir4     # ファイルを移動
 ls                      # （ファイル移動後の確認）
 ls dir4                 # dir4/example.txtを確認
 
-cd ../fastadir          # fastadirに移動
+cd ../seqdir            # seqdirに移動
 
-########################
-# 以下fastadirで作業する #
-########################
+######################
+# 以下seqdirで作業する #
+######################
+#--- 04 less, grep ---
 pwd                     # 現在のフォルダ確認
 ls                      # フォルダの中身を確認
 cat randseq1.fasta      # ファイルの中身を画面に出力
 less randseq1.fasta     # ファイルの中身を見る（qキーで元に戻る）
                         # ターミナルに出力されていないことを確認
 grep '>' randseq1.fasta # '>'がある行のみ表示（配列名の行のみ表示）
-grep 'CTGCAG' randseq1.fasta    # 検索語がある行のみ表示
+grep 'GAATTC' randseq1.fasta --color=auto # 検索語がある行のみ表示
 
+#--- 05 pipe(|) ---
 # 1回目のgrep出力結果をさらにgrepで文字列検索
-grep '>' randseq1.fasta | grep '2'
+grep 'GAATTC' randseq1.fasta | grep 'TCGA'
 
 # 上と同じ出力結果をlessコマンドでで見る
-grep '>' randseq1.fasta | grep '2' | less
+grep 'GAATTC' randseq1.fasta | grep 'TCGA' | less
 
+#--- 06 redirection(>,>>), rm ---
 # 上と同じ出力結果をファイルに保存
-grep '>' randseq1.fasta | grep '2' > name.txt
-less name.txt           # 中身確認
+grep 'GAATTC' randseq1.fasta | grep 'TCGA' > grepout.txt
+less grepout.txt           # 中身確認
 
 # 同じファイルに追加書き込み
-grep '>' randseq1.fasta | grep '5' >> name.txt
-less name.txt           # 中身確認
+grep 'GATATC' randseq1.fasta | grep 'TCGA' >> grepout.txt
+less grepout.txt           # 中身確認
 
 # 上書き
-grep '>' randseq1.fasta | grep '9' > name.txt
-less name.txt           # 中身確認
+grep '>' randseq1.fasta > grepout.txt
+less grepout.txt           # 中身確認
 
-rm name.txt             # ファイル削除
+rm grepout.txt             # ファイル削除
 
+#--- 07 cat: catenate ---
 # ファイルを連続して出力（すぐに流れてしまうので、lessで確認）
 cat randseq1.fasta randseq2.fasta randseq3.fasta | less
 # その出力結果をファイルに保存（3つのファイルを1つにまとめる）
 cat randseq1.fasta randseq2.fasta randseq3.fasta > merge.fasta
+
+rm merge.fasta          # ファイル削除
 
 cd ../lsdir             # lsdirに移動
 
 #####################
 # 以下lsdirで作業する #
 #####################
+#--- 08 ls-grep pipeline ---
 pwd                     # 現在のフォルダ確認
 ls                      # フォルダの中身を確認
 ls -l                   # リスト形式で表示
@@ -202,7 +213,10 @@ ls -al | grep '.csv'    # 拡張子が.csvのファイルのみ表示
 ls -al | grep '.tsv'    # 拡張子が.tsvのファイルのみ表示
 ```
 
-　以下には、ゲノム解析でよく使うUnixコマンドをリストアップしています。
+　以下には、ゲノム解析でよく使うUnixコマンドをリストアップしています。  
+_他にも多くのコマンドがあります。興味があれば調べてください。_
+
+<div style="page-break-before:always"></div>
 
 | コマンド | 使い方 | 動作 | 備考（単語の意味など） |
 |:---|:---|:---|:---|
@@ -210,7 +224,7 @@ ls -al | grep '.tsv'    # 拡張子が.tsvのファイルのみ表示
 |ls |`ls`|現在のフォルダにあるファイルやフォルダを表示する| list の略 |
 ||`ls -l`|現在のフォルダにあるファイルやフォルダをリスト形式で表示する||
 ||`ls -a`|現在のフォルダにあるファイルやフォルダの所有者や権限なども一緒に表示する||
-||`ls -a -l`|`ls -l`と`ls -a`の併用。`ls -al`でも可||
+||`ls -a -l`|`ls -l`と`ls -a`の併用。|`ls -al`でも可|
 |cd|`cd フォルダ名`|指定したフォルダに移動する||
 ||`cd ..`|上のフォルダに移動する| change directory の略 |
 ||`cd`|ホームフォルダ（ホームディレクトリ）に移動する||
@@ -219,20 +233,19 @@ ls -al | grep '.tsv'    # 拡張子が.tsvのファイルのみ表示
 ||`head -n 20 ファイル名`|指定ファイルの最初の20行を出力する||
 |tail|`tail ファイル名`|指定ファイルの最後の10行を出力する||
 ||`tail -n 20 ファイル名`|指定ファイルの最後の20行を出力する||
+|wc|`wc ファイル名`|指定ファイルの文字数や行数を調べる| word count の略 |
 |grep|`grep '検索ワード' ファイル名`|検索ワードについて、指定ファイルの中身を調べ、ヒットした行を出力する| globally search a regular expression and print の略 |
 |less|`less ファイル名`|指定ファイルの中身を見る（コマンドラインへの出力はしない）<br>__[重要] サイズの大きいファイルの中を確認するときによく使います。__　| `more`コマンドの逆 |
-|wc|`wc ファイル名`|指定ファイルの文字数や行数を調べる| word count の略 |
 |mv|`mv ファイル名（フォルダ名） フォルダのパス`|指定ファイル・フォルダを、指定パスに移動する| move の略 |
-||`mv 元ファイル名 新規ファイル名`|指定ファイルのコピーを作成し、新しい名前をつける||
+||`mv ファイル名 変更後の名前`|指定ファイルの名前を変更する||
+|cp|`cp ファイル名 新規ファイル名`|指定ファイルのコピーを新しい名前で作成する| copy の略 |
 |touch|`touch ファイル名`|新規ファイルを作成する| 本来はファイルのタイムスタンプを変更するコマンド |
 |rm|`rm ファイル名`|指定ファイルを削除する| remove の略 |
-||`rm -R フォルダ名`<br>`rmdir フォルダ名`|指定フォルダを削除する||
+||`rm -r フォルダ名`<br>`rmdir フォルダ名`|指定フォルダを削除する||
 |mkdir|`mkdir フォルダ名`|新規フォルダを作成する| make directory の略 |
 |>|`コマンド > ファイル名`|ファイルに出力結果を書き込む（上書き）| __リダイレクション__ と呼ばれる機能 |
-|>>|`コマンド > ファイル名`|ファイルに出力結果を書き込む（追加書き込み）| __リダイレクション__ と呼ばれる機能 |
+|>>|`コマンド >> ファイル名`|ファイルに出力結果を書き込む（追加書き込み）| __リダイレクション__ と呼ばれる機能 |
 |&#124;|`コマンド1` &#124; `コマンド2`| コマンド1の結果をコマンド2に渡す | __パイプ__ と呼ばれる機能 |
-
-_他にも多くのコマンドがあるので、興味があれば調べてください。_
 
 <div style="page-break-before:always"></div>
 
@@ -243,7 +256,7 @@ _他にも多くのコマンドがあるので、興味があれば調べてく�
 
 　`L08_samples/manydir`内に、FASTAファイル中の各配列のA,T,G,C,Nの数をカウントするPythonプログラム `count_ATGCN.py` と50個のFASTAファイル（seq_001.fasta ~ seq_050.fasta）を置いています。このプログラムの使い方は、 `python count_ATGCN.py [FASTAファイル]` です。試しに一つのFASTAファイルに対して実行してみましょう。  
 
-*これまでは、Jupyter Notebook上でプログラム作成と実行をしていましたが、このようにターミナルでもPythonプログラムを実行することもできます。 `count_ATGCN.py` の中身については適宜確認してください。*
+*今まではJupyter Notebook上でプログラム作成と実行をしていましたが、このようにターミナルでもPythonプログラムを実行できます。 `count_ATGCN.py` の中身は適宜確認してください。*
 
 ```bash
 python count_ATGCN.py seq_001.fasta
@@ -283,9 +296,9 @@ done
 _シェルスクリプトには、bash, zsh, cshなどいくつか種類があります。今回は広く使われているbashを使っています。  
 `bash プログラムファイル`は、Bashプログラムファイル（拡張子.shがよく使われる）を実行するコマンドです。_
 
-　50個のファイルを処理できましたか？ プログラムの詳細な解説はしませんが、シェルスクリプトを使えば、複数ファイルに対して同じ処理を繰り返す作業を簡単に自動化できます。
+　50個のファイルを処理できましたか？ プログラムの詳細な解説はしませんが、シェルスクリプトを使えば、複数ファイルへの処理を自動化できます。
 
-　シェルスクリプトとPythonはどちらも1ファイルの複雑な処理をすることは可能ですし、複数ファイルの処理も可能です。グラフ描画もできます。ただし、得意・不得意があるため、私たちの研究グループでは、ゲノム解析にどちらも使っています。1つのファイルの高度なデータ処理については既存のソフトウェアやPythonプログラム、次回以降勉強するRプログラムでおこない、それらの実行をシェルスクリプトで管理して複数ファイル処理する、という使い方をしています。
+　1ファイルの複雑な処理、複数ファイルへの処理、グラフ描画、これらはシェルスクリプトとPythonどちらで可能です。ただし、得意・不得意があるため、私たちの研究グループでは、ゲノム解析にどちらも使っています。1つのファイルの高度なデータ処理については既存のソフトウェアやPythonプログラム、次回以降勉強するRプログラムでおこない、それらの実行をシェルスクリプトで管理して複数ファイル処理する、という使い方をしています。
 
 - Pythonは、1ファイル内の大規模データ処理を得意とし、容易に計算やグラフ描画できる。
 - シェルスクリプトは、ファイル・ディレクトリ操作やプログラム実行などのパソコン操作を得意とし、簡単に複数ファイルを扱える。
