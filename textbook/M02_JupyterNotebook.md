@@ -82,3 +82,10 @@ Jupyter Notebookに特有のショートカットキーもあります。
 | タブ文字 | ¥t | \t |
 * [Mac] `\`（バックスラッシュ）は`option + ¥`で入力できます。
 * [Windows] `¥`キーで`¥`が入力できます。パソコンの機種によっては`\` が表示されることもあります。その場合は、`\n`のようにバックスラッシュを使用してください。
+
+---
+
+[解析環境セットアップ](./M02_Install.md) へ
+[演習データ](./M02_Data.md) へ
+[Jupyter Notebookの使い方](./M02_JupyterNotebook.md) へ
+[目次](../README.md#section2) へ

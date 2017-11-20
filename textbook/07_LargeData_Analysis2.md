@@ -49,7 +49,7 @@ _*1 Pandasが苦手とするような処理（時間がかかる処理）もあ�
 ### 演習:データ解析
 　まずPandasデータフレームの扱い方を勉強した後、データ解析をしていきます。勉強する内容は次のとおりです。
 
-1. [データの読み込み](#section3_1)
+1. [ファイルの読み込み](#section3_1)
 1. [任意の行のデータ抽出](#section3_2)
 1. [任意の列のデータ抽出](#section3_3)
 1. [任意セルのデータ抽出](#section3_4)
@@ -455,6 +455,9 @@ plt.legend(loc='best')
     - 赤色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_red_L500P1000.txt  
     - 白色個体グループにおける各遺伝子座のアリル数 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_allele_in_white_L500P1000.txt  
     - 子孫集団の表現型と遺伝子型データセット https://raw.githubusercontent.com/CropEvol/lecture/master/data/L07_dataset_L500P1000.txt  
+
+- 以下をクリックすれば、まとめてダウンロードできます。
+[https://github.com/CropEvol/lecture/raw/master/data/L07_samples.zip](https://github.com/CropEvol/lecture/raw/master/data/L07_samples.zip)
 
 ## 課題
 - Web版（[課題ページ](./07_Problem.md) へ）
