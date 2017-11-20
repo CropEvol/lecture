@@ -123,7 +123,8 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 　よく使うパッケージをインストールします。WindowsとMacどちらでもコマンドは同じです。
 
 ### Windows
-- スタートボタン > Miniconda3 > Anaconda Prompt > 右クリック > <span style="color: red;">管理者として実行</span>
+- スタートボタン > Anaconda3（またはMiniconda3） > Anaconda Prompt > 右クリック > **管理者として実行**
+    - Miniconda3のインストールの際に「All Users」を選択した場合、「管理者として実行」することでパッケージのインストールが可能になります。
 - 以下のコマンドを入力してください。
 
 ### Mac
@@ -131,20 +132,26 @@ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 - 以下のコマンドを入力してください。
 
 ```bash
-conda clean --packages
 conda install -y pip
-conda install -y numpy
-conda install -y scipy
-conda install -y pandas
-conda install -y scikit-learn
-conda install -y matplotlib
-conda install -y seaborn
 conda install -y ipython
 conda install -y jupyter
-conda install -y Biopython
+conda install -y numpy
+conda install -y pandas
+conda install -y matplotlib
+#conda install -y scipy
+#conda install -y scikit-learn
+#conda install -y seaborn
+#conda install -y Biopython
 ```
 
-パッケージをアンインストールするときは、
+パッケージのインストールがうまくいかないときは、以下のコマンドを実行し、再度インストールを試みてください。
+
+```
+conda clean --packages
+```
+
+
+パッケージをアンインストールは、
 
 ```bash
 conda uninstall <パッケージ名>
@@ -202,4 +209,7 @@ conda uninstall <パッケージ名>
 
 ---
 
+[解析環境セットアップ](./M02_Install.md) へ
+[演習データ](./M02_Data.md) へ
 [Jupyter Notebookの使い方](./M02_JupyterNotebook.md) へ
+[目次](../README.md#section2) へ
