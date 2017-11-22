@@ -22,7 +22,7 @@ _WindowsはUnix系OSではありませんが、WindowsパソコンでUnixシス�
 [https://github.com/CropEvol/lecture/raw/master/data/L08_samples.zip](https://github.com/CropEvol/lecture/raw/master/data/L08_samples.zip)
 
 ### ディレクトリ構造
-　Unixシステムでは、フォルダのことを __ディレクトリ__ と呼んでいます。ディレクトリの構造は、最も根元のディレクトリ（ __ルートディレクトリ`/`__ ）から枝分かれした、Tree状の階層構造になっています。  
+　Unixシステムでは、フォルダのことを **ディレクトリ** と呼んでいます。ディレクトリの構造は、最も根元のディレクトリ（ **ルートディレクトリ`/`** ）から枝分かれした、Tree状の階層構造になっています。  
 
 <div style="margin-bottom: 5px;"><img src="../images/08/unix_dirtree.png" height="200px" alt="unix directory"></div>
 
