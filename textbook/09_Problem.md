@@ -1,8 +1,8 @@
 # R入門 [練習問題]
 
 ## Problem 1
-以下のURLのデータはマウス30個体の"年齢,血圧,肺活量,性別,病気,体重"をCSVデータにしたものである。<br>
-このデータをデータフレームとして読み込み、肺活量の平均値を求めるコードを書いてください。
+以下のURLのデータはマウス30個体の"age,blood_pressure,lung_capacity,gender,disease,weight"をCSVデータにしたものである。<br>
+このデータをデータフレームとして読み込み、lung_capacityの平均値を求めるコードを書いてください。
 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L10_mouse_data.csv
 
 書いたコードをそのまま提出してください。
