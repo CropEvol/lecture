@@ -5,6 +5,8 @@
 このデータをデータフレームとして読み込み、肺活量の平均値を求めるコードを書いてください。
 https://raw.githubusercontent.com/CropEvol/lecture/master/data/L10_mouse_data.csv
 
+書いたコードをそのまま提出してください。
+
 ## Problem 2 (調査用)
 以下の質問に答えてください。
 
