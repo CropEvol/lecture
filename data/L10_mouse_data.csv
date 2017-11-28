@@ -1,4 +1,4 @@
-番号,年齢,血圧,肺活量,性別,病気,体重
+number,age,blood_pressure,lung_capacity,gender,disease,weight
 1,2,110,4300,M,1,79
 2,3,128,4500,M,1,65
 3,4,104,3900,F,0,53
