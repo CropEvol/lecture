@@ -1,39 +1,65 @@
-<a name="section0">ゲノム情報解析入門 [学部講義]</a>
+<a name="section1"></a>
+ILASセミナー：ゲノム博物学入門 [学部講義]
 ====
 
-学部講義「ゲノム情報解析入門」のテキスト（2017年度版）です。
-
-| No. | 講義内容 | 講義日 | 講義済み | その他 |
-|:---|:---|:---|:---|:---|
-| 01 | イントロダクション | 2017年10月3日 | ✔︎ ||
-| 02 | [ゲノム情報解析入門の準備](./textbook/02_Preparation.md) | 2017年10月10日 | ✔︎ ||
-| 03 | [Pythonプログラミング入門 1](./textbook/03_Python_Introduction.md)  [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月17日 | ✔︎ ||
-| 04 | [Pythonプログラミング入門 2](./textbook/03_Python_Introduction.md#section6) [[PDF版](./textbook/03_Python_Introduction.pdf)] | 2017年10月24日 | ✔︎ |[課題](./textbook/03_Problem.md) / [解答](./textbook/03_Python_ANS.md#section2)|
-| 05 | [Pythonプログラミング入門 3](./textbook/03_Python_ANS.md#section1) | 2017年10月31日 | ✔︎ |[課題](./textbook/03_Python_ANS.md#section3)/ [解答](./textbook/03_Python_ANS2.md)|
-| 06 | [大規模データ解析入門 1](./textbook/06_LargeData_Analysis1.md) | 2017年11月7日 | ✔︎ ||
-| 07 | [大規模データ解析入門 1 の続き](./textbook/06_LargeData_Analysis1.md#section7) | 2017年11月14日 | ✔︎ |[課題](./textbook/06_Problem.md) / [解答](./textbook/06_Problem_ANS.md)|
-|| [大規模データ解析入門 2](./textbook/07_LargeData_Analysis2.md) | 2017年11月14日 | ✔︎ |[課題](./textbook/07_Problem.md) / [解答](./textbook/07_Problem_ANS.md)|
-| 08 | [Unix入門](./textbook/08_Unix_Introduction.md) | 2017年11月21日 | ✔︎ |[課題](./textbook/08_Problem.md) / [解答](./textbook/08_Problem_ANS.md)|
-| 09 | [Rプログラミング入門 1](./textbook/09_R_1.md) | 2017年11月28日 | ✔︎ |[課題](./textbook/09_Problem.md) / [解答](./textbook/09_Problem_ANS.md)|
-| 10 | [Rプログラミング入門 2](./textbook/10_R_2.md) | 2017年12月5日 | ✔︎ |[課題](./textbook/10_Problem.md)|
-| 11 || 2017年12月12日 |||
-| 12 || 2017年12月19日 ||　|
-| | | | |　|
-
----
-
-<a name="section1">ゲノム情報解析学 [大学院講義]</a>
-====
-
-大学院集中講義「ゲノム情報解析学」のテキスト（2017年度版）です。
+「ILASセミナー：ゲノム博物学入門」のテキスト（2018年度版）です。
 
 | No. | 講義内容 | 講義日 |
 |:---|:---|:---|
-| Day 1 | イントロダクション / ゲノム解析実例 | 2017年11月13日 |
-| Day 2 | [解析環境セットアップ](./textbook/M02_Install.md) | 2017年11月14日 |
-|| [Jupyter Notebookの使い方](./textbook/M02_JupyterNotebook.md) | 2017年11月14日 |
-|| [実習](./textbook/M02_Data.md) | 2017年11月14日 |
-| Day 3 | ゲノム解析実例 | 2017年11月15日 |
+| 01 | 科目の概要説明 | 4月9日 |
+| 02 | 生物多様性の理解 ||
+| 03 | ゲノム解析入門 ||
+| 04 - 07 |（１日）向日市物集女町栽培植物起原学分野　集中講義 | ５月中の土曜日を予定<br>詳細は受講生と相談 |
+||野外植物採集 ||
+|| 標本作成 ||
+|| 植物からのRNA採取 ||
+| 08 | バイオインフォーマテイクス入門 / プログラミング入門 ||
+| 09 | バイオインフォーマテイクス入門 / データ解析入門 ||
+| 10 - 13 |（１日）向日市物集女町栽培植物起原学分野　集中講義 | 6月中の土曜日を予定<br>詳細は受講生と相談 |
+|| RNAseqデータの解析 ||
+| 14 | まとめ、レポート発表・提出 ||
+| 15 | フィードバック ||
+
+
+<a name="section2"></a>
+ゲノム情報解析入門 [学部講義]
+====
+学部講義「ゲノム情報解析入門」のテキスト（2018年度版）です。
+
+| No. | 講義内容 | 講義日 | 講義済み | その他 |
+|:---|:---|:---|:---|:---|
+|01| イントロダクション | | ||
+|02| | | ||
+|03| | | ||
+|04| | | ||
+|05| | | ||
+|06| | | ||
+|07| | | ||
+|08| | | ||
+|09| | | ||
+|10| | | ||
+|11| | | ||
+|12| | | ||
+
+---
+
+<a name="section3">ゲノム情報解析学 [大学院講義]</a>
+====
+
+大学院集中講義「ゲノム情報解析学」のテキスト（2018年度版）です。
+
+| No. | 講義内容 | 講義日 |
+|:---|:---|:---|
+| Day 1 | イントロダクション ||
+| Day 2 |||
+| Day 3 |||
+
+
+---
+
+<a name="section4"></a>
+## 過去の年度のテキスト
+- [2017年度](https://github.com/CropEvol/lecture/tree/v2017)
 
 ---
 Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
