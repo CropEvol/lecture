@@ -64,12 +64,14 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 ---
 
 ## クラウド解析環境 on [Binder (beta)](https://mybinder.org/)
+__リモートサーバを再構築する場合、起動まで時間（数分〜数十分）がかかる場合があります。__
 
 | リモート環境 | アクセスボタン | GitHubページ |
 |:---|:---|:---|
 | Python with Jupyter | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) | https://github.com/CropEvol/remote_py3 |
-| R with Jupyter / RStudio (@CropEvol)| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_r/master) | https://github.com/CropEvol/remote_r |
+| R with Jupyter (@CropEvol)| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_r/master) | https://github.com/CropEvol/remote_r |
 | R with Jupyter / RStudio (@binder-example) | [![Binder](https://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master) | https://github.com/binder-examples/r |
+
 
 ---
 Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
