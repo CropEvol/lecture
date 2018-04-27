@@ -68,8 +68,9 @@ __リモートサーバを再構築する場合、起動まで時間（数分〜
 
 | リモート環境 | アクセスボタン | GitHubページ |
 |:---|:---|:---|
-| Python with Jupyter | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) | https://github.com/CropEvol/remote_py3 |
-| R with Jupyter (@CropEvol)| [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_r/master) | https://github.com/CropEvol/remote_r |
+| Python with Jupyter (@CropEvol) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) | https://github.com/CropEvol/remote_py3 |
+| Python with Jupyter (@qqep685d) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/remote_py3/master) | https://github.com/qqep685d/remote_py3 |
+| R with Jupyter (@CropEvol) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_r/master) | https://github.com/CropEvol/remote_r |
 | R with Jupyter / RStudio (@binder-example) | [![Binder](https://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master) | https://github.com/binder-examples/r |
 
 
