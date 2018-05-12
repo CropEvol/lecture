@@ -6,7 +6,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) (Main Server) /
  [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/remote_py3/master) (Sub Server)
 
-*自分のパソコンに解析環境をインストールしたい方は、こちら （[Win版](textbook/PythonEnv_installation_win.pdf) | [Mac版](PythonEnv_installation_mac.pdf)） を参考にしてください。*
+*自分のパソコンに解析環境をインストールしたい方は、こちら （[Win版](textbook/PythonEnv_installation_win.pdf) | [Mac版](textbook/PythonEnv_installation_mac.pdf)） を参考にしてください。*
 
 | No. | 講義内容 | 講義日 | 集合場所 |
 |:---|:---|:---|:---|
