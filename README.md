@@ -20,7 +20,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | 03 | 植物採集（貴船方面）<br> 同定/標本押葉作成 | 4月22日（日） | 農学部W302 |
 | 04 | 京大博物館見学 | 4月23日（月） | 農学部W302 |
 | 05 | 植物標本完成<br>植物材料からのRNAの抽出<br>Nanopore sequencing実験 | 5月12日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
-| 06 | Bioinformatics入門（プログラミング入門） | 5月14日（月） | 農学部W302 |
+| 06 | [Bioinformatics入門（プログラミング入門）](textbook/03_Python_Introduction.md) | 5月14日（月） | 農学部W302 |
 | 07 | Bioinformatics入門（データ解析入門） | 6月4日（月） | 農学部W302 |
 | 08 | RNA-seqデータ解析 | 6月16日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 | 09 | DATA解析、発表 | 6月18日（月） | 農学部W302 |
