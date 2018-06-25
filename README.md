@@ -22,12 +22,12 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | 05 | 植物標本完成<br>植物材料からのRNAの抽出<br>Nanopore sequencing実験 | 5月12日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 | 06 | [Bioinformatics入門（プログラミング入門）](textbook/03_Python_Introduction.md) | 5月14日（月） | 農学部W302 |
 | 07 | [Bioinformatics入門（プログラミング入門）](textbook/03_Python_Introduction.md) | 6月4日（月） | 農学部W302 |
-| 08 | Bioinformatics入門（大規模データ解析入門） | 6月11日（月） | 農学部W302 |
-| 09 | Bioinformatics入門（大規模データ解析入門）/<br> Bioinformatics入門（解析ツール作り？） | 6月25日（月） | 農学部W302 |
-| 09 | Bioinformatics入門（解析ツール作り？） | - | 農学部W302 |
-| 11 | RNA-seqデータ解析 | - | - |
-| 12 | DATA解析、発表 | - | - |
-| 13 | 予備日 | - | - |
+| 08 | [Bioinformatics入門（大規模データ解析入門）](https://github.com/CropEvol/remote_py3/blob/master/ILAS/03_Large-data_analysis.ipynb)<br>[練習問題](https://github.com/CropEvol/remote_py3/blob/master/ILAS/04_Large-data_analysis.ipynb) | 6月11日（月） | 農学部W302 |
+| 09 | [Bioinformatics入門（大規模データ解析入門）](https://github.com/CropEvol/remote_py3/blob/master/ILAS/05_Large-data_analysis.ipynb) | 6月25日（月） | 農学部W302 |
+| 09 | [Bioinformatics入門（大規模データ解析入門）](https://github.com/CropEvol/remote_py3/blob/master/ILAS/06_BLAST.ipynb)| - | 農学部W302 |
+| 10 | RNA-seqデータ解析 | - | - |
+| 11 | DATA解析、発表 | - | - |
+| 12 | 予備日 | - | - |
 
 
 <a name="section2"></a>
