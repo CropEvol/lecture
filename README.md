@@ -41,7 +41,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 
 |解析環境No.|リンク|
 |:---:|:---|
-|0|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|0|<a href="https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
 |1|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
 |2|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
 |3|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
@@ -84,19 +84,6 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 <a name="section4"></a>
 ## 過去の年度のテキスト
 - [2017年度](https://github.com/CropEvol/lecture/tree/v2017)
-
----
-
-## クラウド解析環境 on [Binder (beta)](https://mybinder.org/)
-__リモートサーバを再構築する場合、起動まで時間（数分〜数十分）がかかる場合があります。__
-
-| リモート環境 | アクセスボタン | GitHubページ |
-|:---|:---|:---|
-| Python with Jupyter (@CropEvol) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) | https://github.com/CropEvol/remote_py3 |
-| Python with Jupyter (@qqep685d) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/remote_py3/master) | https://github.com/qqep685d/remote_py3 |
-| R with Jupyter (@CropEvol) | [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_r/master) | https://github.com/CropEvol/remote_r |
-| R with Jupyter / RStudio (@binder-example) | [![Binder](https://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/r/master) | https://github.com/binder-examples/r |
-
 
 ---
 Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
