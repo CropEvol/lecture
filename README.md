@@ -41,11 +41,11 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 
 |解析環境No.|リンク|
 |:---:|:---|
-|0|<a href="https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
-|1|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
-|2|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
-|3|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
-|4|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|0|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)|
+|1|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)|
+|2|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env2.git/master?filepath=index.ipynb)|
+|3|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env3.git/master?filepath=index.ipynb)|
+|4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|
 
 | No. | 実習内容 | 実習日 | 実習資料 |
 |:---|:---|:---|:---|
