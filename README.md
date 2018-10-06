@@ -33,13 +33,22 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 <a name="section2"></a>
 ゲノム情報解析入門 [学部講義]
 ====
+
 学部講義「ゲノム情報解析入門」の実習テキスト（2018年度版）です。
 
-時間：毎週火曜 14:45 - 16:15
-部屋：農学部総合館 W214
+時間：毎週火曜 14:45 - 16:15  
+部屋：農学部総合館 W214  
+
+|解析環境No.|リンク|
+|:---:|:---|
+|0|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|1|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|2|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|3|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
+|4|<a href="" target="_blank"><img src="https://mybinder.org/badge.svg" alt="mybinder"></a>|
 
 | No. | 実習内容 | 実習日 | 実習資料 |
-|:---|:---|:---|:---|:---|
+|:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) |
 |02| 解析環境の構築とその使い方 | 10月9日（火）| |
 |03| Pythonプログラミング | 10月16日（火）| |
