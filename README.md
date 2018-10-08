@@ -39,6 +39,17 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 時間：毎週火曜 14:45 - 16:15  
 部屋：農学部総合館 W214  
 
+### オンライン解析環境
+
+__オンライン解析環境が使えるブラウザ__  
+すぐに利用可能: Safari (Macのみ)、Google Chrome、 Firefox  
+_Internet ExplorerやMicrosoft Edgeを使う場合は、Javascriptを有効にしてください。_
+
+__どの解析環境を使えば良いか？__  
+学籍番号（####-##-###X）下1桁を5で割った時の「余り」を求めて、その数字と同じNo.のリンクを使ってください。  
+例) 学籍番号が1234-45-5678の場合、8 ÷ 5 → 余り3 → 解析環境No.3
+
+
 |解析環境No.|リンク|
 |:---:|:---|
 |0|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)|
@@ -48,9 +59,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|
 |sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|
 
-__どの解析環境を使えば良いか？__  
-学籍番号（####-##-###X）下1桁を5で割った時の「余り」を求めて、その数字と同じNo.のリンクを使ってください。  
-例) 学籍番号が1234-45-5678の場合、8 ÷ 5 → 余り3 → 解析環境No.3
+
 
 
 | No. | 実習内容 | 実習日 | 実習資料 |
