@@ -65,7 +65,7 @@ __どの解析環境を使えば良いか？__
 | No. | 実習内容 | 実習日 | 実習資料 |
 |:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) |
-|02| 解析環境の構築とその使い方 | 10月9日（火）| [テキスト](textbook_2018/intro_jupyter.ipynb) / [課題](textbook_2018/intro_jupyter_hw.ipynb) |
+|02| 解析環境の構築とその使い方 | 10月9日（火）| [テキスト](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) |
 |03| Pythonプログラミング入門 | 10月16日（火）| |
 |04||||
 |05||||
