@@ -145,11 +145,13 @@ pyenv global anaconda3-4.3.1
 1. 右の方にある「Clone or download」 > 「Download ZIP」
 1. ダウンロードしたファイルを展開する
 
+__テキストは毎週更新されます。その都度ダウンロードしてください。__
+
 ---
 <a name="section5"></a>
 ## Jupyter Notebookの起動
 1. スタートボタン
 2. 「すべてのプログラム」
 3. 「Anaconda3」 > 「Jupyter Notebook」
-4. ダウンロードしたフォルダに移動する
-5. 「index」という名前のファイルをクリック
+4. ダウンロードしたフォルダに移動する  
+「textbook_2018」という名前のフォルダにテキストが入っています。
