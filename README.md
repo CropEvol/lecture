@@ -48,26 +48,26 @@ __オンライン解析環境が使えるブラウザ__
 *Internet ExplorerやMicrosoft Edgeを使う場合は、Javascriptを有効にしてください。*
 
 __どの解析環境No.を使えば良いか？__  
-学籍番号（####-##-###X）下1桁を5で割った時の「余り」を求めて、その数字の解析環境を使ってください。  
-*例) 学籍番号が1234-45-5678の場合、8 ÷ 5 → 余り3 → 解析環境No.3*
+学籍番号（####-##-###X）下1桁の数字の解析環境を使ってください。  
+*例) 学籍番号が1234-45-5678の場合、「解析環境 No.8」*
 
-|解析環境No.|リンク|
-|:---:|:---|
-|0|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)|
-|1|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)|
-|2|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env2.git/master?filepath=index.ipynb)|
-|3|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env3.git/master?filepath=index.ipynb)|
-|4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|
+|解析環境No.|リンク|解析環境No.|リンク|
+|:---:|:---|:---:|:---|
+|0|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)|5|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env5.git/master?filepath=index.ipynb)|
+|1|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)|6|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env6.git/master?filepath=index.ipynb)|
+|2|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env2.git/master?filepath=index.ipynb)|7|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env7.git/master?filepath=index.ipynb)|
+|3|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env3.git/master?filepath=index.ipynb)|8|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env8.git/master?filepath=index.ipynb)|
+|4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|9|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env9.git/master?filepath=index.ipynb)|
 |sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|
 
 
 | No. | 実習内容 | 実習日 | 実習資料 |
 |:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) |
-|02| 解析環境の構築とその使い方 | 10月9日（火）| [テキスト1](textbook_2018/02_intro_bioinfo.pdf) / [テキスト2](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) |
-|03| Pythonプログラミング入門 | 10月16日（火）| |
-|04| Pythonプログラミング入門 | 10月23日（火）| |
-|05||||
+|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf) / [実習テキスト](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) |
+|03| Pythonプログラミング | 10月16日（火）||
+|04| Pythonプログラミング | 10月23日（火）||
+|05| Pythonプログラミング | 10月30日（火）||
 |06||||
 |07||||
 |08||||
