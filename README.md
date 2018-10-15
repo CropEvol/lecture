@@ -60,23 +60,23 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|
 
 #### 実習表
-| No. | 実習内容 | 実習日 | 実習資料 |
-|:---|:---|:---|:---|
+| No. | 実習内容 | 実習日 | 実習資料 | |
+|:---|:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) |
-|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf) / [実習テキスト](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) |
-|03| Pythonプログラミング | 10月16日（火）||
-|04| Pythonプログラミング | 10月23日（火）||
-|05| Pythonプログラミング | 10月30日（火）||
-|06||||
-|07||||
-|08||||
-|09||||
-|10||||
-|11||||
-|12||||
-|13||||
-|14||||
-|15||||
+|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf) / [実習テキスト](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) / [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
+|03| Pythonプログラミング | 10月16日（火）|||
+|04| Pythonプログラミング | 10月23日（火）|||
+|05| Pythonプログラミング | 10月30日（火）|||
+|06|||||
+|07|||||
+|08|||||
+|09|||||
+|10|||||
+|11|||||
+|12|||||
+|13|||||
+|14|||||
+|15|||||
 
 #### 課題提出について
 方法: 課題終了後のファイルを添付したメールを下記アドレスに送る  
