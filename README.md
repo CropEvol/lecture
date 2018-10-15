@@ -3,8 +3,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 ====
 「ILASセミナー：ゲノム博物学入門」のテキスト（2018年度版）です。
 
-オンライン解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master) (Main Server) /
- [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/remote_py3/master) (Sub Server)  
+オンライン解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_py3/master)
 
 - オンライン解析環境を利用するには、Webブラウザの設定画面でJavascriptを有効にしてください。
     - Google ChromeやFireFox、Safariの場合、初期設定が「Javascript：有効」なので、そのまま利用できます。
