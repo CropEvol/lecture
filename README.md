@@ -43,11 +43,11 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 実習ではオンライン上に構築した解析環境を使用します。  
 *もし自身のパソコンに解析環境をインストールしたい場合は、[こちら](textbook_2018/02_install.md)を参考にしてください。*
 
-__オンライン解析環境が使えるブラウザ__  
+#### オンライン解析環境が使えるブラウザ
 すぐに利用可能: Safari (Macのみ)、Google Chrome、 Firefox  
 *Internet ExplorerやMicrosoft Edgeを使う場合は、Javascriptを有効にしてください。*
 
-__どの解析環境No.を使えば良いか？__  
+#### どの解析環境No.を使えば良いか？
 学籍番号（####-##-###X）下1桁の数字の解析環境を使ってください。  
 *例) 学籍番号が1234-45-5678の場合、「解析環境 No.8」*
 
@@ -60,7 +60,7 @@ __どの解析環境No.を使えば良いか？__
 |4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|9|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env9.git/master?filepath=index.ipynb)|
 |sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|
 
-
+#### 実習表
 | No. | 実習内容 | 実習日 | 実習資料 |
 |:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) |
@@ -77,10 +77,30 @@ __どの解析環境No.を使えば良いか？__
 |12||||
 |13||||
 |14||||
-|15|||　|
+|15||||
 
+#### 課題提出について
+方法: 課題終了後のファイルを添付したメールを下記アドレスに送る  
+宛先: cropevol@gmail.com  
+締切: 各課題テキストに記載  
 
+__＊重要＊__
+メールの件名を HW[課題番号(2桁)]+SID[学籍番号(4桁-2桁-４桁)]（すべて半角英数） にしてください。  
+例） HW02+SID1234-56-7890  
 
+_課題番号は各課題テキストに記載_
+
+_締切日以降に課題提出者のリストを掲載します。各自確認してください。_
+
+#### Jupyter Notebook ダウンロードファイルを確認する方法
+ipynb形式に対応
+- [解析環境にアップロード](textbook_2018/99_view_ipynb.md#env)（編集可能）
+- [Webページ（nbviewer.js）にドラッグ&ドロップ](textbook_2018/99_view_ipynb.md#nbviewer)（表示のみ。rawテキストのセルは表示されません）  
+nbviewer.js: https://kokes.github.io/nbviewer.js/viewer.html  
+
+ipynb形式に非対応
+- [テキストエディタで開く](textbook_2018/99_view_ipynb.md#text-editor)（編集可能。ただし、編集には注意が必要）
+- [Webブラウザにドラッグ&ドロップ](textbook_2018/99_view_ipynb.md#browser)（表示のみ）
 
 
 ---
