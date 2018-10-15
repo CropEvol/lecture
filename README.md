@@ -63,7 +63,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | No. | 実習内容 | 実習日 | 実習資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) ||
-|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf) / [実習テキスト](textbook_2018/02_intro_jupyter.ipynb) / [課題](textbook_2018/02_intro_jupyter_hw.ipynb) / [課題解答例](textbook_2018/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
+|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf)<br>[実習テキスト](textbook_2018/02_intro_jupyter.ipynb)<br>[課題](textbook_2018/02_intro_jupyter_hw.ipynb)<br>[課題解答例](textbook_2018/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
 |03| Pythonプログラミング | 10月16日（火）|||
 |04| Pythonプログラミング | 10月23日（火）|||
 |05| Pythonプログラミング | 10月30日（火）|||
@@ -83,14 +83,15 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 宛先: cropevol@gmail.com  
 締切: 各課題テキストに記載  
 
-__＊重要＊__
+<span style="color:red; font-">＊重要＊  
 メールの件名を HW[課題番号(2桁)]+SID[学籍番号(4桁-2桁-４桁)]（すべて半角英数） にしてください。  
-例） HW02+SID1234-56-7890  
+（課題番号は各課題ファイル内に記載しています。）  
+例） HW02+SID1234-56-7890</span>
 
-_課題番号は各課題ファイル内に記載しています。_
+提出確認: 実習表に各課題の「提出者リスト」を掲載しています。各自確認してください。  
 
-_実習表に各課題の「提出者リスト」も掲載しています。各自確認してください。  
-課題を提出したのに学籍番号がリストにない場合は、その旨をご連絡ください。_
+_「提出者リスト」に反映されるまでに提出後1日程度かかります。_
+_課題を提出したのに学籍番号がリストにない場合は、その旨をご連絡ください。_
 
 #### Jupyter Notebook ダウンロードファイルを確認する方法
 ipynb形式に対応
