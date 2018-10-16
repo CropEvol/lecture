@@ -42,6 +42,23 @@ seq０と同じ塩基数　　　　　　　　　　　　　　　2 4 4 3 5 3
 seq０と違う塩基数　　　　　　　　　　　　　　　3 1 1 2 0 2 4
 →上と下を掛け算する　　　　　　　　　　6 4 4 6 0 6 4
 </font>
+
+<div style="margin-bottom:5px;">
+<img src="../../images/03/seqs_diff.png" height="200px" alt="sequences-diff">
+</div>
+
+```Text
+		（seq０） A T G C A T G
+		（seq１） A T C C A C C
+		（seq２） G A G T A T C
+		（seq３） G T G C A T C
+		（seq４） G T G T A C C
+
+seq０と同じ塩基数  2 4 4 3 5 3 1
+seq０と違う塩基数  3 1 1 2 0 2 4
+→上と下を掛け算する 6 4 4 6 0 6 4
+```
+
 上の図をみてください。
 1. 今回は一番上のseq0を基準配列とします。
 2. それぞれのサイト（塩基座）について、基準と同じ塩基の個数と、基準と違う塩基の個数を数えます。
