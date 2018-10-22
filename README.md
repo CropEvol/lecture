@@ -65,7 +65,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) ||
 |02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf)<br>[テキスト](textbook_2018/02_intro_jupyter.ipynb)<br>[課題](textbook_2018/02_intro_jupyter_hw.ipynb)<br>[課題解答例](textbook_2018/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
 |03| Pythonプログラミング | 10月16日（火）| [スライド](textbook_2018/03_japanese/1_introduction.pdf) / [Slides](textbook_2018/03_english/1_introduction.pdf)<br>[テキスト](textbook_2018/03_japanese/2_python_examples.ipynb) / [Textbook](textbook_2018/03_english/2_python_examples.ipynb)<br>[課題](textbook_2018/03_japanese/3_python_exercises.ipynb) / [Homework](textbook_2018/03_english/3_python_exercises.ipynb)| [提出者リスト](https://drive.google.com/file/d/1lrG5DIuVSXnEDqtEi6ahgwUJvylVobyX/view?usp=sharing) |
-|04| Pythonプログラミング<br>（前回の続き） | 10月23日（火）|[テキスト](textbook_2018/03_japanese/2_python_examples.ipynb) / [Textbook](textbook_2018/03_english/2_python_examples.ipynb)<br>(Example 7以降)<br>[課題](textbook_2018/03_japanese/3_python_exercises.ipynb) / [Homework](textbook_2018/03_english/3_python_exercises.ipynb)<br>(Exercise 2と3)| 提出者リスト |
+|04| Pythonプログラミング<br>（前回の続き） | 10月23日（火）|[テキスト](textbook_2018/03_japanese/2_python_examples.ipynb#example7) / [Textbook](textbook_2018/03_english/2_python_examples.ipynb#example7)<br>(Example 7以降)<br>[課題](textbook_2018/03_japanese/4_python_exercises.ipynb) / [Homework](textbook_2018/03_english/4_python_exercises.ipynb)<br>(Exercise 2と3)| 提出者リスト |
 |05| Pythonプログラミング | 10月30日（火）|||
 |06|||||
 |07|||||
