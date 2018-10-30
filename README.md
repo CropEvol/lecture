@@ -57,7 +57,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |2|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env2.git/master?filepath=index.ipynb)|7|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env7.git/master?filepath=index.ipynb)|
 |3|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env3.git/master?filepath=index.ipynb)|8|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env8.git/master?filepath=index.ipynb)|
 |4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|9|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env9.git/master?filepath=index.ipynb)|
-|sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|
+|sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|demo|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_bayes.git/master)|
 
 #### 実習表
 | No. | 実習内容 | 実習日 | 実習資料 | その他 |
