@@ -63,11 +63,11 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | No. | 実習内容 | 実習日 | 実習資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) ||
-|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_intro_bioinfo.pdf)<br>[テキスト](textbook_2018/02_intro_jupyter.ipynb)<br>[課題](textbook_2018/02_intro_jupyter_hw.ipynb)<br>[課題解答例](textbook_2018/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
+|02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_setup/02_intro_bioinfo.pdf)<br>[テキスト](textbook_2018/02_intro_jupyter.ipynb)<br>[課題](textbook_2018/02_setup/02_intro_jupyter_hw.ipynb)<br>[課題解答例](textbook_2018/02_setup/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
 |03| Pythonプログラミング | 10月16日（火）| [スライド](textbook_2018/03_japanese/1_introduction.pdf) / [Slides](textbook_2018/03_english/1_introduction.pdf)<br>[テキスト](textbook_2018/03_japanese/2_python_examples.ipynb) / [Textbook](textbook_2018/03_english/2_python_examples.ipynb)<br>[課題](textbook_2018/03_japanese/3_python_exercises.ipynb) / [Homework](textbook_2018/03_english/3_python_exercises.ipynb)<br>(Exercise 1のみ)<br>[課題解答例](textbook_2018/03_japanese/3.1_python_answers.md) / [Answer](textbook_2018/03_english/3.1_python_answers.md) | [提出者リスト](https://drive.google.com/file/d/1lrG5DIuVSXnEDqtEi6ahgwUJvylVobyX/view?usp=sharing) |
 |04| Pythonプログラミング<br>（前回の続き: Example 7-） | 10月23日（火）|[課題](textbook_2018/03_japanese/4_python_exercises.ipynb) / [Homework](textbook_2018/03_english/4_python_exercises.ipynb)<br>(Exercise 2と3)<br>[課題解答例](textbook_2018/03_japanese/4.1_python_answers.md) / [Answer](textbook_2018/03_english/4.1_python_answers.md)| [提出者リスト](https://drive.google.com/open?id=1Rp_FyN2vIVBWoDgdubjrMmxam35fdJlp) |
 |05| Pythonプログラミング<br>（第03,04回課題の解説: [日本語](textbook_2018/03_japanese/4.1_python_answers.ipynb) / [English](textbook_2018/03_english/4.1_python_answers.ipynb)）<br>（Pythonを使った集団遺伝学） | 10月30日（火）| [スライド](textbook_2018/03_japanese/5_practice.pdf) / [Slide](textbook_2018/03_english/5_practice.pdf)<br>[テキスト](textbook_2018/03_japanese/6_python_practice.ipynb) / [Textbook](textbook_2018/03_english/6_python_practice.ipynb)<br>[課題](textbook_2018/03_japanese/7_genome_scan.ipynb)  / [Homework](textbook_2018/03_english/7_genome_scan.ipynb)<br>(Exercise 4のみ) |[提出者リスト](https://drive.google.com/open?id=1X3lXhqw48WeEVz5gChDYj6ud4Aa52pm7)|
-|06|大規模データ解析入門| 11月6日（火）|||
+|06|大規模データ解析入門| 11月6日（火）| [テキスト](textbook_2018/06_large_data_analysis/01_large_data_analysis_ja.ipynb) / [Textbook](textbook_2018/06_large_data_analysis/01_large_data_analysis_en.ipynb)<br>課題 / Homework | 提出者リスト |
 |07|||||
 |08|||||
 |09|||||
@@ -96,13 +96,13 @@ _「提出者リスト」に反映されるまでに提出後1日程度かかり
 
 #### Jupyter Notebook ダウンロードファイルを確認する方法
 ipynb形式に対応
-- [解析環境にアップロード](textbook_2018/99_view_ipynb.md#env)（編集可能）
-- [Webページ（nbviewer.js）にドラッグ&ドロップ](textbook_2018/99_view_ipynb.md#nbviewer)（表示のみ。rawテキストのセルは表示されません）  
+- [解析環境にアップロード](textbook_2018/99_etc/99_view_ipynb.md#env)（編集可能）
+- [Webページ（nbviewer.js）にドラッグ&ドロップ](textbook_2018/99_etc/99_view_ipynb.md#nbviewer)（表示のみ。rawテキストのセルは表示されません）  
 nbviewer.js: https://kokes.github.io/nbviewer.js/viewer.html  
 
 ipynb形式に非対応
-- [テキストエディタで開く](textbook_2018/99_view_ipynb.md#text-editor)（編集可能。ただし、編集には注意が必要）
-- [Webブラウザにドラッグ&ドロップ](textbook_2018/99_view_ipynb.md#browser)（表示のみ）
+- [テキストエディタで開く](textbook_2018/99_etc/99_view_ipynb.md#text-editor)（編集可能。ただし、編集には注意が必要）
+- [Webブラウザにドラッグ&ドロップ](textbook_2018/99_etc/99_view_ipynb.md#browser)（表示のみ）
 
 
 ---

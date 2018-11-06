@@ -25,16 +25,16 @@
 1. 「システム」
 1. 「バージョン情報」
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_info01.png" width="400px" alt="Win/information01"></div>
+<div style="margin-bottom: 5px;"><img src="https://github.com/CropEvol/lecture/blob/master/images/02/win_info01.png" width="400px" alt="Win/information01"></div>
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_info02.png" width="400px" alt="Win/information02"></div>
+<div style="margin-bottom: 5px;"><img src="https://github.com/CropEvol/lecture/blob/master/images/02/win_info02.png" width="400px" alt="Win/information02"></div>
 
 パソコンの情報画面が開いたら、次の項目を確認しましょう。  
 - Windowsの種類: 10 / 8.1 / 8 など
 - システムの種類：32ビット / 64ビット
 - メモリ（RAM）：？GB
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_info03.png" width="400px" alt="Win/information03"></div>
+<div style="margin-bottom: 5px;"><img src="https://github.com/CropEvol/lecture/blob/master/images/02/win_info03.png?raw=true" width="400px" alt="Win/information03"></div>
 
 ### 2 パソコンの設定変更
 ファイル拡張子（.txtなど）が表示されるように変更します。
@@ -42,7 +42,7 @@
 1. 上部にある「表示」タブ
 1. 「ファイル名拡張子」にチェック
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_setting.png" width="400px" alt="Win/setting"></div>
+<div style="margin-bottom: 5px;"><img src="https://github.com/CropEvol/lecture/blob/master/images/02/win_setting.png" width="400px" alt="Win/setting"></div>
 
 <a name="python_install_win"></a>
 ### 3 Pythonのインストール
@@ -59,7 +59,7 @@ __※ 32ビットパソコンの場合、「32-Bit Graphical Installer」をダ�
 		- 「Resister Anaconda as my default Python 3.5」にチェック
 1. 完了
 
-<div style="margin-bottom: 5px;"><img src="../images/02/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
+<div style="margin-bottom: 5px;"><img src="https://github.com/CropEvol/lecture/blob/master/images/02/win_anaconda_install.png" width="400px" alt="Win/install python"></div>  
 
 
 ---
