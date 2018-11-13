@@ -59,8 +59,8 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|9|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env9.git/master?filepath=index.ipynb)|
 |sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|demo|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_bayes.git/master)|
 
-#### 実習表
-| No. | 実習内容 | 実習日 | 実習資料 | その他 |
+#### 講義・実習表
+| No. | 講義・実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| イントロダクション | 10月2日（火）| [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses/111/7/5323000) ||
 |02| 解析環境の構築とその使い方 | 10月9日（火）| [スライド](textbook_2018/02_setup/02_intro_bioinfo.pdf)<br>[テキスト](textbook_2018/02_setup/02_intro_jupyter.ipynb)<br>[課題](textbook_2018/02_setup/02_intro_jupyter_hw.ipynb)<br>[課題解答例](textbook_2018/02_setup/02_intro_jupyter_hw_ans.ipynb) | [提出者リスト](https://drive.google.com/file/d/1A-f0hELsLZJgVnHd2ZRB8ICCv-4FdcNd/view?usp=sharing) |
@@ -77,6 +77,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |13|||||
 |14|||||
 |15|||||
+|--| Baysean Inference | --- | [スライド](textbook_2018/99_etc/RT_slides_181113.pdf) |---|
 
 #### 課題提出について
 方法: 課題終了後のファイルを添付したメールを下記アドレスに送る  
