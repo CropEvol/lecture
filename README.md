@@ -78,6 +78,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |14|||||
 |15|||||
 |--| Baysean Inference | --- | [スライド](textbook_2018/99_etc/RT_slides_181113.pdf) |---|
+|--| Baysean Inference2 | --- | [スライド](textbook_2018/99_etc/RT_slides_181204.pdf) |---|
 
 #### 課題提出について
 方法: 課題終了後のファイルを添付したメールを下記アドレスに送る  
