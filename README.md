@@ -72,8 +72,8 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |08|大規模データ解析入門<br>- シミュレーションで観察データを評価する -| 11月20日（火）| [テキスト](textbook_2018/08_large_data_analysis/03_large_data_analysis_ja.ipynb) / [Textbook](textbook_2018/08_large_data_analysis/03_large_data_analysis_en.ipynb)<br>[課題](textbook_2018/08_large_data_analysis/03_large_data_analysis_hw_ja.ipynb) / [Homework](textbook_2018/08_large_data_analysis/03_large_data_analysis_hw_ja.ipynb)<br>[課題解答例](textbook_2018/08_large_data_analysis/03_large_data_analysis_hw_ans_ja.ipynb) | [提出者リスト](https://drive.google.com/open?id=16Qy4GQ-vjqhSVAJUx_I6fsRtIXtccMoe) |
 |09|統計解析入門<br>- 基本的な統計処理・(重)回帰分析 -| 11月27日 (火) | [テキスト](textbook_2018/09_statistics/01_statistics_ja.ipynb) / [Textbook](textbook_2018/09_statistics/01_statistics_en.ipynb)<br>[課題](textbook_2018/09_statistics/01_statistics_hw_ja.ipynb) / [Homework](textbook_2018/09_statistics/01_statistics_hw_en.ipynb)<br> [課題解答例](textbook_2018/09_statistics/01_statistics_hw_ans_ja.ipynb) / [Answer](textbook_2018/09_statistics/01_statistics_hw_ans_en.ipynb) <br> [補足スライド](textbook_2018/09_statistics/lecture9_sup.pdf)| [提出者リスト](https://drive.google.com/open?id=1QLVuCE-RuPSSZbW2BF_r2qTCiOSp9T6E) |
 |10|統計解析入門<br>- 変数選択 -| 12月4日(火) | [スライド](textbook_2018/10_statistics/lecture10.pdf) / [slide](textbook_2018/10_statistics/lecture10_en.pdf)<br>[テキスト](textbook_2018/10_statistics/02_statistics_ja.ipynb) / [Textbook](textbook_2018/10_statistics/02_statistics_en.ipynb)<br>[課題](textbook_2018/10_statistics/02_statistics_hw_ja.ipynb) / [Homework](textbook_2018/10_statistics/02_statistics_hw_en.ipynb)| [提出者リスト](https://drive.google.com/open?id=15Kx-FwRg5DHtcsgdUGR6JsPRwD9eVptT) |
-|11|| 12月11日(火) |[課題](textbook_2018/11_statistics/03_statistics_hw_ja.ipynb) / [Homework](textbook_2018/11_statistics/03_statistics_hw_en.ipynb)||
-|12|| 12月18日(火) |||
+|11|| 12月11日(火) |[課題](textbook_2018/11_statistics/03_statistics_hw_ja.ipynb) / [Homework](textbook_2018/11_statistics/03_statistics_hw_en.ipynb)|[提出者リスト](https://drive.google.com/open?id=1xaFrkqD64ekHvauVZNCommjdF0nQ7ONM)|
+|12|Baysean Inference など| 12月18日(火)<br>__開講します__ |||
 |13|||||
 |14|||||
 |15|||||
