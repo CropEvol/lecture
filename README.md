@@ -74,8 +74,8 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 |10|統計解析入門<br>- 変数選択 -| 12月4日(火) | [スライド](textbook_2018/10_statistics/lecture10.pdf) / [slide](textbook_2018/10_statistics/lecture10_en.pdf)<br>[テキスト](textbook_2018/10_statistics/02_statistics_ja.ipynb) / [Textbook](textbook_2018/10_statistics/02_statistics_en.ipynb)<br>[課題](textbook_2018/10_statistics/02_statistics_hw_ja.ipynb) / [Homework](textbook_2018/10_statistics/02_statistics_hw_en.ipynb)<br> [課題解答例](textbook_2018/10_statistics/02_statistics_hw_ans_ja.ipynb)| [提出者リスト](https://drive.google.com/open?id=15Kx-FwRg5DHtcsgdUGR6JsPRwD9eVptT) |
 |11|統計解析入門<br>- 変数選択 -| 12月11日(火) |[課題](textbook_2018/11_statistics/03_statistics_hw_ja.ipynb) / [Homework](textbook_2018/11_statistics/03_statistics_hw_en.ipynb)<br> [課題解答例](textbook_2018/11_statistics/03_statistics_hw_ans_ja.ipynb)|[提出者リスト](https://drive.google.com/open?id=1xaFrkqD64ekHvauVZNCommjdF0nQ7ONM)|
 |12| Baysean解析入門 | 12月18日(火) |[スライド](textbook_2018/99_etc/RT_slides_181204.pdf)<br>[出席表提出方法](textbook_2018/99_etc/12_submit.md)|[提出者リスト](https://drive.google.com/open?id=1qnSR-wj5U_g_pQWki2l4YiUdAwHYBZZ4)|
-|13| ゲノム解析の実際<br>- MCMCなど - | 1月22日(火) |||
-|14| 試験 | 1月29日(火) |||
+|13| ゲノム解析の実際<br>- MCMCなど - | 1月22日(火) |[出席表提出方法](textbook_2018/99_etc/13_submit.md)|提出者リスト|
+|--| 期末レポート<br>提出締切り:2019年2月3日 | --- |[レポート内容](textbook_2018/99_etc/14_report.md)|提出者リスト|
 ||||||
 |XX| Baysean Inference | --- | [スライド](textbook_2018/99_etc/RT_slides_181204.pdf) |---|
 
