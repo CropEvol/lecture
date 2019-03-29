@@ -50,14 +50,8 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 学籍番号（####-##-###X）下1桁の数字の解析環境を使ってください。  
 *（例） 学籍番号が1234-45-5678の場合、「解析環境 No.8」*
 
-|解析環境No.|リンク|解析環境No.|リンク|
-|:---:|:---|:---:|:---|
-|0|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)|5|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env5.git/master?filepath=index.ipynb)|
-|1|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)|6|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env6.git/master?filepath=index.ipynb)|
-|2|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env2.git/master?filepath=index.ipynb)|7|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env7.git/master?filepath=index.ipynb)|
-|3|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env3.git/master?filepath=index.ipynb)|8|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env8.git/master?filepath=index.ipynb)|
-|4|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env4.git/master?filepath=index.ipynb)|9|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env9.git/master?filepath=index.ipynb)|
-|sub|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/qqep685d/bioinfo_env0.git/master?filepath=index.ipynb)|demo|[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/remote_bayes.git/master)|
+オンライン解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)(main)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)(sub)
 
 #### 講義・実習表
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
