@@ -40,18 +40,15 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 
 ### オンライン解析環境
 実習ではオンライン上に構築した解析環境を使用します。  
+
+オンライン解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)(main)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)(sub)
+
 *もし自身のパソコンに解析環境をインストールしたい場合は、[こちら](textbook_2018/02_install.md)を参考にしてください。*
 
 #### オンライン解析環境が使えるブラウザ
 すぐに利用可能: Safari (Macのみ)、Google Chrome、 Firefox  
 *Internet ExplorerやMicrosoft Edgeを使う場合は、Javascriptを有効にしてください。*
-
-#### どの解析環境No.を使えば良いか？
-学籍番号（####-##-###X）下1桁の数字の解析環境を使ってください。  
-*（例） 学籍番号が1234-45-5678の場合、「解析環境 No.8」*
-
-オンライン解析環境:   [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env0.git/master?filepath=index.ipynb)(main)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CropEvol/bioinfo_env1.git/master?filepath=index.ipynb)(sub)
 
 #### 講義・実習表
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
