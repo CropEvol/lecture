@@ -1,31 +1,34 @@
 <a name="section1"></a>
 ILASセミナー：ゲノム博物学入門 [学部講義]
 ====
-## 「ILASセミナー：ゲノム博物学入門」のテキスト（2019年度版）
+## 「ILASセミナー：ゲノム博物学入門」のテキスト
 
 ## 予定表
 | No. | 講義内容 | 講義日 | 集合場所 |
 |:---|:---|:---|:---|
 | 01 | セミナー全体の説明 | 4月15日（月）| 農学部W302 |
-| 02 | 植物採集（大文字山方面）<br> 同定/標本押葉作成  | 4月22日（月） | 農学部W302 |
-| 03 | 植物採集（貴船方面）<br> 同定/標本押葉作成 | 5月12日（日） | 後日連絡 |
+| 02 | 植物採集（大文字山方面）| 4月22日（月） | 農学部W302 |
+| 03 | 植物採集（貴船方面）| 5月12日（日） | 後日連絡 |
 | 04 | 京大博物館見学（植物標本庫） | 5月13日（月） | 農学部W302 |
-| 05 | 植物標本完成<br>植物材料からのRNAの抽出<br>Nanopore sequencing実験 | 5月18日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
-| 06 | Bioinformatics入門 | 5月27日（月） | 農学部W302 |
-| 07 | 休み | 6月3日（月） | 農学部W302 |
-| 08 | 休み | 6月10日（月） | 農学部W302 |
-| 09 | Bioinformatics入門 | 6月17日（月） | 農学部W302 |
+| 05 | 植物同定・標本作成 | 5月18日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
+| 06 | 休み | 5月27日（月） | 農学部W302 |
+| 07 | 植物同定・標本作成 | 6月3日（月） | 農学部W302 |
+| 08 | [Pythonプログラミング入門](https://colab.research.google.com/drive/1ycQRobvGX_db1yeRvdLRy9MsqLktVOwd) | 6月10日（月） | 農学部W302 |
+| 09 | バイオインフォマティクス入門 | 6月17日（月） | 農学部W302 |
 | 10 | データ解析 | 6月24日（月） | 農学部W302 |
 | 11 | 研究発表 | 7月6日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 
-## 解析環境
-準備中
+## Pythonプログラミング解析環境
+[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使用します。
+
+---
 
 <a name="section2"></a>
  ゲノム情報解析入門 [学部講義]
 ====
 
-## 学部講義「ゲノム情報解析入門」の実習テキスト（_2018年度版_）
+## 学部講義「ゲノム情報解析入門」の実習テキスト
+＊これは2018年度版です。
 
 時間：毎週火曜 14:45 - 16:15  
 部屋：農学部総合館 W214  
@@ -62,53 +65,12 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 ||||||
 |XX| Baysean Inference | --- | [スライド](textbook_2018/99_etc/RT_slides_181204.pdf) |---|
 
-#### 課題提出について
-方法: 課題終了後のファイルを添付したメールを下記アドレスに送る  
-宛先: cropevol@gmail.com  
-締切: 各課題テキストに記載  
-
-```
-＊課題提出時の注意点＊  
-メールの件名を HW[課題番号(2桁)]+SID[学籍番号(4桁-2桁-４桁)]（すべて半角英数） にしてください。  
-課題番号は各課題ファイル内に記載しています。  
-（例） HW02+SID1234-56-7890
-```
-
-確認: 実習表に各課題の「提出者リスト」を掲載しています。各自確認してください。  
-_「提出者リスト」に反映されるまでに提出後1日程度かかります。  
-課題を提出したのに学籍番号がリストにない場合は、その旨をご連絡ください。_
-
-#### Jupyter Notebook ダウンロードファイルを確認する方法
-ipynb形式に対応
-- [解析環境にアップロード](textbook_2018/99_etc/99_view_ipynb.md#env)（編集可能）
-- [Webページ（nbviewer.js）にドラッグ&ドロップ](textbook_2018/99_etc/99_view_ipynb.md#nbviewer)（表示のみ。rawテキストのセルは表示されません）  
-nbviewer.js: https://kokes.github.io/nbviewer.js/viewer.html  
-
-ipynb形式に非対応
-- [テキストエディタで開く](textbook_2018/99_etc/99_view_ipynb.md#text-editor)（編集可能。ただし、編集には注意が必要）
-- [Webブラウザにドラッグ&ドロップ](textbook_2018/99_etc/99_view_ipynb.md#browser)（表示のみ）
-
-
----
-
-<a name="section3">ゲノム情報解析学 [大学院講義]</a>
-====
-
-大学院集中講義「栽培植物進化ゲノム学」（2018年度）のテキストです。
-
-| No. | 講義内容 | 講義日 |
-|:---|:---|:---|
-| Day 1 | イントロダクション | 11月16日（水）|
-| Day 2 || 11月17日（木）|
-| Day 3 || 11月18日（金）|
-
-部屋：農学部総合館 W506
-
 ---
 
 <a name="section4"></a>
 ## 過去の年度のテキスト
-- [2017年度](https://github.com/CropEvol/lecture/tree/v2017)
+- [2017年度](https://github.com/CropEvol/lecture/tree/2017)
+- [2018年度](https://github.com/CropEvol/lecture/tree/2018)
 
 ---
-Copyright&copy; 2017 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+Copyright&copy; 2019 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
