@@ -19,8 +19,22 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | 11 | 研究発表 | 7月6日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 
 ## Pythonプログラミング解析環境
-[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使用します。
-_Googleアカウントが必要です。持っていない場合は作成してください。[作成方法](textbook_2019/99_etc/create_google_acount.md)_
+[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使用します。  
+- Googleアカウントにログインする
+- テキストのリンクをクリックする
+
+*Googleアカウントが必要です。  
+持っていない場合は作成してください。  
+→
+[Googleアカウント新規作成](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)*
+
+
+
+
+
+
+
+
 ---
 
 <a name="section2"></a>
