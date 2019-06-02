@@ -20,7 +20,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 
 ## Pythonプログラミング解析環境
 [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使用します。
-
+_Googleアカウントが必要です。持っていない場合は作成してください。[作成方法](textbook_2019/99_etc/create_google_acount.md)_
 ---
 
 <a name="section2"></a>
