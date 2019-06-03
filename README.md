@@ -13,7 +13,7 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | 05 | 植物同定・標本作成 | 5月18日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 | 06 | 休み | 5月27日（月） | 農学部W302 |
 | 07 | 植物同定・標本作成 | 6月3日（月） | 農学部W302 |
-| 08 | [Pythonプログラミング入門](https://colab.research.google.com/github/qqep685d/Python_Introduction/blob/master/notebook/Learning_Python_1.ipynb) | 6月10日（月） | 農学部W302 |
+| 08 | [Pythonプログラミング入門](https://colab.research.google.com/drive/1hUePEy4zps3Iw576cDs71EOEDQWp32Ru) | 6月10日（月） | 農学部W302 |
 | 09 | バイオインフォマティクス入門 | 6月17日（月） | 農学部W302 |
 | 10 | データ解析 | 6月24日（月） | 農学部W302 |
 | 11 | 研究発表 | 7月6日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
