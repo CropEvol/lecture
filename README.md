@@ -15,8 +15,8 @@ ILASセミナー：ゲノム博物学入門 [学部講義]
 | 07 | 植物同定・標本作成 | 6月3日（月） | 農学部W302 |
 | 08 | [Pythonプログラミング入門](https://colab.research.google.com/github/qqep685d/Introduction_series/blob/master/Python_Introduction.ipynb) | 6月10日（月） | 農学部W302 |
 | 09 | [Python: pandasライブラリの使い方](https://colab.research.google.com/github/qqep685d/Introduction_series/blob/master/pandas_Introduction.ipynb)<br>[Python: グラフ描画](https://colab.research.google.com/github/qqep685d/Introduction_series/blob/master/Visualization_Introduction.ipynb)<br>[RNA-seq解析入門](https://colab.research.google.com/github/qqep685d/Introduction_series/blob/master/RNAseq_Introduction.ipynb) | 6月24日（月） | 農学部W302 |
-||||
-|  | 研究発表 | 7月6日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
+| 10 | [データ解析](https://colab.research.google.com/github/qqep685d/GoogleColab_env/blob/master/Env_for_ILAS2019.ipynb) | 7月1日（月） | 農学部W302 |
+| 11 | 研究発表 | 7月6日（土） | [栽培植物起源学研究室<br>（向日市物集女町）](http://www.crop-evolution.kais.kyoto-u.ac.jp/) |
 
 ## Pythonプログラミング解析環境
 [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)と呼ばれるサービスを利用します。  
