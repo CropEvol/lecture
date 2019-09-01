@@ -43,13 +43,15 @@
 
 ## 解析環境
 実習では、[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)というPython解析環境を利用します。  
-- Googleアカウントが必要です。持っていない場合は作成してください。  
+- Googleアカウントが必要です。持っていない場合は作成してください。
+- 参考: [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
+
 
 ## 講義・実習表
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| イントロダクション ||||
-|02| 解析環境セットアップ・使い方 ||||
+|02| 解析環境セットアップ・使い方 || [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / 課題 ||
 |||||
 
 ---
