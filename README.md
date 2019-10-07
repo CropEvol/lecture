@@ -52,8 +52,8 @@
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| ガイダンス | 10月1日 | [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses2019/111/7/5323000) ||
-|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / 課題 ||
-|03| Pythonをはじめる - 基礎 - | 10月15日 | テキスト / 課題 ||
+|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) ||
+|03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / 課題 ||
 |04| Pythonをはじめる - 実践 - | 10月29日 | テキスト / 課題 ||
 |05| Pythonライブラリを使う - 基礎 - | 11月5日 | テキスト / 課題 ||
 |06| Pythonライブラリを使う - 実践 - | 11月12日 | テキスト / 課題 ||
