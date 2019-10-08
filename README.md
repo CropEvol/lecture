@@ -41,10 +41,22 @@
 - 時間：毎週火曜 14:45 - 16:15  
 - 部屋：農学部総合館 W214  
 
-## 解析環境
+## 必要なもの
 実習では、[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)というPython解析環境を利用します。  
-- Googleアカウントが必要です。持っていない場合は作成してください。
-- 参考: [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
+- インターネットブラウザ
+  - 対応ブラウザ（推奨）
+    - Google Chrome
+    - FireFox
+    - Safari
+  - 非推奨ブラウザ（動作検証されていない）
+    - Microsoft Edge
+  - 非対応ブラウザ（利用不可）
+    - Internet Explorer
+- Googleアカウント
+  - 持っていない場合は以下を参考に作成してください
+  - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
+
+
 
 
 ## 講義・実習表
