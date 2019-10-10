@@ -64,7 +64,7 @@
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| ガイダンス | 10月1日 | [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses2019/111/7/5323000) ||
-|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) ||
+|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) | [提出者リスト](https://drive.google.com/file/d/12BQuemgx9HddBoAxoU8RUnPiWVCq1UXe/view?usp=sharing) |
 |03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / 課題 ||
 |04| Pythonをはじめる - 実践 - | 10月29日 | テキスト / 課題 ||
 |05| Pythonライブラリを使う - 基礎 - | 11月5日 | テキスト / 課題 ||
@@ -77,6 +77,11 @@
 |||||
 
 _実習内容は、進捗等により変更することがあります。_
+
+### 課題提出の確認について
+実習表のリンクから、各課題の「提出者リスト」を見ることが可能です。
+課題を提出したのに学籍番号がリストにない場合は講義スタッフまでご連絡ください。
+なお、「提出者リスト」に反映されるまでに提出後1~3日程度かかります。
 
 ---
 
