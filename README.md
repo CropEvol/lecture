@@ -2,6 +2,7 @@
 # ゲノム博物学入門 [2019年度 ILASセミナー]
 
 ## 2019年度 予定表
+
 | No. | 講義内容 | 講義日 | 集合場所 |
 |:---|:---|:---|:---|
 | 01 | セミナー全体の説明 | 4月15日（月）| 農学部W302 |
@@ -61,11 +62,14 @@
 
 ## 講義・実習表
 
+### 授業開始前の準備
+授業開始前までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページで待機しておいてください。
+
 | No. | 講義・実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| ガイダンス | 10月1日 | [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses2019/111/7/5323000) ||
-|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-_0Yz6M8_OohaDBsEH1cCYD7MkvFrxpB) / [Q&A](https://drive.google.com/file/d/1-gyTJ-MVpBgSDQgMpKGwiAjcAuBy4G2p/view?usp=sharing) |
-|03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / 課題 | 提出者リスト |
+|02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-_0Yz6M8_OohaDBsEH1cCYD7MkvFrxpB) / [Q&A](https://drive.google.com/file/d/1-gyTJ-MVpBgSDQgMpKGwiAjcAuBy4G2p/view?usp=sharing) |
+|03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.HW.ipynb) | 提出者リスト |
 |04| Pythonをはじめる - 実践 - | 10月29日 | テキスト / 課題 ||
 |05| Pythonライブラリを使う - 基礎 - | 11月5日 | テキスト / 課題 ||
 |06| Pythonライブラリを使う - 実践 - | 11月12日 | テキスト / 課題 ||
