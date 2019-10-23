@@ -70,13 +70,13 @@
 |01| ガイダンス | 10月1日 | [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses2019/111/7/5323000) ||
 |02| 解析環境セットアップ・使い方 | 10月8日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-_0Yz6M8_OohaDBsEH1cCYD7MkvFrxpB) / [Q&A](https://drive.google.com/file/d/1-gyTJ-MVpBgSDQgMpKGwiAjcAuBy4G2p/view?usp=sharing) |
 |03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.HW.ipynb) | [提出者リスト](https://drive.google.com/file/d/1eu3pHuxmdOkxqrAtreHIqG1wo6z0fjpw/view?usp=sharing) |
-|04| Pythonをはじめる - 実践 - | 10月29日 | テキスト / 課題 ||
-|05| Pythonライブラリを使う - 基礎 - | 11月5日 | テキスト / 課題 ||
-|06| Pythonライブラリを使う - 実践 - | 11月12日 | テキスト / 課題 ||
-|07| 機械学習 - 概要 - | 11月19日 | テキスト / 課題 ||
-|08| 機械学習 - 分類 (1) - | 11月26日 | テキスト / 課題 ||
-|09| 機械学習 - 分類 (2) - | 12月3日 | テキスト / 課題 ||
-|10| 機械学習 | 12月17日 | テキスト / 課題 ||
+|04| Pythonをはじめる - 基礎 -<br>（前回の復習と続き） | 10月29日 | テキスト / 課題 | |
+|05| Pythonをはじめる - 実践 - | 11月5日 | テキスト / 課題 ||
+|06| Pythonライブラリを使う - 基礎 - | 11月12日 | テキスト / 課題 ||
+|07| Pythonライブラリを使う - 実践 - | 11月19日 | テキスト / 課題 ||
+|08| 機械学習 - 概要 - | 11月26日 | テキスト / 課題 ||
+|09| 機械学習 - 分類 (1) - | 12月3日 | テキスト / 課題 ||
+|10| 機械学習 - 分類 (2) - | 12月17日 | テキスト / 課題 ||
 |11| 機械学習 | 12月24日 | テキスト / 課題 ||
 |||||
 
