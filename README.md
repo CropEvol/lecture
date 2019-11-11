@@ -74,7 +74,7 @@
 |05| Pythonをはじめる - 実践 - | 11月5日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L05_slide.resized.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L05_population_genetics.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L05_population_genetics.HW.ipynb) | [提出者リスト](https://drive.google.com/open?id=1Pc4MCMJTshoIWQA1SUNPGWWBi30MMDbh) |
 |06| Pythonライブラリを使う - 基礎 -<br>< pandas・Matplotlib・SciPy > | 11月12日 | [テキスト1](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries_1.ipynb) / 課題 | 提出者リスト |
 || < NumPy・Biopython > || [テキスト2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries_2.ipynb)||
-|07| Pythonライブラリを使う - 実践 - | 11月19日 | テキスト / 課題 ||
+|07| Pythonライブラリを使う - 実践 - | 11月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.ipynb) / 課題 ||
 |08| 機械学習 - 概要 - | 11月26日 | テキスト / 課題 ||
 |09| 機械学習 - 分類 (1) - | 12月3日 | テキスト / 課題 ||
 |10| 機械学習 - 分類 (2) - | 12月17日 | テキスト / 課題 ||
