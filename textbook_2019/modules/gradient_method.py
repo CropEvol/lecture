@@ -21,6 +21,9 @@ class GradientDescent(object):
   def __init__(self, max_iter=100, eta0=0.01):
     self.eta0     = eta0     # 学習率
     self.max_iter = max_iter # トレーニング回数
+    self.log_coef     = []               # bの記録用リスト
+    self.log_intercept = []              # eの記録用リスト
+    self.log_cost     = []                # コストの記録用リスト
 
   def update(self, X, y):
     # 残差
@@ -37,9 +40,6 @@ class GradientDescent(object):
   def fit(self, X, y):
     self.sample_size = len(X) # サンプルサイズ
     self.b_ = np.zeros(1 + X.shape[1])  # パラメータの初期値
-    self.log_coef     = []                # bの記録用リスト
-    self.log_intercept = []               # eの記録用リスト
-    self.log_cost     = []                # コストの記録用リスト
     pre_cost = 0.0  # 初期コスト
 
     # イテレーション
@@ -98,6 +98,9 @@ class StochasticGradientDescent(object):
     self.max_iter = max_iter # トレーニング回数
     self.shuffle = shuffle     # 各イテレーションごとにデータをシャッフルするかどうか
     self.b_initialized = False
+    self.log_coef     = []               # bの記録用リスト
+    self.log_intercept = []              # eの記録用リスト
+    self.log_cost     = []                # コストの記録用リスト
     # ランダムシード
     if random_state:
       np.random.seed(random_state)
@@ -132,10 +135,10 @@ class StochasticGradientDescent(object):
     # 目的変数の要素数が1の場合、サンプル全体で重みを更新
     else:
       self.update(X, y)
-    # # 記録
-    # self.log_cost.append(avg_cost)
-    # self.log_coef.append(deepcopy(self.b_[1:]))
-    # self.log_intercept.append(self.b_[0])
+    # 記録
+    self.log_cost.append(avg_cost)
+    self.log_coef.append(deepcopy(self.b_[1:]))
+    self.log_intercept.append(self.b_[0])
     # 学習後の係数と誤差
     self.coef_     = self.b_[1:]
     self.intercept_ = self.b_[0]
@@ -143,9 +146,6 @@ class StochasticGradientDescent(object):
   def fit(self, X, y):
     self.sample_size = len(X) # サンプルサイズ
     self.initialize_weight(X.shape[1])   # パラメータの初期値
-    self.log_coef     = []               # bの記録用リスト
-    self.log_intercept = []              # eの記録用リスト
-    self.log_cost     = []                # コストの記録用リスト
     pre_cost = 0.0  # 初期平均コスト
 
     # イテレーション
