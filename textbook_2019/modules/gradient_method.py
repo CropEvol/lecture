@@ -186,10 +186,11 @@ class StochasticGradientDescent(object):
 
 
 # 動画用の関数
-def plot_reg(G, x_, y_, b_, e_, n_frames=10):
+# 動画用の関数
+def plot_reg(G, x_, y_, b_, e_, cost_, n_frames=10):
   # グラフ作成&散布図
-  ax = G.add_subplot(1, 1, 1)
-  ax.scatter(x_, y_, color="blue")
+  ax1 = G.add_subplot(1, 2, 1)
+  ax1.scatter(x_, y_, color="blue")
   # 直線用のデータ
   x_line = np.linspace(np.min(x_), np.max(x_), num=2)
   # 動画用のデータ
@@ -197,13 +198,21 @@ def plot_reg(G, x_, y_, b_, e_, n_frames=10):
   # 動画にするログのインターバル
   i = len(e_)//n_frames
   if i == 0:
-    i = 1 
+    i = 1
   for b, e in zip(b_[0::i], e_[0::i]):
     # 回帰直線
     y_line = x_line * b + e
-    reg_line = ax.plot(x_line, y_line, color="orange", alpha=0.5, lw=3)
+    reg_line = ax1.plot(x_line, y_line, color="orange", alpha=0.5, lw=3)
     # テキスト
     wt = "Linear model: y = bx + e\nb={0}, e={1}".format(b, e)
-    t = ax.text(0.5, 1.01, wt, ha='center', va='bottom', transform=ax.transAxes)
+    t = ax1.text(0.5, 1.01, wt, ha='center', va='bottom', transform=ax.transAxes)
     frames.append(tuple(reg_line) + (t, ))
+
+  # イテレーション - コストのグラフ
+  iters = np.array(range(len(cost_))) # x
+  ax2 = G.add_subplot(1, 2, 2)
+  ax2.plot(iters, cost_)
+  ax2.set_xlabel("iterations")
+  ax2.set_ylabel("cost")
+
   return frames
