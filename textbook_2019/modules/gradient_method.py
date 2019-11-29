@@ -70,6 +70,12 @@ class GradientDescent(object):
     output = np.dot(X, self.b_[1:]) + self.b_[0]  # 予測値
     return output
 
+  def score(self, X, y):
+    y_pred = self.predict(X)
+    r2 = 1- np.sum(y - y_pred)/np.sum(y - np.mean(y))
+    return r2
+
+
 
 
 # 確率的勾配降下法
@@ -172,3 +178,31 @@ class StochasticGradientDescent(object):
   def predict(self, X):
     output = np.dot(X, self.b_[1:]) + self.b_[0]  # 予測値
     return output
+
+  def score(self, X, y):
+    y_pred = self.predict(X)
+    r2 = 1- np.sum(y - y_pred)/np.sum(y - np.mean(y))
+    return r2
+
+
+# 動画用の関数
+def plot_reg(G, x_, y_, b_, e_):
+  # グラフ作成&散布図
+  ax = G.add_subplot(1, 1, 1)
+  ax.scatter(x_, y_, color="blue")
+  # 直線用のデータ
+  x_line = np.linspace(np.min(x_), np.max(x_), num=2)
+  # 動画用のデータ
+  frames = []
+  # 動画にするログのインターバル
+  i = len(e_)//100
+  i = 1 if i == 0 else None
+  for b, e in zip(b_[0::i], e_[0::i]):
+    # 回帰直線
+    y_line = x_line * b + e
+    reg_line = ax.plot(x_line, y_line, color="orange", alpha=0.5, lw=3)
+    # テキスト
+    wt = "Linear model: y = bx + e\nb={0}, e={1}".format(b, e)
+    t = ax.text(0.5, 1.01, wt, ha='center', va='bottom', transform=ax.transAxes)
+    frames.append(tuple(reg_line) + (t, ))
+  return frames
