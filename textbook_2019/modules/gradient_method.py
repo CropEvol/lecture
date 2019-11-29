@@ -186,7 +186,7 @@ class StochasticGradientDescent(object):
 
 
 # 動画用の関数
-def plot_reg(G, x_, y_, b_, e_):
+def plot_reg(G, x_, y_, b_, e_, n_frames=10):
   # グラフ作成&散布図
   ax = G.add_subplot(1, 1, 1)
   ax.scatter(x_, y_, color="blue")
@@ -195,8 +195,9 @@ def plot_reg(G, x_, y_, b_, e_):
   # 動画用のデータ
   frames = []
   # 動画にするログのインターバル
-  i = len(e_)//100
-  i = 1 if i == 0 else None
+  i = len(e_)//n_frames
+  if i == 0:
+    i = 1 
   for b, e in zip(b_[0::i], e_[0::i]):
     # 回帰直線
     y_line = x_line * b + e
