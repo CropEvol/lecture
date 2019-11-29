@@ -72,9 +72,8 @@ class GradientDescent(object):
 
   def score(self, X, y):
     y_pred = self.predict(X)
-    r2 = 1- np.sum(y - y_pred)/np.sum(y - np.mean(y))
+    r2 = 1- np.sum((y - y_pred)**2)/np.sum((y - np.mean(y))**2)
     return r2
-
 
 
 
