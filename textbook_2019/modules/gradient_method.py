@@ -1,5 +1,6 @@
 # gradient_method.py
 import numpy as np
+from matplotlib import *
 from copy import deepcopy
 
 # 最急降下法
