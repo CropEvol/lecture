@@ -97,6 +97,7 @@ class StochasticGradientDescent(object):
     self.eta0     = eta0     # 学習率
     self.max_iter = max_iter # トレーニング回数
     self.shuffle = shuffle     # 各イテレーションごとにデータをシャッフルするかどうか
+    self.b_initialized = False
     # ランダムシード
     if random_state:
       np.random.seed(random_state)
