@@ -1,0 +1,4 @@
+Chen, H., Xie, W., He, H., Yu, H., Chen, W., Li, J., ... & Tang, X. (2014). A high-density SNP genotyping array for rice biology and molecular breeding. Molecular plant, 7(3), 541-553.
+
+1. Filtered some markers with not-genotyped individuals 
+2. Merge genotypes-dataset with phenotypes-dataset
