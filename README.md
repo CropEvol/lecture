@@ -76,8 +76,8 @@
 || < NumPy・Biopython > || [テキスト2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries_2.ipynb)||
 |07| Pythonライブラリを使う - 実践 - | 11月19日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L07_slide.pdf) / [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.HW.ipynb)/ [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1_TAx1Vnxcua5kZmLc2Vd4nIPLwptBe1q) / [Q&A](https://drive.google.com/open?id=1Tkundb7NAzPw4b4xEMotXy9tLR6ud9RP) |
 |08| 機械学習 - 線形回帰 - | 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.HW.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-COufbiXydeeWZnrDBPf4usPhF29UKlE) |
-|09| 機械学習 - 勾配法 - | 12月3日 | テキスト / 課題 ||
-|10| 機械学習 - 分類:各種アルゴリズム - | 12月17日 | テキスト / 課題 ||
+|09| 機械学習 - 最適値探索 - | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.ipynb) / 課題 ||
+|10| 機械学習 - 分類アルゴリズム - | 12月17日 | テキスト / 課題 ||
 |11| 機械学習 - ゲノム解析 - | 12月24日 | テキスト / 課題 ||
 |||||
 
