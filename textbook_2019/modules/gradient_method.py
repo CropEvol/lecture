@@ -187,7 +187,6 @@ class StochasticGradientDescent(object):
 
 
 # 動画用の関数
-# 動画用の関数
 def plot_reg(G, x_, y_, b_, e_, c_, n_frames=10):
   # グラフ作成&散布図
   ax1 = G.add_subplot(1, 2, 1)
