@@ -78,8 +78,7 @@
 |08| 機械学習 - 線形回帰 - | 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-COufbiXydeeWZnrDBPf4usPhF29UKlE) |
 |09| 機械学習 - 勾配法 - | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.HW.ipynb) ||
 |10| 機械学習 - 分類アルゴリズム - | 12月17日 | テキスト / 課題 ||
-|11| 機械学習 - ゲノム解析 - | 12月24日 | テキスト / 課題 ||
-|12| 未定 | 1月21日 |||
+|11| 機械学習 - ゲノム解析 - | 1月21日 | テキスト / 課題 ||
 |||||
 
 _実習内容は、進捗等により変更することがあります。_
