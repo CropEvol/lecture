@@ -120,6 +120,50 @@ _実習内容は、進捗等により変更することがあります。_
 上記の実習表のページリンク「Q&A」を参照してください。
 
 ---
+# ゲノム情報解析学 [大学院講義]
+この講義では、[Python for Bioinformatics (Second edition) by Sebastian Bassi](https://github.com/Serulab/Py4Bio) のサンプルコードを使います。
+
+サンプルコードにアクセスする方法は2通りあります。
+1. Binderを使う
+1. Google Colaboratoryを使う
+
+
+#### 1. Binderサービスを使った公式サンプルページ
+
+右のアイコンをクリックしてください: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Serulab/Py4Bio/master?filepath=notebooks%2F)
+
+#### 2. Google Colaboratoryサービスを使ったサンプルページ
+
+Googleアカウントにログインした状態で、ノートブックページへのリンクをクリックしてください。  
+
+
+- [Chapter 1 - Introduction.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%201%20-%20Introduction.ipynb)
+- [Chapter 2 - First Steps with Python.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%202%20-%20First%20Steps%20with%20Python.ipynb)
+- [Chapter 3 - Basic Programming - Data Types.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%203%20-%20Basic%20Programming%20-%20Data%20Types.ipynb)
+- [Chapter 4 - Programming - Flow Control.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%204%20-%20Programming%20-%20Flow%20Control.ipynb)
+- [Chapter 5 - Handling Files.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%205%20-%20Handling%20Files.ipynb)
+- [Chapter 6 - Code Modularizing.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%206%20-%20Code%20Modularizing.ipynb)
+- [Chapter 7 - Error Handling.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%207%20-%20Error%20Handling.ipynb)
+- [Chapter 8 - Introduction to Object Orienting Programming (OOP).ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%208%20-%20Introduction%20to%20Object%20Orienting%20Programming%20(OOP).ipynb)
+- [Chapter 9 - Introduction to Biopython.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%209%20-%20Introduction%20to%20Biopython.ipynb)
+- [Chapter 10 - Web Applications.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2010%20-%20Web%20Applications.ipynb)
+- [Chapter 11 - XML.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2011%20-%20XML.ipynb)
+- [Chapter 12 - Python and Databases.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2012%20-%20Python%20and%20Databases.ipynb)
+- [Chapter 13 - Regular Expressions.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2013%20-%20Regular%20Expressions.ipynb)
+- [Chapter 14 - Graphics in Python.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2014%20-%20Graphics%20in%20Python.ipynb)
+- [Chapter 15 - Sequence Manipulation in Batch.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2015%20-%20Sequence%20Manipulation%20in%20Batch.ipynb)
+- [Chapter 16 - Web Application for Filtering Vector Contamination.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2016%20-%20Web%20Application%20for%20Filtering%20Vector%20Contamination.ipynb)
+- [Chapter 17 - Searching for PCR Primers Using Primer3.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2017%20-%20Searching%20for%20PCR%20Primers%20Using%20Primer3.ipynb)
+- [Chapter 18 - Calculating Melting Temperature from a Set of Primers.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2018%20-%20Calculating%20Melting%20Temperature%20from%20a%20Set%20of%20Primers.ipynb)
+- [Chapter 19 - Filtering Out Specific Fields from a GenBank File.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2019%20-%20Filtering%20Out%20Specific%20Fields%20from%20a%20GenBank%20File.ipynb)
+- [Chapter 20 - Inferring Splicing Sites.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2020%20-%20Inferring%20Splicing%20Sites.ipynb)
+- [Chapter 21 - Web Server for Multiple Alignment.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2021%20-%20Web%20Server%20for%20Multiple%20Alignment.ipynb)
+- [Chapter 22 - Drawing Marker Positions Using Data Stored in a Database.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2022%20-%20Drawing%20Marker%20Positions%20Using%20Data%20Stored%20in%20a%20Database.ipynb)
+- [Chapter 23 - Online Bonus chapter. DNA Mutations with Restrictions.ipynb](https://colab.research.google.com/github/Serulab/Py4Bio/blob/master/notebooks/Chapter%2023%20-%20Online%20Bonus%20chapter.%20DNA%20Mutations%20with%20Restrictions.ipynb)
+
+※ 各サンプルページへのリンクは、講義終了後に削除いたします。
+
+---
 
 <a name="section4"></a>
 ## 過去の年度のテキスト
