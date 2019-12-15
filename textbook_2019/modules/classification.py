@@ -3,14 +3,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-def draw_decision_boundary(x1, x2, y, labels, model, resolution=0.02, xlabel="x1", ylabel="x2"):
+def draw_decision_boundary(x1_train, x2_train, y_train, x1_test, x2_test, y_test,
+                           labels, model, resolution=0.02, xlabel="x1", ylabel="x2"):
   # マーカーとカラー
-  markers = ('s', 'x', 'o', '*', 'D')
-  colors = ('red', 'blue', 'green', 'purple', 'yellow')
-  cmap = ListedColormap(colors[:len(np.unique(y))])
+  markers = ('o', 'x', 's', '^', '+', 'D')
+  colors = ('red', 'blue', 'green', 'purple', 'yellow', 'silver')
+  cmap = ListedColormap(colors[:len(np.unique(y_train))])
   # データの最小値、最大値
-  x1_min, x1_max = x1.min()-1, x1.max()+1
-  x2_min, x2_max = x2.min()-1, x2.max()+1
+  x1_min, x1_max = min(x1_train.min(), x1_test.min())-1, max(x1_train.max(), x1_test.max())+1
+  x2_min, x2_max = min(x2_train.min(), x2_test.min())-1, max(x2_train.max(), x2_test.max())+1
   # メッシュ用のデータポイント
   x1_mesh, x2_mesh = np.meshgrid(np.arange(x1_min, x1_max, resolution),
                                   np.arange(x2_min, x2_max, resolution))
@@ -18,32 +19,31 @@ def draw_decision_boundary(x1, x2, y, labels, model, resolution=0.02, xlabel="x1
   z = model.predict(np.array([x1_mesh.ravel(), x2_mesh.ravel()]).T)
   z = z.reshape(x1_mesh.shape)
   # グラフ
-  fig = plt.figure(figsize=(8,6))
+  fig = plt.figure(figsize=(12,5))
+  ax1 = fig.add_subplot(1,2,1)
+  ax1.set_title("Training dataset")
+  ax1.set_xlim(x1_min, x1_max)
+  ax1.set_ylim(x2_min, x2_max)
+  ax1.set_xlabel(xlabel)
+  ax1.set_ylabel(ylabel)
+  ax2 = fig.add_subplot(1,2,2)
+  ax2.set_title("Test dataset")
+  ax2.set_xlim(x1_min, x1_max)
+  ax2.set_ylim(x2_min, x2_max)
+  ax2.set_xlabel(xlabel)
+  ax2.set_ylabel(ylabel)
+
   # メッシュの色ぬり
-  plt.contourf(x1_mesh, x2_mesh, z, alpha=0.3, cmap=cmap)
+  ax1.contourf(x1_mesh, x2_mesh, z, alpha=0.2, cmap=cmap)
+  ax2.contourf(x1_mesh, x2_mesh, z, alpha=0.2, cmap=cmap)
   # データをプロット
-  for i, c in enumerate(np.unique(y)):
-    plt.scatter(x1[y==c], x2[y==c], label=np.unique(labels)[i],
-                color=colors[i], edgecolors='black',
-                marker=markers[i], s=48)
+  for i, c in enumerate(np.unique(y_train)):
+    # トレーニングデータ
+    ax1.scatter(x1_train[y_train==c], x2_train[y_train==c], label=np.unique(labels)[i],
+                marker=markers[i], color=colors[i], edgecolors='black', s=48)
+    # テストデータ
+    ax2.scatter(x1_test[y_test==c], x2_test[y_test==c], label=np.unique(labels)[i],
+                marker=markers[i], color=colors[i], edgecolors='black', s=48)
   plt.rcParams["font.size"] = 14
-  plt.xlim(x1_mesh.min(), x1_mesh.max())
-  plt.ylim(x2_mesh.min(), x2_mesh.max())
-  plt.xlabel(xlabel)
-  plt.ylabel(ylabel)
   plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
   plt.show()
-
-# 決定境界のアニメーション
-def animation_decision_boundary(G,x1, x2, y, labels, model,
-                    resolution=0.02, xlabel="x1", ylabel="x2", n_frames=10):
-  # === 静止画 ===
-  ax = G.add_subplot(1,1,1)
-  # 散布図
-  for i, c in enumerate(np.unique(y)):
-      ax.scatter(x1[y==c], x2[y==c], label=np.unique(labels)[i],
-              color=colors[i], edgecolors='black', marker=markers[i], s=48)
-  ax.set_xlabel(xlabel, fontsize=14)
-  ax.set_ylabel(ylabel, fontsize=14)
-
-  return frames
