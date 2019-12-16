@@ -1,11 +1,23 @@
 # 機械学習についての復習
 
-## 機械学習の分類
+## 機械学習の種類
   - 教師あり学習 Supervised learning
     - 回帰 regression *← 前回*
     - 分類 classification *← 今回*
   - 教師なし学習 Unsupervised learning
   - 強化学習 Reinforcement learning
+
+## 教師あり学習の手順
+
+1. 前処理: __トレーニングデータ（training data）__ と __テストデータ（test data）__ を準備する。
+2. 選択: 使用するモデルや設定値（__ハイパーパラメータ__）を選択する。
+3. 学習: トレーニングデータを使って、モデルを学習させて、予測モデルを構築する。
+4. 評価: テストデータを使って、学習済みの予測モデルを評価する。
+  - 結果が良くなければ、2へ戻る。
+  - 結果が良ければ、5へ進む。
+5. 予測・解釈: 予測モデルを新しいデータに適用する。または、予測モデルを解釈する。
+
+<img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/supervised_learning_process.png?raw=true" alt="supervised_learning_process" height="60px">
 
 ## 「線形回帰」モデル
 
@@ -15,29 +27,29 @@
 
 
 モデルの学習  
-= **コスト関数 (Cost function)**を最小化する  
-= 最もデータに適合する**パラメータ**（係数*β*や 誤差*e*）を見つける
+= __コスト関数 (Cost function)__、多くの場合「実測値と予測値の差」を最小化する  
+= 最もデータに適合する__パラメータ__（係数*β*や 誤差*e*）を見つける
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/regression2.png?raw=true" alt="regression" height="200px">
 
 
 ## パラメータの最適値探索
 
-- **最小二乗法 (Least squares method)**を使って、ピンポイントに最適値を求める
-- **勾配法 (Gradient method)**を使って、徐々にパラメータを更新する
-  - **確率的勾配降下法 Stochastic Gradient Descent**
-  - **最急降下法 Gradient Descent**
+- __最小二乗法 (Least squares method)__を使って、ピンポイントに最適値を求める
+- __勾配法 (Gradient method)__を使って、徐々にパラメータを更新する
+  - __確率的勾配降下法 Stochastic Gradient Descent__
+  - __最急降下法 Gradient Descent__
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_method.png?raw=true" alt="gradient_method" height="200px">
 
 
 ## ハイパーパラメータが重要
 
-勾配法では、パラメータの更新幅を学習率*η*（イータ eta)で制御する
+勾配法では、パラメータの更新幅は「学習率*η*（イータ eta)」で制御される
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_method_algorithm.png?raw=true" alt="gradient_method_algorithm" height="200px">
 
-学習率は、トレーニングデータからは最適化されないパラメータ（**ハイパーパラメータ Hyperparameter**）である
+学習率は、トレーニングデータからは最適化されないパラメータ（__ハイパーパラメータ Hyperparameter__）である
 - 学習率が低すぎると（更新幅が小さすぎると）、最適値まで届かずに学習を終える
 - 学習率が高すぎると（更新幅が大きすぎると）、パラメータが発散して、最適値を得られない
 
