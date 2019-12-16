@@ -16,7 +16,7 @@
 
 モデルの学習
 = **コスト関数 (Cost function)**を最小化する
-= 最もデータに適合する**パラメータ**（係数$\beta$ や 誤差$e$）を見つける
+= 最もデータに適合する**パラメータ**（係数 <img src="https://latex.codecogs.com/gif.latex?\beta" /> や 誤差 <img src="https://latex.codecogs.com/gif.latex?e" /> ）を見つける
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/regression2.png?raw=true" alt="regression" height="200px">
 
@@ -33,13 +33,13 @@
 
 ## ハイパーパラメータが重要
 
-勾配法では、パラメータの更新幅を学習率$\eta$（イータ eta)で制御する
+勾配法では、パラメータの更新幅を学習率 <img src="https://latex.codecogs.com/gif.latex?\eta" /> （イータ eta)で制御する
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_method_algorithm.png?raw=true" alt="gradient_method_algorithm" height="200px">
 
 学習率は、トレーニングデータからは最適化されないパラメータ（**ハイパーパラメータ Hyperparameter**）である
-- 低すぎると（更新幅が小さすぎると）、最適値まで届かずに学習を終える
-- 高すぎると（更新幅が大きすぎると）、パラメータが発散して、最適値が得られない
+- 学習率が低すぎると（更新幅が小さすぎると）、最適値まで届かずに学習を終える
+- 学習率が高すぎると（更新幅が大きすぎると）、パラメータが発散して、最適値を得られない
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_descent_eta.png?raw=true" alt="gradient_descent_eta" height="200px">
 
