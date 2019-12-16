@@ -9,26 +9,22 @@
 
 ## 教師あり学習の手順
 
-1. 前処理: __トレーニングデータ（training data）__ と __テストデータ（test data）__ を準備する。
-2. 選択: 使用するモデルや設定値（ __ハイパーパラメータ__ ）を選択する。
-3. 学習: トレーニングデータを使って、モデルを学習させて、予測モデルを構築する。
-4. 評価: テストデータを使って、学習済みの予測モデルを評価する。
-  - 結果が良くなければ、2へ戻る。
-  - 結果が良ければ、5へ進む。
-5. 予測・解釈: 予測モデルを新しいデータに適用する。または、予測モデルを解釈する。
+1. 前処理: データの分割、スケーリング
+2. 選択: 機械学習の手法や設定値（ __ハイパーパラメータ__ ）の選択
+3. 学習: トレーニングデータを使って、モデルを学習
+4. 評価: テストデータを使って、学習済みのモデルを評価
+5. 予測: 新しいデータの予測値を得る
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/supervised_learning_process.png?raw=true" alt="supervised_learning_process" height="60px">
 
-## 「線形回帰」モデル
+## 回帰モデル
 
-予測モデル = 線形方程式
+回帰モデル = 線形方程式
 
 <img src="https://github.com/CropEvol/lecture/blob/2018/textbook_2018/09_statistics/data/regression_base.png?raw=true" alt="regression" height="150px">
 
 
-モデルの学習  
-= __コスト関数 (Cost function)__ 、多くの場合「実測値と予測値の差」を最小化する  
-= 最もデータに適合する __パラメータ__ （係数 *β* や 誤差 *e* ）を見つける
+トレーニングデータを使って、モデルを学習させて、最もデータに適合する __パラメータ__ （係数 *β* や 誤差 *e* ）を見つける
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/regression2.png?raw=true" alt="regression" height="200px">
 
