@@ -14,9 +14,9 @@
 <img src="https://github.com/CropEvol/lecture/blob/2018/textbook_2018/09_statistics/data/regression_base.png?raw=true" alt="regression" height="150px">
 
 
-モデルの学習
-= **コスト関数 (Cost function)**を最小化する
-= 最もデータに適合する**パラメータ**（係数 <img src="https://latex.codecogs.com/gif.latex?\beta" /> や 誤差 <img src="https://latex.codecogs.com/gif.latex?e" /> ）を見つける
+モデルの学習  
+= **コスト関数 (Cost function)**を最小化する  
+= 最もデータに適合する**パラメータ**（係数*β*や 誤差*e*）を見つける
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/regression2.png?raw=true" alt="regression" height="200px">
 
@@ -33,7 +33,7 @@
 
 ## ハイパーパラメータが重要
 
-勾配法では、パラメータの更新幅を学習率 <img src="https://latex.codecogs.com/gif.latex?\eta" /> （イータ eta)で制御する
+勾配法では、パラメータの更新幅を学習率*η*（イータ eta)で制御する
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_method_algorithm.png?raw=true" alt="gradient_method_algorithm" height="200px">
 
