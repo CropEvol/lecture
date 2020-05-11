@@ -35,3 +35,12 @@ Googleアカウントを持っていない場合は作成してください。�
 これらのブラウザは今回のデータ解析で**使用できません**。
 - Internet Explorer
 - Microsoft Edge
+
+---
+
+最後に、「データ解析で使用可能なブラウザ」で下記URLをクリックまたは入力して、データ解析環境（Google Colaboratory）にアクセスできるか確認してください。
+https://colab.research.google.com/notebooks/welcome.ipynb
+
+上手くいくと、このような画面が表示されます。
+![google colaboratory](./images/google_colab.png?raw=true
+ "google colaboratory")
