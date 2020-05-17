@@ -18,7 +18,7 @@
 ## データ解析実習
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-| 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_dna.ipynb) |
+| 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_dna.ipynb)(Google Colab) |
 | 02 | 5月25日（月） | Python基礎のつづき |
 | 03 | 6月1日（月） | Python発展 |
 | 04 | 6月8日（月） | ゲノムデータ解析入門 |
