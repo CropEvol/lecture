@@ -20,8 +20,8 @@
 |:---|:---|:---|
 | 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | 5月25日（月） | Python基礎のつづき |
-| 03 | 6月1日（月） | Pythonデータ解析(Google Colab) |
-| 04 | 6月8日（月） | [Pythonデータ解析 ]() |
+| 03 | 6月1日（月） | [Pythonデータ解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L03_python_analysis.ipynb)(Google Colab) |
+| 04 | 6月8日（月） | Pythonデータ解析 |
 
 
 ---
