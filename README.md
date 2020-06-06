@@ -21,7 +21,7 @@
 | 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | 5月25日（月） | Python基礎のつづき |
 | 03 | 6月1日（月） | [Pythonデータ解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab) <br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md)|
-| 04 | 6月8日（月） | Pythonデータ解析 |
+| 04 | 6月8日（月） | [ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab) |
 
 
 ---
@@ -119,6 +119,7 @@ _実習内容は、進捗等により変更することがあります。_
 ## 過去の年度のテキスト
 - [2017年度](https://github.com/CropEvol/lecture/tree/2017)
 - [2018年度](https://github.com/CropEvol/lecture/tree/2018)
+- [2019年度](https://github.com/CropEvol/lecture/tree/2019)
 
 ---
 Copyright&copy; 2019 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
