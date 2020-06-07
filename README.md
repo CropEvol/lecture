@@ -21,7 +21,7 @@
 | 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | 5月25日（月） | Python基礎のつづき |
 | 03 | 6月1日（月） | [Pythonデータ解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab) <br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md)|
-| 04 | 6月8日（月） | [ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab) |
+| 04 | 6月8日（月） | [ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF)<br>[ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab) |
 
 
 ---
