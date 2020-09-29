@@ -27,10 +27,11 @@
 ---
 
 <a name="section2"></a>
-# ゲノム情報解析入門 [2019年度 学部講義]
+# ゲノム情報解析入門 [2020年度 学部講義]
 
 - 時間：毎週火曜 14:45 - 16:15  
-- 部屋：農学部総合館 W214  
+- 部屋：Zoom上でおこないます
+- [シラバス](https://ocw.kyoto-u.ac.jp/ja/syllabuses2020/111/2/5323000)
 
 ## 必要なもの
 実習では、[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)というPython解析環境を利用します。  
@@ -50,64 +51,35 @@
 
 
 
-## 講義・実習表
+## 解析実習表
 
-### 授業開始前の準備
-授業開始前までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページで待機しておいてください。
+各回の授業開始前までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページを開いておいてください。
 
-| No. | 講義・実習内容 | 日付 | 資料 | その他 |
+| No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| ガイダンス | 10月1日 | [シラバス](https://ocw.kyoto-u.ac.jp/syllabuses2019/111/7/5323000) ||
-|02| 解析環境セットアップ・使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L02_first_googlecolab.HW.ANS.ipynb) / [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_intro_bioinfo.pdf) | [提出者リスト](https://drive.google.com/open?id=1-_0Yz6M8_OohaDBsEH1cCYD7MkvFrxpB) / [Q&A](https://drive.google.com/open?id=1-gyTJ-MVpBgSDQgMpKGwiAjcAuBy4G2p) |
-|03| Pythonをはじめる - 基礎 - | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L03_python_basis.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1eu3pHuxmdOkxqrAtreHIqG1wo6z0fjpw) / [Q&A](https://drive.google.com/open?id=1f2JmnsMyMjpzjNNlk0oXk40jl3jUM8lt) |
-|04| Pythonをはじめる - 基礎 -<br>（前回の復習と続き） | 10月29日 | [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L04_python_basis.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L04_python_basis.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1_Dtd-xXJ_V-yGPluhqVgB_L__szufK-i) / [Q&A](https://drive.google.com/open?id=15NSU21d5RutU2nH_NFuBo22hqAPBqDMW) |
-|05| Pythonをはじめる - 実践 - | 11月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L05_population_genetics.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L05_population_genetics.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L05_population_genetics.HW.ANS.ipynb) / [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L05_slide.resized.pdf) | [提出者リスト](https://drive.google.com/open?id=1Pc4MCMJTshoIWQA1SUNPGWWBi30MMDbh) / [Q&A](https://drive.google.com/open?id=1ItxZ8QxX8Q1sGCEsIAFiL33i4T1mw4jU) |
-|06| Pythonライブラリを使う - 基礎 -<br>< pandas・Matplotlib・SciPy > | 11月12日 | [テキスト1](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries_1.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1xiszNHy2BDVAPdX29DikAB8pLrgxkdt2) / [Q&A](https://drive.google.com/open?id=1AsnEpdpdFukjHH5OUhqDyI9exQQESExR) |
-|| < NumPy・Biopython > || [テキスト2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L06_python_libraries_2.ipynb)||
-|07| Pythonライブラリを使う - 実践 - | 11月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.HW.ipynb)/ [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L07_mutmap.HW.ANS.ipynb) / [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L07_slide.pdf) | [提出者リスト](https://drive.google.com/open?id=1_TAx1Vnxcua5kZmLc2Vd4nIPLwptBe1q) / [Q&A](https://drive.google.com/open?id=1Tkundb7NAzPw4b4xEMotXy9tLR6ud9RP) |
-|08| 機械学習 - 線形回帰 - | 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L08_ML_regression.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1-COufbiXydeeWZnrDBPf4usPhF29UKlE) |
-|09| 機械学習 - 勾配法 - | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L09_ML_gradient_method.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1O3mwplZusDE4RBHds5nABOSbcf-drstw) |
-|10| 機械学習 - 分類アルゴリズム - | 12月17日 | [前回までの復習](textbook_2019/L10_ML_previous.md)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L10_ML_classification.ipynb) / [課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L10_ML_classification.HW.ipynb) / [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L10_ML_classification.HW.ANS.ipynb) | [提出者リスト](https://drive.google.com/open?id=1utKvp87ua0Yabkd1JMJNBs4ftaXDwzjc) |
-|11| 機械学習 - ゲノム解析 - | 1月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2019/L11_ML_genomics.ipynb) / [出席確認方法](textbook_2019/L11_ML_genomics.HW.md) | [提出者リスト](https://drive.google.com/open?id=1Z3DaSqWvc0bE28JM5NoV-yiq1Y7ujOvE) |
-|12| 期末レポート | --- | [レポート内容](textbook_2019/L12_report.md) | [提出者リスト](https://drive.google.com/open?id=1-GCn3gMnRGuuezPsnIMVzUx1JNcr3dDy) |
-
+|01| Google Colaboratoryを使う | 10月6日 | テキスト<br>課題 ||
+|02| Pythonの基礎 | 10月13日 | テキスト<br>課題 ||
+|03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
+|04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
+|05| Pythonライブラリを使う | 11月10日 | テキスト<br>課題 ||
+|06| 大規模データ解析入門 - MutMap | 11月17日 | テキスト<br>課題 ||
+|07| 大規模データ解析入門 - Sliding Window解析 - | 11月24日 | テキスト<br>課題 ||
+|08| 大規模データ解析入門 - シミュレーション | 12月1日 | テキスト<br>課題 ||
+|09| 機械学習 - 回帰 | 12月8日 | テキスト<br>課題 ||
+|10| 機械学習 - 分類 | 12月15日 | テキスト<br>課題 ||
+|11| 機械学習 - ゲノム解析 | 12月22日 | テキスト<br>課題 ||
+|12| ネットワーク解析 | 1月5日 | テキスト<br>課題 ||
+||||||
 _実習内容は、進捗等により変更することがあります。_
 
-
-### ノートブック内容の確認方法
-以下に、2通りの方法を紹介しています。
-#### 1. Google Colaboratoryにアップロードする
-
-こちらの方法は、ノートブックファイルを**編集可能**です。  
-
-手順:
-1. Google Colaboratoryを開く  
-（開くページは、どのページでも構いません。例: [Google Colaboratory Welcomeページ](https://colab.research.google.com/notebooks/welcome.ipynb)）
-1. ヘッダー「ファイル」 > 「ノートブックをアップロード...」
-1. アップロード画面で「ファイルを選択」> アップロードしたいファイルを選ぶ  
-（アップロードしたいファイルアイコンをドラッグ&ドロップしてもOK）
-1. アップロードしたノートブックが自動的に開きます  
-
-参考: [ノートブックファイルをアップロードする](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_confirm_mynotebook.md)
+## 出欠確認方法
+各回の課題の提出状況により出欠確認をいたします。  
+課題未提出の場合、欠席扱いになりますのでご注意ください。  
 
 
-#### 2. nbviewer.jsにアップロードする  
-こちらの方法では、ノートブックファイルを**編集できません**。  
-
-手順:
-1. [nbviewer.js アップロードページ](https://kokes.github.io/nbviewer.js/viewer.html) を開く
-1. アップロードしたいファイルアイコンをドラッグ＆ドロップする
-
-
-### 「提出者リスト」について
-上記の実習表のページリンクから、各課題の「提出者リスト（課題提出者の学籍番号のリスト）」を見ることが可能です。  
-課題を提出したのに学籍番号がリストにない場合は講義スタッフまでご連絡ください。  
-なお、「提出者リスト」に反映されるまでに提出後1~3日程度かかります。
-
-
-### 「Q&A」について
-各課題提出時に寄せられた質問や要望、それらへの回答を掲載しています。  
-上記の実習表のページリンク「Q&A」を参照してください。
+## 課題提出方法
+各回の課題は、[PandA](https://panda.ecs.kyoto-u.ac.jp/portal/login) を使って提出してください。  
+提出方法の詳細は、各課題ページに記載いたします。
 
 ---
 # ゲノム情報解析学 [大学院講義]
