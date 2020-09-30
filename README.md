@@ -49,21 +49,19 @@
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
 
 
-
-
 ## 解析実習表
 
 各回の授業開始前までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページを開いておいてください。
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| Google Colaboratoryを使う | 10月6日 | テキスト<br>課題 ||
+|01| Google Colaboratoryの使い方 | 10月6日 | [テキスト](./textbook_2020/L01_first_googlecolab.ipynb)<br>課題 ||
 |02| Pythonの基礎 | 10月13日 | テキスト<br>課題 ||
 |03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
 |04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
 |05| Pythonライブラリを使う | 11月10日 | テキスト<br>課題 ||
 |06| 大規模データ解析入門 - MutMap | 11月17日 | テキスト<br>課題 ||
-|07| 大規模データ解析入門 - Sliding Window解析 - | 11月24日 | テキスト<br>課題 ||
+|07| 大規模データ解析入門 - Sliding Window解析 | 11月24日 | テキスト<br>課題 ||
 |08| 大規模データ解析入門 - シミュレーション | 12月1日 | テキスト<br>課題 ||
 |09| 機械学習 - 回帰 | 12月8日 | テキスト<br>課題 ||
 |10| 機械学習 - 分類 | 12月15日 | テキスト<br>課題 ||
