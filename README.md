@@ -55,7 +55,7 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| Google Colaboratoryの使い方 | 10月6日 | [テキスト](./textbook_2020/L01_first_googlecolab.ipynb)<br>課題 ||
+|01| Google Colaboratoryの使い方 | 10月6日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>課題 ||
 |02| Pythonの基礎 | 10月13日 | テキスト<br>課題 ||
 |03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
 |04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
