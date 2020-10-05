@@ -55,7 +55,7 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| Google Colaboratoryの使い方 | 10月6日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>課題 ||
+|01| Google Colaboratoryの使い方 | 10月6日 | [イントロダクション](.textbook_2020/L01_intro_bioinfo.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>課題 | |
 |02| Pythonの基礎 | 10月13日 | テキスト<br>課題 ||
 |03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
 |04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
@@ -70,6 +70,8 @@
 ||||||
 
 _実習内容は、進捗等により変更することがあります。_
+
+_各回の課題は、講義終了後 (16:15頃)にアップロードいたします。_
 
 ## 出欠確認方法
 各回の課題の提出状況により出欠確認をいたします。  
