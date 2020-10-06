@@ -55,7 +55,7 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| Google Colaboratoryの使い方 | 10月6日 | [スライド](./textbook_2020/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ipynb) | |
+|01| Google Colaboratoryの使い方 | 10月6日 | [スライド](./textbook_2020/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>[課題] | |
 |02| Pythonの基礎 | 10月13日 | テキスト<br>課題 ||
 |03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
 |04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
@@ -67,7 +67,9 @@
 |10| 機械学習 - 分類 | 12月15日 | テキスト<br>課題 ||
 |11| 機械学習 - ゲノム解析 | 12月22日 | テキスト<br>課題 ||
 |12| ネットワーク解析 | 1月5日 | テキスト<br>課題 ||
-||||||
+|13|||||
+|14|||||
+|15|||||
 
 _実習内容は、進捗等により変更することがあります。_
 
