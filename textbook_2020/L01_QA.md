@@ -58,8 +58,7 @@ GoogleドライブからColabに接続すると自分の保存したノートブ
 [回答]
 　うまく設定できておりませんでした。実習ページに移行できるように修正いたしました。
 
-![実習ページへのリンク](https://lh3.googleusercontent.com/pw/ACtC-3eilU4zI50EeIfT9Tq0AILLWTC7nSyy_JFKiL5pboP_DSGe2eGgV5Jn8Lk-W0nGiIf3wakVZeXz7F-VRC4valExUAVfkEOE4uyaLWZgnaNRJwdQN9VVmQo2ualeU-yryypz6ppb3cMLYCZOwn--sVhd=w1238-h868-no?authuser=0)
-
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3eilU4zI50EeIfT9Tq0AILLWTC7nSyy_JFKiL5pboP_DSGe2eGgV5Jn8Lk-W0nGiIf3wakVZeXz7F-VRC4valExUAVfkEOE4uyaLWZgnaNRJwdQN9VVmQo2ualeU-yryypz6ppb3cMLYCZOwn--sVhd=w1238-h868-no?authuser=0" alt="実習ページへのリンク" height="300px" align="middle">
 ---
 
 [質問]
