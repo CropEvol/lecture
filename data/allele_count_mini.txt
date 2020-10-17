@@ -1,0 +1,10 @@
+chr1	1	C	.	70	0
+chr1	2	A	.	67	0
+chr1	3	C	.	66	0
+chr1	4	A	.	66	0
+chr1	5	T	.	67	0
+chr1	6	C	.	68	0
+chr1	7	T	C	25	43
+chr1	8	T	.	66	0
+chr1	9	A	.	67	0
+chr1	10	T	.	68	0
