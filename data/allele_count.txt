@@ -60,7 +60,7 @@ chr1	59	A	.	56	0
 chr1	60	A	.	56	0
 chr1	61	G	.	57	0
 chr1	62	G	.	57	0
-chr1	63	T	.	57	0
+chr1	63	T	C	21	36
 chr1	64	C	.	55	0
 chr1	65	T	.	58	0
 chr1	66	G	.	58	0
