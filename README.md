@@ -56,15 +56,15 @@
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| Google Colaboratoryの使い方 | 10月6日 | [スライド](./textbook_2020/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ANS.ipynb) | [Q&A](./textbook_2020/L01_QA.md) |
-|02| Pythonの基礎 | 10月13日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.HW.ipynb)<br>課題解答例 | [Q&A](./textbook_2020/L02_QA.md) |
-|03| Pythonの基礎 | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_2.ipynb)<br>課題 ||
-|04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
-|05| Pythonライブラリを使う | 11月10日 | テキスト<br>課題 ||
-|06| データ解析体験1 | 11月17日 | テキスト<br>課題 ||
+|02| Pythonの基礎(1) | 10月13日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.HW.ipynb)<br>課題解答例 | [Q&A](./textbook_2020/L02_QA.md) |
+|03| Pythonの基礎(2) | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb)<br>課題 ||
+|04| Pythonライブラリを使う(1) | 10月27日 | テキスト<br>課題 ||
+|05| Pythonライブラリを使う(2) | 11月10日 | テキスト<br>課題 ||
+|06| データ解析体験(1) | 11月17日 | テキスト<br>課題 ||
 |07| 大規模データ解析入門 - MutMap | 11月24日 | テキスト<br>課題 ||
 |08| 大規模データ解析入門 - Sliding Window解析 | 12月1日 | テキスト<br>課題 ||
 |09| 大規模データ解析入門 - シミュレーション | 12月8日 | テキスト<br>課題 ||
-|10| データ解析体験2 | 12月15日 | テキスト<br>課題 ||
+|10| データ解析体験(2) | 12月15日 | テキスト<br>課題 ||
 |11| 機械学習 - 回帰 | 12月22日 | テキスト<br>課題 ||
 |12| 機械学習 - 分類 |  | テキスト<br>課題 ||
 |13| 機械学習 - ゲノム解析|  | テキスト<br>課題 ||
