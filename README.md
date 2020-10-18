@@ -57,7 +57,7 @@
 |:---|:---|:---|:---|:---|
 |01| Google Colaboratoryの使い方 | 10月6日 | [スライド](./textbook_2020/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ANS.ipynb) | [Q&A](./textbook_2020/L01_QA.md) |
 |02| Pythonの基礎 | 10月13日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.HW.ipynb)<br>課題解答例 | [Q&A](./textbook_2020/L02_QA.md) |
-|03| Pythonの基礎 | 10月20日 | テキスト<br>課題 ||
+|03| Pythonの基礎 | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_2.ipynb)<br>課題 ||
 |04| Pythonライブラリを使う | 10月27日 | テキスト<br>課題 ||
 |05| Pythonライブラリを使う | 11月10日 | テキスト<br>課題 ||
 |06| データ解析体験1 | 11月17日 | テキスト<br>課題 ||
