@@ -20,6 +20,11 @@ TypeError: 'int' object is not callable
 
 - 原因:  
 `print`という名前の変数をどこかで作ってしまったためだと思われます。変数`print`を作ってしまうと、同名の`print`関数が使用できなくなってしまいます。
+```python
+# このようなコードを書くと上のようなエラーがでます
+print = len("ATAGAATTCT")  # print関数を上書きして、変数printが作られる
+print("ATAGAATTCT")
+```
 
 - 解決策:  
 このエラーが出てしまった時は、下記の手順で、ノートブックのバックグラウンドで動いているシステムを再起動させてください。
