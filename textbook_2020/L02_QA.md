@@ -14,9 +14,12 @@ TypeError                                 Traceback (most recent call last)
 TypeError: 'int' object is not callable
 ```
 
+[サンプルコード](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_print_error.ipynb)
+
 [回答]
 
 　何名かの方が、同じようなエラーが出ていたようです。
+
 
 - 原因:  
 `print`という名前の変数をどこかで作ってしまったためだと思われます。変数`print`を作ってしまうと、同名の`print`関数が使用できなくなってしまいます。
@@ -31,6 +34,7 @@ print("ATAGAATTCT")
 	- ヘッダー「ランタイム」 > 「ランタイムを再起動...」をクリック
 
 <small>不便なことに、Pythonでは、関数名と同じ名前で変数を作れてしまいます。`print`や`len`のような変数は作らないようにしましょう。</small>
+
 
 ---
 
