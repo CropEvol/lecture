@@ -60,16 +60,16 @@
 |03| Pythonの基礎(1)の続き | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb#scrollTo=XXrQf7T7-U0z) ||
 || Pythonの基礎(2) | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.HW.ipynb) ||
 |04| Pythonの基礎(2)の続き | 10月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb#scrollTo=FCgg6UTTljT5)<br>課題 ||
-|05| Pythonライブラリを使う | 11月10日 | テキスト<br>課題 ||
-|06| データ解析体験(1) | 11月17日 | テキスト<br>課題 ||
-|07| 大規模データ解析入門 - MutMap | 11月24日 | テキスト<br>課題 ||
-|08| 大規模データ解析入門 - Sliding Window解析 | 12月1日 | テキスト<br>課題 ||
-|09| 大規模データ解析入門 - シミュレーション | 12月8日 | テキスト<br>課題 ||
-|10| データ解析体験(2) | 12月15日 | テキスト<br>課題 ||
-|11| 機械学習 - 回帰 | 12月22日 | テキスト<br>課題 ||
-|12| 機械学習 - 分類 |  | テキスト<br>課題 ||
-|13| 機械学習 - ゲノム解析|  | テキスト<br>課題 ||
-|14| ネットワーク解析 |  | テキスト<br>課題 ||
+|05| Pythonライブラリを使う - pandas - | 11月10日 | テキスト<br>課題 ||
+|06| Pythonライブラリを使う - Matplotlib - | 11月17日 | テキスト<br>課題 ||
+|07| データ解析体験(1) | 11月24日 | テキスト<br>課題 ||
+|08| 大規模データ解析入門 - MutMap -  | 12月1日 | テキスト<br>課題 ||
+|09| 大規模データ解析入門 - Sliding Window解析 - | 12月8日 | テキスト<br>課題 ||
+|10| 大規模データ解析入門 - シミュレーション -  | 12月15日 | テキスト<br>課題 ||
+|11| データ解析体験(2) | 12月22日 | テキスト<br>課題 ||
+|12| 機械学習 - 回帰 - |  | テキスト<br>課題 ||
+|13| 機械学習 - 分類 - |  | テキスト<br>課題 ||
+|14| 機械学習 - ゲノム解析 - |  | テキスト<br>課題 ||
 |15| フィードバック |  | テキスト<br>課題 ||
 
 _実習内容は、進捗等により変更することがあります。_
