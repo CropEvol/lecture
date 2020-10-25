@@ -60,7 +60,7 @@
 |03| Pythonの基礎(1)の続き | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb#scrollTo=XXrQf7T7-U0z) ||
 || Pythonの基礎(2) | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.HW.ipynb) ||
 |04| Pythonの基礎(2)の続き | 10月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb#scrollTo=FCgg6UTTljT5)<br>課題 ||
-|05| Pythonライブラリを使う - pandas - | 11月10日 | テキスト<br>課題 ||
+|05| Pythonライブラリを使う - pandas - | 11月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L04_python_library_pandas.ipynb)<br>課題 ||
 |06| Pythonライブラリを使う - Matplotlib - | 11月17日 | テキスト<br>課題 ||
 |07| データ解析体験(1) | 11月24日 | テキスト<br>課題 ||
 |08| 大規模データ解析入門 - MutMap -  | 12月1日 | テキスト<br>課題 ||
