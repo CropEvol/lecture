@@ -11,6 +11,8 @@
 
 もし、確認時のコメントを受け取りたい方は、共有URLリンク「閲覧（コメント可）」の設定にしてください。また、PandAでの提出時に「確認コメントを残してほしい」等の旨を書き添えていただけると非常に助かります。
 
+
+
 ---
 
 [ご質問またはご意見]
@@ -24,6 +26,8 @@
 実習ではスキップしましたが、if構文という条件分岐構文を使って、ある条件に合う行（特定の文字や数字が含む行）のみを処理できます。実際のゲノム解析では特定の行データのみを取り出す**フィルタリング**作業をよくおこないます。
 
 後日おこなう「Pythonライブラリを使う」の実習で、ある条件に合う行を取り出す方法を学びます。
+
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3ewzx4Gy9Z_hgGuTD_8ofSK1UZWfjuKE-99L1hQMBRjOetydxDY4Gh16xbFSWg3CWnbLUgN7I65XZQiQ8AobIteQ6axcFicu2ArJU3ZJZMBOCvUoppNQF2Tpsv2p9JXCt9vYZP4KPI5vvz_MhKGddPg=w1523-h1021-no?authuser=0" alt="read_line" height="200px">
 
 ---
 
