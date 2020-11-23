@@ -6,6 +6,7 @@
 課題の中で　`plt.figure(figsize=[... ])`と`plt.scatter(x,y,...)`との順番を間違えると、なぜ2つの図が出てしまうのでしょうか。
 
 [回答]
+
 `plt.figure()`はグラフフィールドを設定するためのコードです。matplotlibでは`plt.figure()`で設定したフィールドに1枚のグラフを書くためのパーツを追加していくことになります。
 
 `plt.scatter(x,y,...)`を先に書くと、おそらくですが、グラフを描くためのコード（`plt.figure()`と`plt.show()`）もバックグラウンドで実行されているのでしょう。
@@ -49,7 +50,7 @@ plt.show()    # 明示しなければ、バックグラウンドで実行
 [回答]
 
 誤って消したセルを元に戻す方法は、次の操作で可能です。
-ヘッダーメニュー「編集」 > 「セルの削除を元に戻す」
+- ヘッダーメニュー「編集」 > 「セルの削除を元に戻す」
 
 
 コピー＆ペーストができない理由ははっきりとわかりませんが、ブラウザの設定でコピー＆ペースト無効になっているのかもしれません。
@@ -59,5 +60,5 @@ plt.show()    # 明示しなければ、バックグラウンドで実行
 - FireFox: メニューバー「ファイル」 > 「新規プライベートウィンドウ」
 
 また、ブラウザの初期化も検討してみてください。
-FireFox: https://support.mozilla.org/ja/kb/reset-preferences-fix-problems
-Google Chrome: https://support.google.com/chrome/answer/3296214?hl=ja
+- FireFox: https://support.mozilla.org/ja/kb/reset-preferences-fix-problems
+- Google Chrome: https://support.google.com/chrome/answer/3296214?hl=ja
