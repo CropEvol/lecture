@@ -1,8 +1,8 @@
-# 散布図や折れ線グラフの描画についての補足
+# 散布図や折れ線グラフの各点の座標について
 
  散布図を描くためには、各点のx座標とy座標の情報が必要です。
 
- もし5点の散布図を描きたい場合、5個のx座標が入ったリスト状データと、5個のy座標が入ったリスト状データを用意します。それらの要素のペアが散布図の各プロットの座標データになります。
+ もし5点の散布図を描きたい場合、5個のx座標が入ったリスト状データと、5個のy座標が入ったリスト状データを用意します。それらの要素のペアが散布図の各点の座標データになります。
 
 ```python
 import matplotlib.pyplot as plt
@@ -17,4 +17,6 @@ plt.scatter(x, y) # 散布図
 
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3dFDSrA1n5fHPykCjx4FnJ7zySfe2GEvLKspI_x5FFfIANrB6PY9FgClU5BzAxSJsEuMEFz8XdtoKYK2R4WmL9L97y4l0DDPkwgkAfQIvOG4l1dAkR_mAL2lB37eIH5YK7NH6wlYcDMhzjKU-_eTczU=w1064-h808-no?authuser=0" alt="scatter_input" height="200px">
 
- なお、散布図の各点を直線で結んだグラフが「折れ線グラフ」です。
+ データフレームの2つの列データを`plt.scatter(x, y)`の`x`や`y`に与えた場合も同じで、列データの要素ペアが各点の座標に変換されます。
+
+ なお、散布図の各点を直線で結んだグラフが折れ線グラフです。
