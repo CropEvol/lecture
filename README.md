@@ -55,13 +55,15 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
+|00| ベイズ推定 | --- | [スライド](textbook_2020/RT_slides_201201.pdf) ||
+||||||
 |01| Google Colaboratoryの使い方 | 10月6日 | [スライド](./textbook_2020/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L01_first_googlecolab.HW.ANS.ipynb) | [Q&A](./textbook_2020/L01_QA.md) |
 |02| Pythonの基礎(1) | 10月13日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L02_python_basis_1.HW.ANS.ipynb) | [Q&A](./textbook_2020/L02_QA.md) |
 |03| Pythonの基礎(2) | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.HW.ANS.ipynb) | [Q&A](./textbook_2020/L03_QA.md) |
 |04| Pythonの基礎(2)の続き | 10月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2.ipynb#scrollTo=FCgg6UTTljT5)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2_2.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L03_python_basis_2_2.HW.ANS.ipynb) | [Q&A](./textbook_2020/L04_QA.md) |
 |05| Pythonライブラリを使う - pandas - | 11月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L05_python_library_pandas.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L05_python_library_pandas.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L05_python_library_pandas.HW.ANS.ipynb) | [Q&A](./textbook_2020/L05_QA.md) |
 |06| Pythonライブラリを使う - Matplotlib - | 11月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L06_python_library_matplotlib.ipynb)<br>[補足](./textbook_2020/L06_suppl.md)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L06_python_library_matplotlib.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L06_python_library_matplotlib.HW.ANS.ipynb) | [Q&A](./textbook_2020/L06_QA.md) |
-|07| 大規模データ解析入門 - MutMap解析 - | 11月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L07_mutmap.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L07_mutmap.HW.ipynb) | [Q&A](./textbook_2020/L07_QA.md) |
+|07| 大規模データ解析入門 - MutMap解析 - | 11月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L07_mutmap.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L07_mutmap.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L07_mutmap.HW.ANS.ipynb) | [Q&A](./textbook_2020/L07_QA.md) |
 |08| 大規模データ解析入門 - Sliding Window解析 -  | 12月1日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L08_sliding_window.ipynb)<br>課題 ||
 |09| データ解析体験(1) | 12月8日 | テキスト<br>課題 ||
 |10| 大規模データ解析入門 - シミュレーション -  | 12月15日 | テキスト<br>課題 ||
@@ -70,6 +72,8 @@
 |13| 機械学習 - 分類 - | 1月12日 | テキスト<br>課題 ||
 |14| 機械学習 - ゲノム解析 - | 1月19日 | テキスト<br>課題 ||
 |15|  | 1月26日 | テキスト<br>課題 ||
+
+
 
 _実習内容は、進捗等により変更することがあります。_
 
