@@ -89,8 +89,9 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 提出方法の詳細は、各課題ページに記載いたします。
 
 ---
-# ゲノム情報解析学 [大学院講義]
-この講義では、[Python for Bioinformatics (Second edition) by Sebastian Bassi](https://github.com/Serulab/Py4Bio) のサンプルコードを使います。
+# 栽培植物進化ゲノム学 [大学院講義]
+
+内容未定
 
 ---
 
@@ -101,4 +102,4 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 - [2019年度](https://github.com/CropEvol/lecture/tree/2019)
 
 ---
-Copyright&copy; 2019 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+Copyright&copy; 2020 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
