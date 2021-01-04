@@ -69,8 +69,8 @@
 |10| 大規模データ解析入門 - シミュレーション -  | 12月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L10_simulation.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L10_simulation.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L10_simulation.HW.ANS.ipynb) |[Q&A](./textbook_2020/L10_QA.md)|
 |11| データ解析体験(2) - ゲノム解析とディープラーニング - | 12月22日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/M02_genomics_and_deeplearning.ipynb)<br>[課題](./textbook_2020/M02_hw.md) ||
 |12| 機械学習 - 線形回帰（1）- | 1月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L12_ML_regression_1.ipynb)<br>課題 ||
-|13| 機械学習 - 線形回帰（2）- | 1月12日 | テキスト<br>課題 ||
-|| 機械学習 - 線形回帰: 確率的勾配降下法 - || テキスト<br>課題 ||
+|| 機械学習 - 線形回帰（2）- |  | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L12_ML_regression_2.ipynb) ||
+|13| 機械学習 - 勾配法 - | 1月12日 | テキスト<br>課題 ||
 |14| 機械学習 - 分類 - | 1月19日 | テキスト<br>課題 ||
 |15| 機械学習 - ゲノム解析 - | 1月26日 | テキスト<br>課題 ||
 
