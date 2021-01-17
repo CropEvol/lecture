@@ -10,8 +10,8 @@ def draw_decision_boundary(x1_train, x2_train, y_train, x1_test, x2_test, y_test
   colors = ('red', 'blue', 'green', 'purple', 'yellow', 'silver')
   cmap = ListedColormap(colors[:len(np.unique(y_train))])
   # データの最小値、最大値
-  x1_min, x1_max = min(x1_train.min(), x1_test.min())-1, max(x1_train.max(), x1_test.max())+1
-  x2_min, x2_max = min(x2_train.min(), x2_test.min())-1, max(x2_train.max(), x2_test.max())+1
+  x1_min, x1_max = min(x1_train.min(), x1_test.min())-0.1, max(x1_train.max(), x1_test.max())+0.1
+  x2_min, x2_max = min(x2_train.min(), x2_test.min())-0.1, max(x2_train.max(), x2_test.max())+0.1
   # メッシュ用のデータポイント
   x1_mesh, x2_mesh = np.meshgrid(np.arange(x1_min, x1_max, resolution),
                                   np.arange(x2_min, x2_max, resolution))
