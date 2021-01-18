@@ -13,6 +13,65 @@
 
 <img src="https://github.com/CropEvol/lecture/blob/master/textbook_2019/images/gradient_descent_eta.png?raw=true" alt="eta" height="300px" align="middle">
 
+---
+
+[ご質問またはご意見]
+
+編集エリア外の
+```python
+# 学習済み線形回帰モデルの係数と誤差を表示
+print("Coefficient=", lr.coef_)   # 係数b （傾き）
+print("Intercept="  , lr.intercept_) # 誤差e (切片)
+print("R2="  , lr.score(x, y)) # 決定係数R2
+```
+は最小二乗法での線形回帰モデルの係数と誤差の表示ではないのでしょうか？
+
+これは表示する意味があるのでしょうか？
+
+また、課題内では最小二乗法での学習を行う
+```python
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+lr.fit(x, y)
+```
+をコードしていなくても上記の係数や誤差や表示されるのですが、これはどこで学習しているのでしょうか？
+
+[回答]
+
+`lr.coef_`や`lr.intercept_`がどのようなモデルの係数・誤差なのかは、それより前のコードによって変わってきます。
+
+次のコードでは、「最小二乗法での線形回帰モデル」が変数`lr`に作られるので、`lr.coef_`や`lr.intercept_`は最小二乗法で求めた係数と誤差です。
+```python
+# モデルの選択・学習
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+lr.fit(x, y)
+# 学習済み線形回帰モデルの係数と誤差を表示
+print("Coefficient=", lr.coef_)   # 係数b （傾き）
+print("Intercept="  , lr.intercept_) # 誤差e (切片)
+print("R2="  , lr.score(x, y)) # 決定係数R2
+```
+
+一方で、以下のコードでは「確率的勾配降下法での線形回帰モデル」が変数`lr`に作られます。そのため、`lr.coef_`や`lr.intercept_`は確率的勾配降下法で求めた係数と誤差です。
+```python
+# モデルの選択・学習
+from sklearn.linear_model import SGDRegressor
+lr = SGDRegressor(max_iter=1000, eta0=0.05, learning_rate="constant")
+lr.fit(x, y)
+# 学習済み線形回帰モデルの係数と誤差を表示
+print("Coefficient=", lr.coef_)   # 係数b （傾き）
+print("Intercept="  , lr.intercept_) # 誤差e (切片)
+print("R2="  , lr.score(x, y)) # 決定係数R2
+```
+
+また、もう一つの質問のほうですが、おそらく課題のノートブック中で一度、以下のようなコードを実行したのではないでしょうか。実行すると、変数`lr`にその学習結果が残ります。
+
+```python
+# モデルの選択・学習
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+lr.fit(x, y)
+```
 
 ---
 
