@@ -74,7 +74,7 @@
 |14| 機械学習 - 分類 - | 1月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L14_ML_classification.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L14_ML_classification.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L14_ML_classification.HW.ANS.ipynb) |[Q&A](./textbook_2020/L14_QA.md)|
 |15| 機械学習 - ゲノム解析 - | 1月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2020/L15_ML_genomics.ipynb)<br>出席確認 ||
 ||||||
-| | 期末レポート課題<br>締切: 2月2日（火） ||||
+| | [期末レポート課題](./textbook_2020/L16_Assignment.md)<br>締切: 2月2日（火） ||||
 
 
 _実習内容は、進捗等により変更することがあります。_
