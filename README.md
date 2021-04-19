@@ -6,31 +6,22 @@
 - 毎週月曜 16:45-18:15
 <<<<<<< HEAD
 - 対面 または ミーティングツール Zoom 上でおこないます
-=======
-- オンラインミーティングツール Zoom 上でおこないます
->>>>>>> a2a37ad022eb1ac9302fb20a8a5385fbb230d546
 
 ## Pythonプログラミング解析環境
 [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)と呼ばれるサービスを利用します。
-*Googleアカウントが必要です。持っていない場合は作成してください。  
-→
-[Googleアカウント新規作成](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)*
 
+Googleアカウントが必要です。持っていない場合は作成してください。→ [Googleアカウント新規作成](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
+
+
+## データ解析実習表
 1. Googleアカウントにログインする
 1. 下記実習表のリンクをクリックして、Google Colabノートブックページに移動する
 
-## データ解析実習表
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-<<<<<<< HEAD
 | 01 | 4月26日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab)<br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md) |
 | 03 | | [ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF)<br>[ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab)|
-=======
-| 01 | | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>Python基礎 (Google Colab) |
-| 02 | | |
-| 03 | | |
->>>>>>> a2a37ad022eb1ac9302fb20a8a5385fbb230d546
 
 
 ---
@@ -99,10 +90,6 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 各回の課題は、[PandA](https://panda.ecs.kyoto-u.ac.jp/portal/login) を使って提出してください。  
 提出方法の詳細は、各課題ページに記載いたします。
 
----
-# 栽培植物進化ゲノム学 [大学院講義]
-
-内容未定
 
 ---
 
@@ -111,6 +98,7 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 - [2017年度](https://github.com/CropEvol/lecture/tree/2017)
 - [2018年度](https://github.com/CropEvol/lecture/tree/2018)
 - [2019年度](https://github.com/CropEvol/lecture/tree/2019)
+- [2019年度](https://github.com/CropEvol/lecture/tree/2020)
 
 ---
-Copyright&copy; 2020 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+Copyright&copy; 2021 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
