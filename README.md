@@ -1,10 +1,10 @@
 <a name="section1"></a>
-# ゲノム博物学入門 [2020年度 ILASセミナー]
+# ゲノム博物学入門 [2021年度 ILASセミナー]
 
 ## セミナーの実施
-- 5月11日（月）〜
-- 毎週月曜 16:30-18:00
-- オンライン通話システム Zoom 上でおこないます
+- 4月19日（月）〜
+- 毎週月曜 16:45-18:15
+- 対面 または ミーティングツール Zoom 上でおこないます
 
 ## Pythonプログラミング解析環境
 [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)と呼ばれるサービスを利用します。
@@ -18,11 +18,10 @@
 ## データ解析実習
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-| 01 | 5月18日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
-| 02 | 5月25日（月） | Python基礎 のつづき |
-| 03 | 6月1日（月） | [Pythonデータ解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab) <br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md)|
-| 04 | 6月8日（月） | Pythonデータ解析 のつづき<br>[ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF) |
-| 05 | 6月15日（月） | [ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab) |
+| 01 | 4月26日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
+| 02 | | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab)<br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md) |
+| 03 | | [ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF)<br>[ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab)|
+
 
 ---
 
