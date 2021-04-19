@@ -4,7 +4,11 @@
 ## セミナーの実施
 - 4月19日（月）〜
 - 毎週月曜 16:45-18:15
+<<<<<<< HEAD
 - 対面 または ミーティングツール Zoom 上でおこないます
+=======
+- オンラインミーティングツール Zoom 上でおこないます
+>>>>>>> a2a37ad022eb1ac9302fb20a8a5385fbb230d546
 
 ## Pythonプログラミング解析環境
 [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)と呼ばれるサービスを利用します。
@@ -13,14 +17,20 @@
 [Googleアカウント新規作成](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)*
 
 1. Googleアカウントにログインする
-1. 予定表のリンクをクリックして、Google Colabノートブックページに移動する
+1. 下記実習表のリンクをクリックして、Google Colabノートブックページに移動する
 
-## データ解析実習
+## データ解析実習表
 | No. | 日付 | テキスト |
 |:---|:---|:---|
+<<<<<<< HEAD
 | 01 | 4月26日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab)<br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md) |
 | 03 | | [ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF)<br>[ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab)|
+=======
+| 01 | | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>Python基礎 (Google Colab) |
+| 02 | | |
+| 03 | | |
+>>>>>>> a2a37ad022eb1ac9302fb20a8a5385fbb230d546
 
 
 ---
