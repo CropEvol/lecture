@@ -18,10 +18,11 @@ Googleアカウントが必要です。持っていない場合は作成して�
 
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-| 01 | 4月26日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/01/L01_python_basis.ipynb)(Google Colab) |
-| 02 | | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/03/L03_python_analysis.ipynb)(Google Colab)<br>[補足: データセットの準備方法](https://github.com/CropEvol/lecture/blob/master/ILAS_2020/03/L03_data_preparation.md) |
-| 03 | | [ゲノム解析入門イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2020/04/mutmap_intro.pdf)(PDF)<br>[ゲノム解析入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2020/04/L04_python_genomics.ipynb)(Google Colab)|
+| 01 | 4月26日（月） | [事前準備](./ILAS_2020/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2021/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/01/L01_python_basis.ipynb)(Google Colab) |
+| 02 | | Pythonデータ解析基礎(Google Colab) |
+| 03 | | ゲノム解析入門(Google Colab)|
 
+- 2020年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2020)
 
 ---
 
@@ -97,7 +98,7 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 - [2017年度](https://github.com/CropEvol/lecture/tree/2017)
 - [2018年度](https://github.com/CropEvol/lecture/tree/2018)
 - [2019年度](https://github.com/CropEvol/lecture/tree/2019)
-- [2019年度](https://github.com/CropEvol/lecture/tree/2020)
+- [2020年度](https://github.com/CropEvol/lecture/tree/2020)
 
 ---
 Copyright&copy; 2021 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
