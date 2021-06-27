@@ -20,7 +20,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |:---|:---|:---|
 | 01 | 4月26日（月） | [事前準備](./ILAS_2021/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2021/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/01/L01_python_basis.ipynb)(Google Colab) |
 | 02 | 5月17日（月） | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/02/L02_python_analysis.ipynb)(Google Colab) |
-| 03 | | ゲノム解析入門(Google Colab)|
+| 03 | 6月28日（月） | [Pythonデータ解析基礎 その2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/03/L03_python_analysis.ipynb)(Google Colab) |
 
 - 2020年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2020)
 
