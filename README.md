@@ -56,7 +56,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| Google Colaboratoryの使い方 | | [スライド](./textbook_2021/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L01_first_googlecolab.ipynb) | |
+|01| Google Colaboratoryの使い方 | | スライド<br>テキスト | |
 |02| Pythonの基礎(1) |  | テキスト | |
 |03| Pythonの基礎(2)-1 |  | テキスト | |
 |04| Pythonの基礎(2)-2 |  | テキスト | |
