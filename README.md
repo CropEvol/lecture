@@ -57,7 +57,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| Google Colaboratoryの使い方 | 10月12日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2021/L01_intro_bioinfo_compressed.pdf)<br>[テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L01_first_googlecolab.ipynb)<br>課題 | |
-|02| Pythonの基礎(1) | 10月19日 | テキスト<br>課題 | |
+|02| Pythonの基礎(1) | 10月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L02_python_basis_1.ipynb)<br>課題 | |
 |03| Pythonの基礎(2)-1 | 10月26日 | テキスト<br>課題 | |
 |04| Pythonの基礎(2)-2 | 11月2日 | テキスト<br>課題 | |
 |05| Pythonライブラリを使う - pandas - | 11月9日 | テキスト<br>課題 | |
