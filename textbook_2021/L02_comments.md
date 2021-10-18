@@ -26,7 +26,7 @@ print(wheatL)
 
 
 #### 回答
-参考ノートブック: [関数名の上書きエラーについて]
+参考ノートブック: [関数名の上書きエラーについて](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/overwrite_function_name.ipynb)
 
 　`len` という名前の変数を、どこかで作成したのではないでしょうか？  
 lenという名前の変数を作成すると、`len`が関数名ではなく変数名として認識されるようになります。
