@@ -6,10 +6,12 @@
 - 非常に瑣末な話なのですが、Safari版のGoogle Colab画面ではファイル名のアンダーバーが見切れてしまうようです。特に不都合は起きないとは思います
 が、受講者によっては一瞬混乱するかもしれないため、「4. ノートブックの名前を変更する」の箇所に説明を加えることをご提案いたします。  
 <img src="https://lh3.googleusercontent.com/pw/AM-JKLXkVervAUs5BNH9tgjkCsHibtjv0toIyTAyWGfR8rMknSnJh5bt7RjFojAQnZBcwoAgrleXTFTKnJjpHcfurcBWWkhG8Ek6rdsRT83vJzI8WuEKZTCf2N2WVhOlo7sjbJYXucqGwhjjbtRGuv4C0OeR=w630-h195-no?authuser=0" height="140px">
-    - 情報のご提供ありがとうございます。説明を加える等の対応をいたします。
+
+> 情報のご提供ありがとうございます。説明を加える等の対応をいたします。
 
 - 予習したいので、今回のように次の回のスライドが早めに上がっているとありがたいです。  
-    - 準備状況によっては直前になることもあるかもしれませんが、なるべく早く公開するよう努力いたします。
+
+> 準備状況によっては直前になることもあるかもしれませんが、なるべく早く公開するよう努力いたします。
 
 ---
 
