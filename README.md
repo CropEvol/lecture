@@ -85,6 +85,10 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 各回の課題は、[PandA](https://panda.ecs.kyoto-u.ac.jp/portal/login) を使って提出してください。  
 提出方法の詳細は、各課題ページに記載いたします。
 
+## 講義で紹介した書籍やサイトなど
+- 書籍 [Bayesian Methods for Hackers](https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- 動画 [People of Science: Thomas Bayes and Ronald Fisher
+](https://g.co/arts/FjZasjDGQzKRFtvt7)
 
 ---
 
