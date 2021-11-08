@@ -17,8 +17,8 @@
 課題１で、sum関数でゲノムサイズを計算しようと思ったのですが、うまくいかなかったです。intは繰り返し不可、のようなエラーが出ました。
 
 > ゲノムサイズ（各染色体の長さの合計値）を調べるために、`sum`関数を使う必要があると考えた方が多かったようですが、`sum`関数を使わずに問題を解くことができます。
-
-[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L03_2_python_library_biopython.HW.ANS.ipynb)に、`sum`関数を使う方法と使わない方法の両方を載せてます。
+> 
+> [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L03_2_python_library_biopython.HW.ANS.ipynb)に、`sum`関数を使う方法と使わない方法の両方を載せてます。
 
 ---
 
@@ -40,5 +40,5 @@ recs = SeqIO.parse(f, "fasta")
 ```
 
 > 1レコード（1データ）の取り出し先`rec`に対応したものとして、その取り出し元の"データの集合"を`recs`で表現しているだけです。
-
-誤解を招くのではないかということですので、`SeqIO.parse`の結果を代入する変数名は今後検討いたします。
+> 
+> 誤解を招くのではないかということですので、`SeqIO.parse`の結果を代入する変数名は今後検討いたします。
