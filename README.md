@@ -66,7 +66,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |08| 大規模データ解析入門 - MutMap解析 - | 11月30日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.HW.ipynb) | [課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.HW.ANS.ipynb) |
 |09| 大規模データ解析入門 - Sliding Window解析 - | 12月7日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.ipynb)<br>課題 | 課題解答例 |
 |10| 機械学習 - 回帰 - | 12月14日 | テキスト<br>課題 | |
-|11| 機械学習 - Genomic selection）- |  | テキスト<br>課題 | |
+|11| 機械学習 - Genomic selection - |  | テキスト<br>課題 | |
 |12| 機械学習 - 分類 - |  | テキスト<br>課題 | |
 |13| 機械学習 - 膜貫通タンパク質予測 - |  | テキスト<br>課題 | |
 |14| 機械学習 - ゲノム解析 - |  | テキスト<br>課題 | |
