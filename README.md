@@ -69,7 +69,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |11| 機械学習 - 回帰その2 - | 12月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L09_ML_regression_2.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L09_ML_regression_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C11_comments.md) |
 |12| 機械学習 - 勾配法 - | 12月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L10_ML_gradient_method.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C12_comments.md) |
 |13| 機械学習 - 分類 - | 1月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L11_ML_classification.ipynb) <br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L11_ML_classification_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C13_comments.md) |
-|14| 機械学習 - ゲノム解析 - | 1月18日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L12_ML_genomics.ipynb)<br>課題 | |
+|14| 機械学習 - ゲノム解析 - | 1月18日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L12_ML_genomics.ipynb)<br>課題 | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C14_comments.md) |
 |15| 予備日 | 1月25日 | テキスト<br>課題 | |
 
 _実習内容は、進捗状況により変更することがあります。_
