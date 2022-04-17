@@ -1,9 +1,8 @@
 <a name="section1"></a>
-# ゲノム博物学入門 [2021年度 ILASセミナー]
+# ゲノム博物学入門 [2022年度 ILASセミナー]
 
 ## セミナーの実施
-- 4月19日（月）〜
-- 毎週月曜 16:45-18:15
+- 前期 毎週月曜 16:45-18:15
 - 対面 または ミーティングツール Zoom 上でおこないます
 
 ## Pythonプログラミング解析環境
@@ -18,12 +17,12 @@ Googleアカウントが必要です。持っていない場合は作成して�
 
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-| 01 | 4月26日（月） | [事前準備](./ILAS_2021/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2021/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/01/L01_python_basis.ipynb)(Google Colab) |
-| 02 | 5月17日（月） | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/02/L02_python_analysis.ipynb)(Google Colab) |
-| 03 | 6月28日（月） | [Pythonデータ解析基礎 その2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/03/L03_python_analysis.ipynb)(Google Colab) |
-|  |  | [乱数の発生とその分布](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2021/X03/random_dist.ipynb)(Google Colab) |
+| 01 |  | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2022/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/01/L01_python_basis.ipynb)(Google Colab) |
+| 02 |  | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/02/L02_python_analysis.ipynb)(Google Colab) |
+| 03 |  | [Pythonデータ解析基礎 その2](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/03/L03_python_analysis.ipynb)(Google Colab) |
 
 - 2020年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2020)
+- 2021年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2021)
 
 ---
 
@@ -54,6 +53,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 
 各回の授業開始前までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページを開いておいてください。
 
+
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| 講義についての説明 | 10月5日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/hStnWz) | [アンケート回答](https://docs.google.com/spreadsheets/d/14t_kGHUMRg14UfzHce29PzB6Ht6y0qI9QxUXts9jTV8/edit?usp=sharing) |
@@ -64,13 +64,13 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |06| Pythonライブラリを使う - pandas - | 11月9日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L04_python_library_pandas.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L04_python_library_pandas.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L04_python_library_pandas.HW.ANS.ipynb) | |
 |07| Pythonライブラリを使う - Matplotlib - | 11月16日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L05_python_library_matplotlib.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L05_python_library_matplotlib.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L05_python_library_matplotlib.HW.ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C07_comments.md) |
 |08| 大規模データ解析入門 - MutMap解析 - | 11月30日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L06_mutmap.HW.ANS.ipynb) |  |
-|09| 大規模データ解析入門 - Sliding Window解析 - | 12月7日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.HW.ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C09_comments.md) |
-|10| 機械学習 - 回帰 - | 12月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L08_ML_regression_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L08_ML_regression_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C10_comments.md) |
-|11| 機械学習 - 回帰その2 - | 12月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L09_ML_regression_2.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L09_ML_regression_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C11_comments.md) |
-|12| 機械学習 - 勾配法 - | 12月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L10_ML_gradient_method.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C12_comments.md) |
-|13| 機械学習 - 分類 - | 1月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L11_ML_classification.ipynb) <br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L11_ML_classification_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C13_comments.md) |
-|14| 機械学習 - ゲノム解析 - | 1月18日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L12_ML_genomics.ipynb)<br>課題 | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2021/C14_comments.md) |
-|15| 予備日 | 1月25日 | テキスト<br>課題 | |
+|09| 大規模データ解析入門 - Sliding Window解析 - | 12月7日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2021/L07_sliding_window.HW.ipynb)<br>課題解答例 |  |
+|10| 機械学習 - 回帰 - | 12月14日 | テキスト<br>課題 | |
+|11| 機械学習 - Genomic selection - | 12月21日 | テキスト<br>課題 | |
+|12| 機械学習 - 分類 - | 12月28日 | テキスト<br>課題 | |
+|13| 機械学習 - 膜貫通タンパク質予測 - |  | テキスト<br>課題 | |
+|14| 機械学習 - ゲノム解析 - |  | テキスト<br>課題 | |
+|15| 予備日 |  | テキスト<br>課題 | |
 
 _実習内容は、進捗状況により変更することがあります。_
 
@@ -98,6 +98,8 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 - [2018年度](https://github.com/CropEvol/lecture/tree/2018)
 - [2019年度](https://github.com/CropEvol/lecture/tree/2019)
 - [2020年度](https://github.com/CropEvol/lecture/tree/2020)
+- [2020年度](https://github.com/CropEvol/lecture/tree/2021)
+
 
 ---
-Copyright&copy; 2021 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+Copyright&copy; 2022 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
