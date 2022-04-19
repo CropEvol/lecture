@@ -48,5 +48,5 @@ Googleアカウントを持っていない場合は作成してください。�
 https://colab.research.google.com/notebooks/welcome.ipynb
 
 上手くいくと、このような画面が表示されます。
-![google colaboratory](../images/google_colab.png?raw=true
+![google colaboratory](./images/google_colab.png?raw=true
  "google colaboratory")
