@@ -39,6 +39,18 @@ TTCATCAGAGcagtgaacaccatgaacatactccctccgttccgaattacttgtcgcaggtatcaagatgtattttaatt
 
 ## 実習3
 
-　次のリンク先のページにある100個の遺伝子配列データをBLAST検索で調べてください。
+　実習1のBLAST検索結果で得られた遺伝子情報のGOterm検索をおこなってください。
+
+手順
+1. <a href="https://www.uniprot.org/" target="_blank" rel="noopener noreferrer">Uniprot</a> を開く
+1. 検索フォームにキーワードを入力する
+
+![Uniprot 検索](./uniprot.png)
+
+---
+
+## 実習4
+
+　次のリンク先のページにある100個の遺伝子配列データのBLAST検索やGOterm検索をおこなってください。
 
 <a href="https://raw.githubusercontent.com/CropEvol/lecture/master/data/ILAS_multi.fa" target="_blank" rel="noopener noreferrer">100個分の遺伝子配列データ</a>
