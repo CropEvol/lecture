@@ -17,9 +17,9 @@ Googleアカウントが必要です。持っていない場合は作成して�
 
 | No. | 日付 | テキスト |
 |:---|:---|:---|
-| 01 | 4月25日 | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[イントロダクション](https://github.com/CropEvol/lecture/raw/master/ILAS_2022/01/L01_introduction.pdf)(PDF)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/01/L01_python_basis.ipynb)(Google Colab) |
-| 02 |  | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/02/L02_python_analysis.ipynb)(Google Colab) |
-| 03 |  | Pythonデータ解析基礎 その2 (Google Colab) |
+| 01 | 6月5日 | [RNA-seq基礎](./ILAS_2022/RNAseq_intro/Lets_blast_search.md) |
+| 02 |  | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/01/L01_python_basis.ipynb)(Google Colab) |
+| 03 |  | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/02/L02_python_analysis.ipynb)(Google Colab) |
 
 - 2020年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2020)
 - 2021年度のテキストは[こちら](https://github.com/CropEvol/lecture/tree/2021)
