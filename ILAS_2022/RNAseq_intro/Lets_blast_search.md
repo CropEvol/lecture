@@ -39,6 +39,6 @@ TTCATCAGAGcagtgaacaccatgaacatactccctccgttccgaattacttgtcgcaggtatcaagatgtattttaatt
 
 ## 実習3
 
-　次のリンク先のページにあるすべての遺伝子配列データをBLAST検索で調べてみてください。
+　次のリンク先のページにある100個の遺伝子配列データをBLAST検索で調べてください。
 
-<a href="https://raw.githubusercontent.com/CropEvol/lecture/master/data/ILAS_multi.fa" target="_blank" rel="noopener noreferrer">[100個分の遺伝子配列データ]</a>
+<a href="https://raw.githubusercontent.com/CropEvol/lecture/master/data/ILAS_multi.fa" target="_blank" rel="noopener noreferrer">100個分の遺伝子配列データ</a>
