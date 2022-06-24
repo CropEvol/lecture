@@ -3,7 +3,7 @@ from Bio.Blast import NCBIXML
 
 def run_blast(seq, prog="blastx", db="swissprot"):
   with NCBIWWW.qblast(prog, db, seq) as handle:
-    recs = NCBIXML.parse(handle):
+    recs = NCBIXML.parse(handle)
     if recs:
       for rec in recs:
         for alignment in rec.alignments:
