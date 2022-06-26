@@ -19,7 +19,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |:---|:---|:---|
 | 01 | 6月6日 | [RNA-seq基礎](https://github.com/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/ILAS_2206.pdf)<br>[RNA-seq基礎 - 実習](./ILAS_2022/RNAseq_intro/ILAS_2206_train.md) |
 | 02 | 6月13日 | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[Pythonプログラミング入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/RNAseq_analysis_Intro.ipynb)(Google Colab) |
-| 03 | 6月27日 | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[PythonでBLAST検索](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/RNAseq_analysis_BLAST.ipynb)(Google Colab) |
+| 03 | 6月27日 | [PythonでBLAST検索](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/RNAseq_analysis_BLAST.ipynb)(Google Colab) |
 |  |  | [Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/01/L01_python_basis.ipynb)(Google Colab) | 
 |  |  | [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/02/L02_python_analysis.ipynb)(Google Colab) |
 
