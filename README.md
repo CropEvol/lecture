@@ -23,9 +23,9 @@ Googleアカウントが必要です。持っていない場合は作成して�
 | 04 | 7月11日 | [RNA-seq解析](https://github.com/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/ILAS_2207.pdf)(PDF)<br>[サンプルデータ](https://drive.google.com/drive/folders/1qDryCj-yPjIBbNBV7FF0zMPU1oOJUU6U?usp=sharing) |
 
 データ解析でよく使うサイト:
-- 相同性検索 [NCBI BLASTX]()
-- タンパク質データベース [UniProt]()
-- 論文検索 [Google scholar]()
+- 相同性検索 [NCBI BLASTX](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
+- タンパク質データベース [UniProt](https://www.uniprot.org/)
+- 論文検索 [Google scholar](https://scholar.google.co.jp/)
 
 
 その他テキスト:
