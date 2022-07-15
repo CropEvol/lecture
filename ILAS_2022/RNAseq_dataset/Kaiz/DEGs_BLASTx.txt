@@ -1,0 +1,76 @@
+transcript_id	blastx_id	blastx_full	Higher_expression
+TRINITY_DN11094_c0_g1_i10	JM703_ORYSJ	Lysine-specific demethylase JMJ703	Hino_1
+TRINITY_DN2439_c0_g1_i1	TCP4_ARATH	Transcription factor TCP4	Nezu_1
+TRINITY_DN2439_c0_g1_i5	TCP4_ARATH	Transcription factor TCP4	Nezu_1
+TRINITY_DN15799_c0_g1_i1	TRPC_ARATH	Indole-3-glycerol phosphate synthase, chloroplastic {ECO:0000303|PubMed:7610197}	Nezu_1
+TRINITY_DN1494_c0_g1_i2	AHUMS_PICGL	Alpha-humulene synthase {ECO:0000303|PubMed:21385377}	Hino_1
+TRINITY_DN1447_c0_g1_i2	LOX16_SOLTU	Linoleate 9S-lipoxygenase 6	Nezu_1
+TRINITY_DN1447_c0_g1_i3	LOX16_SOLTU	Linoleate 9S-lipoxygenase 6	Nezu_1
+TRINITY_DN6715_c0_g1_i4	Y3264_ARATH	Putative UPF0481 protein At3g02645	Nezu_1
+TRINITY_DN907_c0_g1_i2	UFD1_DICDI	Ubiquitin fusion degradation protein 1 homolog	Hino_1
+TRINITY_DN7603_c0_g1_i10	.	.	Hino_1
+TRINITY_DN9766_c0_g1_i3	COL7_ARATH	Zinc finger protein CONSTANS-LIKE 7	Nezu_1
+TRINITY_DN767_c0_g1_i5	.	.	Hino_1
+TRINITY_DN12384_c0_g1_i1	E13K_TOBAC	Glucan endo-1,3-beta-glucosidase, acidic isoform GL161	Hino_1
+TRINITY_DN5082_c0_g1_i30	.	.	Hino_1
+TRINITY_DN5098_c0_g1_i1	PER4_VITVI	Peroxidase 4 {ECO:0000250|UniProtKB:Q42578}	Nezu_1
+TRINITY_DN5220_c0_g1_i12	XTH1_DIOKA	Xyloglucan endotransglucosylase protein 1 {ECO:0000305}	Nezu_1
+TRINITY_DN5268_c0_g1_i21	GTE1_ARATH	Transcription factor GTE1	Nezu_1
+TRINITY_DN200_c0_g1_i1	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i11	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i12	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i14	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i27	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i33	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g1_i9	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN200_c0_g2_i1	.	.	Hino_1
+TRINITY_DN233_c0_g1_i2	ELI_PEA	Early light-induced protein, chloroplastic	Nezu_1
+TRINITY_DN8472_c0_g1_i2	Y2168_ARATH	Ankyrin repeat-containing protein At2g01680	Hino_1
+TRINITY_DN29151_c0_g1_i1	G3PB_ARATH	Glyceraldehyde-3-phosphate dehydrogenase GAPB, chloroplastic	Nezu_1
+TRINITY_DN10323_c0_g1_i1	CHIT_PERAE	Endochitinase {ECO:0000303|PubMed:10231327, ECO:0000303|PubMed:9774427, ECO:0000312|EMBL:CAB01591.1}	Hino_1
+TRINITY_DN7082_c0_g1_i13	CHIA_CICAR	Acidic endochitinase	Hino_1
+TRINITY_DN3981_c0_g1_i3	AVT6A_ARATH	Amino acid transporter AVT6A {ECO:0000305}	Nezu_1
+TRINITY_DN373_c0_g1_i15	NEP2_NEPGR	Aspartic proteinase nepenthesin-2	Hino_1
+TRINITY_DN10562_c0_g1_i7	.	.	Hino_1
+TRINITY_DN3210_c0_g1_i4	CAD_CHAFM	Sesquiterpene synthase Cad {ECO:0000303|Ref.1}	Hino_1
+TRINITY_DN3210_c0_g1_i6	CAD_CHAFM	Sesquiterpene synthase Cad {ECO:0000303|Ref.1}	Hino_1
+TRINITY_DN3284_c0_g1_i1	BSPB_POPDE	Bark storage protein B	Hino_1
+TRINITY_DN6538_c0_g1_i14	CML7_ARATH	Calmodulin-like protein 7	Nezu_1
+TRINITY_DN6538_c0_g1_i19	CML22_ORYSJ	Probable calcium-binding protein CML22	Nezu_1
+TRINITY_DN6538_c0_g1_i2	CML7_ARATH	Calmodulin-like protein 7	Nezu_1
+TRINITY_DN53260_c0_g1_i1	BSPA_POPDE	Bark storage protein A	Hino_1
+TRINITY_DN23048_c0_g1_i3	PAM_TAXWC	Phenylalanine aminomutase (L-beta-phenylalanine forming)	Hino_1
+TRINITY_DN3354_c0_g1_i29	.	.	Nezu_1
+TRINITY_DN3358_c0_g1_i3	PDX1_GINBI	Probable pyridoxal 5'-phosphate synthase subunit PDX1	Nezu_1
+TRINITY_DN14491_c0_g1_i2	LOXA_SOLLC	Linoleate 9S-lipoxygenase A	Nezu_1
+TRINITY_DN4812_c0_g1_i14	.	.	Nezu_1
+TRINITY_DN10634_c0_g1_i2	YPQ1_YEAST	Probable vacuolar amino acid transporter YPQ1	Hino_1
+TRINITY_DN16493_c0_g1_i9	AKT1_ARATH	Potassium channel AKT1	Hino_1
+TRINITY_DN2387_c0_g1_i1	CCR1_PETHY	Cinnamoyl-CoA reductase 1 {ECO:0000303|PubMed:24985707, ECO:0000303|PubMed:25217505}	Hino_1
+TRINITY_DN2367_c0_g1_i2	CXXS1_ARATH	Thioredoxin-like protein CXXS1	Nezu_1
+TRINITY_DN151_c0_g2_i1	GOLS4_ARATH	Galactinol synthase 4	Nezu_1
+TRINITY_DN197_c0_g1_i16	C72B2_PINTA	Cytochrome P450 720B2	Hino_1
+TRINITY_DN185_c0_g1_i7	C7192_ESCCA	(S)-stylopine synthase 1 {ECO:0000305}	Hino_1
+TRINITY_DN7925_c0_g1_i4	PGTA1_ARATH	Geranylgeranyl transferase type-2 subunit alpha 1 {ECO:0000305}	Hino_1
+TRINITY_DN2073_c1_g1_i9	CLPAA_SOLLC	ATP-dependent Clp protease ATP-binding subunit ClpA homolog CD4A, chloroplastic	Nezu_1
+TRINITY_DN2042_c0_g1_i1	PCF6_ORYSI	Transcription factor PCF6	Nezu_1
+TRINITY_DN2042_c0_g1_i3	PCF6_ORYSI	Transcription factor PCF6	Nezu_1
+TRINITY_DN3082_c0_g1_i20	CSCLD_ARATH	CSC1-like protein ERD4 {ECO:0000305}	Nezu_1
+TRINITY_DN4430_c0_g2_i2	TPSD1_GINBI	Bifunctional levopimaradiene synthase, chloroplastic	Hino_1
+TRINITY_DN1023_c0_g1_i10	THI42_VITVI	Thiamine thiazole synthase 2, chloroplastic {ECO:0000255|HAMAP-Rule:MF_03158}	Nezu_1
+TRINITY_DN8096_c0_g1_i5	SIS3_ARATH	E3 ubiquitin-protein ligase SIS3	Nezu_1
+TRINITY_DN9630_c0_g1_i1	.	.	Hino_1
+TRINITY_DN14824_c0_g1_i1	PPA24_ARATH	Probable inactive purple acid phosphatase 24	Nezu_1
+TRINITY_DN17437_c0_g1_i2	.	.	Nezu_1
+TRINITY_DN7496_c0_g1_i1	CBP23_HORVU	Serine carboxypeptidase II-3	Nezu_1
+TRINITY_DN471_c0_g1_i3	TMN7_ARATH	Transmembrane 9 superfamily member 7 {ECO:0000305}	Nezu_1
+TRINITY_DN468_c0_g1_i5	SPE1_BRAJU	Arginine decarboxylase	Hino_1
+TRINITY_DN1309_c0_g1_i1	.	.	Hino_1
+TRINITY_DN27_c0_g2_i4	.	.	Nezu_1
+TRINITY_DN22_c0_g1_i1	PIP15_ARATH	Probable aquaporin PIP1-5	Nezu_1
+TRINITY_DN1268_c0_g1_i2	LON_METSB	Lon protease {ECO:0000255|HAMAP-Rule:MF_01973}	Nezu_1
+TRINITY_DN1202_c0_g1_i8	DLDH1_ARATH	Dihydrolipoyl dehydrogenase 1, mitochondrial	Nezu_1
+TRINITY_DN1129_c0_g1_i3	KEA5_ARATH	K(+) efflux antiporter 5 {ECO:0000303|PubMed:11500563}	Hino_1
+TRINITY_DN4957_c0_g1_i2	.	.	Nezu_1
+TRINITY_DN2229_c0_g1_i2	UVB31_ARATH	UV-B-induced protein At3g17800, chloroplastic {ECO:0000305}	Nezu_1
+TRINITY_DN27619_c0_g1_i9	RUN1_VITRO	Disease resistance protein RUN1 {ECO:0000305}	Nezu_1

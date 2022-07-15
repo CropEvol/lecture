@@ -1,0 +1,64 @@
+transcript_id	blastx_id	blastx_full	Higher_expression
+TRINITY_DN534_c0_g1_i1	APS1_ARATH	ATP sulfurylase 1, chloroplastic	Str
+TRINITY_DN534_c0_g1_i2	APS1_ARATH	ATP sulfurylase 1, chloroplastic	Crl
+TRINITY_DN578_c2_g1_i1	ERFL1_ARATH	Ethylene-responsive transcription factor-like protein At4g13040	Str
+TRINITY_DN2831_c0_g2_i9	TIC_ARATH	Protein TIME FOR COFFEE	Str
+TRINITY_DN2864_c0_g2_i2	PUB9_ARATH	U-box domain-containing protein 9	Crl
+TRINITY_DN6800_c0_g3_i3	GCSP_SOLTU	Glycine dehydrogenase (decarboxylating), mitochondrial	Crl
+TRINITY_DN6222_c0_g1_i3	.	.	Str
+TRINITY_DN769_c0_g1_i1	CHR5_ARATH	Protein CHROMATIN REMODELING 5 {ECO:0000303|PubMed:16547115}	Str
+TRINITY_DN769_c0_g1_i2	CHR5_ARATH	Protein CHROMATIN REMODELING 5 {ECO:0000303|PubMed:16547115}	Crl
+TRINITY_DN939_c0_g1_i1	RL8_SOLLC	60S ribosomal protein L8	Str
+TRINITY_DN978_c0_g1_i1	PSBB_VITVI	Photosystem II CP47 reaction center protein {ECO:0000255|HAMAP-Rule:MF_01495}	Str
+TRINITY_DN978_c0_g1_i11	RPOA_VITVI	DNA-directed RNA polymerase subunit alpha {ECO:0000255|HAMAP-Rule:MF_00059}	Str
+TRINITY_DN3731_c0_g1_i4	SMG7_ARATH	Nonsense-mediated mRNA decay factor SMG7 {ECO:0000250|UniProtKB:Q92540}	Str
+TRINITY_DN1912_c0_g1_i1	TCMO_CATRO	Trans-cinnamate 4-monooxygenase	Str
+TRINITY_DN344_c0_g1_i2	FPP4_ARATH	Filament-like plant protein 4	Crl
+TRINITY_DN344_c0_g1_i7	FPP4_ARATH	Filament-like plant protein 4	Str
+TRINITY_DN366_c0_g1_i4	GATA5_ARATH	GATA transcription factor 5	Str
+TRINITY_DN1149_c0_g1_i1	GDL71_ARATH	GDSL esterase/lipase At5g03610	Str
+TRINITY_DN1149_c0_g1_i20	GDL71_ARATH	GDSL esterase/lipase At5g03610	Str
+TRINITY_DN1192_c0_g1_i2	HIS8_ARATH	Histidinol dehydrogenase, chloroplastic	Str
+TRINITY_DN1127_c0_g1_i9	CSLG3_ARATH	Cellulose synthase-like protein G3	Str
+TRINITY_DN71276_c0_g1_i1	.	.	Crl
+TRINITY_DN281_c0_g1_i6	AROG_SOLLC	Phospho-2-dehydro-3-deoxyheptonate aldolase 2, chloroplastic	Crl
+TRINITY_DN21375_c0_g1_i1	TPC1B_TOBAC	Two pore calcium channel protein 1B	Str
+TRINITY_DN5897_c0_g1_i12	TM147_XENLA	Transmembrane protein 147	Str
+TRINITY_DN5897_c0_g1_i5	TM147_XENLA	Transmembrane protein 147	Str
+TRINITY_DN1611_c0_g1_i2	TRXM_SPIOL	Thioredoxin M-type, chloroplastic	Str
+TRINITY_DN833_c0_g1_i5	NRT32_ARATH	High-affinity nitrate transporter 3.2 {ECO:0000303|PubMed:16415212}	Str
+TRINITY_DN803_c0_g1_i2	GPAT3_ARATH	Probable glycerol-3-phosphate acyltransferase 3	Str
+TRINITY_DN816_c0_g1_i3	LOL1_ARATH	Protein LOL1	Str
+TRINITY_DN822_c0_g1_i1	NCER1_ARATH	Neutral ceramidase 1 {ECO:0000303|PubMed:26150824}	Crl
+TRINITY_DN14909_c0_g1_i3	CYBK1_VITAC	Labd-13Z-ene-9,15,16-triol synthase, chloroplastic {ECO:0000303|PubMed:29315936}	Str
+TRINITY_DN5606_c0_g1_i16	CP41A_ARATH	Chloroplast stem-loop binding protein of 41 kDa a, chloroplastic	Str
+TRINITY_DN5670_c0_g1_i10	P2C63_ARATH	Probable protein phosphatase 2C 63 {ECO:0000303|PubMed:19021904}	Str
+TRINITY_DN6055_c0_g1_i3	YKT61_ARATH	VAMP-like protein YKT61 {ECO:0000303|PubMed:15919093}	Str
+TRINITY_DN2655_c0_g1_i4	MYBS3_ORYSJ	Transcription factor MYBS3 {ECO:0000303|PubMed:12172034}	Str
+TRINITY_DN2647_c0_g1_i1	P2C49_ARATH	Probable protein phosphatase 2C 49	Str
+TRINITY_DN1326_c0_g1_i1	KPK2_ARATH	Serine/threonine-protein kinase AtPK2/AtPK19	Crl
+TRINITY_DN1326_c0_g1_i3	KPK2_ARATH	Serine/threonine-protein kinase AtPK2/AtPK19	Str
+TRINITY_DN12625_c0_g1_i5	R13L4_ARATH	Disease resistance RPP13-like protein 4	Str
+TRINITY_DN10065_c0_g1_i3	MYO2_ARATH	Myosin-2	Str
+TRINITY_DN9885_c0_g1_i3	LERK4_ORYSJ	G-type lectin S-receptor-like serine/threonine-protein kinase LECRK4 {ECO:0000305}	Str
+TRINITY_DN7426_c0_g1_i1	LAZY1_ARATH	Protein LAZY 1 {ECO:0000305}	Str
+TRINITY_DN3163_c0_g1_i5	B561I_ARATH	Cytochrome b561 and DOMON domain-containing protein At3g61750	Str
+TRINITY_DN131_c0_g2_i1	SMD1B_ARATH	Small nuclear ribonucleoprotein SmD1b {ECO:0000303|PubMed:15575968}	Str
+TRINITY_DN131_c0_g2_i3	SMD1B_ARATH	Small nuclear ribonucleoprotein SmD1b {ECO:0000303|PubMed:15575968}	Crl
+TRINITY_DN160_c0_g1_i9	RPOC2_VITVI	DNA-directed RNA polymerase subunit beta'' {ECO:0000255|HAMAP-Rule:MF_01324}	Str
+TRINITY_DN7020_c0_g1_i1	.	.	Str
+TRINITY_DN7052_c0_g1_i27	MEL1_ORYSJ	Protein argonaute MEL1	Str
+TRINITY_DN2415_c0_g1_i1	FLA11_ARATH	Fasciclin-like arabinogalactan protein 11	Str
+TRINITY_DN10_c0_g1_i1	Y5185_ARATH	Probable receptor-like protein kinase At5g18500	Str
+TRINITY_DN0_c0_g1_i20	ASPG1_ARATH	Protein ASPARTIC PROTEASE IN GUARD CELL 1	Str
+TRINITY_DN55_c0_g1_i4	IF2P_SCHPO	Eukaryotic translation initiation factor 5B	Crl
+TRINITY_DN1007_c0_g1_i6	SYT1_ARATH	Synaptotagmin-1	Str
+TRINITY_DN1035_c0_g1_i3	LEUNG_ARATH	Transcriptional corepressor LEUNIG {ECO:0000303|PubMed:11058164}	Crl
+TRINITY_DN1035_c0_g1_i5	LEUNG_ARATH	Transcriptional corepressor LEUNIG {ECO:0000303|PubMed:11058164}	Str
+TRINITY_DN1005_c0_g1_i3	IF2B_MALDO	Eukaryotic translation initiation factor 2 subunit beta	Str
+TRINITY_DN1071_c0_g2_i1	THLP1_ARATH	Thaumatin-like protein 1 {ECO:0000303|PubMed:15988566}	Str
+TRINITY_DN4051_c0_g1_i7	ATAB2_ARATH	Protein TAB2 homolog, chloroplastic {ECO:0000305}	Str
+TRINITY_DN4030_c0_g1_i4	SC15B_ARATH	Exocyst complex component SEC15B {ECO:0000303|PubMed:19895414}	Str
+TRINITY_DN28424_c1_g1_i14	TBP1_ORYSJ	Telomere-binding protein 1	Str
+TRINITY_DN9567_c0_g1_i1	DRMH4_ARATH	Dormancy-associated protein homolog 4 {ECO:0000305}	Str
+TRINITY_DN2333_c0_g1_i3	PUB43_ARATH	U-box domain-containing protein 43	Str

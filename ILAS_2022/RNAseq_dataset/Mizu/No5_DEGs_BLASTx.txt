@@ -1,0 +1,118 @@
+transcript_id	blastx_id	blastx_full	Higher_expression
+TRINITY_DN22077_c1_g1_i1	TIP12_ORYSJ	Probable aquaporin TIP1-2	5A
+TRINITY_DN76957_c0_g1_i1	.	.	5A
+TRINITY_DN16662_c0_g1_i6	FTSH_TOBAC	ATP-dependent zinc metalloprotease FTSH, chloroplastic	5W
+TRINITY_DN2833_c0_g1_i1	CYTM_SOLTU	Multicystatin	5A
+TRINITY_DN3414_c1_g1_i4	DYL1_RAT	Dynein light chain 1, cytoplasmic	5W
+TRINITY_DN3461_c0_g2_i1	.	.	5W
+TRINITY_DN80425_c0_g1_i1	DIR21_ARATH	Dirigent protein 21	5W
+TRINITY_DN80446_c0_g1_i1	.	.	5W
+TRINITY_DN80441_c0_g1_i1	.	.	5A
+TRINITY_DN12880_c0_g1_i8	.	.	5W
+TRINITY_DN6253_c0_g1_i1	PSBB_COFAR	Photosystem II CP47 reaction center protein {ECO:0000255|HAMAP-Rule:MF_01495}	5A
+TRINITY_DN34279_c0_g1_i1	PPA1_SOLLC	Acid phosphatase 1	5A
+TRINITY_DN34279_c0_g1_i2	PPA1_SOLLC	Acid phosphatase 1	5A
+TRINITY_DN17210_c0_g1_i2	GLYI4_ARATH	Glyoxylase I 4 {ECO:0000303|PubMed:30483284, ECO:0000303|PubMed:31652571}	5W
+TRINITY_DN67259_c0_g1_i1	.	.	5W
+TRINITY_DN3908_c0_g1_i7	.	.	5W
+TRINITY_DN752_c0_g1_i15	GCC1_ARATH	Guanylyl cyclase 1 {ECO:0000303|PubMed:12482758}	5W
+TRINITY_DN784_c0_g1_i35	PPDK_MESCR	Pyruvate, phosphate dikinase, chloroplastic	5W
+TRINITY_DN784_c0_g1_i9	PPDK_MESCR	Pyruvate, phosphate dikinase, chloroplastic	5W
+TRINITY_DN780_c1_g1_i1	.	.	5W
+TRINITY_DN780_c1_g1_i2	.	.	5W
+TRINITY_DN984_c0_g1_i21	RBS2_ORYSJ	Ribulose bisphosphate carboxylase small subunit, chloroplastic 2 {ECO:0000255|HAMAP-Rule:MF_00860}	5A
+TRINITY_DN952_c0_g1_i30	DEGP1_ARATH	Protease Do-like 1, chloroplastic	5A
+TRINITY_DN52337_c0_g1_i6	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN52337_c0_g1_i7	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN52337_c0_g1_i8	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN3820_c0_g2_i2	GP2_SOLLC	Polygalacturonase non-catalytic subunit AroGP2	5W
+TRINITY_DN22603_c0_g1_i1	NLTP1_TOBAC	Non-specific lipid-transfer protein 1	5A
+TRINITY_DN27011_c0_g1_i4	BGIA_MOMCH	Glu S.griseus protease inhibitor	5A
+TRINITY_DN6663_c0_g1_i5	CGS1_ARATH	Cystathionine gamma-synthase 1, chloroplastic {ECO:0000305}	5A
+TRINITY_DN4219_c0_g1_i1	.	.	5A
+TRINITY_DN1933_c0_g1_i7	PPA17_ARATH	Purple acid phosphatase 17	5A
+TRINITY_DN355_c0_g1_i3	ENPP3_HUMAN	Ectonucleotide pyrophosphatase/phosphodiesterase family member 3	5A
+TRINITY_DN355_c0_g1_i7	PDE2_CROAD	Venom phosphodiesterase 2	5W
+TRINITY_DN331_c0_g1_i1	CHIA_CICAR	Acidic endochitinase	5A
+TRINITY_DN25101_c0_g3_i1	U90A1_ARATH	UDP-glycosyltransferase 90A1	5A
+TRINITY_DN2915_c0_g1_i1	GRC11_ARATH	Glutaredoxin-C11	5W
+TRINITY_DN634_c1_g1_i2	CB2G_SOLLC	Chlorophyll a-b binding protein 3C, chloroplastic	5A
+TRINITY_DN13613_c0_g1_i1	.	.	5A
+TRINITY_DN261_c0_g1_i6	.	.	5A
+TRINITY_DN294_c0_g1_i2	.	.	5W
+TRINITY_DN294_c0_g1_i4	.	.	5W
+TRINITY_DN294_c0_g1_i5	.	.	5W
+TRINITY_DN294_c0_g1_i7	.	.	5W
+TRINITY_DN294_c0_g1_i8	.	.	5W
+TRINITY_DN294_c1_g1_i10	.	.	5W
+TRINITY_DN294_c1_g1_i4	.	.	5W
+TRINITY_DN294_c1_g2_i1	.	.	5W
+TRINITY_DN232_c0_g1_i15	.	.	5W
+TRINITY_DN21386_c0_g1_i1	DIR21_ARATH	Dirigent protein 21	5A
+TRINITY_DN1296_c0_g1_i7	ASNS_TRIVS	Asparagine synthetase [glutamine-hydrolyzing]	5W
+TRINITY_DN19451_c0_g2_i8	CB2_CHLRE	Chlorophyll a-b binding protein of LHCII type I, chloroplastic	5W
+TRINITY_DN1639_c0_g1_i15	BGAL_MALDO	Beta-galactosidase	5W
+TRINITY_DN1639_c0_g1_i87	BGAL_MALDO	Beta-galactosidase	5W
+TRINITY_DN1668_c0_g1_i3	VSPA_SOYBN	Stem 28 kDa glycoprotein	5A
+TRINITY_DN1668_c0_g1_i6	PPA1_SOLLC	Acid phosphatase 1	5A
+TRINITY_DN1698_c0_g1_i12	BT1_ARATH	BTB/POZ and TAZ domain-containing protein 1	5W
+TRINITY_DN6975_c0_g2_i1	.	.	5A
+TRINITY_DN14713_c0_g1_i2	.	.	5W
+TRINITY_DN16234_c3_g2_i3	BH128_ARATH	Transcription factor bHLH128	5W
+TRINITY_DN4119_c0_g2_i2	CSLA9_ARATH	Glucomannan 4-beta-mannosyltransferase 9 {ECO:0000305}	5A
+TRINITY_DN884_c0_g1_i3	TSJT1_TOBAC	Stem-specific protein TSJT1	5W
+TRINITY_DN47293_c0_g1_i4	TIP22_ORYSJ	Probable aquaporin TIP2-2	5W
+TRINITY_DN14519_c0_g1_i2	MIRA_SYNDU	Miraculin	5A
+TRINITY_DN20520_c0_g1_i5	TPS10_ARATH	Probable alpha,alpha-trehalose-phosphate synthase [UDP-forming] 10	5W
+TRINITY_DN9971_c0_g3_i2	.	.	5W
+TRINITY_DN57132_c0_g3_i1	UGT2_GARJA	7-deoxyloganetin glucosyltransferase	5A
+TRINITY_DN5279_c1_g1_i1	NLTP_VIGUN	Probable non-specific lipid-transfer protein AKCS9	5A
+TRINITY_DN6572_c0_g1_i1	REP9_FBNY1	Para-Rep C9	5A
+TRINITY_DN6572_c0_g1_i10	REP9_FBNY1	Para-Rep C9	5A
+TRINITY_DN6572_c0_g1_i5	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN6572_c0_g1_i8	REP9_FBNY1	Para-Rep C9	5W
+TRINITY_DN6572_c0_g2_i4	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN6572_c0_g2_i6	REP1_MDV1	Para-Rep C1	5A
+TRINITY_DN17119_c0_g1_i2	OMT2_HUMLU	Xanthohumol 4-O-methyltransferase {ECO:0000305}	5A
+TRINITY_DN3369_c1_g1_i5	EID1_ARATH	Phytochrome A-associated F-box protein	5W
+TRINITY_DN2016_c0_g1_i1	AGAL3_ARATH	Alpha-galactosidase 3 {ECO:0000303|PubMed:15034167}	5W
+TRINITY_DN3141_c0_g1_i1	MSH6_ARATH	DNA mismatch repair protein MSH6	5W
+TRINITY_DN11483_c0_g1_i3	AAP3_ARATH	Amino acid permease 3	5W
+TRINITY_DN105_c0_g1_i4	14KD_DAUCA	14 kDa proline-rich protein DC2.15	5A
+TRINITY_DN157_c2_g2_i2	ALFP1_ARATH	Fructose-bisphosphate aldolase 1, chloroplastic {ECO:0000305}	5A
+TRINITY_DN134_c0_g1_i1	OXS3_ARATH	Protein OXIDATIVE STRESS 3 {ECO:0000303|PubMed:18980652}	5W
+TRINITY_DN120_c17_g1_i1	CYSPL_SOLLC	Low-temperature-induced cysteine proteinase	5A
+TRINITY_DN184_c0_g1_i1	NUDT8_ARATH	Nudix hydrolase 8	5A
+TRINITY_DN194_c1_g2_i10	CB2_PHYPA	Chlorophyll a-b binding protein, chloroplastic	5W
+TRINITY_DN137_c0_g1_i1	CAX1A_ORYSJ	Vacuolar cation/proton exchanger 1a	5A
+TRINITY_DN137_c0_g1_i12	CAX3_ARATH	Vacuolar cation/proton exchanger 3	5A
+TRINITY_DN137_c0_g1_i3	CAX1A_ORYSJ	Vacuolar cation/proton exchanger 1a	5A
+TRINITY_DN137_c0_g1_i7	CAX3_ARATH	Vacuolar cation/proton exchanger 3	5A
+TRINITY_DN458_c1_g1_i1	.	.	5W
+TRINITY_DN489_c0_g1_i17	.	.	5W
+TRINITY_DN473_c0_g1_i1	NLTP_HELAN	Non-specific lipid-transfer protein	5A
+TRINITY_DN45_c0_g1_i3	PME3_CITSI	Pectinesterase 3	5A
+TRINITY_DN99_c0_g1_i1	PRU1_PRUAR	Major allergen Pru ar 1	5W
+TRINITY_DN1884_c0_g4_i3	BGAL_MALDO	Beta-galactosidase	5W
+TRINITY_DN2162_c0_g1_i20	RFS1_ARATH	Probable galactinol--sucrose galactosyltransferase 1	5W
+TRINITY_DN2162_c0_g1_i29	RFS1_ARATH	Probable galactinol--sucrose galactosyltransferase 1	5W
+TRINITY_DN2118_c0_g4_i1	CB2_CHLRE	Chlorophyll a-b binding protein of LHCII type I, chloroplastic	5W
+TRINITY_DN1044_c0_g1_i5	CB2_DUNTE	Chlorophyll a-b binding protein of LHCII type I, chloroplastic	5W
+TRINITY_DN19337_c0_g1_i1	GIF1_ARATH	GRF1-interacting factor 1 {ECO:0000303|PubMed:15326298}	5W
+TRINITY_DN26416_c0_g1_i1	.	.	5W
+TRINITY_DN4497_c0_g1_i1	TLP1_CASSA	Thaumatin-like protein 1	5W
+TRINITY_DN4573_c0_g1_i7	DSP1_ARATH	Tyrosine-protein phosphatase DSP1 {ECO:0000305}	5A
+TRINITY_DN1503_c0_g1_i1	.	.	5W
+TRINITY_DN1503_c0_g1_i2	.	.	5W
+TRINITY_DN26549_c0_g1_i15	DTX40_ARATH	Protein DETOXIFICATION 40 {ECO:0000303|PubMed:11739388}	5A
+TRINITY_DN5104_c0_g2_i2	PGL1_ARATH	Polygalacturonase 1 beta-like protein 1 {ECO:0000303|PubMed:26106400}	5W
+TRINITY_DN59092_c0_g1_i1	ERF71_ARATH	Ethylene-responsive transcription factor ERF071 {ECO:0000305}	5W
+TRINITY_DN2389_c0_g1_i12	PIP21_ARATH	Aquaporin PIP2-1	5A
+TRINITY_DN2381_c0_g1_i10	REP_TLCVA	Replication-associated protein	5W
+TRINITY_DN2303_c0_g1_i12	STR15_ARATH	Rhodanese-like domain-containing protein 15, chloroplastic	5W
+TRINITY_DN16957_c2_g2_i1	.	.	5A
+TRINITY_DN118302_c1_g1_i1	.	.	5A
+TRINITY_DN151904_c0_g1_i1	.	.	5W
+TRINITY_DN135598_c0_g1_i1	14KD_DAUCA	14 kDa proline-rich protein DC2.15	5A
+TRINITY_DN118428_c0_g1_i1	PR1B_TOBAC	Pathogenesis-related protein 1B	5W
+TRINITY_DN139566_c0_g1_i1	.	.	5A
