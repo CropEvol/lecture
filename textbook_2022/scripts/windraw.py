@@ -9,7 +9,7 @@ japanize_matplotlib.japanize()
 import warnings
 warnings.simplefilter('ignore')
 
-def wind_barplot(data=df, prefecture="京都", date_from="2021-4-1", date_to="2022-9-30"):
+def wind_barplot(data, prefecture="京都", date_from="2021-4-1", date_to="2022-9-30"):
   ## 風向き: str-float変換リスト
   wd_str_to_float = {
       '北':'0',
