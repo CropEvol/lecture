@@ -30,7 +30,7 @@ wd_str_to_float = {
     '静穏':'0'
 }
 
-def draw_wind_stats(data=df, prefecture="京都", date_from="2021-4-1", date_to="2022-9-30"):
+def wind_barplot(data=df, prefecture="京都", date_from="2021-4-1", date_to="2022-9-30"):
   ## 風向きstrをfloat値に変換
   d = data.replace(wd_str_to_float)
   ## 日付列の取り出し & datetime形式に変換
