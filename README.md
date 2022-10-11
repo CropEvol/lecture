@@ -66,8 +66,8 @@ Googleアカウントが必要です。持っていない場合は作成して�
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| 講義についての説明 | 10月4日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  |
-|02| Google Colaboratoryの使い方 | 10月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/L02_first_googlecolab.ipynb)<br>課題 |  |
-|03| | | | |
+|02| Google Colaboratoryの使い方 | 10月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/L02_first_googlecolab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  |
+|03| ゲノムシーケンスの基礎 | 10月18日 | 課題 | |
 |04| | | | |
 |05| | | | |
 |06| | | | |
