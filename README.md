@@ -66,7 +66,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| 講義についての説明 | 10月4日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  |
-|02| Google Colaboratoryの使い方 | 10月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/L02_first_googlecolab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L02_QA.md) |
+|02| Google Colaboratoryの使い方 | 10月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/First_GoogleColab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L02_QA.md) |
 |03| DNAシーケンス | 10月18日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  |
 |04| DNAシーケンス/ゲノムアセンブリ | 11月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | |
 |05| QTL-seq入門(1) 参照配列の準備 | 11月8日 | 課題 | |
