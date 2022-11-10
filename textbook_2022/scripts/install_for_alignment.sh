@@ -21,8 +21,3 @@ cd samtools-1.15.1
 make 1>/dev/null 2>/dev/null
 ln -sf /content/tools/samtools-1.15.1/samtools /usr/bin/
 which samtools
-
-## Download dataset
-wget -q https://github.com/CropEvol/lecture/raw/master/textbook_2022/datasets/genome.tar.gz -O - | tar -zxf - 2>/dev/null
-wget -q https://github.com/CropEvol/lecture/raw/master/textbook_2022/datasets/reads.tar.gz -O - | tar -zxf - 2>/dev/null
-wget -q https://github.com/CropEvol/lecture/raw/master/textbook_2022/datasets/bam.tar.gz -O - | tar -zxf - 2>/dev/null
