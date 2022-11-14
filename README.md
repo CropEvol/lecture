@@ -69,7 +69,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |02| Google Colaboratoryの使い方 | 10月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/First_GoogleColab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L02_QA.md) |
 |03| DNAシーケンス | 10月18日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  |
 |04| DNAシーケンス/ゲノムアセンブリ | 11月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | |
-|05| QTL-seq入門(1) 参照配列の準備 | 11月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_1_hw.ipynb) | |
+|05| QTL-seq入門(1) 参照配列の準備 | 11月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_1_hw.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_1_hw_ans.ipynb) | |
 |06| QTL-seq入門(2) リードアライメント、SNP検出 | 11月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/QTLseq_2.ipynb)<br>課題 | |
 |07| QTL-seq入門(3) SNP-indexの算出、グラフ描画 | 11月22日 | 課題 | |
 |08| | | | |
