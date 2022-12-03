@@ -108,7 +108,7 @@ def predict_customized_genotype(genotype, selected_chrs, prediction_model):
     plt.text(40000000, -1*100000000, "Hitomebore")
     r = patches.Rectangle(xy=(117000000, -1*100000000), width=3000000*3, height=5000000, ec='gray', fc="blue", linewidth=3)
     ax.add_patch(r)
-    plt.text(87000000, -1*100000000, "Cultivar X")
+    plt.text(87000000, -1*100000000, "REXMONT")
 
     for each_chr in selected_chrs:
         i = int(each_chr[3:]) - 1
