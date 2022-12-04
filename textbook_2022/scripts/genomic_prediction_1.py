@@ -88,7 +88,7 @@ def predict_progeny_phenotype(Line1, Line2, progeny, genotype, prediction_model)
     plt.hist(pred)
     plt.show()
 
-def predict_customized_genotype(genotype, selected_chrs, prediction_model):
+def predict_customized_genotype(genotype, regions, prediction_model):
     trait = "GN"
     fig = plt.figure(figsize=(5,12))
     ax = plt.axes()
@@ -96,26 +96,36 @@ def predict_customized_genotype(genotype, selected_chrs, prediction_model):
     for i, each_chr in enumerate(genotype.chr.unique()):
         chr_genotype = genotype[genotype["chr"] == each_chr]
         end = chr_genotype.iloc[-1, :].pos
-        r = patches.Rectangle(xy=(i*12000000, 18000000), width=5000000, height=-end*3, ec='gray', fc="orange", linewidth=3)
+        r = patches.Rectangle(xy=(i*16000000, 0), width=6000000, height=-end*3, ec='gray', fc="orange", linewidth=3)
         ax.add_patch(r)
         if i == 0:
-            plt.text(-10000000, 20000000, "chr {}".format(i+1))
+            plt.text(-10000000, 2000000, "chr {}".format(i+1))
         else:
-            plt.text(i*12000000, 20000000, str(i+1))
+            plt.text(i*16000000, 2000000, str(i+1))
 
-    r = patches.Rectangle(xy=(75000000, -1*100000000), width=3000000*3, height=5000000, ec='gray', fc="orange", linewidth=3)
+    r = patches.Rectangle(xy=(65000000, -1*120000000), width=3000000*3, height=5000000, ec='gray', fc="orange", linewidth=3)
     ax.add_patch(r)
-    plt.text(40000000, -1*100000000, "Hitomebore")
-    r = patches.Rectangle(xy=(117000000, -1*100000000), width=3000000*3, height=5000000, ec='gray', fc="blue", linewidth=3)
+    plt.text(20000000, -1*120000000, "Hitomebore")
+    r = patches.Rectangle(xy=(117000000, -1*120000000), width=3000000*3, height=5000000, ec='gray', fc="blue", linewidth=3)
     ax.add_patch(r)
-    plt.text(87000000, -1*100000000, "REXMONT")
+    plt.text(80000000, -1*120000000, "REXMONT")
 
-    for each_chr in selected_chrs:
-        i = int(each_chr[3:]) - 1
-        chr_genotype = genotype[genotype["chr"] == each_chr]
+    for region in regions:
+        i = int(region[0][3:]) - 1
+        chr_genotype = genotype[genotype["chr"] == region[0]]
         end = chr_genotype.iloc[-1, :].pos
-        r = patches.Rectangle(xy=(i*12000000, 18000000), width=5000000, height=-end*3, ec='gray', fc="blue", linewidth=3)
-        ax.add_patch(r)
+        if region[1] >= region[2]:
+            print("region is uncorrect.")
+            break
+        elif region[1] < 0:
+            print("start sould be larger than 0.")
+            break
+        elif region[2] > end:
+            print("end sould be smaller than {} in {}.".format(end, region[0]))
+            break
+        else:
+            r = patches.Rectangle(xy=(i*16000000, -3*region[1]), width=6000000, height=-(region[2] - region[1])*3, ec='gray', fc="blue", linewidth=3)
+            ax.add_patch(r)
 
     plt.axis('scaled')
     plt.axis('off')
@@ -125,10 +135,13 @@ def predict_customized_genotype(genotype, selected_chrs, prediction_model):
     plt.show()
 
     customized_genotype = np.repeat(0, genotype.shape[0])
-    customized_genotype[genotype.chr.isin(selected_chrs).values] = 2
-
+    for region in regions:
+        selected_chr = region[0]
+        selected_start = region[1]
+        selected_end = region[2]
+        customized_genotype[genotype.chr.isin([selected_chr]) & (genotype.pos >= selected_start) & (genotype.pos <= selected_end)] = 2
+    
     print("\n")
     print("The cultivar of this genotype showed...")
     print(trait, "=", '\033[1m'+"{}".format(predict_phenotype(pd.DataFrame(customized_genotype), prediction_model)[0])+'\033[0m')
     print("※", trait, "of Hitomebore is", '\033[1m'+"{}".format(predict_phenotype(pd.DataFrame(np.repeat(0, genotype.shape[0])), prediction_model)[0])+'\033[0m')
-    
