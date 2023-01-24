@@ -55,4 +55,4 @@
 ● GO解析はどのようなデータベースをもとに作られているものなのかが気になりました。
 
 > 様々な生物の遺伝子アノテーション情報が様々なプロジェクトで集められ、構築されています。
-> THE GENE ONTOLOGY RESOURCE(http://geneontology.org/)からどの様なリソースから決められているか見ることが出来ます。
+> THE GENE ONTOLOGY RESOURCE(http://geneontology.org/) からどの様なリソースから決められているか見ることが出来ます。
