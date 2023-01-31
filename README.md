@@ -76,8 +76,8 @@ Googleアカウントが必要です。持っていない場合は作成して�
 |09| Genomic Prediction (1) | 12月13日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/GenomicPrediction_1_hw.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/GenomicPrediction_1_hw_ans.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L09_QA.md) |
 |10| Genomic Prediction (2) | 12月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) |  [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L10_QA.md) |
 |11| RNA-seq (1) | 1月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L11_QA.md) |
-|12| RNA-seq (2) | 1月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/RNAseq_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | |
-|13| | | | |
+|12| RNA-seq (2) | 1月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/RNAseq_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2022/L12_QA.md) |
+|13| Gene function | 1月31日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2022/Gene_function.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/1HTMEU) | |
 |14| | | | |
 |15| | | | |
 
