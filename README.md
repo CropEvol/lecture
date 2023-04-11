@@ -1,42 +1,25 @@
 <a name="section1"></a>
-# ゲノム博物学入門 [2022年度 ILASセミナー]
+# 生物先端科学コース 学生実験 [2023年度 前期]
 
-## セミナーの実施
-- 前期 毎週月曜 16:45-18:15
-- 対面 または ミーティングツール Zoom 上でおこないます
+## 事前準備
+- インターネットブラウザ
+  - 対応ブラウザ
+    - Google Chrome
+    - FireFox
+    - Safari
+    - Microsoft Edge
+  - 非対応ブラウザ（利用不可）
+    - Internet Explorer
+- Googleアカウント（無料アカウントでOK）
+  - 持っていない場合は以下を参考に作成してください
+    - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
+  - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
 
-## Pythonプログラミング解析環境
-[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)と呼ばれるサービスを利用します。
-
-Googleアカウントが必要です。持っていない場合は作成してください。→ [Googleアカウント新規作成](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
-
-
-## データ解析実習表
-1. Googleアカウントにログインする
-1. 下記実習表のリンクをクリックして、Google Colabノートブックページに移動する
-
-| No. | 日付 | テキスト |
-|:---|:---|:---|
-| 01 | 6月6日 | [RNA-seq基礎](https://github.com/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/ILAS_2206.pdf)<br>[RNA-seq基礎 - 実習](./ILAS_2022/RNAseq_intro/ILAS_2206_train.md) |
-| 02 | 6月13日 | [事前準備](./ILAS_2022/01/L01_requirements.md)<br>[Pythonプログラミング入門](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/RNAseq_analysis_Intro.ipynb)(Google Colab) |
-| 03 | 6月27日 | [PythonでBLAST検索](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/RNAseq_analysis_BLAST.ipynb)(Google Colab) |
-| 04 | 7月11日 | [RNA-seq解析](https://github.com/CropEvol/lecture/blob/master/ILAS_2022/RNAseq_intro/ILAS_2207.pdf)(PDF)<br>[サンプルデータ](https://drive.google.com/drive/folders/1qDryCj-yPjIBbNBV7FF0zMPU1oOJUU6U?usp=sharing) |
-
-データ解析でよく使うサイト:
-- 相同性検索 [NCBI BLASTX](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastx&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
-- タンパク質データベース [UniProt](https://www.uniprot.org/)
-- 論文検索 [Google scholar](https://scholar.google.co.jp/)
-
-
-その他テキスト:
-- [Python基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/01/L01_python_basis.ipynb)(Google Colab)
-- [Pythonデータ解析基礎](https://colab.research.google.com/github/CropEvol/lecture/blob/master/ILAS_2022/02/L02_python_analysis.ipynb)(Google Colab)
-- [2020年度のテキスト](https://github.com/CropEvol/lecture/tree/2020)
-- [2021年度のテキスト](https://github.com/CropEvol/lecture/tree/2021)
-
+## テキスト
+- 実験実習テキスト
+- 解析実習テキスト
 
 ---
-
 <a name="section2"></a>
 # ゲノム情報解析入門 [2022年度 学部講義]
 
@@ -54,7 +37,7 @@ Googleアカウントが必要です。持っていない場合は作成して�
     - Microsoft Edge
   - 非対応ブラウザ（利用不可）
     - Internet Explorer
-- Googleアカウント
+- Googleアカウント（無料アカウントでOK）
   - 持っていない場合は以下を参考に作成してください
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
 
@@ -109,7 +92,7 @@ _各回の課題は、講義終了後 (16:15頃)にアップロードいたし�
 - [2019年度](https://github.com/CropEvol/lecture/tree/2019)
 - [2020年度](https://github.com/CropEvol/lecture/tree/2020)
 - [2021年度](https://github.com/CropEvol/lecture/tree/2021)
-
+- [2022年度](https://github.com/CropEvol/lecture/tree/2022)
 
 ---
-Copyright&copy; 2022 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
+Copyright&copy; 2023 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
