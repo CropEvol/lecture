@@ -2,9 +2,10 @@ base_dir=/content
 mkdir -p ${base_dir}/tools
 
 ## NanoFilt/NanoLyse/NanoPlot
-printf "Installing NanoFilt, NanoLyse, NanoPlot, NanoStat ...\n"
+printf "Installing NanoFilt, NanoPlot, NanoStat ...\n"
+# printf "Installing NanoFilt, NanoLyse, NanoPlot, NanoStat ...\n"
 pip install -q nanofilt
-pip install -q NanoLyse
+# pip install -q NanoLyse
 pip install -q NanoPlot
 printf "completed.\n"
 
