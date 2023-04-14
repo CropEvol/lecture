@@ -5,6 +5,7 @@ mkdir -p ${base_dir}/tools
 printf "Installing NanoFilt, NanoPlot, NanoStat ...\n"
 # printf "Installing NanoFilt, NanoLyse, NanoPlot, NanoStat ...\n"
 pip install -q nanofilt
+pip install -q NanoStat
 # pip install -q NanoLyse
 pip install -q NanoPlot
 printf "completed.\n"
