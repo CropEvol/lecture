@@ -10,6 +10,12 @@ pip install -q NanoStat
 pip install -q NanoPlot
 printf "completed.\n"
 
+## IGV
+printf "Installing IGV ...\n"
+pip install -q igv-notebook==0.3.1
+wget -q https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py -O igv_prep.py
+printf "completed.\n"
+
 # ## bwa
 # printf "Installing bwa ..."
 # cd ${base_dir}/tools
