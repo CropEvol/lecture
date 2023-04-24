@@ -16,8 +16,9 @@
   - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
 
 ## テキスト
-- 実験実習テキスト
 - 解析実習テキスト
+  - [前半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p1.ipynb)
+  - [後半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p2.ipynb)
 
 ---
 <a name="section2"></a>
