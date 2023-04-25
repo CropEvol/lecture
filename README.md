@@ -19,6 +19,9 @@
 - 解析実習テキスト
   - [前半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p1.ipynb)
   - [後半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p2.ipynb)
+- Nanopore sequencing
+  - [動画](./FFBCexpr_2023spr/movies/Nanopore_sequencing.md)
+
 
 ---
 <a name="section2"></a>
