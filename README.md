@@ -26,8 +26,8 @@
   - [オニドコロ](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/slides/%E5%AD%A6%E7%94%9F%E5%AE%9F%E7%BF%922023_%E3%82%AA%E3%83%8B%E3%83%89%E3%82%B3%E3%83%AD.pdf)
   - [コムギ近縁野生種](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/slides/%E5%AD%A6%E7%94%9F%E5%AE%9F%E7%BF%922023_%E3%82%B3%E3%83%A0%E3%82%AE.pdf)
 - 配布プリント
-  - [1日目](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト1.docx)
-  - [2日目](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト2.docx)
+  - [1日目](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト1.docx)
+  - [2日目](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト2.docx)
 
 ---
 <a name="section2"></a>
