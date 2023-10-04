@@ -37,21 +37,7 @@
 - NLR及びAVRのアミノ酸配列のFastaファイル
   - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
 - kDa計算サイトの一例
-  - [XXX](http)
-
-## 
-- 解析実習テキスト
-  - [前半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p1.ipynb)
-  - [後半](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2023spr/FFBC2023spr_CropEvol_p2.ipynb)
-- Nanopore sequencing
-  - [動画](./FFBCexpr_2023spr/movies/Nanopore_sequencing.md)
-- スライド
-  - [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/slides/%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf)
-  - [オニドコロ](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/slides/%E5%AD%A6%E7%94%9F%E5%AE%9F%E7%BF%922023_%E3%82%AA%E3%83%8B%E3%83%89%E3%82%B3%E3%83%AD.pdf)
-  - [コムギ近縁野生種](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/slides/%E5%AD%A6%E7%94%9F%E5%AE%9F%E7%BF%922023_%E3%82%B3%E3%83%A0%E3%82%AE.pdf)
-- 配布プリント
-  - [1日目](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト1.docx)
-  - [2日目](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2023spr/textbook_MSword/前期テキスト2.docx)
+  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html)
 
 ---
 
