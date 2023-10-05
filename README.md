@@ -46,11 +46,19 @@
 [マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
 
 - A, B班
-  - [HA]()
-  - [Myc]()
+  - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Marker.tif)
+  - [HA](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/%CE%B1-HA.tif)
+  - [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Merged.tif)
+  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Marker.tif)
+  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/%CE%B1-Myc.tif)
+  - [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Merged.tif)
 - C, D班
-  - [HA]()
-  - [Myc]()
+  - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Marker.tif)
+  - [HA](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/%CE%B1-HA.tif)
+  - [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Merged.tif)
+  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Marker.tif)
+  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/%CE%B1-Myc.tif)
+  - [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Merged.tif)
 
 ## アグロバクテリウム形質転換の結果
 
