@@ -43,7 +43,7 @@
 
 ## Western blotの結果
 
-[](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
+[マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
 
 - A, B班
   - [HA]()
