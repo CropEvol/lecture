@@ -60,6 +60,15 @@
   - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/%CE%B1-Myc.tif)
   - [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Merged.tif)
 
+## ポンソ染色の結果
+
+- A, B班
+  - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050267.JPG)
+  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050268.JPG)
+- C, D班
+  - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
+  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG)
+
 ## アグロバクテリウム形質転換の結果
 
 - [A班](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050260.JPG)
