@@ -34,10 +34,33 @@
 <a name="section1-2"></a>
 # 生物先端科学コース 学生実験 [2023年度 後期]
 
+## タンパク質分子量の計算
+
 - NLR及びAVRのアミノ酸配列のFastaファイル
   - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
 - kDa計算サイトの一例
   - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html)
+
+## Western blotの結果
+
+[](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
+
+- A, B班
+  - [HA]()
+  - [Myc]()
+- C, D班
+  - [HA]()
+  - [Myc]()
+
+## アグロバクテリウム形質転換の結果
+
+- [A班](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050260.JPG)
+- [B班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050261.JPG)
+- [B班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050262.JPG)
+- [C班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050263.JPG)
+- [C班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050264.JPG)
+- [D班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050265.JPG)
+- [D班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050266.JPG)
 
 ---
 
