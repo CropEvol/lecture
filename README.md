@@ -34,6 +34,11 @@
 <a name="section1-2"></a>
 # 生物先端科学コース 学生実験 [2023年度 後期]
 
+- 講義スライド
+  - [後期実験実習スライド_1日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%91%E6%97%A5%E7%9B%AE.pdf)
+  - [後期実験実習スライド_2日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%92%E6%97%A5%E7%9B%AE.pdf)
+  - [後期実験実習スライド_3日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%93%E6%97%A5%E7%9B%AE.pdf)
+
 ## タンパク質分子量の計算
 
 - NLR及びAVRのアミノ酸配列のFastaファイル
