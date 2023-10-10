@@ -39,6 +39,19 @@
   - [後期実験実習スライド_2日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%92%E6%97%A5%E7%9B%AE.pdf)
   - [後期実験実習スライド_3日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%93%E6%97%A5%E7%9B%AE.pdf)
 
+## Agroinfiltrationの結果
+
+- A班
+  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100276.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100277.JPG)
+- B班
+  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100280.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100281.JPG)
+- C班
+  - [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100282.JPG), [Pikm_裏](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100283.JPG)
+- D班
+  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100285.JPG)
+- 予備実験(TA)
+  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100279.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100278.JPG)
+
 ## タンパク質分子量の計算
 
 - NLR及びAVRのアミノ酸配列のFastaファイル
