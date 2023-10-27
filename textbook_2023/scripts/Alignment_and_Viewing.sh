@@ -1,9 +1,9 @@
-%%bash
 CONTIG=$1
 OUT_NAME=$2
+READS=("${@:3}")
 
 bwa index $CONTIG
-bwa mem $CONTIG ${@:3} > $OUT_NAME.sam
+bwa mem $CONTIG `echo ${READS[*]}` > $OUT_NAME.sam
 samtools sort -O bam $OUT_NAME.sam > $OUT_NAME.bam
 rm -f $OUT_NAME.sam
 
