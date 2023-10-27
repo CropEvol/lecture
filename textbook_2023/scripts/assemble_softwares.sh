@@ -95,14 +95,15 @@ ln -sf $TOOL_DIR/seqkit /usr/bin/
 
 ## igv-notebook-0.3.1 from Github
 pip install -q igv-notebook==0.3.1
-wget -q -O igv_prep.py https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py
 
 ## pilon-1.24.jar
 wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jar
 
 ## pipelines
-wget -q -O Flye_assemble.sh         https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Flye_assemble.sh
-wget -q -O Platanus_assemble.sh     https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Platanus_assemble.sh
-wget -q -O Polishing_assembly.sh    https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Polishing_assembly.sh
-wget -q -O Alignment_and_Viewing.sh https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Alignment_and_Viewing.sh
-wget -q -O show_alignment.py        https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/show_alignment.py
+
+wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Flye_assemble.sh
+wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Platanus_assemble.sh
+wget -q -O ../Polishing_assembly.sh https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Polishing_assembly.sh
+wget -q -O ../Alignment.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Alignment.sh
+wget -q -O ../run_igv.sh            https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/run_igv.sh
+wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py

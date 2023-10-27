@@ -8,5 +8,3 @@ samtools sort -O bam $OUT_NAME.sam > $OUT_NAME.bam
 rm -f $OUT_NAME.sam
 
 samtools faidx $CONTIG
-
-python tools/show_alignment.py $CONTIG $OUT_NAME.bam
