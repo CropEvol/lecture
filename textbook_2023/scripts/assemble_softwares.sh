@@ -82,15 +82,15 @@ tar -zxf $FILE_NAME
 rm -f $FILE_NAME
 ln -sf $TOOL_DIR/seqkit /usr/bin/
 
-## MUMmer3.23 from GoogleDrive
-FILE_ID="1JGTuRdf8-zdKnZ4XR_WxsOrvGmE4B14L";
-FILE_NAME="MUMmer3.23.tar.gz";
-CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O- | sed -En 's/.*confirm=([0-9A-Za-z_]+).*/\1/p');
-wget -q --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$CONFIRM&id=$FILE_ID" -O $FILE_NAME;
-rm -f /tmp/cookies.txt
-tar -zxf $FILE_NAME
-rm -f $FILE_NAME
-ln -sf $TOOL_DIR/nucmer /usr/bin/
+# ## MUMmer3.23 from GoogleDrive
+# FILE_ID="1JGTuRdf8-zdKnZ4XR_WxsOrvGmE4B14L";
+# FILE_NAME="MUMmer3.23.tar.gz";
+# CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O- | sed -En 's/.*confirm=([0-9A-Za-z_]+).*/\1/p');
+# wget -q --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$CONFIRM&id=$FILE_ID" -O $FILE_NAME;
+# rm -f /tmp/cookies.txt
+# tar -zxf $FILE_NAME
+# rm -f $FILE_NAME
+# ln -sf $TOOL_DIR/nucmer /usr/bin/
 
 ## igv-notebook-0.3.1 from Github
 pip install -q igv-notebook==0.3.1
