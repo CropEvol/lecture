@@ -1,3 +1,4 @@
+#!/bin/bash
 DOWNLOAD_DIR="/content"
 mkdir -p $DOWNLOAD_DIR
 cd $DOWNLOAD_DIR

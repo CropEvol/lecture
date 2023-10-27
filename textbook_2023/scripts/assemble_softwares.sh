@@ -1,3 +1,4 @@
+#!/bin/bash
 TOOL_DIR="/content/tools"
 mkdir -p $TOOL_DIR
 cd $TOOL_DIR

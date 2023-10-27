@@ -1,12 +1,11 @@
-%%bash
+#!/bin/bash
 Pilon_jar="/content/tools/pilon-1.24.jar"
 
 CONTIG=$1
 OUTPUT=$2
-READS=("${@:3}")
 
 bwa index $CONTIG
-bwa mem $CONTIG `echo ${READS[*]}` > ${OUTPUT}_polishing.sam
+bwa mem $CONTIG "${@:3}" > ${OUTPUT}_polishing.sam
 samtools sort -O bam ${OUTPUT}_polishing.sam > ${OUTPUT}_polishing.bam
 rm -f ${OUTPUT}_polishing.sam
 
