@@ -96,9 +96,12 @@ ln -sf $TOOL_DIR/seqkit /usr/bin/
 pip install -q igv-notebook==0.3.1
 wget -q -O igv_prep.py https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py
 
-<<<<<<< HEAD
 ## pilon-1.24.jar
-wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jarwget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jar
-=======
+wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jar
 
->>>>>>> 9ad22dfc69073c6c5a5b807fce7b3d4c275bd0de
+## pipelines
+wget -q -O Flye_assemble.sh         https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Flye_assemble.sh
+wget -q -O Platanus_assemble.sh     https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Platanus_assemble.sh
+wget -q -O Polishing_assembly.sh    https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Polishing_assembly.sh
+wget -q -O Alignment_and_Viewing.sh https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Alignment_and_Viewing.sh
+wget -q -O show_alignment.py        https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/show_alignment.py
