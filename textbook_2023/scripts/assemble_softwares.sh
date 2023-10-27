@@ -105,5 +105,5 @@ wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/mast
 wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Platanus_assemble.sh
 wget -q -O ../Polishing_assembly.sh https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Polishing_assembly.sh
 wget -q -O ../Alignment.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/Alignment.sh
-wget -q -O ../run_igv.sh            https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/run_igv.sh
+wget -q -O ../run_igv.py            https://github.com/CropEvol/lecture/raw/master/textbook_2023/scripts/run_igv.py
 wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py
