@@ -37,5 +37,6 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/tabix /usr/bin/
 ln -sf $TOOL_DIR/$FILE_BASE/bgzip /usr/bin/
 
-##
+## igv-notebook-0.3.1
+pip install -q igv-notebook==0.3.1
 wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2022/scripts/igv_prep.py
