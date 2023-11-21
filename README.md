@@ -126,7 +126,7 @@
 |04| ゲノムアセンブル | 10月24日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
 |05| ゲノム解析(1) ゲノムアセンブル | 10月31日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231031_QA.md) |
 |06| ゲノム解析(2) リードアライメント、SNP検出 | 11月7日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Read_alignment.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Read_alignment_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231107_QA.md) |
-|07| ゲノム解析(3) QTL-seq解析 | 11月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq.ipynb) |  |
+|07| ゲノム解析(3) QTL-seq解析 | 11月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231114_QA.md) |
 |08| GWASの基礎 | 11月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS_hw.ipynb) |  |
 |09| Genomic Prediction (1) |  |  |  |
 |10| Genomic Prediction (2) |  |  |  |
