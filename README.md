@@ -129,8 +129,8 @@
 |07| ゲノム解析(3) QTL-seq解析 | 11月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq_HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq_HW_ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231114_QA.md) |
 |08| GWASの基礎 | 11月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231121_QA.md) |
 |09| Genomic Prediction (1) | 11月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_1_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231128_QA.md) |
-|10| Genomic Prediction (2) | 12月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
-|11| RNA-seq (1) |  |  |  |
+|10| Genomic Prediction (2) | 12月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231205_QA.md) |
+|11| RNA-seq (1) | 12月12日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
 |12| RNA-seq (2) |  |  |  |
 |13| Gene function |  |  |  |
 |14| | | | |
