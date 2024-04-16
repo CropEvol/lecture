@@ -2,14 +2,7 @@
 # 生物先端科学コース 学生実験 [2024年度 前期]
 
 ## 事前準備
-- インターネットブラウザ
-  - 対応ブラウザ
-    - Google Chrome
-    - FireFox
-    - Safari
-    - Microsoft Edge
-  - 非対応ブラウザ（利用不可）
-    - Internet Explorer
+- [KUINS-Airへの接続](https://www.iimc.kyoto-u.ac.jp/ja/services/network/wifi/kuins-air.html)
 - Googleアカウント（無料アカウントでOK）
   - 持っていない場合は以下を参考に作成してください
     - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
