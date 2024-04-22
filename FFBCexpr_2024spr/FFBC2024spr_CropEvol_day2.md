@@ -12,8 +12,9 @@
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="250px"/>
 
 <h2 id="sec1">1. シーケンスの確認・トリミング</h2>
-## 1. シーケンスの確認・トリミング 
-### 1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認
+
+<h3>1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認</h3>
+
 サンガーシーケンスをおこなうと波形ファイル（各塩基のシグナル強度のデータ）が得られます。そのデータをみることで、シーケンスの精度を評価できます。
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/sanger_ab1.png?raw=true" height="250px"/>
@@ -36,7 +37,8 @@ AB1ファイルの確認手順:
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/teal.png?raw=true" height="250px"/>
 
-### 1.2 シーケンスのトリミング（切り出し）
+<h3>1.2 シーケンスのトリミング（切り出し）</h3>
+
 シーケンスのトリミングには「EMBOSS: extractseq」を使います。  
 https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 
@@ -49,16 +51,16 @@ https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/extractseq.png?raw=true" height="250px"/>
 
-### 練習
+<h3>練習</h3>
 
 相補鎖側の配列（リバースプライマーで読んだシーケンス）に対しても1.1-1.2の操作をおこなってください
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="150px"/>
 
-<div id="sec2"></div>
-## 2. アセンブル
+<h2 id="sec2">2. アセンブル</h2>
 
-### 2.1 アセンブル
+<h3 id="sec2">2.1 アセンブル</h3>
+
 部分的に相同性のある2つ以上の配列を統合し、1つのより長い配列を構築することを**アセンブル**と言います。
 
 今回の実習では、ひとつの遺伝領域をフォワードプライマーとリバースプライマーを使って二方向からシーケンスを取得しました。その二つのシーケンスをアセンブルし、ひとつの塩基配列にしましょう。
@@ -78,15 +80,14 @@ https://doua.prabi.fr/software/cap3
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/cap3.png?raw=true" height="250px"/>
 
-### 2.2 相補鎖変換
+<h3 id="sec2">2.2 相補鎖変換</h3>
 
 アセンブル結果が相補鎖配列の場合（フォワード側が"-"、リバース側が"+"でアセンブルされた場合）、以下のWebツールを使って、その配列を相補鎖変換する  
 https://www.genscript.com/sms2/rev_comp.html
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_comp.png?raw=true" height="250px"/>
 
-<div id="sec3"></div>
-## 3. シーケンスの統合
+<h2 id="sec3">3. シーケンスの統合</h2>
 
 この後の系統解析のためには、各サンプルの塩基配列を集める必要があります。
 
@@ -100,8 +101,7 @@ https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sha
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/gene_sequence_file.png?raw=true" height="250px"/>
 
-<div id="sec4"></div>
-## 4. 系統樹の作成
+<h2 id="sec4">4. 系統樹の作成</h2>
 
 系統樹の作成もWebサービス（例えば、NGPhylogeny.fr; 下記URL）を使って簡単におこなえます。  
 https://ngphylogeny.fr/
@@ -132,8 +132,7 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="250px"/>
 
-<div id="sec5"></div>
-## 5. 類似シーケンスの検索
+<h2 id="sec5">5. 類似シーケンスの検索</h2>
 
 次世代シーケンサーや第3次シーケンサー（ロングリードシーケンサー）が登場して以降、多くの生物でゲノムが解読されるようになってきました。解読されたゲノム配列はDNAデータバンクなどで公開されています。
 
