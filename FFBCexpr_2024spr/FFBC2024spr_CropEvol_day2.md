@@ -81,7 +81,7 @@ https://doua.prabi.fr/software/cap3
 アセンブル結果が相補鎖配列の場合（フォワード側が"-"、リバース側が"+"でアセンブルされた場合）、以下のWebツールを使って、その配列を相補鎖変換する  
 https://www.genscript.com/sms2/rev_comp.html
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_compsanger_ab1.png?raw=true" height="250px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_comp.png?raw=true" height="250px"/>
 
 ## 3. シーケンスの統合
 
