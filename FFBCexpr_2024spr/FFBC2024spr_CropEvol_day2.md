@@ -9,13 +9,13 @@
 4. 系統樹の作成
 5. 類似シーケンスの検索
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="250px"/>
 
 ## 1. シーケンスの確認・トリミング
 ### 1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認
 サンガーシーケンスをおこなうと波形ファイル（各塩基のシグナル強度のデータ）が得られます。そのデータをみることで、シーケンスの精度を評価できます。
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/sanger_ab1.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/sanger_ab1.png?raw=true" height="250px"/>
 
 波形データファイル（AB1ファイル）は、以下のURLの各班のフォルダのなかの`ab1__遺伝子名`フォルダ に入っています。
 
@@ -33,7 +33,7 @@ AB1ファイルの確認手順:
 3. 自動的にResultsタブに切り替わり、波形データと塩基配列が表示される
 4. 波形の状態を目視で確認し、塩基のシグナルが明確な範囲を決定する
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/teal.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/teal.png?raw=true" height="250px"/>
 
 ### 1.2 シーケンスのトリミング（切り出し）
 シーケンスのトリミングには「EMBOSS: extractseq」を使います。  
@@ -46,13 +46,13 @@ https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 4. 「Run extract」をクリックする
 5. 出力された塩基配列をコピーし、テキストエディタ（Wordやメモ帳など）に貼り付けておく
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/extractseq.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/extractseq.png?raw=true" height="250px"/>
 
 ### 練習
 
 相補鎖側の配列（リバースプライマーで読んだシーケンス）に対しても1.1-1.2の操作をおこなってください
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="250px"/>
 
 ## 2. アセンブル
 
@@ -61,7 +61,7 @@ https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 
 今回の実習では、ひとつの遺伝領域をフォワードプライマーとリバースプライマーを使って二方向からシーケンスを取得しました。その二つのシーケンスをアセンブルし、ひとつの塩基配列にしましょう。
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/assemble.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/assemble.png?raw=true" height="250px"/>
 
 サンガーシーケンスのアセンブルには「CAP3」と呼ばれるソフトウェアがよく使われています。今回、そのWebサービス版を使用します。  
 https://doua.prabi.fr/software/cap3
@@ -74,14 +74,14 @@ https://doua.prabi.fr/software/cap3
 	- `-`: 入力したシーケンスの相補鎖配列がアセンブルに使われたことを表す
 4. 「Contigs」にアセンブル結果の塩基配列（FASTA形式で記述されている）が出力されています
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/cap3.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/cap3.png?raw=true" height="250px"/>
 
 ### 2.2 相補鎖変換
 
 アセンブル結果が相補鎖配列の場合（フォワード側が"-"、リバース側が"+"でアセンブルされた場合）、以下のWebツールを使って、その配列を相補鎖変換する  
 https://www.genscript.com/sms2/rev_comp.html
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_compsanger_ab1.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_compsanger_ab1.png?raw=true" height="250px"/>
 
 ## 3. シーケンスの統合
 
@@ -95,7 +95,7 @@ https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sha
 そのファイルにアセンブル配列をコピー＆ペーストしてください。  
 **重要：それぞれの配列の名前（FASTA形式の配列名）をサンプル名に変更してください**
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/gene_sequence_file.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/gene_sequence_file.png?raw=true" height="250px"/>
 
 ## 4. 系統樹の作成
 
@@ -110,7 +110,7 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 3. **系統樹の推定（Tree Inference）**: サンプル間の塩基の類似度を算出し、系統関係を推定する
 4. **系統樹の描画（Tree Rendering）**: 推定した系統樹を描画する
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_process.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_process.png?raw=true" height="250px"/>
 
 実習での系統樹作成の手順: 
 1. 「A la Carte」をクリック
@@ -126,7 +126,7 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 	- FastME: 「Bootstrap branch supports」を`Yes`にする。このオプションで出力されるブートストラップ値は、系統樹の各枝の信頼度の指標になる
 	- Newick Display: デフォルトのまま（変更しない）
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="250px"/>
 
 ## 5. 類似シーケンスの検索
 
@@ -160,6 +160,6 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 6. 「GenBank」をクリックする
 7. 表示されたページの「FASTA」をクリックする
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_1.png?raw=true" height="300px"/>
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_2.png?raw=true" height="300px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_1.png?raw=true" height="250px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_2.png?raw=true" height="250px"/>
 
