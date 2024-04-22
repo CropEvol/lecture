@@ -8,9 +8,13 @@
     - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
   - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
 
-## テキスト
+## テキストなど
+- [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_day1.pdf)
 - [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_day2.md)
-
+- 使用サンプルについて
+  - [使用サンプルの情報](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_SampleInfo.pdf)
+  - [タルホコムギのスライド](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/slides/タルホコムギの系統解析.pdf)
+- [データ共有フォルダ](https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sharing)
 
 ---
 

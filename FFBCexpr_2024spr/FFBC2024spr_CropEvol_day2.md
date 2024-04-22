@@ -52,7 +52,7 @@ https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 
 相補鎖側の配列（リバースプライマーで読んだシーケンス）に対しても1.1-1.2の操作をおこなってください
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="250px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="150px"/>
 
 ## 2. アセンブル
 
