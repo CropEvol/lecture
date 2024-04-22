@@ -11,7 +11,7 @@
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="250px"/>
 
-<div id="sec1"></div>
+<h2 id="sec1">1. シーケンスの確認・トリミング</h2>
 ## 1. シーケンスの確認・トリミング 
 ### 1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認
 サンガーシーケンスをおこなうと波形ファイル（各塩基のシグナル強度のデータ）が得られます。そのデータをみることで、シーケンスの精度を評価できます。
