@@ -27,7 +27,7 @@ https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sha
 保管フォルダ内のフォワードプライマーで得られたAB1ファイルをひとつ選んで、ダウンロードしてください。
 
 そのAB1ファイルをWebツール「Teal」にアップロードし、確認してみましょう。  
-https://www.gear-genomics.com/teal/
+[https://www.gear-genomics.com/teal/](https://www.gear-genomics.com/teal/){:target="_blank"}
 
 AB1ファイルの確認手順:  
 1. Inputタブで「ファイルを選択」をクリックし、ダウンロードしたAB1ファイルを選ぶ
