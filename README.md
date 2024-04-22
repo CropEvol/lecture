@@ -9,7 +9,7 @@
   - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
 
 ## テキスト
-- 解析実習テキスト
+- [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_day2.md)
 
 
 ---

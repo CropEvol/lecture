@@ -110,7 +110,7 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 3. **系統樹の推定（Tree Inference）**: サンプル間の塩基の類似度を算出し、系統関係を推定する
 4. **系統樹の描画（Tree Rendering）**: 推定した系統樹を描画する
 
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_process.png?raw=true" height="250px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_process.png?raw=true" height="150px"/>
 
 実習での系統樹作成の手順: 
 1. 「A la Carte」をクリック
@@ -161,5 +161,5 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 7. 表示されたページの「FASTA」をクリックする
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_1.png?raw=true" height="250px"/>
-<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_2.png?raw=true" height="250px"/>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_2.png?raw=true" height="200px"/>
 
