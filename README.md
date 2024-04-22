@@ -13,7 +13,7 @@
 - [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_day2.md)
 - 使用サンプルについて
   - [使用サンプルの情報](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/FFBC2024spr_CropEvol_SampleInfo.pdf)
-  - [タルホコムギのスライド](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/slides/タルホコムギの系統解析.pdf)
+  - [タルホコムギのスライド](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/slides/%E3%82%BF%E3%83%AB%E3%83%9B%E3%82%B3%E3%83%A0%E3%82%AE%E3%81%AE%E7%B3%BB%E7%B5%B1%E8%A7%A3%E6%9E%90.pdf)
 - [データ共有フォルダ](https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sharing)
 
 ---
