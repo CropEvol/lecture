@@ -3,15 +3,16 @@
 今回、サンガー法で得られたシーケンスを使って系統解析（系統樹の作成）をおこなっていきます。
 
 ## 解析の流れ
-1. シーケンスの確認・トリミング
-2. アセンブル
-3. シーケンスの統合
-4. 系統樹の作成
-5. 類似シーケンスの検索
+1. [シーケンスの確認・トリミング](#sec1)
+2. [アセンブル](#sec2)
+3. [シーケンスの統合](#sec3)
+4. [系統樹の作成](#sec4)
+5. [類似シーケンスの検索](#sec5)
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="250px"/>
 
-## 1. シーケンスの確認・トリミング
+<div id="sec1"></div>
+## 1. シーケンスの確認・トリミング 
 ### 1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認
 サンガーシーケンスをおこなうと波形ファイル（各塩基のシグナル強度のデータ）が得られます。そのデータをみることで、シーケンスの精度を評価できます。
 
@@ -54,6 +55,7 @@ https://www.bioinformatics.nl/cgi-bin/emboss/extractseq
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="150px"/>
 
+<div id="sec2"></div>
 ## 2. アセンブル
 
 ### 2.1 アセンブル
@@ -83,6 +85,7 @@ https://www.genscript.com/sms2/rev_comp.html
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_comp.png?raw=true" height="250px"/>
 
+<div id="sec3"></div>
 ## 3. シーケンスの統合
 
 この後の系統解析のためには、各サンプルの塩基配列を集める必要があります。
@@ -97,6 +100,7 @@ https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sha
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/gene_sequence_file.png?raw=true" height="250px"/>
 
+<div id="sec4"></div>
 ## 4. 系統樹の作成
 
 系統樹の作成もWebサービス（例えば、NGPhylogeny.fr; 下記URL）を使って簡単におこなえます。  
@@ -128,6 +132,7 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="250px"/>
 
+<div id="sec5"></div>
 ## 5. 類似シーケンスの検索
 
 次世代シーケンサーや第3次シーケンサー（ロングリードシーケンサー）が登場して以降、多くの生物でゲノムが解読されるようになってきました。解読されたゲノム配列はDNAデータバンクなどで公開されています。
