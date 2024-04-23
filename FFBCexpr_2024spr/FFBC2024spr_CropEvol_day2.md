@@ -144,13 +144,16 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 実習で使った植物種（タルホコムギやアワなど）やその近縁種も代表系統のゲノム配列が公開しています。
 
 コムギ関係の公開ゲノム配列:  
+- *Aegilops tauschii*（コムギ近縁野生種; タルホコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002575655.2/
 - *Aegilops sharonensis*（コムギ近縁野生種） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/
 - *Triticum aestivum*（パンコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018294505.1/
 - *Triticum aestivum* subsp. *spelta*（スペルトコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_903994165.1/
 
 アワ関係の公開ゲノム配列:  
-- *Setaria italica*（アワ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000263155.2/
-- *Setaria viridis*（エノコログサ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_005286985.1/
+- *Setaria italica*（アワ 系統名'Yugu1'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000263155.2/
+- *Setaria italica*（アワ 系統名'TT8'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001652605.1/
+- *Setaria viridis*（エノコログサ 系統名'A10'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_005286985.1/
+- *Setaria viridis*（エノコログサ 系統名'ME034v'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_012934335.1/
 
 ここでは、公開ゲノム配列から実習の遺伝領域の塩基配列を得てみましょう。
 
