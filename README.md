@@ -24,59 +24,49 @@
 # 生物先端科学コース 学生実験 [2023年度 後期]
 
 - 講義スライド
-  - [後期実験実習スライド_1日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%91%E6%97%A5%E7%9B%AE.pdf)
+  <!-- - [後期実験実習スライド_1日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%91%E6%97%A5%E7%9B%AE.pdf)
   - [後期実験実習スライド_2日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%92%E6%97%A5%E7%9B%AE.pdf)
   - [後期実験実習スライド_3日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%88%E3%82%99_%EF%BC%93%E6%97%A5%E7%9B%AE.pdf)
-  - [後期実験実習スライド_4日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89_%EF%BC%94%E6%97%A5%E7%9B%AE.pdf)
+  - [後期実験実習スライド_4日目](https://github.com/CropEvol/lecture/blob/master/slides/%E5%BE%8C%E6%9C%9F%E5%AE%9F%E9%A8%93%E5%AE%9F%E7%BF%92%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89_%EF%BC%94%E6%97%A5%E7%9B%AE.pdf) -->
 ## Agroinfiltrationの結果
 
 - A班
-  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100276.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100277.JPG)
+  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100276.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100277.JPG) -->
 - B班
-  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100280.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100281.JPG)
+  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100280.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100281.JPG) -->
 - C班
-  - [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100282.JPG), [Pikm_裏](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100283.JPG)
+  <!-- - [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100282.JPG), [Pikm_裏](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100283.JPG) -->
 - D班
-  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100285.JPG)
+  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100285.JPG) -->
 - 予備実験(TA)
-  - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100279.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100278.JPG)
+  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100279.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100278.JPG) -->
 
 ## タンパク質分子量の計算
 
 - NLR及びAVRのアミノ酸配列のFastaファイル
-  - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
+  <!-- - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta) -->
 - kDa計算サイトの一例
-  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html)
+  <!-- - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html) -->
 
 ## Western blotの結果
 
 [マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
 
 - A, B班(露光時間...Myc:2分, HA:1~2秒)
-  - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Merged.tif)
-  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Merged.tif)
+  <!-- - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Merged.tif)
+  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Merged.tif) -->
 - C, D班(露光時間...Myc:30秒, HA:4秒)
-  - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Merged.tif)
-  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Merged.tif)
+  <!-- - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Merged.tif)
+  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Merged.tif) -->
 
 ## ポンソ染色の結果
 
 - A, B班
-  - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050267.JPG)
-  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050268.JPG)
+  <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050267.JPG)
+  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050268.JPG) -->
 - C, D班
-  - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
-  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG)
-
-## アグロバクテリウム形質転換の結果
-
-- [A班](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050260.JPG)
-- [B班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050261.JPG)
-- [B班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050262.JPG)
-- [C班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050263.JPG)
-- [C班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050264.JPG)
-- [D班-1](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050265.JPG)
-- [D班-2](https://github.com/CropEvol/lecture/blob/master/images/agro/PA050266.JPG)
+  <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
+  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG) -->
 
 ---
 
