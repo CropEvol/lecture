@@ -81,10 +81,9 @@
 ---
 
 <a name="section2"></a>
-# ゲノム情報解析入門 [2023年度 学部講義]
+# ゲノム情報解析入門 [2024年度 学部講義]
 
 - 時間：毎週火曜 15:00 - 16:30  
-- [シラバス](https://www.k.kyoto-u.ac.jp/external/open_syllabus/department_syllabus?lectureNo=6500&departmentNo=18)
 
 ## 必要なもの
 実習では、[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使います。  
@@ -94,10 +93,7 @@
     - Google Chrome
     - FireFox
     - Safari
-  - 非推奨ブラウザ（動作検証されていない）
     - Microsoft Edge
-  - 非対応ブラウザ（利用不可）
-    - Internet Explorer
 - Googleアカウント（無料アカウントでOK）
   - 持っていない場合は以下を参考に作成してください
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
@@ -109,21 +105,21 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| 講義についての説明 | 10月3日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
-|02| DNAシーケンス | 10月10日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
-|03| Google Colaboratoryの使い方 | 10月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/First_GoogleColab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
-|04| ゲノムアセンブル | 10月24日 | [課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) |  |
-|05| ゲノム解析(1) ゲノムアセンブル | 10月31日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231031_QA.md) |
-|06| ゲノム解析(2) リードアライメント、SNP検出 | 11月7日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Read_alignment.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Read_alignment_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231107_QA.md) |
-|07| ゲノム解析(3) QTL-seq解析 | 11月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq_HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/QTLseq_HW_ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231114_QA.md) |
-|08| GWASの基礎 | 11月21日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GWAS_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231121_QA.md) |
-|09| Genomic Prediction (1) | 11月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_1_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231128_QA.md) |
-|10| Genomic Prediction (2) | 12月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231205_QA.md) |
-|11| RNA-seq (1) | 12月12日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231212_QA.md) |
-|12| RNA-seq (2) | 12月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/RNAseq_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/3YKHpl) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2023/231219_QA.md) |
-|13| Gene function | 12月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2023/Gene_function.ipynb) |  |
-|14| | | | |
-|15| | | | |
+|01| 講義についての説明 | 10月1日 | 課題 |  |
+|02| Google Colaboratoryの使い方 | 10月8日 | 課題 |  |
+|03| DNAシーケンス、ゲノムアセンブル | 10月15日 | テキスト<br>課題 |  |
+|04| ゲノム解析(1) ゲノムアセンブル | 10月22日 | テキスト<br>課題 |  |
+|05| ゲノム解析(2) リードアライメント、SNP検出 | 10月29日 | テキスト<br>課題 |  |
+|06| ゲノム解析(3) QTL-seq解析 | 11月5日 | テキスト<br>課題 |  |
+|07| GWASの基礎 | 11月12日 | テキスト<br>課題 |  |
+|08| Genomic Prediction (1) | 11月19日 | テキスト<br>課題 |  |
+|09| Genomic Prediction (2) | 11月26日 | テキスト<br>課題 |  |
+|10| RNA-seq (1) | 12月3日 | テキスト<br>課題 |  |
+|11| RNA-seq (2) | 12月10日 | テキスト<br>課題 |  |
+|12| Gene function | 12月17日 | テキスト<br>課題 |  |
+|13|  | 12月24日 | テキスト<br>課題 |  |
+|14|  | 1月7日 | テキスト<br>課題 |  |
+|15|  | 1月14日 | テキスト<br>課題 |  |
 
 
 _実習内容は、進捗状況により変更することがあります。_
@@ -149,6 +145,7 @@ _各回の課題は、講義終了 (16:30頃)にアップロードいたしま�
 - [2020年度](https://github.com/CropEvol/lecture/tree/2020)
 - [2021年度](https://github.com/CropEvol/lecture/tree/2021)
 - [2022年度](https://github.com/CropEvol/lecture/tree/2022)
+- [2022年度](https://github.com/CropEvol/lecture/tree/2023)
 
 ---
 Copyright&copy; 2023 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
