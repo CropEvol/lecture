@@ -40,7 +40,7 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/bwa /usr/bin/
 
 ## samtools-1.17 from GoogleDrive
-FILE_ID="1fGKLLtAaJmTHAc4uGRtb_0r-HB2M6yQv";
+FILE_ID="1hKPNXzGgPG_f2CvK87Be4sVx0bLkXXYE";
 FILE_NAME="samtools-1.21.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O- | sed -En 's/.*confirm=([0-9A-Za-z_]+).*/\1/p');
@@ -51,7 +51,7 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/samtools /usr/bin/
 
 ## bcftools-1.17 from GoogleDrive
-FILE_ID="1kIF5LGITMsqNYVSs2Hkfekotc7P90KV_";
+FILE_ID="1--rhCPb655FeAUokOGRcvwj7O0doTs84";
 FILE_NAME="bcftools-1.21.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O- | sed -En 's/.*confirm=([0-9A-Za-z_]+).*/\1/p');
@@ -62,7 +62,7 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/bcftools /usr/bin/
 
 ## htslib-1.17 from GoogleDrive
-FILE_ID="1CCEDZzrpVR5WYpWkvbVyQZ4UHlerLXNO";
+FILE_ID="1-3HEsOQrygyigtQ1M9KKuztYn48CP7W4";
 FILE_NAME="htslib-1.21.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 CONFIRM=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://drive.google.com/uc?export=download&id=$FILE_ID" -O- | sed -En 's/.*confirm=([0-9A-Za-z_]+).*/\1/p');
