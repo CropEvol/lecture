@@ -68,6 +68,15 @@
   <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
   - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG) -->
 
+
+## AlphaFold3・タンパク質構造解析
+
+- AlphaFold3へのリンク
+  - [AlphaFold3](https://alphafoldserver.com/about)
+- ChimeraXへのリンク
+  - [ChimeraX](https://www.cgl.ucsf.edu/chimerax/)
+
+
 ---
 
 <a name="section2"></a>
