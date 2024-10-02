@@ -44,9 +44,9 @@
 ## タンパク質分子量の計算
 
 - NLR及びAVRのアミノ酸配列のFastaファイル
-  <!-- - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta) -->
+  - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
 - kDa計算サイトの一例
-  <!-- - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html) -->
+  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html)
 
 ## Western blotの結果
 
