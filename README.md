@@ -59,12 +59,12 @@
   - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG.tif)
   - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif)
 
-## ポンソ染色の結果
+<!-- ## ポンソ染色の結果 -->
 
-- A, B班
+<!-- - A, B班 -->
   <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050267.JPG)
   - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050268.JPG) -->
-- C, D班
+<!-- - C, D班 -->
   <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
   - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG) -->
 
