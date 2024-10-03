@@ -52,12 +52,12 @@
 
 [マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
 
-- A, B班(露光時間...Myc:2分, HA:1~2秒)
-  <!-- - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-HA/Merged.tif)
-  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B/%CE%B1-Myc/Merged.tif) -->
-- C, D班(露光時間...Myc:30秒, HA:4秒)
-  <!-- - [HA_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Marker.tif), [HA](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/%CE%B1-HA.tif), [HA_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-HA/Merged.tif)
-  - [Myc_Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/%CE%B1-Myc.tif), [Myc_Merged](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D/%CE%B1-Myc/Merged.tif) -->
+- A, B班
+  - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG.tif)
+  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc.tif)
+- C, D班
+  - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG.tif)
+  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif)
 
 ## ポンソ染色の結果
 
