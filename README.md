@@ -54,10 +54,10 @@
 
 - A, B班
   - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG.tif)
-  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc.tif)
+  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc.tif)
 - C, D班
   - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG.tif)
-  - [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif)
+  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif)
 
 ## ポンソ染色の結果
 
