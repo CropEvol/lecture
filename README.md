@@ -102,9 +102,9 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| 講義についての説明 | 10月1日 | 課題 |  |
+|01| 講義についての説明 | 10月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/) |  |
 |02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab_HW.ipynb) |  |
-|03| DNAシーケンス | 10月22日 | テキスト<br>課題 |  |
+|03| DNAシーケンス | 10月22日 | 課題 |  |
 |04| ゲノムアセンブル | 10月29日 | テキスト<br>課題 |  |
 |05| ゲノム解析(1) ゲノムアセンブル | 11月5日 | テキスト<br>課題 |  |
 |06| ゲノム解析(2) リードアライメント、SNP検出 | 11月12日 | テキスト<br>課題 |  |
