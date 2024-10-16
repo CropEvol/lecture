@@ -72,6 +72,15 @@ tar -zxf $FILE_NAME
 rm -f $FILE_NAME
 ln -sf $TOOL_DIR/seqkit /usr/bin/
 
+## minimap2 v2.28 from GoogleDrive
+FILE_ID="1-1To7Dwa_dVuq02Ev48ePSMD146SBpu_";
+FILE_NAME="minimap2-2.28_x64-linux.tar.gz";
+FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
+gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
+tar -zxf $FILE_NAME
+rm -f $FILE_NAME
+ln -sf $TOOL_DIR/$FILE_BASE/minimap2 /usr/bin/
+
 ## igv-notebook-0.3.1 from Github
 pip install -q igv-notebook==0.3.1
 
@@ -84,5 +93,6 @@ wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/mast
 wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Platanus_assemble.sh
 wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Polishing.sh
 wget -q -O ../Alignment.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Alignment.sh
+wget -q -O ../Alignment_minimap2.sh https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Alignment_minimap2.sh
 wget -q -O ../run_igv.py            https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/run_igv.py
 wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/igv_prep.py
