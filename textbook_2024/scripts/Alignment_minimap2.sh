@@ -1,7 +1,7 @@
 #!/bin/bash
 REF=$1
-CONTIG=$2
-OUT_NAME="asm_to_original"
+CONTIG=$3
+OUT_NAME=$2
 
 minimap2 -ax asm5 $REF $CONTIG > $OUT_NAME.sam
 samtools sort -O bam $OUT_NAME.sam > $OUT_NAME.bam
