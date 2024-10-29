@@ -105,7 +105,7 @@
 |01| 講義についての説明 | 10月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/) |  |
 |02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241008_QA.md) |
 |03| DNAシーケンス | 10月22日 | 課題 |  |
-|04| ゲノムアセンブル | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>課題 |  |
+|04| ゲノムアセンブル | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble_HW.ipynb) |  |
 |05| ゲノム解析(1) ゲノムアセンブル | 11月5日 | テキスト<br>課題 |  |
 |06| ゲノム解析(2) リードアライメント、SNP検出 | 11月12日 | テキスト<br>課題 |  |
 |07| ゲノム解析(3) QTL-seq解析 | 11月19日 | テキスト<br>課題 |  |
