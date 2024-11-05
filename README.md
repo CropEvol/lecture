@@ -105,16 +105,16 @@
 |01| 講義についての説明 | 10月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/) |  |
 |02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241008_QA.md) |
 |03| DNAシーケンス | 10月22日 | 課題 |  |
-|04| ゲノムアセンブル | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/)<br>[課題解答例](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_課題解答例.md) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_QA.md) |
-|05| ゲノム解析(1) ゲノムアセンブル | 11月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment.ipynb)<br>課題 |  |
-|06| ゲノム解析(2) リードアライメント、SNP検出 | 11月12日 | テキスト<br>課題 |  |
-|07| ゲノム解析(3) QTL-seq解析 | 11月19日 | テキスト<br>課題 |  |
-|08| GWASの基礎 | 11月26日 | テキスト<br>課題 |  |
-|09| Genomic Prediction (1) | 12月3日 | テキスト<br>課題 |  |
-|10| Genomic Prediction (2) | 12月10日 | テキスト<br>課題 |  |
-|11| RNA-seq (1) | 12月17日 | テキスト<br>課題 |  |
-|12| RNA-seq (2) | 12月24日 | テキスト<br>課題 |  |
-|13| Gene function | 1月7日 | テキスト<br>課題 |  |
+|04| ゲノム解析(1) ゲノムアセンブル | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/)<br>[課題解答例](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_課題解答例.md) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_QA.md) |
+|05| ゲノム解析(2) リードアライメント、SNP検出 | 11月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment.ipynb)<br>課題 |  |
+|06| ゲノム解析(3) QTL-seq解析 | 11月12日 | テキスト<br>課題 |  |
+|07| GWASの基礎 | 11月19日 | テキスト<br>課題 |  |
+|08| Genomic Prediction (1)| 11月26日 | テキスト<br>課題 |  |
+|09| Genomic Prediction (2) | 12月3日 | テキスト<br>課題 |  |
+|10| RNA-seq (1) | 12月10日 | テキスト<br>課題 |  |
+|11| RNA-seq (2) | 12月17日 | テキスト<br>課題 |  |
+|12| Gene function | 12月24日 | テキスト<br>課題 |  |
+|13|  | 1月7日 | テキスト<br>課題 |  |
 |14|  | 1月14日 | テキスト<br>課題 |  |
 |15|  | 1月21日 | テキスト<br>課題 |  |
 
