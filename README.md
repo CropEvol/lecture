@@ -112,8 +112,8 @@
 |08| Genomic Prediction (1)| 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_1_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241126_QA.md) |
 |09| Genomic Prediction (2) | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241203_QA.md) |
 |10| RNA-seq (1) | 12月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) |  |
-|11| RNA-seq (2) | 12月17日 | テキスト<br>課題 |  |
-|12| Gene function | 12月24日 | テキスト<br>課題 |  |
+|11| RNA-seq (2) | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_2.ipynb)<br>課題 |  |
+|12| Gene function | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Gene_function.ipynb) |  |
 |13|  | 1月7日 | テキスト<br>課題 |  |
 |14|  | 1月14日 | テキスト<br>課題 |  |
 |15|  | 1月21日 | テキスト<br>課題 |  |
