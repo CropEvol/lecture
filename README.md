@@ -114,7 +114,7 @@
 |10| RNA-seq (1) | 12月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241210_QA.md) |
 |11| RNA-seq (2) | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241217_QA.md) |
 |12| Gene function | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Gene_function.ipynb) |  |
-|13| 配列データの扱い方 | 12月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/fasta_control.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) |  |
+|13| 配列データの扱い方 | 12月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/fasta_control.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241224_QA.md) |
 |14|  | 1月7日 | テキスト<br>課題 |  |
 |15|  | 1月14日 | テキスト<br>課題 |  |
 
