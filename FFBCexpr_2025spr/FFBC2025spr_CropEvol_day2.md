@@ -19,10 +19,10 @@
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/sanger_ab1.png?raw=true" height="250px"/>
 
-波形データファイル（AB1ファイル）は、以下のURLの各班のフォルダのなかの`ab1__遺伝子名`フォルダ に入っています。
+波形データファイル（AB1ファイル）は、以下のURLの各班のフォルダのなかの`ab1__PCR領域名`フォルダ に入っています。
 
 シーケンスデータの保管フォルダ:  
-https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sharing
+https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing
 
 保管フォルダ内のフォワードプライマーで得られたAB1ファイルをひとつ選んで、ダウンロードしてください。
 
@@ -83,7 +83,7 @@ https://doua.prabi.fr/software/cap3
 <h3 id="sec2">2.2 相補鎖変換</h3>
 
 アセンブル結果が相補鎖配列の場合（フォワード側が"-"、リバース側が"+"でアセンブルされた場合）、以下のWebツールを使って、その配列を相補鎖変換する  
-https://www.genscript.com/sms2/rev_comp.html
+https://www.bioinformatics.org/sms2/rev_comp.html
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_comp.png?raw=true" height="250px"/>
 
@@ -91,10 +91,10 @@ https://www.genscript.com/sms2/rev_comp.html
 
 この後の系統解析のためには、各サンプルの塩基配列を集める必要があります。
 
-Googleドライブの共有フォルダ内に、各サンプルのアセンブル配列を集めるためのファイル（遺伝領域名.docx）を置いています。
+Googleドライブの共有フォルダ内に、各サンプルのアセンブル配列を集めるためのファイル（領域名.docx）を置いています。
 
 Googleドライブ共有フォルダ:  
-https://drive.google.com/drive/folders/1IPESCNqfTjPZ-DV1gVEe7XYq4yQymYnc?usp=sharing
+https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing
 
 そのファイルにアセンブル配列をコピー＆ペーストしてください。  
 **重要：それぞれの配列の名前（FASTA形式の配列名）をサンプル名に変更してください**
@@ -141,19 +141,16 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 - [DDBJ（DNA Data Bank of Japan; 日本）](https://www.ddbj.nig.ac.jp/index.html)
 - [ENA (European Nucleotide Archive; イギリス)](https://www.ebi.ac.uk/ena/browser/home)
 
-実習で使った植物種（タルホコムギやアワなど）やその近縁種も代表系統のゲノム配列が公開しています。
+実習で使ったタルホコムギやイネ、それらの近縁種も代表的な系統のゲノム配列が公開されており、今回の解析で利用できます。
 
-コムギ関係の公開ゲノム配列:  
-- *Aegilops tauschii*（コムギ近縁野生種; タルホコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002575655.2/
-- *Aegilops sharonensis*（コムギ近縁野生種） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/
+コムギの公開ゲノム配列:  
 - *Triticum aestivum*（パンコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018294505.1/
 - *Triticum aestivum* subsp. *spelta*（スペルトコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_903994165.1/
 
-アワ関係の公開ゲノム配列:  
-- *Setaria italica*（アワ 系統名'Yugu1'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000263155.2/
-- *Setaria italica*（アワ 系統名'TT8'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001652605.1/
-- *Setaria viridis*（エノコログサ 系統名'A10'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_005286985.1/
-- *Setaria viridis*（エノコログサ 系統名'ME034v'） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_012934335.1/
+イネと近縁種の公開ゲノム配列:  
+- *Oryza sativa* Japonica Group（品種: Nipponbare） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/
+- *Oryza sativa* indica subgroup (品種: ZH8015) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_034818605.1/
+
 
 ここでは、公開ゲノム配列から実習の遺伝領域の塩基配列を得てみましょう。
 
