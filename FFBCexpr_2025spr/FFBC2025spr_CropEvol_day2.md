@@ -1,4 +1,4 @@
-﻿# 解析実習（分子系統解析）
+# 解析実習（分子系統解析）
 
 今回、サンガー法で得られたシーケンスを使って系統解析（系統樹の作成）をおこなっていきます。
 
@@ -131,6 +131,10 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 	- Newick Display: デフォルトのまま（変更しない）
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="250px"/>
+
+NGPhylogenyのサーバーが混んでいる場合、数分〜数時間程度解析がはじまらない場合があります。
+代替手段として、[Google Colabの系統解析パイプライン](https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2025spr/Phylogeny.ipynb)を使用することも可能です。
+
 
 <h2 id="sec5">5. 類似シーケンスの検索</h2>
 
