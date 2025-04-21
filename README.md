@@ -22,30 +22,30 @@
 <a name="section1-2"></a>
 # 生物先端科学コース 学生実験 [2024年度 後期]
 
-- 講義スライド
-  - [スライド (研究発表に向けての準備・細胞死実験結果の例・ウエスタンブロット解析のデータ例)](https://github.com/CropEvol/lecture/blob/master/slides/2024_upload_slides.pdf)
+<!-- - 講義スライド
+  - [スライド (研究発表に向けての準備・細胞死実験結果の例・ウエスタンブロット解析のデータ例)](https://github.com/CropEvol/lecture/blob/master/slides/2024_upload_slides.pdf) -->
 
-## Agroinfiltrationの結果
+<!-- ## Agroinfiltrationの結果 -->
 
-- A班
+<!-- - A班 -->
   <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100276.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100277.JPG) -->
-- B班
+<!-- - B班 -->
   <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100280.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100281.JPG) -->
-- C班
+<!-- - C班 -->
   <!-- - [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100282.JPG), [Pikm_裏](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100283.JPG) -->
-- D班
+<!-- - D班 -->
   <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100285.JPG) -->
-- 予備実験(TA)
+<!-- - 予備実験(TA) -->
   <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100279.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100278.JPG) -->
 
-## タンパク質分子量の計算
+<!-- ## タンパク質分子量の計算 -->
 
-- NLR及びAVRのアミノ酸配列のFastaファイル
+<!-- - NLR及びAVRのアミノ酸配列のFastaファイル
   - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
 - kDa計算サイトの一例
-  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html)
+  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html) -->
 
-## Western blotの結果
+<!-- ## Western blotの結果
 
 [マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
 
@@ -54,7 +54,7 @@
   - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc.tif)
 - C, D班
   - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG.tif)
-  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif)
+  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif) -->
 
 <!-- ## ポンソ染色の結果 -->
 
@@ -66,12 +66,12 @@
   - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG) -->
 
 
-## AlphaFold3・タンパク質構造解析
+<!-- ## AlphaFold3・タンパク質構造解析
 
 - AlphaFold3へのリンク
   - [AlphaFold3](https://alphafoldserver.com/about)
 - ChimeraXへのリンク
-  - [ChimeraX](https://www.cgl.ucsf.edu/chimerax/)
+  - [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) -->
 
 
 ---
