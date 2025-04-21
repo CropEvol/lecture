@@ -146,11 +146,22 @@ NGPhylogenyの系統樹作成は４ステップでおこなわれます。
 コムギの公開ゲノム配列:  
 - *Triticum aestivum*（パンコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018294505.1/
 - *Triticum aestivum* subsp. *spelta*（スペルトコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_903994165.1/
+- *Aegilops tauschii*（タルホコムギ） https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002575655.2/
+- *Aegilops sharonensis*（別のコムギ近縁野生種） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/
 
 イネと近縁種の公開ゲノム配列:  
 - *Oryza sativa* Japonica Group（品種: Nipponbare） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/
-- *Oryza sativa* indica subgroup (品種: ZH8015) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_034818605.1/
-
+- *Oryza sativa* Japonica Group（品種: Kitaake）https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009797565.1/
+- *Oryza sativa* Japonica Group（品種: Koshihikari）https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000164945.1/
+- *Oryza sativa* Indica Group (品種: Zhenshan 97) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001623345.3/
+- *Oryza sativa* Indica Group (品種: Minghui 63) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_016134885.1/
+- *Oryza sativa* Indica Group (品種: ZH8015) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_034818605.1/
+- *Oryza rufipogon* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_046718375.1/
+- *Oryza glaberrima* https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000147395.1/
+- *Oryza barthii* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000182155.4/
+- *Oryza longistaminata* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009805545.1/
+- *Oryza meridionalis* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_047496205.1/
+- *Oryza glumipatula* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000576495.2/
 
 ここでは、公開ゲノム配列から実習の遺伝領域の塩基配列を得てみましょう。
 
