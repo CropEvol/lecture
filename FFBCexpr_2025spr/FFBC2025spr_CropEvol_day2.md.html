@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="解析実習（分子系統解析）">解析実習（分子系統解析）</h1>
+<p>今回、サンガー法で得られたシーケンスを使って系統解析（系統樹の作成）をおこなっていきます。</p>
+<h2 id="解析の流れ">解析の流れ</h2>
+<ol>
+<li><a href="#sec1">シーケンスの確認・トリミング</a></li>
+<li><a href="#sec2">アセンブル</a></li>
+<li><a href="#sec3">シーケンスの統合</a></li>
+<li><a href="#sec4">系統樹の作成</a></li>
+<li><a href="#sec5">類似シーケンスの検索</a></li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/workflow.png?raw=true" height="250px">
+<h2 id="sec1">1. シーケンスの確認・トリミング</h2>
+<h3>1.1 サンガーシーケンスの波形ファイル（AB1ファイル）の確認</h3>
+<p>サンガーシーケンスをおこなうと波形ファイル（各塩基のシグナル強度のデータ）が得られます。そのデータをみることで、シーケンスの精度を評価できます。</p>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/sanger_ab1.png?raw=true" height="250px">
+<p>波形データファイル（AB1ファイル）は、以下のURLの各班のフォルダのなかの<code>ab1__PCR領域名</code>フォルダ に入っています。</p>
+<p>シーケンスデータの保管フォルダ:<br>
+<a href="https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing">https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing</a></p>
+<p>保管フォルダ内のフォワードプライマーで得られたAB1ファイルをひとつ選んで、ダウンロードしてください。</p>
+<p>そのAB1ファイルをWebツール「Teal」にアップロードし、確認してみましょう。<br>
+<a href="https://www.gear-genomics.com/teal/">https://www.gear-genomics.com/teal/</a></p>
+<p>AB1ファイルの確認手順:</p>
+<ol>
+<li>Inputタブで「ファイルを選択」をクリックし、ダウンロードしたAB1ファイルを選ぶ</li>
+<li>「Launch Analysis」をクリックする</li>
+<li>自動的にResultsタブに切り替わり、波形データと塩基配列が表示される</li>
+<li>波形の状態を目視で確認し、塩基のシグナルが明確な範囲を決定する</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/teal.png?raw=true" height="250px">
+<h3>1.2 シーケンスのトリミング（切り出し）</h3>
+<p>シーケンスのトリミングには「EMBOSS: extractseq」を使います。<br>
+<a href="https://www.bioinformatics.nl/cgi-bin/emboss/extractseq">https://www.bioinformatics.nl/cgi-bin/emboss/extractseq</a></p>
+<p>トリミングの手順</p>
+<ol>
+<li>「Teal」のResultsタブに表示されている塩基配列をコピーする</li>
+<li>コピーした配列を「EMBOSS: extractseq」のテキストボックスに貼り付ける</li>
+<li>切り出す範囲を"Regions to extract"のフォームに入力する</li>
+<li>「Run extract」をクリックする</li>
+<li>出力された塩基配列をコピーし、テキストエディタ（Wordやメモ帳など）に貼り付けておく</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/extractseq.png?raw=true" height="250px">
+<h3>練習</h3>
+<p>相補鎖側の配列（リバースプライマーで読んだシーケンス）に対しても1.1-1.2の操作をおこなってください</p>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/forward_and_reverse_ab1.png?raw=true" height="150px">
+<h2 id="sec2">2. アセンブル</h2>
+<h3 id="sec2">2.1 アセンブル</h3>
+<p>部分的に相同性のある2つ以上の配列を統合し、1つのより長い配列を構築することを<strong>アセンブル</strong>と言います。</p>
+<p>今回の実習では、ひとつの遺伝領域をフォワードプライマーとリバースプライマーを使って二方向からシーケンスを取得しました。その二つのシーケンスをアセンブルし、ひとつの塩基配列にしましょう。</p>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/assemble.png?raw=true" height="250px">
+<p>サンガーシーケンスのアセンブルには「CAP3」と呼ばれるソフトウェアがよく使われています。今回、そのWebサービス版を使用します。<br>
+<a href="https://doua.prabi.fr/software/cap3">https://doua.prabi.fr/software/cap3</a></p>
+<p>アセンブルの手順:</p>
+<ol>
+<li>ステップ1.2で得たフォワード側とリバース側の塩基配列を「CAP3」のテキストボックスに貼り付けて、「SUBMIT」をクリックする</li>
+<li>アセンブルが終わると、自動的にResultsページに移行する</li>
+<li>「Assemble details」でどのようにアセンブルされたかを確認する。このときフォワード側のシーケンス名に “+” 、リバース側のシーケンスが "-"が付いていることを確認する
+<ul>
+<li><code>+</code>: 入力したシーケンスがアセンブルに使われたことを表す</li>
+<li><code>-</code>: 入力したシーケンスの相補鎖配列がアセンブルに使われたことを表す</li>
+</ul>
+</li>
+<li>「Contigs」にアセンブル結果の塩基配列（FASTA形式で記述されている）が出力されています</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/cap3.png?raw=true" height="250px">
+<h3 id="sec2">2.2 相補鎖変換</h3>
+<p>アセンブル結果が相補鎖配列の場合（フォワード側が"-"、リバース側が"+"でアセンブルされた場合）、以下のWebツールを使って、その配列を相補鎖変換する<br>
+<a href="https://www.bioinformatics.org/sms2/rev_comp.html">https://www.bioinformatics.org/sms2/rev_comp.html</a></p>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/rev_comp.png?raw=true" height="250px">
+<h2 id="sec3">3. シーケンスの統合</h2>
+<p>この後の系統解析のためには、各サンプルの塩基配列を集める必要があります。</p>
+<p>Googleドライブの共有フォルダ内に、各サンプルのアセンブル配列を集めるためのファイル（領域名.docx）を置いています。</p>
+<p>Googleドライブ共有フォルダ:<br>
+<a href="https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing">https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing</a></p>
+<p>そのファイルにアセンブル配列をコピー＆ペーストしてください。<br>
+<strong>重要：それぞれの配列の名前（FASTA形式の配列名）をサンプル名に変更してください</strong></p>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/gene_sequence_file.png?raw=true" height="250px">
+<h2 id="sec4">4. 系統樹の作成</h2>
+<p>系統樹の作成もWebサービス（例えば、<a href="http://NGPhylogeny.fr">NGPhylogeny.fr</a>; 下記URL）を使って簡単におこなえます。<br>
+<a href="https://ngphylogeny.fr/">https://ngphylogeny.fr/</a></p>
+<p>今回は、どのように系統樹を作成しているかを理解するためにも「A la Carte」モードで実行していきましょう。「A la Carte」では、系統樹作成の各ステップのツールを自分で指定できます。</p>
+<p>NGPhylogenyの系統樹作成は４ステップでおこなわれます。</p>
+<ol>
+<li><strong>マルチプルアライメント（Multiple Alignment）</strong>: サンプル間の塩基配列が揃うように並べる</li>
+<li><strong>アライメントの整形（Alignment Curation）</strong>: 欠失データなどが多いポジションの情報は除外し、使用可能な塩基のみを残す</li>
+<li><strong>系統樹の推定（Tree Inference）</strong>: サンプル間の塩基の類似度を算出し、系統関係を推定する</li>
+<li><strong>系統樹の描画（Tree Rendering）</strong>: 推定した系統樹を描画する</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_process.png?raw=true" height="150px">
+<p>実習での系統樹作成の手順:</p>
+<ol>
+<li>「A la Carte」をクリック</li>
+<li>各ステップは以下のツールを選び、「Create workflow」をクリックする
+<ul>
+<li>Multiple Alignment: MAFFT</li>
+<li>Alignment Curation: BMGE</li>
+<li>Tree Inference: FastME</li>
+<li>Tree Rendering: Newick Display</li>
+</ul>
+</li>
+<li>前ステップ「3. シーケンスの統合」で準備したFASTA形式データをすべてコピーし、Input dataのテキストボックスに貼り付ける</li>
+<li>各ステップのツールのオプションを次のようにする
+<ul>
+<li>MAFFT: デフォルトのまま（変更しない）</li>
+<li>BMGE: 「Gap Rate cut-off [ 0-1 ]」の値を<code>0</code> にする。今回、挿入欠失変異（InDel）を考慮せずに、SNPのみを考慮して系統解析をおこなう</li>
+<li>FastME: 「Bootstrap branch supports」を<code>Yes</code>にする。このオプションで出力されるブートストラップ値は、系統樹の各枝の信頼度の指標になる</li>
+<li>Newick Display: デフォルトのまま（変更しない）</li>
+</ul>
+</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/phylogeny_fr.png?raw=true" height="250px">
+<p>NGPhylogenyのサーバーが混んでいる場合、数分〜数時間程度解析がはじまらない場合があります。<br>
+代替手段として、<a href="https://colab.research.google.com/github/CropEvol/lecture/blob/master/FFBCexpr_2025spr/Phylogeny.ipynb">Google Colabの系統解析パイプライン</a>を使用することも可能です。</p>
+<h2 id="sec5">5. 類似シーケンスの検索</h2>
+<p>次世代シーケンサーや第3次シーケンサー（ロングリードシーケンサー）が登場して以降、多くの生物でゲノムが解読されるようになってきました。解読されたゲノム配列はDNAデータバンクなどで公開されています。</p>
+<p>おもなDNAデータバンク:</p>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/">NCBI（National Center for Biotechnology Information; アメリカ）</a></li>
+<li><a href="https://www.ddbj.nig.ac.jp/index.html">DDBJ（DNA Data Bank of Japan; 日本）</a></li>
+<li><a href="https://www.ebi.ac.uk/ena/browser/home">ENA (European Nucleotide Archive; イギリス)</a></li>
+</ul>
+<p>実習で使ったタルホコムギやイネ、それらの近縁種も代表的な系統のゲノム配列が公開されており、今回の解析で利用できます。</p>
+<p>コムギの公開ゲノム配列:</p>
+<ul>
+<li><em>Triticum aestivum</em>（パンコムギ） <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018294505.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018294505.1/</a></li>
+<li><em>Triticum aestivum</em> subsp. <em>spelta</em>（スペルトコムギ） <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_903994165.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_903994165.1/</a></li>
+<li><em>Aegilops tauschii</em>（タルホコムギ） <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002575655.2/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002575655.2/</a></li>
+<li><em>Aegilops sharonensis</em>（別のコムギ近縁野生種） <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/</a></li>
+</ul>
+<p>イネと近縁種の公開ゲノム配列:</p>
+<ul>
+<li><em>Oryza sativa</em>（AAゲノム）
+<ul>
+<li>Japonica group
+<ul>
+<li>品種: Nipponbare <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/</a></li>
+<li>品種: Kitaake <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009797565.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009797565.1/</a></li>
+</ul>
+</li>
+<li>Indica Group
+<ul>
+<li>品種: 93-11 <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865215.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865215.1/</a></li>
+<li>品種: Tetep <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_004348155.2/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_004348155.2/</a></li>
+<li>品種: Zhenshan 97 <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001623345.3/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001623345.3/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>近縁種（Oryza sativaと同じAAゲノムをもつ種）
+<ul>
+<li><em>Oryza rufipogon</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_046718375.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_046718375.1/</a></li>
+<li><em>Oryza glaberrima</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000147395.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000147395.1/</a></li>
+<li><em>Oryza barthii</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000182155.4/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000182155.4/</a></li>
+<li><em>Oryza longistaminata</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009805545.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009805545.1/</a></li>
+<li><em>Oryza meridionalis</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000338895.3/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000338895.3/</a></li>
+<li><em>Oryza glumipatula</em> <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000576495.2/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000576495.2/</a></li>
+</ul>
+</li>
+<li>近縁種（別のゲノムをもつ種）
+<ul>
+<li><em>Oryza punctata</em>　[BB・BBCC] <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000573905.2/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000573905.2/</a></li>
+<li><em>Oryza officinalis</em> [CC] <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_008326285.1/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_008326285.1/</a></li>
+<li><em>Oryza granulata</em> complex [GG] <a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_005223365.2/">https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_005223365.2/</a></li>
+</ul>
+</li>
+</ul>
+<p>ここでは、公開ゲノム配列から実習の遺伝領域の塩基配列を得てみましょう。</p>
+<p>手順:</p>
+<ol>
+<li>上記の公開ゲノム配列ページに移動する</li>
+<li>「BLAST the reference genome」をクリックする</li>
+<li>実習で取得した遺伝領域の塩基配列（※1）を"Enter Query Sequence"のテキストボックスに貼り付ける<br>
+<small>※1 長い塩基配列が得られている系統であれば、どの系統でもOK</small></li>
+<li>画面下のほうにある「BLAST」をクリックする</li>
+<li>検索結果のうち、上位の結果をクリックする</li>
+<li>「GenBank」をクリックする</li>
+<li>表示されたページの「FASTA」をクリックする</li>
+</ol>
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_1.png?raw=true" height="250px">
+<img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2024spr/images/ncbi_blast_2.png?raw=true" height="200px">
+</div>
+</body>
+
+</html>
