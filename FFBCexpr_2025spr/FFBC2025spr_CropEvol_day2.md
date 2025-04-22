@@ -154,19 +154,26 @@ NGPhylogenyのサーバーが混んでいる場合、数分〜数時間程度解
 - *Aegilops sharonensis*（別のコムギ近縁野生種） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_904067115.1/
 
 イネと近縁種の公開ゲノム配列:  
-- *Oryza sativa* Japonica Group（品種: Nipponbare） https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/
-- *Oryza sativa* Japonica Group（品種: Kitaake）https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009797565.1/
-- *Oryza sativa* Japonica Group（品種: Koshihikari）https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000164945.1/
-- *Oryza sativa* Indica Group (品種: Zhenshan 97) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001623345.3/
-- *Oryza sativa* Indica Group (品種: Minghui 63) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_016134885.1/
-- *Oryza sativa* Indica Group (品種: ZH8015) https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_034818605.1/
-- *Oryza rufipogon* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_046718375.1/
-- *Oryza glaberrima* https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000147395.1/
-- *Oryza barthii* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000182155.4/
-- *Oryza longistaminata* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009805545.1/
-- *Oryza meridionalis* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_047496205.1/
-- *Oryza glumipatula* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000576495.2/
-
+- *Oryza sativa*（AAゲノム）
+	- Japonica group 
+		- 品種: Nipponbare https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865235.1/
+		- 品種: Kitaake https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009797565.1/
+	- Indica Group 
+		- 品種: 93-11 https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_003865215.1/
+		- 品種: Tetep https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_004348155.2/
+		- 品種: Zhenshan 97 https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001623345.3/
+- 近縁種（Oryza sativaと同じAAゲノムをもつ種）
+	- *Oryza rufipogon* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_046718375.1/
+	- *Oryza glaberrima* https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000147395.1/
+	- *Oryza barthii* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000182155.4/
+	- *Oryza longistaminata* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009805545.1/
+	- *Oryza meridionalis* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000338895.3/
+	- *Oryza glumipatula* https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000576495.2/
+- 近縁種（別のゲノムをもつ種）
+	- *Oryza punctata*　[BB・BBCC] https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000573905.2/
+	- *Oryza officinalis* [CC] https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_008326285.1/
+	- *Oryza granulata* complex [GG] https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_005223365.2/
+	
 ここでは、公開ゲノム配列から実習の遺伝領域の塩基配列を得てみましょう。
 
 手順:
