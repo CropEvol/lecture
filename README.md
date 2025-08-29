@@ -145,5 +145,7 @@ _各回の課題は、講義終了 (16:30頃)にアップロードいたしま�
 - [2022年度](https://github.com/CropEvol/lecture/tree/2022)
 - [2023年度](https://github.com/CropEvol/lecture/tree/2023)
 
+[ワークショップ実習ページ](https://colab.research.google.com/github/slt666666/NLR_biology_workshop_2024/blob/master/analysis/GenomicPrediction.ipynb)
+
 ---
 Copyright&copy; 2023 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
