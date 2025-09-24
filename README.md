@@ -21,64 +21,14 @@
 ---
 
 <a name="section1-2"></a>
-# 生物先端科学コース 学生実験 [2024年度 後期]
+# 生物先端科学コース 学生実験 [2025年度 後期]
 
-<!-- - 講義スライド
-  - [スライド (研究発表に向けての準備・細胞死実験結果の例・ウエスタンブロット解析のデータ例)](https://github.com/CropEvol/lecture/blob/master/slides/2024_upload_slides.pdf) -->
-
-<!-- ## Agroinfiltrationの結果 -->
-
-<!-- - A班 -->
-  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100276.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100277.JPG) -->
-<!-- - B班 -->
-  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100280.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100281.JPG) -->
-<!-- - C班 -->
-  <!-- - [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100282.JPG), [Pikm_裏](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100283.JPG) -->
-<!-- - D班 -->
-  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100285.JPG) -->
-<!-- - 予備実験(TA) -->
-  <!-- - [Pikp](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100279.JPG), [Pikm](https://github.com/CropEvol/lecture/blob/master/images/agroinfiltration/PA100278.JPG) -->
-
-<!-- ## タンパク質分子量の計算 -->
-
-<!-- - NLR及びAVRのアミノ酸配列のFastaファイル
-  - [Pik_AVR_pep.fasta](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pik_AVR_pep.fasta)
-- kDa計算サイトの一例
-  - [Protein Molecular Weight](https://www.bioinformatics.org/sms/prot_mw.html) -->
-
-<!-- ## Western blotの結果
-
-[マーカーの分子量](https://www.bio-rad.com/ja-jp/sku/1610374-precision-plus-protein-dual-color-standards-500-ul?ID=1610374)
-
-- A, B班
-  - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/FLAG/A_B-FLAG.tif)
-  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/A_and_B_2024/Myc/A_B-Myc.tif)
-- C, D班
-  - [FLAG-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG-Marker.tif), [FLAG](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/FLAG/C_D-FLAG.tif)
-  - [Myc-Marker](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc-Marker.tif), [Myc](https://github.com/CropEvol/lecture/raw/master/images/western/C_and_D_2024/Myc/C_D-Myc.tif) -->
-
-<!-- ## ポンソ染色の結果 -->
-
-<!-- - A, B班 -->
-  <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050267.JPG)
-  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050268.JPG) -->
-<!-- - C, D班 -->
-  <!-- - [HA](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050271.JPG)
-  - [Myc](https://github.com/CropEvol/lecture/blob/master/images/ponso/PA050269.JPG) -->
-
-
-<!-- ## AlphaFold3・タンパク質構造解析
-
-- AlphaFold3へのリンク
-  - [AlphaFold3](https://alphafoldserver.com/about)
-- ChimeraXへのリンク
-  - [ChimeraX](https://www.cgl.ucsf.edu/chimerax/) -->
 
 
 ---
 
 <a name="section2"></a>
-# ゲノム情報解析入門 [2024年度 学部講義]
+# ゲノム情報解析入門 [2025年度 学部講義]
 
 - 時間：毎週火曜 15:00 - 16:30  
 
@@ -102,21 +52,21 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| 講義についての説明 | 10月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/) |  |
-|02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab_HW.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241008_QA.md) |
-|03| DNAシーケンス | 10月22日 | 課題 |  |
-|04| ゲノム解析(1) ゲノムアセンブル | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/2975887c-2d81-416a-a62f-d63afced9fed/)<br>[課題解答例](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_課題解答例.md) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241029_QA.md) |
-|05| ゲノム解析(2) リードアライメント、SNP検出 | 11月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment_HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment_HW_ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241105_QA.md) |
-|06| ゲノム解析(3) QTL-seq解析 | 11月12日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/QTLseq.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/QTLseq_HW.ipynb)<br>[課題解答例](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/QTLseq_HW_ANS.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241112_QA.md) |
-|07| GWASの基礎 | 11月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GWAS.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GWAS_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241119_QA.md) |
-|08| Genomic Prediction (1)| 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_1_hw.ipynb) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241126_QA.md) |
-|09| Genomic Prediction (2) | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241203_QA.md) |
-|10| RNA-seq (1) | 12月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_1.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241210_QA.md) |
-|11| RNA-seq (2) | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241217_QA.md) |
-|12| Gene function | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Gene_function.ipynb) |  |
-|13| 配列データの扱い方 | 12月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/fasta_control.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/h24tsn) | [Q&A](https://github.com/CropEvol/lecture/blob/master/textbook_2024/241224_QA.md) |
-|14|  | 1月7日 | テキスト<br>課題 |  |
-|15|  | 1月14日 | テキスト<br>課題 |  |
+|01| 講義についての説明 | 10月1日 | 課題 |  |
+|02| DNAシーケンス | 10月8日 | 課題 |  |
+|03| Google Colaboratoryの使い方 | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/First_GoogleColab.ipynb)<br>課題 |  |
+|04| ゲノム解析(1) ゲノムアセンブル | 10月22日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Genome_assemble.ipynb)<br>課題|  |
+|05| ゲノム解析(2) リードアライメント、SNP検出 | 10月29日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Read_alignment.ipynb)<br>課題|  | 
+|06| ゲノム解析(3) QTL-seq解析 | 11月5日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/QTLseq.ipynb)<br>課題|  |
+|07| GWASの基礎 | 11月12日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GWAS.ipynb)<br>課題 |  |
+|08| Genomic Prediction (1)| 11月19日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_1.ipynb)<br>課題|  |
+|09| Genomic Prediction (2) | 11月26日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/GenomicPrediction_2.ipynb)<br>課題|  |
+|10| RNA-seq (1) | 12月3日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_1.ipynb)<br>課題|  |
+|11| RNA-seq (2) | 12月10日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/RNAseq_2.ipynb)<br>課題|  |
+|12| Gene function | 12月17日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/Gene_function.ipynb)<br>課題|  |
+|13| 配列データの扱い方 | 12月24日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2024/fasta_control.ipynb)<br>課題|  |
+|14|  |  |  |  |
+|15|  |  |  |  |
 
 
 
