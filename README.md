@@ -53,8 +53,8 @@
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| 講義についての説明 | 10月1日 | 課題 |  |
-|02| DNAシーケンス | 10月8日 | 課題 |  |
-|03| Google Colaboratoryの使い方 | 10月15日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/First_GoogleColab.ipynb)<br>課題 |  |
+|02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/First_GoogleColab.ipynb)<br>課題 |  |
+|03| DNAシーケンス | 10月15日 | 課題 |  |
 |04| ゲノム解析(1) ゲノムアセンブル | 10月22日 | テキスト<br>課題 |  |
 |05| ゲノム解析(2) リードアライメント、SNP検出 | 10月29日 | テキスト<br>課題 |  |
 |06| ゲノム解析(3) QTL-seq解析 | 11月5日 | テキスト<br>課題 |  |
@@ -94,6 +94,7 @@ _各回の課題は、講義終了 (16:30頃)にアップロードいたしま�
 - [2021年度](https://github.com/CropEvol/lecture/tree/2021)
 - [2022年度](https://github.com/CropEvol/lecture/tree/2022)
 - [2023年度](https://github.com/CropEvol/lecture/tree/2023)
+- [2024年度](https://github.com/CropEvol/lecture/tree/2025.3)
 
 ---
 Copyright&copy; 2023 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
