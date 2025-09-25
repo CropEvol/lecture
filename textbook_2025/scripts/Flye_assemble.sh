@@ -1,5 +1,5 @@
 #!/bin/bash
-Flye='python /content/tools/Flye-2.9.2/bin/flye'
+Flye='python /content/tools/Flye-2.9.6/bin/flye'
 MIN_OVL=1000
 OUT_DIR="/content/flye_output"
 
