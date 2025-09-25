@@ -17,9 +17,9 @@ tar -zxf $FILE_NAME
 rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/platanus /usr/bin/
 
-## Flye-2.9.4 from GoogleDrive
+## Flye-2.9.6 from GoogleDrive
 FILE_ID="16HqkMss3rNd-l9XW7Yz-qg6xITSZZQ94";
-FILE_NAME="Flye-2.9.4.tar.gz";
+FILE_NAME="Flye-2.9.6.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
 tar -zxf $FILE_NAME
