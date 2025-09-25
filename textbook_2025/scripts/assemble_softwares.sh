@@ -18,7 +18,7 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/platanus /usr/bin/
 
 ## Flye-2.9.6 from GoogleDrive
-FILE_ID="16HqkMss3rNd-l9XW7Yz-qg6xITSZZQ94";
+FILE_ID="14rI7Solj6KZh4YpnSSwUB_97ZgFQMFQB";
 FILE_NAME="Flye-2.9.6.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
