@@ -24,7 +24,7 @@ FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
 tar -zxf $FILE_NAME
 rm -f $FILE_NAME
-ln -sf $TOOL_DIR/$FILE_BASE/flye /usr/bin/
+ln -sf $TOOL_DIR/$FILE_BASE/bin/flye /usr/bin/
 
 ## bwa-0.7.17 from GoogleDrive
 FILE_ID="10k9fkfIdXuiJ1D2VMt10-Q2ws0APH3mq"; #共有リンクの発行で確認可能
@@ -89,8 +89,8 @@ wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/downl
 
 ## pipelines
 
-wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Flye_assemble.sh
-wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Platanus_assemble.sh
+#wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Flye_assemble.sh
+#wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Platanus_assemble.sh
 wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Polishing.sh
 wget -q -O ../Alignment_bwa.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Alignment_bwa.sh
 wget -q -O ../Alignment_mm2.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Alignment_mm2.sh
