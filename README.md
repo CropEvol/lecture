@@ -23,7 +23,12 @@
 <a name="section1-2"></a>
 # 生物先端科学コース 学生実験 [2025年度 後期]
 
+## 実習テキスト
 
+- [ゲノムアセンブル](https://github.com/CropEvol/lecture/blob/master/exp_2025_Oct/Genome_assemble.ipynb)（1日目:10月01日）
+- 遺伝的変異の検出（2日目:10月02日）
+- 遺伝子発現量解析（3日目:10月07日）
+- タンパク質立体構造予測（4日目:10月08日）
 
 ---
 
