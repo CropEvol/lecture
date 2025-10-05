@@ -4,7 +4,7 @@
 ## 構造解析 実習テキスト・データセット
 
 - 実習資料
-    - [ChimeraXのコマンド集](https://raw.githubusercontent.com/CropEvol/lecture/master/data/241128_ChimeraXコマンド.pdf")
+    - [ChimeraXのコマンド集](https://raw.githubusercontent.com/CropEvol/lecture/master/data/241128_ChimeraX%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%88%E3%82%99.pdf)
 	- [AlphaFold3実習のスライド資料](https://raw.githubusercontent.com/CropEvol/lecture/master/data/241128_実習資料.pdf)
 
 - ツールへのリンク
