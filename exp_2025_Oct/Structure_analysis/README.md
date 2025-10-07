@@ -4,7 +4,7 @@
 ## 構造解析 実習テキスト・データセット
 
 - 実習資料
-    - [ChimeraXのコマンド集](https://raw.githubusercontent.com/CropEvol/lecture/master/data/241128_ChimeraX%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%88%E3%82%99.pdf)
+    - [ChimeraXのコマンド集](https://raw.githubusercontent.com/CropEvol/lecture/master/data/ChimeraXコマンド.pdf)
 	- [AlphaFold3実習のスライド資料](https://raw.githubusercontent.com/CropEvol/lecture/master/data/241128_実習資料.pdf)
 
 - ツールへのリンク
@@ -14,6 +14,8 @@
 		- Macの方はOther releasesから自分のOSに合ったものを選んでください。
 
 - 配列データ
+    - [NRC0 HelperおよびSensorの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/NRC0.fasta)
+    - [PikpおよびAVR-PikC, AVR-PikDの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pikp1_AVR_PikC_PikD_pep.fasta)
     - [PikpおよびAVR-PikC, AVR-PikDの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pikp1_AVR_PikC_PikD_pep.fasta)
 
 - AlphaFold3で予測した構造データ(※右クリックからリンク先を保存を選んでください。)
