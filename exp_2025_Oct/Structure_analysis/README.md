@@ -16,7 +16,6 @@
 - 配列データ
     - [NRC0 HelperおよびSensorの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/NRC0.fasta)
     - [PikpおよびAVR-PikC, AVR-PikDの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pikp1_AVR_PikC_PikD_pep.fasta)
-    - [PikpおよびAVR-PikC, AVR-PikDの配列](https://raw.githubusercontent.com/CropEvol/lecture/master/data/Pikp1_AVR_PikC_PikD_pep.fasta)
 
 - AlphaFold3で予測した構造データ(※右クリックからリンク先を保存を選んでください。)
     - [AF3_Pikp1_AVRPikC.cif](https://raw.githubusercontent.com/CropEvol/lecture/master/data/AF3_Pikp1_AVRPikC.cif)
