@@ -41,11 +41,6 @@
 実習では、[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)を使います。  
 必須なもの:
 - インターネットブラウザ
-  - 対応ブラウザ（推奨）
-    - Google Chrome
-    - FireFox
-    - Safari
-    - Microsoft Edge
 - Googleアカウント（無料アカウントでOK）
   - 持っていない場合は以下を参考に作成してください
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
