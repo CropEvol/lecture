@@ -52,19 +52,20 @@
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
-|01| 講義についての説明 | 10月1日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
-|02| Google Colaboratoryの使い方 | 10月8日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/First_GoogleColab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
-|03| DNAシーケンス | 10月15日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
-|04| ゲノム解析(1) ゲノムアセンブル | 10月22日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/Genome_assemble.ipynb)<br>課題 |  |
-|05| ゲノム解析(2) リードアライメント、SNP検出 | 10月29日 | テキスト<br>課題 |  |
-|06| ゲノム解析(3) QTL-seq解析 | 11月5日 | テキスト<br>課題 |  |
-|07| GWASの基礎 | 11月12日 | テキスト<br>課題 |  |
-|08| Genomic Prediction (1)| 11月19日 | テキスト<br>課題 |  |
-|09| Genomic Prediction (2) | 11月26日 | テキスト<br>課題 |  |
-|10| RNA-seq (1) | 12月3日 | テキスト<br>課題 |  |
-|11| RNA-seq (2) | 12月10日 | テキスト<br>課題 |  |
-|12| Gene function | 12月17日 | テキスト<br>課題 |  |
-|13| 配列データの扱い方 | 12月24日 | テキスト<br>課題 |  |
+|01| 講義についての説明 | 10月7日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
+|02| Google Colaboratoryの使い方 | 10月14日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/First_GoogleColab.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
+|03| DNAシーケンス | 10月21日 | [課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
+|04| ゲノム解析(1) ゲノムアセンブル | 10月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/Genome_assemble.ipynb)<br>課題 |  |
+|05| ゲノム解析(2) リードアライメント、SNP検出 | 11月4日 | テキスト<br>課題 |  |
+|06| ゲノム解析(3) QTL-seq解析 | 11月11日 | テキスト<br>課題 |  |
+|07| GWASの基礎 | 11月18日 | テキスト<br>課題 |  |
+|--| (11月祭で授業なし) | 11月25日 |  |  |
+|08| Genomic Prediction (1)| 12月2日 | テキスト<br>課題 |  |
+|09| Genomic Prediction (2) | 12月9日 | テキスト<br>課題 |  |
+|10| RNA-seq (1) | 12月16日 | テキスト<br>課題 |  |
+|11| RNA-seq (2) | 12月23日 | テキスト<br>課題 |  |
+|12| Gene function | 1月6日 | テキスト<br>課題 |  |
+|13| 配列データの扱い方 | 1月13日 | テキスト<br>課題 |  |
 |14|  |  |  |  |
 |15|  |  |  |  |
 
