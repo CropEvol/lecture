@@ -67,5 +67,4 @@ rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/minimap2 /usr/bin/
 
 ## pipelines
-wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Polishing_java.sh
 wget -q -O ../Alignment_mm2.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Alignment_mm2.sh
