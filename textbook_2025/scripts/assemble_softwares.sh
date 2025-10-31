@@ -8,6 +8,10 @@ cd $TOOL_DIR
 ### https://qiita.com/cv_carnavi/items/1fc8272da135a36598a2
 ### https://qiita.com/IsHYuhi/items/e4afc0163019343d9664
 
+## igv-notebook-0.3.1 from Github
+pip install -q igv-notebook==0.3.1
+wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/igv_prep.py
+
 ## SPAdes-4.2.0 from GoogleDrive
 FILE_ID="1ypx_yKUI3QnJlGHsyuJJg61TWTiZhQTb";
 FILE_NAME="SPAdes-4.2.0-Linux.tar.gz";
@@ -62,13 +66,6 @@ tar -zxf $FILE_NAME
 rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/minimap2 /usr/bin/
 
-## igv-notebook-0.3.1 from Github
-pip install -q igv-notebook==0.3.1
-
-## pilon-1.24.jar
-wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jar
-
 ## pipelines
 wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Polishing_java.sh
 wget -q -O ../Alignment_mm2.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/Alignment_mm2.sh
-wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2025/scripts/igv_prep.py
