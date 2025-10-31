@@ -8,14 +8,14 @@ cd $TOOL_DIR
 ### https://qiita.com/cv_carnavi/items/1fc8272da135a36598a2
 ### https://qiita.com/IsHYuhi/items/e4afc0163019343d9664
 
-## Platanus-1.2.4 from GoogleDrive
-FILE_ID="1UOH7yZvCbbEWLgJWBOm9U2rCaxXwJ50J";
-FILE_NAME="Platanus-1.2.4.tar.gz";
+## SPAdes-4.2.0 from GoogleDrive
+FILE_ID="1ypx_yKUI3QnJlGHsyuJJg61TWTiZhQTb";
+FILE_NAME="SPAdes-4.2.0-Linux.tar.gz";
 FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
 gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
 tar -zxf $FILE_NAME
 rm -f $FILE_NAME
-ln -sf $TOOL_DIR/$FILE_BASE/platanus /usr/bin/
+ln -sf $TOOL_DIR/$FILE_BASE/bin/spades.py /usr/bin/
 
 ## Flye-2.9.2 from GoogleDrive
 FILE_ID="183cxJNMY8BiG2LGpvbOnv8fAcU6Piv0r";
@@ -44,25 +44,6 @@ tar -zxf $FILE_NAME
 rm -f $FILE_NAME
 ln -sf $TOOL_DIR/$FILE_BASE/samtools /usr/bin/
 
-## bcftools-1.21 from GoogleDrive
-FILE_ID="1--rhCPb655FeAUokOGRcvwj7O0doTs84";
-FILE_NAME="bcftools-1.21.tar.gz";
-FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
-gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
-tar -zxf $FILE_NAME
-rm -f $FILE_NAME
-ln -sf $TOOL_DIR/$FILE_BASE/bcftools /usr/bin/
-
-## htslib-1.21 from GoogleDrive
-FILE_ID="1-3HEsOQrygyigtQ1M9KKuztYn48CP7W4";
-FILE_NAME="htslib-1.21.tar.gz";
-FILE_BASE=`basename -s ".tar.gz" $FILE_NAME`
-gdown https://drive.google.com/uc?id=$FILE_ID --no-cookies -O $FILE_NAME
-tar -zxf $FILE_NAME
-rm -f $FILE_NAME
-ln -sf $TOOL_DIR/$FILE_BASE/tabix /usr/bin/
-ln -sf $TOOL_DIR/$FILE_BASE/bgzip /usr/bin/
-
 ## SeqKit v2.5.1 from GoogleDrive
 FILE_ID="1JTiW78S0K4H_ag42wy5ojPLWKSR7V3_E";
 FILE_NAME="seqkit_linux_amd64.tar.gz";
@@ -88,11 +69,6 @@ pip install -q igv-notebook==0.3.1
 wget -q -O pilon-1.24.jar https://github.com/broadinstitute/pilon/releases/download/v1.24/pilon-1.24.jar
 
 ## pipelines
-
-wget -q -O ../Flye_assemble.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Flye_assemble.sh
-wget -q -O ../Platanus_assemble.sh  https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Platanus_assemble.sh
-wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Polishing.sh
-wget -q -O ../Alignment_bwa.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Alignment_bwa.sh
+wget -q -O ../Polishing.sh          https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Polishing_java.sh
 wget -q -O ../Alignment_mm2.sh      https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/Alignment_mm2.sh
-wget -q -O ../run_igv.py            https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/run_igv.py
 wget -q -O ../igv_prep.py           https://github.com/CropEvol/lecture/raw/master/textbook_2024/scripts/igv_prep.py
