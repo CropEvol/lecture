@@ -58,7 +58,7 @@
 |04| ゲノム解析(1) ゲノムアセンブル | 10月28日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/Genome_assemble.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
 |05| ゲノム解析(2) リードアライメント、SNP検出 | 11月4日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/Read_alignment.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
 |06| ゲノム解析(3) QTL-seq解析 | 11月11日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/QTLseq.ipynb)<br>課題 |  |
-|07| GWASの基礎 | 11月18日 | テキスト<br>課題 |  |
+|07| GWASの基礎 | 11月18日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GWAS.ipynb)<br>課題 |  |
 |--| (11月祭で授業なし) | 11月25日 |  |  |
 |08| Genomic Prediction (1)| 12月2日 | テキスト<br>課題 |  |
 |09| Genomic Prediction (2) | 12月9日 | テキスト<br>課題 |  |
