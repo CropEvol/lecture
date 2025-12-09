@@ -61,7 +61,7 @@
 |07| GWASの基礎 | 11月18日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GWAS.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GWAS_hw.ipynb) |  |
 |--| (11月祭で授業なし) | 11月25日 |  |  |
 |08| Genomic Prediction (1)| 12月2日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GenomicPrediction_1.ipynb)<br>[課題](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GenomicPrediction_1_hw.ipynb) |  |
-|09| Genomic Prediction (2) | 12月9日 | テキスト<br>課題 |  |
+|09| Genomic Prediction (2) | 12月9日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/GenomicPrediction_2.ipynb)<br>[課題](https://panda.ecs.kyoto-u.ac.jp/x/AH1o46) |  |
 |10| RNA-seq (1) | 12月16日 | テキスト<br>課題 |  |
 |11| RNA-seq (2) | 12月23日 | テキスト<br>課題 |  |
 |12| Gene function | 1月6日 | テキスト<br>課題 |  |
