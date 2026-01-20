@@ -67,7 +67,7 @@
 |12| Gene function | 12月23日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2025/Gene_function.ipynb) |  |
 |13| Functional analysis of genes identified by genome analysis | Jan. 06 | [Content](https://docs.google.com/document/d/1P5amDjSUTqggT1T7rtczYVHqGfDJdQv6QeC0-EIPCWQ/edit?usp=sharing)<br>[Assignment](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
 |14| Genome editing | Jan. 13 | [Content](https://docs.google.com/document/d/1Wlkx_08zspvqWVWnp7ABoLMI9Fo29Z2SHTDdUQc0fbA/edit?usp=sharing)<br>[Assignment](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
-|15| Genome editing (cont'd) | Jan. 20 | [Content]<br>[Assignment - see PandA] |  |
+|15| Genome editing (cont'd) | Jan. 20 | [Content](https://docs.google.com/document/d/1XAbY_TtocEjXng7m2UraACwY03nPglPgPc8DUXOW0hQ/edit?usp=sharing) |  |
 
 
 
