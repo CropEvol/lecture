@@ -29,7 +29,7 @@ FASTAフォーマットは、配列名を示す">配列名"という行と、そ
 下記リンク先に採集しDNAを抽出した植物種の、`rbcL遺伝子`のDNA配列データが入ったFASTAファイルを置いてあります。ダウンロードしてください。
 
 シーケンスデータの保管フォルダ:
-https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing
+https://drive.google.com/drive/folders/1xQ_6eMzsFKl56kA5LMOoaKhuws4ImoN4?usp=sharing
 
 <h3>1.2 シーケンスのアラインメント</h3>
 
@@ -41,7 +41,8 @@ https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sha
 
 https://mafft.cbrc.jp/alignment/server/
 
-アラインメントの手順
+<h4>アラインメントの手順</h4>
+
 1. FASTAファイルの塩基配列をコピー、またはアップロードする
 2. 条件などを設定し(今回はそのままで)「Submit」をする。
 3. 「View」でアラインメント結果を確認する。
@@ -56,7 +57,8 @@ https://mafft.cbrc.jp/alignment/server/
 
 https://www.hiv.lanl.gov/content/sequence/IQTREE/iqtree.html
 
-系統樹構築の手順
+<h4>系統樹構築の手順</h4>
+
 1. 先ほど作成したアラインメント結果のFASTAファイルをコピー、またはアップロードする
 2. Substituion Modelの設定をする。(塩基置換速度のモデルを設定)
 3. Brach Supportの設定をする。(系統樹の信頼性の計算方法の設定)
@@ -133,17 +135,17 @@ https://itol.embl.de/
 	- *Rhododendron macrosepalum* (モチツツジ)
 	- *Lyonia ovalifolia* (ネジキ)
 - matK遺伝子, rbcL遺伝子の配列が公開されているカエデ属の植物種の例:
-	- *Rhododendron impeditum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JF943927.1?report=fasta).1?report=fasta)
-	- *Rhododendron indicum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/HM850305.1?report=fasta).1?report=fasta)
-	- *Enkianthus perulatus [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JF941463.1?report=fasta).1?report=fasta)
-	- *Erica carnea [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KP737713.1?report=fasta).1?report=fasta)
-	- *Lyonia ferruginea [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AF124584.1?report=fasta).1?report=fasta)
-	- *Lyonia mariana [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ773666.1?report=fasta).1?report=fasta)
-	- *Pieris japonica [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AB206589.1?report=fasta).1?report=fasta)
-	- *Pieris koidzumiana [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AB206592.1?report=fasta).1?report=fasta)
-	- *Vaccinium corymbosum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ773964.1?report=fasta).1?report=fasta)
-	- *Vaccinium angustifolium [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ593742.1?report=fasta).1?report=fasta)
-	- *Vaccinium oxycoccos [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JN893514.1?report=fasta).1?report=fasta)
+	- *Rhododendron impeditum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JF943927.1?report=fasta)
+	- *Rhododendron indicum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/HM850305.1?report=fasta)
+	- *Enkianthus perulatus [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JF941463.1?report=fasta)
+	- *Erica carnea [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KP737713.1?report=fasta)
+	- *Lyonia ferruginea [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AF124584.1?report=fasta)
+	- *Lyonia mariana [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ773666.1?report=fasta)
+	- *Pieris japonica [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AB206589.1?report=fasta)
+	- *Pieris koidzumiana [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/AB206592.1?report=fasta)
+	- *Vaccinium corymbosum [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ773964.1?report=fasta)
+	- *Vaccinium angustifolium [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ593742.1?report=fasta)
+	- *Vaccinium oxycoccos [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JN893514.1?report=fasta)
 
 <h3>4.2 データベースに登録されている遺伝子の配列データを取得</h3>
 
@@ -156,7 +158,7 @@ https://itol.embl.de/
 ここでは、登録されているイネ(*Oryza sativa*)のゲノム配列からイロハモミジの`rbcL`遺伝子と類似する遺伝子配列を検索してみましょう。
 
 手順:
-1. 上記のNCBIのBLASTページ(https://blast.ncbi.nlm.nih.gov/Blast.cgi)に移動する
+1. 上記のNCBIのBLASTページ (https://blast.ncbi.nlm.nih.gov/Blast.cgi) に移動する
 2. 「Nucleotide BLAST」をクリックする
 3. 実習で取得した塩基配列を"Enter Query Sequence"のテキストボックスに貼り付ける  
 4. "Choose Search Set"の所のOrganismに*Oryza sativa*と入力する
