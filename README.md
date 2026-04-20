@@ -1,24 +1,24 @@
 <a name="section1"></a>
-# 生物先端科学コース 学生実験 [2025年度 前期]
+# 生物先端科学コース 学生実験 [2026年度 前期]
 
 ## 事前準備
 - [KUINS-Airへの接続](https://www.iimc.kyoto-u.ac.jp/ja/services/network/wifi/kuins-air.html)
-- Googleアカウント（無料アカウントでOK）
+<!-- - Googleアカウント（無料アカウントでOK）
   - 持っていない場合は以下を参考に作成してください
     - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
-  - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp)
+  - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp) -->
 
-## テキストなど
-- [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/FFBC2025spr_CropEvol_day1.pdf)（1日目:4月17日）
-- [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/FFBC2025spr_CropEvol_day2.md)（2日目:4月22日）
-- 使用サンプルについて
-    - [イネのスライド](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/slides/%E3%82%A4%E3%83%8DPia%E9%81%BA%E4%BC%9D%E5%AD%90.pdf)
-    - [タルホコムギのスライド](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/slides/%E3%82%BF%E3%83%AB%E3%83%9B%E3%82%B3%E3%83%A0%E3%82%AE%E3%81%AE%E7%B3%BB%E7%B5%B1%E8%A7%A3%E6%9E%90.pdf)
-- [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/phylogeny.pdf)
-- [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/presentation.pdf)
-- [データ共有フォルダ](https://drive.google.com/drive/folders/1eqNgUu_JTyvVZYPuPNX8amMCn5AVo5KX?usp=sharing)
+## テキストなど(随時アップロード)
+<!-- - [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day2.pdf)（2日目:4月21日） -->
+- 実験実習テキスト（2日目:4月21日）
+<!-- - [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day3.md)（3日目:4月22日） -->
+- 解析実習テキスト（3日目:4月22日）
+<!-- - [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/phylogeny.pdf) -->
+- 系統樹について
+<!-- - [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/presentation.pdf) -->
+- 発表について
 
----
+<!-- ---
 
 <a name="section1-2"></a>
 # 生物先端科学コース 学生実験 [2025年度 後期]
@@ -28,7 +28,7 @@
 - [ゲノムアセンブル](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/Genome_assemble.ipynb)（1日目:10月01日）
 - [遺伝的変異の検出](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/SNP.ipynb)（2日目:10月02日）
 - [遺伝子発現量解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/RNA_seq.ipynb)（3日目:10月07日）
-- [タンパク質立体構造予測](https://github.com/CropEvol/lecture/tree/master/exp_2025_Oct/Structure_analysis)（4日目:10月08日）
+- [タンパク質立体構造予測](https://github.com/CropEvol/lecture/tree/master/exp_2025_Oct/Structure_analysis)（4日目:10月08日） -->
 
 ---
 
