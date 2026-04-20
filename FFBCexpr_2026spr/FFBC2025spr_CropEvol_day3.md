@@ -90,7 +90,7 @@ https://itol.embl.de/
 4. 必要に応じて系統樹の各ブランチ等をクリックし、色を変更したりする。
 
 系統樹を図にする際には、Bootstrapの結果は必ず分かるようにしてください。
-* bootstrap0(SH-aLRT) >= 80%, bootstrap1(UFBoot) >= 95%の場所に色付け or 数値の表示など。
+* bootstrap0(SH-aLRT) >= 80% の場所に色付け or 数値の表示など。
 
 <img src="https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/images/itol.png?raw=true" height="350px"/>
 
