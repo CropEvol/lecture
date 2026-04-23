@@ -9,10 +9,8 @@
   - [Googleアカウント作成ページ](https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.co.jp%2F&hl=ja&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp) -->
 
 ## テキストなど(随時アップロード)
-<!-- - [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day2.pdf)（2日目:4月21日） -->
-- 実験実習テキスト（2日目:4月21日）
-<!-- - [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day3.md)（3日目:4月22日） -->
-- 解析実習テキスト（3日目:4月22日）
+- [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day2.pdf)（2日目:4月21日）
+- [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day3.md)（3日目:4月22日）
 <!-- - [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/phylogeny.pdf) -->
 - 系統樹について
 <!-- - [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/presentation.pdf) -->
