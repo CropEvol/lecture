@@ -147,7 +147,7 @@ https://itol.embl.de/
 	- *Vaccinium angustifolium* [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/KJ593742.1?report=fasta)
 	- *Vaccinium oxycoccos* [rbcL](https://www.ncbi.nlm.nih.gov/nuccore/JN893514.1?report=fasta)
 
-<h3>4.2 データベースにを検索して類似した配列データを取得</h3>
+<h3>4.2 データベースから類似した配列データを検索して取得</h3>
 
 また、得られた配列を基に、類似する配列がデータベースに存在するか検索することも可能です。
 
