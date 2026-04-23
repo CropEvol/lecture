@@ -11,8 +11,8 @@
 ## テキストなど(随時アップロード)
 - [実験実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day2.pdf)（2日目:4月21日）
 - [解析実習テキスト](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/FFBC2026spr_CropEvol_day3.md)（3日目:4月22日）
-- [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/pdf/phylogeny.pdf)
-- [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2025spr/pdf/presentation.pdf)
+- [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/pdf/phylogeny.pdf)
+- [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/pdf/presentation.pdf)
 
 <!-- ---
 
