@@ -1,5 +1,18 @@
 <a name="section1"></a>
-# 生物先端科学コース 学生実験 [2025年度 後期]
+# 生物先端科学コース 学生実験 [2026年度 後期]
+
+## アミノ酸配列のドメイン予測
+
+- 実習資料
+    - []()
+
+### InterProScanの結果を確認する
+
+下の結果のページから昨日動かしておいたものを選択。
+
+ドメイン予測の結果を知りたい遺伝子名を選択。
+
+![InterProScan](https://github.com/CropEvol/lecture/blob/master/images/exp_2025_2/InterProScan.png "InterProScan")
 
 ## 構造解析 実習テキスト・データセット
 
