@@ -14,17 +14,15 @@
 - [系統樹について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/pdf/phylogeny.pdf)
 - [発表について](https://github.com/CropEvol/lecture/blob/master/FFBCexpr_2026spr/pdf/presentation.pdf)
 
-<!-- ---
+---
 
 <a name="section1-2"></a>
-# 生物先端科学コース 学生実験 [2025年度 後期]
+# 生物先端科学コース 学生実験 [2026年度 後期]
 
 ## 実習テキスト
 
-- [ゲノムアセンブル](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/Genome_assemble.ipynb)（1日目:10月01日）
-- [遺伝的変異の検出](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/SNP.ipynb)（2日目:10月02日）
-- [遺伝子発現量解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2025_Oct/RNA_seq.ipynb)（3日目:10月07日）
-- [タンパク質立体構造予測](https://github.com/CropEvol/lecture/tree/master/exp_2025_Oct/Structure_analysis)（4日目:10月08日） -->
+- [遺伝的変異の検出とQTL解析](https://colab.research.google.com/github/CropEvol/lecture/blob/master/exp_2026_Oct/QTLanalysis.ipynb)（2日目:10月02日）
+<!-- - [タンパク質立体構造予測](https://github.com/CropEvol/lecture/tree/master/exp_2025_Oct/Structure_analysis)（4日目:10月08日） -->
 
 ---
 
