@@ -89,6 +89,7 @@ _各回の課題は、講義終了 (16:30頃)にアップロードいたしま�
 - [2022年度](https://github.com/CropEvol/lecture/tree/2022)
 - [2023年度](https://github.com/CropEvol/lecture/tree/2023)
 - [2024年度](https://github.com/CropEvol/lecture/tree/2025.3)
+- [2025年度](https://github.com/CropEvol/lecture/tree/2025)
 
 ---
 Copyright&copy; 2023 [Crop Evolution Lab., Kyoto Univ.](http://www.crop-evolution.kais.kyoto-u.ac.jp/) All rights reserved.
