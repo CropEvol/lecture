@@ -15,3 +15,4 @@ wget -q -O short_reads.R1.fastq https://raw.githubusercontent.com/CropEvol/lectu
 wget -q -O short_reads.R2.fastq https://raw.githubusercontent.com/CropEvol/lecture/refs/heads/master/textbook_2025/dataset/First_GoogleColab_example/short_reads.R2.fastq
 wget -q -O short_reads.bam      https://raw.githubusercontent.com/CropEvol/lecture/refs/heads/master/textbook_2025/dataset/First_GoogleColab_example/short_reads.bam
 wget -q -O short_reads.bam.bai  https://raw.githubusercontent.com/CropEvol/lecture/refs/heads/master/textbook_2025/dataset/First_GoogleColab_example/short_reads.bam.bai
+wget -q -O sample.txt           https://raw.githubusercontent.com/CropEvol/lecture/refs/heads/master/textbook_2026/dataset/First_GoogleColab_example/sample.txt
