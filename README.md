@@ -40,7 +40,7 @@
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
 
 
-## 解析実習表
+## ゲノム解析入門: 解析実習表
 
 各回の解析実習開始までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページを開いておいてください。
 
