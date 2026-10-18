@@ -40,14 +40,14 @@
   - [Googleアカウント取得方法](https://github.com/CropEvol/lecture/blob/master/textbook_2019/L02_create_google_acount.md)
 
 
-## ゲノム解析入門: 解析実習表
+## 解析実習表
 
 各回の解析実習開始までに、Googleアカウントへの [ログイン](https://www.google.com/accounts/login) を済ませ、このページを開いておいてください。
 
 | No. | 実習内容 | 日付 | 資料 | その他 |
 |:---|:---|:---|:---|:---|
 |01| ゲノム情報解析について | 10月13日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2026/dataset/lecture_1st.pdf) |  |
-|02| Google Colaboratoryの使い方 | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2026/First_GoogleColab.ipynb)<br>[課題]() |  |
+|02| Google Colaboratoryの使い方 | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2026/First_GoogleColab.ipynb)<br>[課題](https://lms.gakusei.kyoto-u.ac.jp/x/jej0sm) |  |
 |03| ゲノム解析(1) ゲノムアセンブル | 10月27日 | [テキスト]()<br>課題 |  |
 |04| ゲノム解析(2) リードアライメント、SNP検出 | 11月10日 | [テキスト]()<br>課題 |  |
 |05| ゲノム解析(3) QTL-seq解析 | 11月17日 | [テキスト]()<br>課題 |  |
