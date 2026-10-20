@@ -48,15 +48,15 @@
 |:---|:---|:---|:---|:---|
 |01| ゲノム情報解析について | 10月13日 | [スライド](https://github.com/CropEvol/lecture/blob/master/textbook_2026/dataset/lecture_1st.pdf) |  |
 |02| Google Colaboratoryの使い方 | 10月20日 | [テキスト](https://colab.research.google.com/github/CropEvol/lecture/blob/master/textbook_2026/First_GoogleColab.ipynb)<br>[課題](https://lms.gakusei.kyoto-u.ac.jp/x/jej0sm) |  |
-|03| ゲノム解析(1) ゲノムアセンブル | 10月27日 | [テキスト]()<br>課題 |  |
-|04| ゲノム解析(2) リードアライメント、SNP検出 | 11月10日 | [テキスト]()<br>課題 |  |
-|05| ゲノム解析(3) QTL-seq解析 | 11月17日 | [テキスト]()<br>課題 |  |
-|06| GWAS・QTL解析の基礎 | 12月1日 | [テキスト]()<br>課題 |  |
-|07| Genomic Prediction (1)| 12月8日 | [テキスト]()<br>課題 |  |
-|08| Genomic Prediction (2) | 12月15日 | [テキスト]()<br>課題 |  |
-|09| RNA-seq (1) | 12月22日 | [テキスト]()<br>課題 |  |
-|10| RNA-seq (2) | 1月5日 | [テキスト]()<br>課題 |  |
-|11| Gene function | 1月12日 | [テキスト]()<br>課題 |  |
+|03| ゲノム解析(1) ゲノムアセンブル | 10月27日 | テキスト<br>課題 |  |
+|04| ゲノム解析(2) リードアライメント、SNP検出 | 11月10日 | テキスト<br>課題 |  |
+|05| ゲノム解析(3) QTL-seq解析 | 11月17日 | テキスト<br>課題 |  |
+|06| GWAS・QTL解析の基礎 | 12月1日 | テキスト<br>課題 |  |
+|07| Genomic Prediction (1)| 12月8日 | テキスト<br>課題 |  |
+|08| Genomic Prediction (2) | 12月15日 | テキスト<br>課題 |  |
+|09| RNA-seq (1) | 12月22日 | テキスト<br>課題 |  |
+|10| RNA-seq (2) | 1月5日 | テキスト<br>課題 |  |
+|11| Gene function | 1月12日 | テキスト<br>課題 |  |
 <!-- |13| Functional analysis of genes identified by genome analysis | Jan. 06 | [Content](https://docs.google.com/document/d/1P5amDjSUTqggT1T7rtczYVHqGfDJdQv6QeC0-EIPCWQ/edit?usp=sharing)<br>[Assignment](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
 |14| Genome editing | Jan. 13 | [Content](https://docs.google.com/document/d/1Wlkx_08zspvqWVWnp7ABoLMI9Fo29Z2SHTDdUQc0fbA/edit?usp=sharing)<br>[Assignment](https://panda.ecs.kyoto-u.ac.jp/portal/directtool/c8e91e18-41e3-4d57-802b-5f1d9916275e/) |  |
 |15| Genome editing (cont'd) | Jan. 20 | [Content](https://docs.google.com/document/d/1XAbY_TtocEjXng7m2UraACwY03nPglPgPc8DUXOW0hQ/edit?usp=sharing) |  |
